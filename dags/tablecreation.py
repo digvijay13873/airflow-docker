@@ -22,10 +22,9 @@ def select_ticker(**kwargs):
   cur = conn.cursor()
   # create_table = "Create table tickers1 (ID SERIAL, keyword VARCHAR(255) NOT NULL, companyName VARCHAR(255))"
   # cur.execute(create_table)
-  cur.execute("DROP TABLE stages")
-  cur.execute("DROP TABLE tickers1")
-  cur.execute("CREATE TABLE tickers1 (ID SERIAL, keyword VARCHAR(255) NOT NULL, companyName VARCHAR(255))")
-  cur.execute("CREATE TABLE stages (ID SERIAL, keyword VARCHAR(255) NOT NULL, twitterStage INTEGER DEFAULT 0, newsStage INTEGER DEFAULT 0, trendsStage INTEGER DEFAULT 0)")
+ 
+  cur.execute("CREATE TABLE IF NOT EXISTS tickers1 (ID SERIAL, keyword VARCHAR(255) NOT NULL, companyName VARCHAR(255))")
+  cur.execute("CREATE TABLE IF NOT EXISTS stages (ID SERIAL, keyword VARCHAR(255) NOT NULL, twitterStage INTEGER DEFAULT 0, newsStage INTEGER DEFAULT 0, trendsStage INTEGER DEFAULT 0)")
 
   cur.execute("CREATE TABLE IF NOT EXISTS twitter (ID SERIAL, keyword VARCHAR(20), tweet TEXT, sentiment numeric(5,4))")
   cur.execute("CREATE TABLE IF NOT EXISTS trends (ID SERIAL, keyword VARCHAR(20), date DATE DEFAULT CURRENT_DATE, region VARCHAR(5), numberOfSearches NUMERIC(23,20))")
