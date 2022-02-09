@@ -1,0 +1,23 @@
+[2021-07-16 17:22:32,174] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:22:20.078372+00:00 [queued]>
+[2021-07-16 17:22:32,213] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:22:20.078372+00:00 [queued]>
+[2021-07-16 17:22:32,214] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:22:32,215] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:22:32,216] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:22:32,235] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T17:22:20.078372+00:00
+[2021-07-16 17:22:32,255] {standard_task_runner.py:52} INFO - Started process 12488 to run task
+[2021-07-16 17:22:32,261] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T17:22:20.078372+00:00', '--job-id', '1637', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp4ybvurrj', '--error-file', '/tmp/tmp_v1ebjob']
+[2021-07-16 17:22:32,263] {standard_task_runner.py:77} INFO - Job 1637: Subtask tweets_postgres_table
+[2021-07-16 17:22:32,332] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:22:20.078372+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:22:32,409] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:22:20.078372+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:22:17.961720+00:00
+[2021-07-16 17:22:32,448] {logging_mixin.py:104} INFO - [('#AGM #investorMeet #boardMeeting #NSE #BSE #trading #stocks #stockmarket #AuditorChange #BoardMeeting… https://t.co/dPrOHMnklE', Decimal('0.0000')), ('https://t.co/eHiQCIV9E9 PREOPEN\n\nPRICE BAND : \n\nAGROPHOS 10 TO 5%\nSANGINITA 10 TO 5%\nDEEPINDS 20 TO 10%\n\n*FO BAN :… https://t.co/nmNGOEKl3H', Decimal('-0.6523')), ('AGROPHOS HIT UC SM ACTIVE https://t.co/Ws7o1XT1lp', Decimal('0.5319')), ('#AGM #investorMeet #boardMeeting #NSE #BSE #trading #stocks #stockmarket #AuditorChange #BoardMeeting… https://t.co/dPrOHMnklE', Decimal('0.0000')), ('https://t.co/eHiQCIV9E9 PREOPEN\n\nPRICE BAND : \n\nAGROPHOS 10 TO 5%\nSANGINITA 10 TO 5%\nDEEPINDS 20 TO 10%\n\n*FO BAN :… https://t.co/nmNGOEKl3H', Decimal('-0.6523')), ('AGROPHOS HIT UC SM ACTIVE https://t.co/Ws7o1XT1lp', Decimal('0.5319'))]
+[2021-07-16 17:22:32,456] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 17:22:32,477] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T172220, start_date=20210716T172232, end_date=20210716T172232
+[2021-07-16 17:22:32,540] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:22:32,592] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,23 @@
+[2021-07-16 15:46:08,865] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.transform_trends 2021-07-16T15:45:33.874098+00:00 [queued]>
+[2021-07-16 15:46:09,089] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.transform_trends 2021-07-16T15:45:33.874098+00:00 [queued]>
+[2021-07-16 15:46:09,091] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:46:09,092] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 15:46:09,093] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:46:09,125] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): transform_trends> on 2021-07-16T15:45:33.874098+00:00
+[2021-07-16 15:46:09,152] {standard_task_runner.py:52} INFO - Started process 4950 to run task
+[2021-07-16 15:46:09,160] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'transform_trends', '2021-07-16T15:45:33.874098+00:00', '--job-id', '876', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmptkdpb86f', '--error-file', '/tmp/tmp2mvc9ll4']
+[2021-07-16 15:46:09,163] {standard_task_runner.py:77} INFO - Job 876: Subtask transform_trends
+[2021-07-16 15:46:09,293] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.transform_trends 2021-07-16T15:45:33.874098+00:00 [running]> on host 13346afafa5b
+[2021-07-16 15:46:09,414] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=transform_trends
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T15:45:33.874098+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T15:45:28.525442+00:00
+[2021-07-16 15:46:09,478] {logging_mixin.py:104} INFO - [(datetime.date(2021, 7, 16), Decimal('0E-20'), 'IN'), (datetime.date(2021, 7, 16), Decimal('0E-20'), 'US'), (datetime.date(2021, 7, 16), Decimal('0E-20'), 'GB'), (datetime.date(2021, 7, 16), Decimal('0E-20'), 'AU'), (datetime.date(2021, 7, 16), Decimal('0E-20'), 'JP')]
+[2021-07-16 15:46:09,485] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 15:46:09,504] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=transform_trends, execution_date=20210716T154533, start_date=20210716T154608, end_date=20210716T154609
+[2021-07-16 15:46:09,580] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 15:46:09,614] {local_task_job.py:151} INFO - Task exited with return code 0

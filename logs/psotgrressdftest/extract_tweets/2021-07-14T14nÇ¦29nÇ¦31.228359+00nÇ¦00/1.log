@@ -1,0 +1,22 @@
+[2021-07-14 14:29:39,718] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:29:31.228359+00:00 [queued]>
+[2021-07-14 14:29:39,781] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:29:31.228359+00:00 [queued]>
+[2021-07-14 14:29:39,788] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:29:39,790] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:29:39,792] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:29:39,820] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-14T14:29:31.228359+00:00
+[2021-07-14 14:29:39,861] {standard_task_runner.py:52} INFO - Started process 4856 to run task
+[2021-07-14 14:29:39,894] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-14T14:29:31.228359+00:00', '--job-id', '273', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpkl1lbiu3', '--error-file', '/tmp/tmp2t34ya19']
+[2021-07-14 14:29:39,903] {standard_task_runner.py:77} INFO - Job 273: Subtask extract_tweets
+[2021-07-14 14:29:40,150] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:29:31.228359+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:29:40,336] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:29:31.228359+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:29:31.228359+00:00
+[2021-07-14 14:29:41,386] {python.py:151} INFO - Done. Returned value was: ['AARVEEDEN - Disclosures under Reg. 29(1) &amp; 29(2) of SEBI (SAST) Regulations, 2011 https://t.co/kgUWi6htHB', 'AARVEEDEN - Disclosures under Reg. 29(1) &amp; 29(2) of SEBI (SAST) Regulations, 2011 https://t.co/3pOzgG3ff5', 'AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/embK9sltck', 'AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/O2Z2rcA319', 'AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/dpZUfPG158', 'AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/NrNFOkyYOB', 'AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/qz7knSfL1j']
+[2021-07-14 14:29:41,473] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210714T142931, start_date=20210714T142939, end_date=20210714T142941
+[2021-07-14 14:29:41,578] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:29:41,619] {local_task_job.py:151} INFO - Task exited with return code 0

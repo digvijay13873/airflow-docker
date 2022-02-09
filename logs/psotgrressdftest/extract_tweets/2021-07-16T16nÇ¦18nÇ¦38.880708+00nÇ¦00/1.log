@@ -1,0 +1,22 @@
+[2021-07-16 16:18:51,118] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:18:38.880708+00:00 [queued]>
+[2021-07-16 16:18:51,167] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:18:38.880708+00:00 [queued]>
+[2021-07-16 16:18:51,168] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:18:51,169] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:18:51,170] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:18:51,199] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:18:38.880708+00:00
+[2021-07-16 16:18:51,230] {standard_task_runner.py:52} INFO - Started process 7240 to run task
+[2021-07-16 16:18:51,241] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:18:38.880708+00:00', '--job-id', '1005', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpjnznz3ad', '--error-file', '/tmp/tmpm_avbtqf']
+[2021-07-16 16:18:51,243] {standard_task_runner.py:77} INFO - Job 1005: Subtask extract_tweets
+[2021-07-16 16:18:51,350] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:18:38.880708+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:18:51,484] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:18:38.880708+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:18:33.237878+00:00
+[2021-07-16 16:18:53,611] {python.py:151} INFO - Done. Returned value was: ['Stock is out on support, you can buy from here - #ADANIENT chart https://t.co/a2d01ePO3x', '#InsiderTrades #stockmarket\n#ADANIENT https://t.co/Xqd1iTtBBG', 'ADANIENT - Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations, 2011. https://t.co/l9SrtLYIUl', 'There is one thing, that is money we make! Join @ 999 \n #Nifty #srf #ubl\n  #NiftyBank #nifty50 #bhel #Glenmark… https://t.co/EjwwmQ0nid', 'Alert Buy #ADANIENT CMP: 1398.65 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts an… https://t.co/PdqOKxdAEd', 'गौतमभाइ के चाहने वालो एलेर्ट हो जाओ....\n#AdaniEnt cmp 1393,🚫1380\n#AdaniPort 689,🚫 680', 'Alert Sell #ADANIENT CMP: 1393.65 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts a… https://t.co/HBVBuFLA7E', '@kuttrapali26 Mam,maine 6 june ko demat open kia and uskey baad kuch shares aise liye jo roz ATH dere the(adanient😅… https://t.co/2oLlmODUD1', 'Alert Sell #ADANIENT CMP: 1401 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/2FBPJWkImE', 'RT @Dealmoneysecur: Chart of the Day - UCL\n\n#DEALMONEYSECURITIES #SHAREMARKET #Sensex #adanient #adani #banknifty #trading #StockMarket #ju…', 'Chart of the Day - UCL\n\n#DEALMONEYSECURITIES #SHAREMARKET #Sensex #adanient #adani #banknifty #trading #StockMarket… https://t.co/PG7dsPyq7j', 'BUY ADANIENT @ CP WITH STRICT SL OF 1389, TRGT 1476 INTRADAY.', 'RT @flyingvikas129: #AdaniEnt- \n\n@dtbhat - Our true friend https://t.co/qCMOfs9yTC', 'Paul Torres-Cohen $ADANIENT.BO', 'C. OPTION: ONCE EXIT LONG IN ADANIENT JUL  1400 PE AT 44 #frontpage_app']
+[2021-07-16 16:18:53,717] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T161838, start_date=20210716T161851, end_date=20210716T161853
+[2021-07-16 16:18:53,826] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:18:53,877] {local_task_job.py:151} INFO - Task exited with return code 0

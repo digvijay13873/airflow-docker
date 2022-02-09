@@ -1,0 +1,34 @@
+[2021-07-21 11:02:17,681] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-20T09:57:40.283064+00:00 [None]>
+[2021-07-21 11:02:17,889] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-20T09:57:40.283064+00:00 [None]>
+[2021-07-21 11:02:17,892] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:02:17,894] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-21 11:02:17,911] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:02:18,072] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-20T09:57:40.283064+00:00
+[2021-07-21 11:02:18,139] {standard_task_runner.py:52} INFO - Started process 108 to run task
+[2021-07-21 11:02:18,157] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-20T09:57:40.283064+00:00', '--job-id', '1924', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpn1ghbr4d', '--error-file', '/tmp/tmpx29d2_ls']
+[2021-07-21 11:02:18,163] {standard_task_runner.py:77} INFO - Job 1924: Subtask news_extract
+[2021-07-21 11:02:18,564] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-20T09:57:40.283064+00:00 [running]> on host 13346afafa5b
+[2021-07-21 11:02:19,183] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:57:40.283064+00:00
+[2021-07-21 11:02:19,938] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/POSTGRESRSERS.py", line 86, in news_extract
+    ticker = str(ticker[0])
+TypeError: 'NoneType' object is not subscriptable
+[2021-07-21 11:02:20,009] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210720T095740, start_date=20210721T110217, end_date=20210721T110220
+[2021-07-21 11:02:20,141] {local_task_job.py:151} INFO - Task exited with return code 1

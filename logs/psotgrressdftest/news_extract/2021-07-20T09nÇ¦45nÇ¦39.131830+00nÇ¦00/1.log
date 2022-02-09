@@ -1,0 +1,23 @@
+[2021-07-20 09:46:07,010] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-20T09:45:39.131830+00:00 [queued]>
+[2021-07-20 09:46:07,202] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-20T09:45:39.131830+00:00 [queued]>
+[2021-07-20 09:46:07,204] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:46:07,213] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:46:07,217] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:46:07,312] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-20T09:45:39.131830+00:00
+[2021-07-20 09:46:07,382] {standard_task_runner.py:52} INFO - Started process 1664 to run task
+[2021-07-20 09:46:07,410] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-20T09:45:39.131830+00:00', '--job-id', '1857', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp7m322l5y', '--error-file', '/tmp/tmpm5k4c20k']
+[2021-07-20 09:46:07,436] {standard_task_runner.py:77} INFO - Job 1857: Subtask news_extract
+[2021-07-20 09:46:08,152] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-20T09:45:39.131830+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:46:08,684] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:45:39.131830+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:45:33.808500+00:00
+[2021-07-20 09:46:08,825] {logging_mixin.py:104} INFO - Almondz Global Securities Limited
+[2021-07-20 09:47:41,460] {python.py:151} INFO - Done. Returned value was: ['What Percentage Of Almondz Global Securities Limited (NSE:ALMONDZ) Shares Do Insiders Own?', 'Sebi suspends Almondz merchant banker certificate for 6 months', 'Stocks Brokers Cannot Act As Merchant Banker: Sebi', 'Sebi makes monitoring agency compulsory for all IPO funds', 'Force Motors inks JV with MTU as it looks to diversify into high-technology verticals', 'How much cash did you park with SRS? - The Sunday Guardian Live - The Sunday Guardian', 'Shree Ganesh Jewellery House plans debt amid gold import curbs', 'Shocking! Unitech depositors asked to pursue other remedies by Tribunal']
+[2021-07-20 09:47:41,542] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210720T094539, start_date=20210720T094607, end_date=20210720T094741
+[2021-07-20 09:47:41,687] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:47:41,717] {local_task_job.py:151} INFO - Task exited with return code 0

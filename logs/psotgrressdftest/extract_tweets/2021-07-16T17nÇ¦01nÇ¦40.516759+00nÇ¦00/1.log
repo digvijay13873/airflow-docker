@@ -1,0 +1,22 @@
+[2021-07-16 17:01:49,618] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:01:40.516759+00:00 [queued]>
+[2021-07-16 17:01:49,694] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:01:40.516759+00:00 [queued]>
+[2021-07-16 17:01:49,696] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:01:49,698] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:01:49,699] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:01:49,737] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:01:40.516759+00:00
+[2021-07-16 17:01:49,774] {standard_task_runner.py:52} INFO - Started process 10615 to run task
+[2021-07-16 17:01:49,787] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:01:40.516759+00:00', '--job-id', '1395', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp0cyyq2q8', '--error-file', '/tmp/tmpwo9r275h']
+[2021-07-16 17:01:49,789] {standard_task_runner.py:77} INFO - Job 1395: Subtask extract_tweets
+[2021-07-16 17:01:50,028] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:01:40.516759+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:01:50,338] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:01:40.516759+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:01:38.049320+00:00
+[2021-07-16 17:01:51,628] {python.py:151} INFO - Done. Returned value was: ['This is lots better than my tweet. Thanks Grave and Aarvi', 'RT @sachinvats142: @RahulGandhi sir...please add Privatization of PSUs also in your list....\nPlease extend your support to Bankers and othe…', 'RT @Klonick: Reddit; Twitter; Instagram; Facebook https://t.co/uNhxnXaq8a', 'AARVI FASHION PRIYALAXMI VOL 1 PURE COTTON SAREE - https://t.co/wf1qZfkwrL', '@KaafiZiddiHu Thanks aarvi❤️', 'TODAY - AARVI - EX DIV - Rs 1.50\nTODAY - COROMANDEL - EX DIV - Rs 6.00\nTODAY - DHANUKA - EX DIV - Rs 2.00\nTODAY - B… https://t.co/4Zjxu0ooJI', 'RT @sachinvats142: गजब का नशा है निजीकरण का साहिब को\n\nजब तक सब बिकेगा नही तब तक रुकेंगे नही \n\n  #StopPrivatization \n@aiboc_in @AibocUP @aib…', 'RT @DAmmannaya: Contd…\n\n11.SMRUTHI ORGANICS\n12.TITAN SECURITIES\n13.MAAN ALUMINIUM\n14.SURYAAMBA SPINNING\n15.DCM NOUVELLE\n16.HGSL\n17.AARVI EN…', 'RT @DAmmannaya: Contd…\n\n11.SMRUTHI ORGANICS\n12.TITAN SECURITIES\n13.MAAN ALUMINIUM\n14.SURYAAMBA SPINNING\n15.DCM NOUVELLE\n16.HGSL\n17.AARVI EN…', 'RT @DAmmannaya: Contd…\n\n11.SMRUTHI ORGANICS\n12.TITAN SECURITIES\n13.MAAN ALUMINIUM\n14.SURYAAMBA SPINNING\n15.DCM NOUVELLE\n16.HGSL\n17.AARVI EN…', 'Contd…\n\n11.SMRUTHI ORGANICS\n12.TITAN SECURITIES\n13.MAAN ALUMINIUM\n14.SURYAAMBA SPINNING\n15.DCM NOUVELLE\n16.HGSL\n17.… https://t.co/v38py4YUbZ', '#AARVI - AARVI : Keep eye on this - TradingView - https://t.co/cjTn88vdWB', 'AARVI : Keep eye on this - #AARVI chart https://t.co/H37fsaJTsX', 'JUL 15TH - M&amp;M - EX DIV - Rs 8.75\nJUL 15TH - APOLLOTYRE - EX DIV - Rs 3.50\nJUL 15TH - BHARATFORGE - EX DIV - Rs 2.0… https://t.co/ke9pAxxsxK', 'HAHAHAHAA jok mu lang hahahahaha jok ulit']
+[2021-07-16 17:01:51,692] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T170140, start_date=20210716T170149, end_date=20210716T170151
+[2021-07-16 17:01:51,839] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:01:51,887] {local_task_job.py:151} INFO - Task exited with return code 0

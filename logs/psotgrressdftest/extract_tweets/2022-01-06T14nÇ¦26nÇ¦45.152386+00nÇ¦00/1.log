@@ -1,0 +1,22 @@
+[2022-01-06 14:26:56,721] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:26:45.152386+00:00 [queued]>
+[2022-01-06 14:26:56,777] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:26:45.152386+00:00 [queued]>
+[2022-01-06 14:26:56,778] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:26:56,779] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 14:26:56,780] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:26:56,859] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2022-01-06T14:26:45.152386+00:00
+[2022-01-06 14:26:56,892] {standard_task_runner.py:52} INFO - Started process 1063 to run task
+[2022-01-06 14:26:56,900] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2022-01-06T14:26:45.152386+00:00', '--job-id', '2262', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp6v_2eg79', '--error-file', '/tmp/tmpq2774_1z']
+[2022-01-06 14:26:56,912] {standard_task_runner.py:77} INFO - Job 2262: Subtask extract_tweets
+[2022-01-06 14:26:57,107] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:26:45.152386+00:00 [running]> on host 04be2259e97a
+[2022-01-06 14:26:57,356] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T14:26:45.152386+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T14:26:42.130119+00:00
+[2022-01-06 14:26:59,212] {python.py:151} INFO - Done. Returned value was: ['AARVEEDEN - Shareholding for the Period Ended December 31, 2021 https://t.co/ObiNXGwCXH', 'AARVEEDEN - Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018 https://t.co/E7GfeYpOFa', 'AARVEEDEN - Statement Of Investor Complaints For The Quarter Ended December 2021 https://t.co/eROKrJLKgh', 'Paul Torres-Cohen $AARVEEDEN.BO', 'AARVEEDEN - Closure of Trading Window https://t.co/r9lhGSHkci', 'AARVEEDEN - Closure of Trading Window https://t.co/dPcBN6duuH', 'Paul Torres-Cohen $AARVEEDEN.NS', 'RT @prajwal_wakhare: Following are some Low-priced stocks (Group A &amp; B) symbols that made a fresh 52 week high on Wednesday:\n\nBHANDHOS\nEAST…', 'Following are some Low-priced stocks (Group A &amp; B) symbols that made a fresh 52 week high on Wednesday:\n\nBHANDHOS\nE… https://t.co/kVF7efd31J', '@PAlearner AARVEEDEN']
+[2022-01-06 14:26:59,278] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20220106T142645, start_date=20220106T142656, end_date=20220106T142659
+[2022-01-06 14:26:59,337] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 14:26:59,389] {local_task_job.py:151} INFO - Task exited with return code 0

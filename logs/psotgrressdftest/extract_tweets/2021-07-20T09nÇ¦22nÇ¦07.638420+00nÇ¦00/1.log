@@ -1,0 +1,22 @@
+[2021-07-20 09:22:38,754] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:22:07.638420+00:00 [queued]>
+[2021-07-20 09:22:38,936] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:22:07.638420+00:00 [queued]>
+[2021-07-20 09:22:38,939] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:22:38,941] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:22:38,952] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:22:39,137] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:22:07.638420+00:00
+[2021-07-20 09:22:39,230] {standard_task_runner.py:52} INFO - Started process 137 to run task
+[2021-07-20 09:22:39,345] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:22:07.638420+00:00', '--job-id', '1725', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpfjdvd7jv', '--error-file', '/tmp/tmpo10gb79c']
+[2021-07-20 09:22:39,363] {standard_task_runner.py:77} INFO - Job 1725: Subtask extract_tweets
+[2021-07-20 09:22:40,800] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:22:07.638420+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:22:41,135] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:22:07.638420+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:21:39.231249+00:00
+[2021-07-20 09:22:42,572] {python.py:151} INFO - Done. Returned value was: ['@ajmera_gajendra अति सुन्दर', 'CMDAirindia', 'CMDAirindia I booked my daughter’s ticket  Dehli Frankfurt by Air India for 27th July later but there is no Air Ind… https://t.co/VHByBWf2sc', 'Share Bazaar Live। Prashant Sawant। TV100 Karobar । 20th July 2021.\n\nhttps://t.co/8RAxFFw8TG\n\n@TKarobar \n\nPrashant… https://t.co/vQwgXS7o9f', '#JyotiradityaScindia Dehli Frankfurt PNR Z88X1.AirIndia doesn’t loose anything in giving this facility but earns go… https://t.co/ObO99Wz2j8', '#JyotiradityaScindia I booked my daughter’s ticket  Dehli Frankfurt by Air India for 27th July later but there is n… https://t.co/XVlBI4hEcN', 'Aviation minister GOI , Dehli Frankfurt PNR Z88X1.AirIndia doesn’t loose anything in giving this facility but earns… https://t.co/uMxtBMHyZ2', 'Dear @vestigemkt @KbsVestige @VestigeDeepakS @AnukulAgVestige \n@ConsumerAffairs  My brother Pankaj Ajmera has paid… https://t.co/LpgcyuX3Gh', 'Aviation minister GOI, I booked my daughter’s ticket  Dehli Frankfurt by Air India for 27th July later but there is… https://t.co/v06nIen1UL', "RT @ANI: Congress has appointed almost half-dozen Punjab presidents. This has proved Captain Amarinder Singh's govt's failure in the state.…", 'RT @AMISHDEVGAN: एक विदेशी NGO के टैपिंग के “टूलकिट” का शोर भारत के विकास और यहां के लोगों के असली मुद्दे से ध्यान भटकाने की कोशिश  ! #Pega…', '@mufasa_simp @Yajmera08 se sampark kare trekking ki jankari ke liye. Professional trekker one and only yash ajmera.', "RT @Sidbakaria: Whenever I see this video I can't stop myself crying \n\nSalute to your struggle PM @narendramodi ji https://t.co/9kZLqH5zZe", '@ajmera_gajendra Choudhary 💪🏻💪🏻💪🏻😘😍🙏🏻', 'The meeting has begun, with @JulieEiselt presiding as @CLTMayor is on break. Dimple Ajmera is also still on materni… https://t.co/f1oFwgm2D5']
+[2021-07-20 09:22:42,802] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T092207, start_date=20210720T092238, end_date=20210720T092242
+[2021-07-20 09:22:42,984] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:22:43,053] {local_task_job.py:151} INFO - Task exited with return code 0

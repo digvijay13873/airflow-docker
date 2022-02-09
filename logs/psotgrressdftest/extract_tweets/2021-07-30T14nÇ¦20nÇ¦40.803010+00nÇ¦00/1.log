@@ -1,0 +1,22 @@
+[2021-07-30 14:20:53,463] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:20:40.803010+00:00 [queued]>
+[2021-07-30 14:20:53,524] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:20:40.803010+00:00 [queued]>
+[2021-07-30 14:20:53,525] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:20:53,527] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-30 14:20:53,528] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:20:53,569] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-30T14:20:40.803010+00:00
+[2021-07-30 14:20:53,610] {standard_task_runner.py:52} INFO - Started process 1855 to run task
+[2021-07-30 14:20:53,618] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-30T14:20:40.803010+00:00', '--job-id', '2148', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpy5owpuh3', '--error-file', '/tmp/tmplhz9nepk']
+[2021-07-30 14:20:53,622] {standard_task_runner.py:77} INFO - Job 2148: Subtask extract_tweets
+[2021-07-30 14:20:53,801] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:20:40.803010+00:00 [running]> on host 04be2259e97a
+[2021-07-30 14:20:53,991] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-30T14:20:40.803010+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-30T14:20:35.984526+00:00
+[2021-07-30 14:20:55,905] {python.py:151} INFO - Done. Returned value was: ['20MICRONS - Board Meeting Intimation for Board Meeting Intimation https://t.co/L4BJOr97c6', '“Winning isn’t everything, it’s the only thing.” \n20Microns Herbal wish all the India Athletes All the Best for Tok… https://t.co/ra1N3plSlN', '20MICRONS - Compliances-Reg.24(A)-Annual Secretarial Compliance https://t.co/GBpt0eOEA9', 'T-165 - Update - #20Microns \nEntire Position Closed at 62.57\n\nExit - SL\nLoss of 8.20% in 11 Days\nPortfolio Loss - 0… https://t.co/oAtu1QlVol', '#debt #NSE #BSE #trading #stocks #stockmarket #PressRelease #20MICRONS - Press Release 20 Microns Limited has infor… https://t.co/caDI4obpei', '#debt #NSE #BSE #trading #stocks #stockmarket #FinancialResults #PressRelease #20MICRONS - Announcement under Regul… https://t.co/WWEYhaB6ai', '20MICRONS - Announcement under Regulation 30 (LODR)-Press Release / Media Release https://t.co/zBkZoPfVHE', "20Microns Herbal congratulates Team India Athlete Mirabai Chanu for winning the Silver Medal in Women's 49 kg Weigh… https://t.co/cuqztLROSc", 'HYPERCOAT 80 is designed to combine high #opacity as well as high #whiteness in #paintsandcoatings #formulation bot… https://t.co/12sysIi0eY', 'Portfolio - 23rd July, 2021\n\n#20Microns\n#Apcotexind\n#Fairchemor\n#guficbio\n#Kanprpla\n#Kopran\n#NCC\n#Powerindia… https://t.co/JiXDrUA4Bh', '3. 20MICRONS: Cheat https://t.co/fRCRpkp76t', 'Paul Torres-Cohen $20MICRONS.BO']
+[2021-07-30 14:20:55,969] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210730T142040, start_date=20210730T142053, end_date=20210730T142055
+[2021-07-30 14:20:56,076] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-30 14:20:56,119] {local_task_job.py:151} INFO - Task exited with return code 0

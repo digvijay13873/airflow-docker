@@ -1,0 +1,23 @@
+[2021-07-22 13:46:25,735] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-22T13:45:04.028883+00:00 [queued]>
+[2021-07-22 13:46:25,806] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-22T13:45:04.028883+00:00 [queued]>
+[2021-07-22 13:46:25,809] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-22 13:46:25,810] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-22 13:46:25,812] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-22 13:46:25,845] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-22T13:45:04.028883+00:00
+[2021-07-22 13:46:25,882] {standard_task_runner.py:52} INFO - Started process 283 to run task
+[2021-07-22 13:46:25,894] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-22T13:45:04.028883+00:00', '--job-id', '2067', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpbzmwy6aa', '--error-file', '/tmp/tmp2jcwzl9v']
+[2021-07-22 13:46:25,895] {standard_task_runner.py:77} INFO - Job 2067: Subtask tweets_postgres_table
+[2021-07-22 13:46:26,095] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-22T13:45:04.028883+00:00 [running]> on host 5795a622f846
+[2021-07-22 13:46:26,350] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-22T13:45:04.028883+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-22T13:44:52.486251+00:00
+[2021-07-22 13:46:26,436] {logging_mixin.py:104} INFO - [('21STCENMGM - Shareholding for the Period Ended June 30, 2021 https://t.co/8s9eyMakRr', Decimal('0.0000')), ('21STCENMGM - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/CusXL0JONZ', Decimal('-0.4019')), ('21STCENMGM - Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018 https://t.co/PqRlEddBrF', Decimal('0.0000')), ('21STCENMGM - Shareholding for the Period Ended June 30, 2021 https://t.co/8s9eyMakRr', Decimal('0.0000')), ('21STCENMGM - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/CusXL0JONZ', Decimal('-0.4019')), ('21STCENMGM - Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018 https://t.co/PqRlEddBrF', Decimal('0.0000'))]
+[2021-07-22 13:46:26,441] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-22 13:46:26,466] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210722T134504, start_date=20210722T134625, end_date=20210722T134626
+[2021-07-22 13:46:26,543] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-22 13:46:26,589] {local_task_job.py:151} INFO - Task exited with return code 0

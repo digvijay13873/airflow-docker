@@ -1,0 +1,22 @@
+[2021-07-16 16:06:00,769] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:05:49.944933+00:00 [queued]>
+[2021-07-16 16:06:00,913] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:05:49.944933+00:00 [queued]>
+[2021-07-16 16:06:00,915] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:06:00,916] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:06:00,926] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:06:00,963] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:05:49.944933+00:00
+[2021-07-16 16:06:01,007] {standard_task_runner.py:52} INFO - Started process 6361 to run task
+[2021-07-16 16:06:01,079] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:05:49.944933+00:00', '--job-id', '920', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpjbm_mqin', '--error-file', '/tmp/tmpx5sf4tud']
+[2021-07-16 16:06:01,082] {standard_task_runner.py:77} INFO - Job 920: Subtask extract_tweets
+[2021-07-16 16:06:01,343] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:05:49.944933+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:06:01,679] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:05:49.944933+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:05:47.583023+00:00
+[2021-07-16 16:06:03,108] {python.py:151} INFO - Done. Returned value was: ['https://t.co/7KLhaeVwqq https://t.co/KpW4XjYGtW', 'Ema hotu preocupa ba Loron-aban indica, iha Destinu fatin nebe’e mak Eternal. Nune’e ema uituan deit mak sei lao to… https://t.co/42cyvDvLEA', 'RT @GBudhau: @Aban__Ind Life was much simple then ..\n\nThere was hardly any choice.People relished what they had . One could get a month lea…', '@Fable_Owl @lil_aban @conedx @UFgators948 @MikeGrey97 @shongables Bro you still going on about this, you just tried… https://t.co/DuyTBz5sYL', 'RT @Pumadeltuiter: Lo dice Mariano Raul Werner el campeón del Turismo Carretera, pero despues viene arroba santi43838336 y denosta el nivel…', '@mrikelme Sr.Gobernador en secretaría de educación me están rebajando días de licencia por covid 19 y UD. Digo en u… https://t.co/uaqkmmei1o', '『아이템, 단서 설정』\n\n[분해되어 있는 권총] \n권총이 분해되어 있다. \n+지능이 10 이상, 권총 조립 가이드북 조건이 성립되면 조립할 수 있다.\n+권총 사용은 힘이 7이상이면 사용할 수 있다.', '호경: 너 왜 이렇게 지각했어?\n화영: 누가 지폐를 떨어뜨렸길래.\n호경: 그래서 같이 찾아준 거냐? 니가 웬일로?\n화영: 그 위에 서 있느라고 늦었어.', 'Aban😂😂😂 https://t.co/wNBVUV0I6e', '@ABAN_DOKHT64 ممنونم❤️', '@saadhariri Bandoo aban 3anjadd', 'RT @MajiDevDutta: Meet Siddharth Adhikary, BJP SHAKTI PRAMUKH, suffering ACHD (Holes in the Heart).\nHas one 1.5 yr old son, wife &amp; aged par…', '@samira_aban نه🚶\u200d♂️', "@lil_aban @Bsalz23 @Camorooni No no no. I didn't count him out. I said if Barton beats him out. That's a bad thing… https://t.co/B1QIy70jhC", '@fanamim92 فرستادم']
+[2021-07-16 16:06:03,424] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T160549, start_date=20210716T160600, end_date=20210716T160603
+[2021-07-16 16:06:03,568] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:06:03,642] {local_task_job.py:151} INFO - Task exited with return code 0

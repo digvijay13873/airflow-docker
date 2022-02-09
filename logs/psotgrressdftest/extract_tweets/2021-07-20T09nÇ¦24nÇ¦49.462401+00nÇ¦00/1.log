@@ -1,0 +1,22 @@
+[2021-07-20 09:25:06,037] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:24:49.462401+00:00 [queued]>
+[2021-07-20 09:25:06,172] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:24:49.462401+00:00 [queued]>
+[2021-07-20 09:25:06,184] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:25:06,191] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:25:06,199] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:25:06,259] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:24:49.462401+00:00
+[2021-07-20 09:25:06,312] {standard_task_runner.py:52} INFO - Started process 309 to run task
+[2021-07-20 09:25:06,337] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:24:49.462401+00:00', '--job-id', '1741', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpfiv2ppmr', '--error-file', '/tmp/tmp8bxm3axz']
+[2021-07-20 09:25:06,361] {standard_task_runner.py:77} INFO - Job 1741: Subtask extract_tweets
+[2021-07-20 09:25:06,537] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:24:49.462401+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:25:06,924] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:24:49.462401+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:24:44.227776+00:00
+[2021-07-20 09:25:08,372] {python.py:151} INFO - Done. Returned value was: ['@h_ades__ 아휴 안아파 안아파~ 살짝 따끔~', '@tiallaw 一回くらいならタダですよ！（？）', '@ades_stars LoLでジャングラーやってみたい気持ちはあるんですけどネ', 'RT @sono_tonne: De grands "oui mais moi il m\'a rien fait" comme seul argument pour rester potes avec des violeurs vous me foutez la RAGE', '@tiallaw わかる〜〜〜', 'RT @pumpkin6non: 確かにこれは子供泣く。 https://t.co/MIP5jbQPkZ', '@ades_stars だってLoLくん1試合30分以上かかるじゃないですかーーー(モバレもかかることありますけど)', '@h_ades__ 히히히히씨히 언니도 뚫자~~!!', '@tiallaw なんかいつかの私みたいなことを…', '@ades_stars モバイルレジェンドで忙しくて………(´；ω；｀)ﾌﾞﾜｯ', '@tiallaw ウワァん', '@ades_stars 時間が無ェ……ッ', '@tiallaw やりましょう！（？）', 'オセハレルや、異世界ガルーダは必死で石をかき集めて☆5確定を回しても来ないが\n人ベルゼブブはstep1で来る', '« La demande sur les sujets liés à la cybersécurité a été encore plus forte qu’avant car la pandémie a été le terra… https://t.co/Zb4Gq5OyK4']
+[2021-07-20 09:25:08,780] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T092449, start_date=20210720T092506, end_date=20210720T092508
+[2021-07-20 09:25:09,197] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:25:09,289] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2022-01-06 14:30:04,265] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:29:56.785107+00:00 [queued]>
+[2022-01-06 14:30:04,300] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:29:56.785107+00:00 [queued]>
+[2022-01-06 14:30:04,301] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:30:04,302] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 14:30:04,303] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:30:04,339] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2022-01-06T14:29:56.785107+00:00
+[2022-01-06 14:30:04,366] {standard_task_runner.py:52} INFO - Started process 1318 to run task
+[2022-01-06 14:30:04,378] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2022-01-06T14:29:56.785107+00:00', '--job-id', '2295', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpj0dyukhy', '--error-file', '/tmp/tmpkmoozui2']
+[2022-01-06 14:30:04,380] {standard_task_runner.py:77} INFO - Job 2295: Subtask extract_tweets
+[2022-01-06 14:30:04,491] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:29:56.785107+00:00 [running]> on host 04be2259e97a
+[2022-01-06 14:30:04,658] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T14:29:56.785107+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T14:29:54.248648+00:00
+[2022-01-06 14:30:05,711] {python.py:151} INFO - Done. Returned value was: ['@DonutGawd @Hellouncleleo @gregauman Access &amp; Money. People dying on the street because they only did a fraction of… https://t.co/1GqvaC8pjL', '@mt_2l النور', '@DevonGarnett @TheELBushman how does this help AB? Lol the answer is, it doesn’t. https://t.co/xwUBth9GBo', 'RT @RABSA_OFICIAL: #Efeméride | Hoy #6Ene hace 202 años desde que el Congreso de Angostura ratificó a Simón Bolívar con el título de "Liber…', 'Seit #Jura u #Kreide, dem Höhepunkt der #Klimaerwärmung, gemäss der extremen hohen globalen… https://t.co/xOhhPreXog', 'RT @__34780: [Lütfen okuyun]\n\nBabam son evre prostat kanseri tedavisi görüyor. AB RH+ KAN ihtiyacımız var. Bakırköy DR. Sadi Konuk Eğitim v…', "RT @softmasaj: @trkykanbankasi Çukurova Üniversitesi  Balcalı Hastanesi'ndeki Zeliha Ak için AB negatif kana ihtiyaç var. Yahya Ak -  05425…", '@iambismarana Ni ab itni b bt ni😭😂', 'RT @brgridiron: AB is also sharing messages with Tom Brady’s trainer Alex Guerrero  over $100K. 😳 https://t.co/xZh77qUNtO', 'RT @JaYaarYahanSe: Hey Troops ! Just a Question , Do You Want Tejasswi To Become 1st runner up &amp; Lose the Trophy ? Where is the Seriousness…', "@Class_Act92 @ByKimberleyA The fact yall believe AB after he's lied and got himself thrown off three other teams ba… https://t.co/c2CcVOiToN", 'Our NYFIX team is growing! Join our Sales and Dev teams now:\n👉 NYFIX Strategic Sales (New York):… https://t.co/HGBbAYn2kp', "Androulakis'ten AB ülkelerine Türkiye çağrısı https://t.co/HhRzAHtxfk", "RT @TejRanSlaying: \U0001f97a\U0001f97a\U0001f97a😭😭😍😍\nKyaa hi bolu mai ab \nI'm just speechless rn ☺️☺️\n\n#TejRan https://t.co/SoHZ7pMsSr", '@SattuPandey114 🙂😂😂😂😂\nCreativity logo ki ab kya karein']
+[2022-01-06 14:30:05,754] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20220106T142956, start_date=20220106T143004, end_date=20220106T143005
+[2022-01-06 14:30:05,813] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 14:30:05,871] {local_task_job.py:151} INFO - Task exited with return code 0

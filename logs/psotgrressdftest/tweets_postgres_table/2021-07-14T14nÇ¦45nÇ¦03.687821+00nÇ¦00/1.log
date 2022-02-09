@@ -1,0 +1,23 @@
+[2021-07-14 14:45:25,552] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-14T14:45:03.687821+00:00 [queued]>
+[2021-07-14 14:45:26,127] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-14T14:45:03.687821+00:00 [queued]>
+[2021-07-14 14:45:26,128] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:45:26,129] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:45:26,130] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:45:26,400] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-14T14:45:03.687821+00:00
+[2021-07-14 14:45:26,423] {standard_task_runner.py:52} INFO - Started process 6011 to run task
+[2021-07-14 14:45:26,433] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-14T14:45:03.687821+00:00', '--job-id', '296', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp3yr5jqq3', '--error-file', '/tmp/tmpc5y19qu6']
+[2021-07-14 14:45:26,434] {standard_task_runner.py:77} INFO - Job 296: Subtask tweets_postgres_table
+[2021-07-14 14:45:26,879] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-14T14:45:03.687821+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:45:28,264] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:45:03.687821+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:45:03.687821+00:00
+[2021-07-14 14:45:29,928] {logging_mixin.py:104} INFO - [('RT @ProfRefikpolat: https://t.co/OkJaKt1PUw', Decimal('0.0000')), ('@santimantalist2 Kredi kartına aban hsgsgsg', Decimal('0.0000')), ('ふふっ、ここに気にいった服がないのならお作りしましょうか？', Decimal('0.0000')), ('RT @arteycomic: El mural de Paco Roca que puso en jaque a la Embajada de Francia https://t.co/vbPzdJbniD https://t.co/0GDR4Y85He', Decimal('0.0000')), ('[합숙,조리기]\n민혁: 조리기에서 "취사가 완료되었습니다.삐-"소리 나자 우주가 혼잣말로 "축하합니다, 건강한 딸기국수에요-" 중얼거려서 코로 콜라 나왔다', Decimal('0.0000')), ('나와 친구가 되어줄래? -우주', Decimal('0.0000')), ('@samira_aban خوب کاری میکنی روحیه ات بهتر میشه  ولی این که جلسه ات میسوزه خداست😂', Decimal('0.0000')), ('@Aban_fh2 @rezafredd من از اون نوعم که به همشون پناه میبره 😌', Decimal('0.0000')), ('뭐야, 네놈들. 모르는 거냐? 여긴 소리를 통한 차원이다. 소리에 의한 인식이 실체화되어 세계를 이루고 있지.', Decimal('0.0000')), ('Svab aban', Decimal('0.0000')), ('RT @BharatPronam: @p_malavikapatil @Aban__Ind Kali puja, Vedanta society of California ,RK Mission . Last year Kali puja \n\nhttps://t.co/igE…', Decimal('0.0000')), ('@mikoshi_smooth これは嬉しいよね～😆', Decimal('0.0000')), ('Ah yes, had a discussion about monopolies; someone demonstrating to me how the German cement market is highly compe… https://t.co/xHTZUgjMth', Decimal('0.4019')), ('@samira_aban خب چه اجباریه 🚬🚬🚶\u200d♂️🚶\u200d♂️', Decimal('0.0000')), ('@Lukitas01065372 Veni así me escuchas ;) https://t.co/9FKKtRw6mC', Decimal('0.2263'))]
+[2021-07-14 14:45:30,460] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-14 14:45:30,515] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210714T144503, start_date=20210714T144525, end_date=20210714T144530
+[2021-07-14 14:45:30,603] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:45:30,636] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,23 @@
+[2021-07-16 16:32:30,087] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.restart_test 2021-07-16T16:31:33.174987+00:00 [queued]>
+[2021-07-16 16:32:30,170] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.restart_test 2021-07-16T16:31:33.174987+00:00 [queued]>
+[2021-07-16 16:32:30,172] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:32:30,173] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:32:30,175] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:32:30,211] {taskinstance.py:1087} INFO - Executing <Task(TriggerDagRunOperator): restart_test> on 2021-07-16T16:31:33.174987+00:00
+[2021-07-16 16:32:30,238] {standard_task_runner.py:52} INFO - Started process 8208 to run task
+[2021-07-16 16:32:30,256] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'restart_test', '2021-07-16T16:31:33.174987+00:00', '--job-id', '1104', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpta71mwk9', '--error-file', '/tmp/tmpqlonu2ri']
+[2021-07-16 16:32:30,257] {standard_task_runner.py:77} INFO - Job 1104: Subtask restart_test
+[2021-07-16 16:32:30,370] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.restart_test 2021-07-16T16:31:33.174987+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:32:30,505] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=restart_test
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:31:33.174987+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:31:29.536528+00:00
+[2021-07-16 16:32:35,260] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=restart_test, execution_date=20210716T163133, start_date=20210716T163230, end_date=20210716T163235
+[2021-07-16 16:32:35,321] {local_task_job.py:197} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2021-07-16 16:32:35,327] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 8208
+[2021-07-16 16:32:35,337] {taskinstance.py:1264} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-07-16 16:32:35,390] {process_utils.py:66} INFO - Process psutil.Process(pid=8208, status='terminated', exitcode=1, started='16:32:29') (8208) terminated with exit code 1

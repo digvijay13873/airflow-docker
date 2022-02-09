@@ -1,0 +1,23 @@
+[2021-07-20 09:55:12,742] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:54:35.770771+00:00 [queued]>
+[2021-07-20 09:55:12,848] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:54:35.770771+00:00 [queued]>
+[2021-07-20 09:55:12,850] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:55:12,851] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:55:12,853] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:55:12,924] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-20T09:54:35.770771+00:00
+[2021-07-20 09:55:12,984] {standard_task_runner.py:52} INFO - Started process 2240 to run task
+[2021-07-20 09:55:13,024] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-20T09:54:35.770771+00:00', '--job-id', '1897', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpi6bylfol', '--error-file', '/tmp/tmpzoablldx']
+[2021-07-20 09:55:13,028] {standard_task_runner.py:77} INFO - Job 1897: Subtask tweets_postgres_table
+[2021-07-20 09:55:14,727] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:54:35.770771+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:55:15,336] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:54:35.770771+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:54:30.089365+00:00
+[2021-07-20 09:55:16,261] {logging_mixin.py:104} INFO - [('#shortage #tightysupply #supplychain #nse #bse #trading #stocks #stockmarket #Agm/egm #AMARAJABAT - Shareholders me… https://t.co/95cmJTgbQ6', Decimal('0.0000')), ('@kuttrapali Mam, Your View on IDFC BANK and AMARAJABAT. Both are falling knifes but you please clear, this is the chance to buy any one?', Decimal('0.8201')), ('#shortage #tightysupply #supplychain #nse #bse #trading #stocks #stockmarket  #AMARAJABAT - Reg. 34 (1) Annual Repo… https://t.co/JK0cOgg3Cs', Decimal('0.0000')), ('#shortage #tightysupply #supplychain #nse #bse #trading #stocks #stockmarket #Agm/egm #AMARAJABAT - Notice Of 36Th… https://t.co/SfYza3Gr4I', Decimal('0.0000')), ('AMARAJABAT - Reg. 34 (1) Annual Report https://t.co/i26tWVuK0T', Decimal('0.0000')), ('AMARAJABAT - Notice Of 36Th Annual General Meeting - August 14, 2021 https://t.co/IasRxrgX9c', Decimal('0.0000')), ('Alert Buy #AMARAJABAT CMP: 715 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/AEKjLFMJYY', Decimal('0.1779')), ('🆓🆕\nAMARA RAJA \n\n💌 CMP- 709.90\n\n🎯 Target- 740-780-820-850-900\n\n#amarajabat\nMID  TERM 💥💥', Decimal('0.0000')), ('Next major support for #Amarajabat is 700 then 665\n But if market continues like this then no support will work', Decimal('0.7050')), ('Call given in weekly group of Amarajabat \n\nBooked with great profit in overnight \n\nJoin us for weekly trade for 5k… https://t.co/rvlDg4RFnb', Decimal('0.8481')), ('Short idea: Amara Raja Batteries. Industry getting disrupted and profitability is on the decline . Weak technically… https://t.co/m9ZtvvH6DT', Decimal('-0.2023')), ('Ye Mauka Stocks Lootne Ka Hai ✅\n\n● TCS\n● HDFC BANK\n● M&amp;M\n● AMARAJABAT\n● COAL INDIA\n● EICHER/HEROMOTOCO\n● BRITANNIA… https://t.co/PQAj0NOQWt', Decimal('0.0000')), ('@AnshumanCharts Amarajabat analysis please.', Decimal('0.3182')), ('RT @RoketStocks: My Mid Term( 3 Month To 1 Year) #BigBullPicks 🐴🖤\n\n⚡️ #suntv  533\n⚡️ #SunPharma 688\n⚡️ #ITC 207\n⚡️ #IEX 412\n⚡️ #UnitedSpiri…', Decimal('0.0000')), ('Alert Sell #AMARAJABAT CMP: 711.9 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts a… https://t.co/yPkBdzRHos', Decimal('0.1779'))]
+[2021-07-20 09:55:16,344] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:55:16,673] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210720T095435, start_date=20210720T095512, end_date=20210720T095516
+[2021-07-20 09:55:17,084] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:55:17,211] {local_task_job.py:151} INFO - Task exited with return code 0

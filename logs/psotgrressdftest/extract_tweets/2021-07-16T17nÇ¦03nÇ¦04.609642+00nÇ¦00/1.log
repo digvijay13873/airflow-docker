@@ -1,0 +1,22 @@
+[2021-07-16 17:03:15,391] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:03:04.609642+00:00 [queued]>
+[2021-07-16 17:03:15,479] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:03:04.609642+00:00 [queued]>
+[2021-07-16 17:03:15,481] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:03:15,482] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:03:15,484] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:03:15,525] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:03:04.609642+00:00
+[2021-07-16 17:03:15,572] {standard_task_runner.py:52} INFO - Started process 10739 to run task
+[2021-07-16 17:03:15,587] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:03:04.609642+00:00', '--job-id', '1412', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpbfq8qfow', '--error-file', '/tmp/tmphotiqo3i']
+[2021-07-16 17:03:15,589] {standard_task_runner.py:77} INFO - Job 1412: Subtask extract_tweets
+[2021-07-16 17:03:15,737] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:03:04.609642+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:03:16,017] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:03:04.609642+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:03:01.294147+00:00
+[2021-07-16 17:03:17,156] {python.py:151} INFO - Done. Returned value was: ['@Aban__Ind Yes..probably in vicinity of that year the first 5 cars were produced by #SanjayGandhis enterprise that… https://t.co/ldC94TXk8A', '@rooberaah کجا؟', '@lil_aban @OurSf49ers_ @MaioccoNBCS @RSherman_25 12s and Faithful standing together in support of one of the greats and his family', 'Gotta show this ome to @Aban__Ind and @Shamyobaad 🌚', '본보기가 돼 줄게. 내 인생 마지막의 선행이야. -기쁨', 'Naiiyak ako pero hindi ko alam kung bakit. Was the worst feeling ever.', '@ahmazou معلومه دلش خیلی گرفته\nدرست مثل ما', '@Aban__Ind No ig', '@Aban__Ind Maruti Udyog started only in 1982.', 'Were there any Maruti cars on Indian roads in 1974 ?', 'RT @UdaShafiq: #MinangAriKo\nPai ampok,\npulang aban.\n\nAlih perkataan:\nPergi melonjak,\nbalik menimpa.\n\nBiasa diucapkan tika hasil berdagang (…', '#MinangAriKo\nPai ampok,\npulang aban.\n\nAlih perkataan:\nPergi melonjak,\nbalik menimpa.\n\nBiasa diucapkan tika hasil be… https://t.co/UlnbY7zBTy', '『아이템, 단서 설정』\n\n노이즈색 &gt;에일리언\n보라색 &gt;에일리언이 되어가는 중\n주황색 &gt;에일리언과 인간 그 사이\n초록색 &gt;인간', '유현: 선동은 중요하잖아! 사실이지 얘들아?\n호경: 그래 맞네 이새끼야.\n요셉: 정말 진실이네 망할 자식아.\n기쁨: 정말 사실만 처 지꺼리는 새끼야.', 'https://t.co/7KLhaeVwqq https://t.co/KpW4XjYGtW']
+[2021-07-16 17:03:17,381] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T170304, start_date=20210716T170315, end_date=20210716T170317
+[2021-07-16 17:03:17,500] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:03:17,543] {local_task_job.py:151} INFO - Task exited with return code 0

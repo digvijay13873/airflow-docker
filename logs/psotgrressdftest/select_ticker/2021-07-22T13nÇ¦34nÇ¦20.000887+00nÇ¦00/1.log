@@ -1,0 +1,40 @@
+[2021-07-22 13:34:27,720] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.select_ticker 2021-07-22T13:34:20.000887+00:00 [queued]>
+[2021-07-22 13:34:27,800] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.select_ticker 2021-07-22T13:34:20.000887+00:00 [queued]>
+[2021-07-22 13:34:27,801] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-22 13:34:27,802] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-22 13:34:27,803] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-22 13:34:27,830] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): select_ticker> on 2021-07-22T13:34:20.000887+00:00
+[2021-07-22 13:34:27,852] {standard_task_runner.py:52} INFO - Started process 498 to run task
+[2021-07-22 13:34:27,862] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'select_ticker', '2021-07-22T13:34:20.000887+00:00', '--job-id', '2040', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpy5l1i5ac', '--error-file', '/tmp/tmpyr2i503y']
+[2021-07-22 13:34:27,865] {standard_task_runner.py:77} INFO - Job 2040: Subtask select_ticker
+[2021-07-22 13:34:28,043] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.select_ticker 2021-07-22T13:34:20.000887+00:00 [running]> on host 5795a622f846
+[2021-07-22 13:34:28,412] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=select_ticker
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-22T13:34:20.000887+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-22T13:34:13.116786+00:00
+[2021-07-22 13:34:28,490] {base.py:78} INFO - Using connection to: id: postgres. Host: postgres, Port: 5432, Schema: postgres, Login: ***, Password: ***, extra: {}
+[2021-07-22 13:34:28,519] {dbapi.py:204} INFO - Running statement: SELECT COUNT(*) FROM stages, parameters: None
+[2021-07-22 13:34:28,524] {dbapi.py:212} INFO - Rows affected: 1
+[2021-07-22 13:34:28,533] {logging_mixin.py:104} INFO - None
+[2021-07-22 13:34:28,537] {logging_mixin.py:104} INFO - <class 'NoneType'>
+[2021-07-22 13:34:28,539] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/POSTGRESRSERS.py", line 67, in select_ticker
+    cur.execute("SELECT keyword from tickers1 WHERE ID = " + completedcount)
+TypeError: must be str, not NoneType
+[2021-07-22 13:34:28,564] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=psotgrressdftest, task_id=select_ticker, execution_date=20210722T133420, start_date=20210722T133427, end_date=20210722T133428
+[2021-07-22 13:34:28,796] {local_task_job.py:151} INFO - Task exited with return code 1

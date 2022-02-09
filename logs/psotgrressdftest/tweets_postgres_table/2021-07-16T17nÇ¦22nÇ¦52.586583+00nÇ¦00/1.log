@@ -1,0 +1,23 @@
+[2021-07-16 17:23:04,324] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:22:52.586583+00:00 [queued]>
+[2021-07-16 17:23:04,367] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:22:52.586583+00:00 [queued]>
+[2021-07-16 17:23:04,368] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:23:04,369] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:23:04,370] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:23:04,391] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T17:22:52.586583+00:00
+[2021-07-16 17:23:04,410] {standard_task_runner.py:52} INFO - Started process 12551 to run task
+[2021-07-16 17:23:04,418] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T17:22:52.586583+00:00', '--job-id', '1645', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp4g24agb4', '--error-file', '/tmp/tmpdwy3xoq9']
+[2021-07-16 17:23:04,420] {standard_task_runner.py:77} INFO - Job 1645: Subtask tweets_postgres_table
+[2021-07-16 17:23:04,506] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:22:52.586583+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:23:04,602] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:22:52.586583+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:22:50.086111+00:00
+[2021-07-16 17:23:04,658] {logging_mixin.py:104} INFO - [('Our Doors are good for home. Excellent for workspace.\n\n#ahladaengineers #ahlada  #slidingdoors #shaftdoors… https://t.co/Gtpqz5Irsf', Decimal('0.7650')), ('@Moneypurseadv Hello Sai garu, any views on ahlada engeneering ltd...thanks', Decimal('0.0000')), ('@Investor_Mohit Hello Mohitji, any views on Ahlada eng ltd?', Decimal('0.0000')), ('Our Doors are good for home. Excellent for workspace.\n\n#Ahlada #ahladaengineers #StainlessSteelDoors #leadlineddoors https://t.co/fIzyAFL54l', Decimal('0.7650')), ('@ManeeManjunath @mikeozx11 Yeah! There are many words for which we have a counterparts. Ruchi, paryatana, samavesha… https://t.co/n99uu7XLNL', Decimal('0.3595')), ('AHLADA ENGINEERS LTD\nReady for another breakout https://t.co/iCoHpKh98p', Decimal('0.3612')), ('@wizard_untamed Ahlada engineers', Decimal('0.0000')), ('@DARKHORSESTOCKS AHLADA\nARMAN\nSGRL\nDHARAMSI\nJASH\nMAC\nSAKAR\nFaze3q\nINFOBEANS\nRAGHAV PRODUCTIVITY\nINT CONVEYORS, RKEC', Decimal('0.0000')), ('Our Doors are good for home. Excellent for workspace.\n\n#ahladaengineers #ahlada  #slidingdoors #shaftdoors… https://t.co/Gtpqz5Irsf', Decimal('0.7650')), ('@Moneypurseadv Hello Sai garu, any views on ahlada engeneering ltd...thanks', Decimal('0.0000')), ('@Investor_Mohit Hello Mohitji, any views on Ahlada eng ltd?', Decimal('0.0000')), ('Our Doors are good for home. Excellent for workspace.\n\n#Ahlada #ahladaengineers #StainlessSteelDoors #leadlineddoors https://t.co/fIzyAFL54l', Decimal('0.7650')), ('@ManeeManjunath @mikeozx11 Yeah! There are many words for which we have a counterparts. Ruchi, paryatana, samavesha… https://t.co/n99uu7XLNL', Decimal('0.3595')), ('AHLADA ENGINEERS LTD\nReady for another breakout https://t.co/iCoHpKh98p', Decimal('0.3612')), ('@wizard_untamed Ahlada engineers', Decimal('0.0000')), ('@DARKHORSESTOCKS AHLADA\nARMAN\nSGRL\nDHARAMSI\nJASH\nMAC\nSAKAR\nFaze3q\nINFOBEANS\nRAGHAV PRODUCTIVITY\nINT CONVEYORS, RKEC', Decimal('0.0000'))]
+[2021-07-16 17:23:04,663] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 17:23:04,683] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T172252, start_date=20210716T172304, end_date=20210716T172304
+[2021-07-16 17:23:04,738] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:23:04,788] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-16 17:22:59,526] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:22:52.586583+00:00 [queued]>
+[2021-07-16 17:22:59,562] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:22:52.586583+00:00 [queued]>
+[2021-07-16 17:22:59,563] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:22:59,564] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:22:59,564] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:22:59,582] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:22:52.586583+00:00
+[2021-07-16 17:22:59,600] {standard_task_runner.py:52} INFO - Started process 12537 to run task
+[2021-07-16 17:22:59,607] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:22:52.586583+00:00', '--job-id', '1642', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp_kxgt_je', '--error-file', '/tmp/tmpkdomiydi']
+[2021-07-16 17:22:59,609] {standard_task_runner.py:77} INFO - Job 1642: Subtask extract_tweets
+[2021-07-16 17:22:59,688] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:22:52.586583+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:22:59,783] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:22:52.586583+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:22:50.086111+00:00
+[2021-07-16 17:23:00,611] {python.py:151} INFO - Done. Returned value was: ['Our Doors are good for home. Excellent for workspace.\n\n#ahladaengineers #ahlada  #slidingdoors #shaftdoors… https://t.co/Gtpqz5Irsf', '@Moneypurseadv Hello Sai garu, any views on ahlada engeneering ltd...thanks', '@Investor_Mohit Hello Mohitji, any views on Ahlada eng ltd?', 'Our Doors are good for home. Excellent for workspace.\n\n#Ahlada #ahladaengineers #StainlessSteelDoors #leadlineddoors https://t.co/fIzyAFL54l', '@ManeeManjunath @mikeozx11 Yeah! There are many words for which we have a counterparts. Ruchi, paryatana, samavesha… https://t.co/n99uu7XLNL', 'AHLADA ENGINEERS LTD\nReady for another breakout https://t.co/iCoHpKh98p', '@wizard_untamed Ahlada engineers', '@DARKHORSESTOCKS AHLADA\nARMAN\nSGRL\nDHARAMSI\nJASH\nMAC\nSAKAR\nFaze3q\nINFOBEANS\nRAGHAV PRODUCTIVITY\nINT CONVEYORS, RKEC']
+[2021-07-16 17:23:00,656] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T172252, start_date=20210716T172259, end_date=20210716T172300
+[2021-07-16 17:23:00,715] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:23:00,744] {local_task_job.py:151} INFO - Task exited with return code 0

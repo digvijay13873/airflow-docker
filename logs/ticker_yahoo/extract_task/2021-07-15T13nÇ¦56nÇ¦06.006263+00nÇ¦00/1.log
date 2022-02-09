@@ -1,0 +1,322 @@
+[2021-07-15 13:56:49,438] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-15T13:56:06.006263+00:00 [queued]>
+[2021-07-15 13:56:49,457] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-15T13:56:06.006263+00:00 [queued]>
+[2021-07-15 13:56:49,457] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:56:49,458] {taskinstance.py:1068} INFO - Starting attempt 1 of 2
+[2021-07-15 13:56:49,458] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:56:49,480] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-15T13:56:06.006263+00:00
+[2021-07-15 13:56:49,493] {standard_task_runner.py:52} INFO - Started process 3712 to run task
+[2021-07-15 13:56:49,498] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-15T13:56:06.006263+00:00', '--job-id', '419', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmpt5jzjst4', '--error-file', '/tmp/tmp4wvx4u2q']
+[2021-07-15 13:56:49,499] {standard_task_runner.py:77} INFO - Job 419: Subtask extract_task
+[2021-07-15 13:56:49,570] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-15T13:56:06.006263+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 13:56:49,658] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T13:56:06.006263+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-15T13:56:06.006263+00:00
+[2021-07-15 13:57:39,701] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 13:57:39,762] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB20 Microns Limited (20MICRONS.NS)
+[2021-07-15 13:57:39,763] {logging_mixin.py:104} INFO - 20MICRONS.NS
+[2021-07-15 13:58:11,638] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 13:58:11,744] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB21ST CENTURY MANAG (21STCENMGM.NS)
+[2021-07-15 13:58:11,745] {logging_mixin.py:104} INFO - 21STCENMGM.NS
+[2021-07-15 13:58:43,676] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 13:58:43,698] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB3i Infotech Limited (3IINFOTECH.NS)
+[2021-07-15 13:58:43,699] {logging_mixin.py:104} INFO - 3IINFOTECH.NS
+[2021-07-15 13:59:17,709] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 13:59:17,880] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB3M India Limited (3MINDIA.NS)
+[2021-07-15 13:59:17,893] {logging_mixin.py:104} INFO - 3MINDIA.NS
+[2021-07-15 13:59:50,177] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 13:59:50,202] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB3P LAND HOLDINGS LTD. (3PLAND.BO)
+[2021-07-15 13:59:50,203] {logging_mixin.py:104} INFO - 3PLAND.BO
+[2021-07-15 14:00:21,815] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 14:00:21,836] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5paisa Capital Limited (5PAISA.NS)
+[2021-07-15 14:00:21,837] {logging_mixin.py:104} INFO - 5PAISA.NS
+[2021-07-15 14:00:53,579] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 14:00:53,655] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB63 MOONS TECHNOLOG (63MOONS.NS)
+[2021-07-15 14:00:53,658] {logging_mixin.py:104} INFO - 63MOONS.NS
+[2021-07-15 14:01:25,648] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 14:01:25,697] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBA2Z Infra Engineering Limited (A2ZINFRA.BO)
+[2021-07-15 14:01:25,698] {logging_mixin.py:104} INFO - A2ZINFRA.BO
+[2021-07-15 14:01:57,308] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 14:01:57,463] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAakash Exploration Services Limited (AAKASH.NS)
+[2021-07-15 14:01:57,465] {logging_mixin.py:104} INFO - AAKASH.NS
+[2021-07-15 14:02:30,849] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="bc50f788-1343-41f6-a7ec-998de7f94f93")>]
+[2021-07-15 14:02:31,012] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBThe Aaron's Company, Inc. (AAN)
+[2021-07-15 14:02:31,036] {logging_mixin.py:104} INFO - AAN
+[2021-07-15 14:03:07,021] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="5ebb93c0-6216-480f-acc2-483b041ae2a6")>]
+[2021-07-15 14:03:07,433] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarti Drugs Limited (AARTIDRUGS.NS)
+[2021-07-15 14:03:07,437] {logging_mixin.py:104} INFO - AARTIDRUGS.NS
+[2021-07-15 14:03:40,161] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="e2ea45a2-95c4-4411-875e-5e6c67dad7ac")>]
+[2021-07-15 14:03:40,515] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarti Industries Limited (AARTIIND.NS)
+[2021-07-15 14:03:40,523] {logging_mixin.py:104} INFO - AARTIIND.NS
+[2021-07-15 14:04:12,236] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="e2ea45a2-95c4-4411-875e-5e6c67dad7ac")>]
+[2021-07-15 14:04:12,258] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarti Surfactants Limited (AARTISURF.NS)
+[2021-07-15 14:04:12,259] {logging_mixin.py:104} INFO - AARTISURF.NS
+[2021-07-15 14:04:43,980] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="e2ea45a2-95c4-4411-875e-5e6c67dad7ac")>]
+[2021-07-15 14:04:44,005] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarvee Denims and Exports Limited (AARVEEDEN.BO)
+[2021-07-15 14:04:44,006] {logging_mixin.py:104} INFO - AARVEEDEN.BO
+[2021-07-15 14:05:15,804] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="e2ea45a2-95c4-4411-875e-5e6c67dad7ac")>]
+[2021-07-15 14:05:15,903] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarvi Encon Limited (AARVI.NS)
+[2021-07-15 14:05:15,913] {logging_mixin.py:104} INFO - AARVI.NS
+[2021-07-15 14:05:47,902] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="e2ea45a2-95c4-4411-875e-5e6c67dad7ac")>]
+[2021-07-15 14:05:47,937] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAavas Financiers Limited (AAVAS.NS)
+[2021-07-15 14:05:47,938] {logging_mixin.py:104} INFO - AAVAS.NS
+[2021-07-15 14:06:19,512] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="e2ea45a2-95c4-4411-875e-5e6c67dad7ac")>]
+[2021-07-15 14:06:19,569] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAbante Bolsa FI (0P00000MF3.F)
+[2021-07-15 14:06:19,575] {logging_mixin.py:104} INFO - 0P00000MF3.F
+[2021-07-15 14:06:51,290] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="e2ea45a2-95c4-4411-875e-5e6c67dad7ac")>]
+[2021-07-15 14:06:51,362] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBABB Ltd (ABB)
+[2021-07-15 14:06:51,373] {logging_mixin.py:104} INFO - ABB
+[2021-07-15 14:07:23,153] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="e2ea45a2-95c4-4411-875e-5e6c67dad7ac")>]
+[2021-07-15 14:07:23,211] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAbbott India Limited (ABBOTINDIA.NS)
+[2021-07-15 14:07:23,214] {logging_mixin.py:104} INFO - ABBOTINDIA.NS
+[2021-07-15 14:07:55,900] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="e2ea45a2-95c4-4411-875e-5e6c67dad7ac")>]
+[2021-07-15 14:07:55,941] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAditya Birla Capital Limited (ABCAPITAL.NS)
+[2021-07-15 14:07:55,943] {logging_mixin.py:104} INFO - ABCAPITAL.NS
+[2021-07-15 14:08:28,093] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="27cfde9d-9a72-478e-b42c-ee8dd855509c")>]
+[2021-07-15 14:08:28,399] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAditya Birla Fashion and Retail Limited (ABFRL.NS)
+[2021-07-15 14:08:28,400] {logging_mixin.py:104} INFO - ABFRL.NS
+[2021-07-15 14:09:00,508] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="92c92dd9-1a68-41a4-a062-e5f73f7fa24b")>]
+[2021-07-15 14:09:00,530] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBABM International Limited (ABMINTLTD.NS)
+[2021-07-15 14:09:00,531] {logging_mixin.py:104} INFO - ABMINTLTD.NS
+[2021-07-15 14:09:32,069] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="92c92dd9-1a68-41a4-a062-e5f73f7fa24b")>]
+[2021-07-15 14:09:32,115] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAmerican Campus Communities, Inc. (ACC)
+[2021-07-15 14:09:32,117] {logging_mixin.py:104} INFO - ACC
+[2021-07-15 14:10:04,358] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="63687d59-e548-4eb7-8a7e-30408d5f327b")>]
+[2021-07-15 14:10:04,545] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAccelya Solutions India Limited (ACCELYA.NS)
+[2021-07-15 14:10:04,546] {logging_mixin.py:104} INFO - ACCELYA.NS
+[2021-07-15 14:10:37,299] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="d38a960f-5cdc-46e4-92b3-e4f1ff47d795")>]
+[2021-07-15 14:10:37,898] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAccuracy Shipping Limited (ACCURACY.NS)
+[2021-07-15 14:10:37,902] {logging_mixin.py:104} INFO - ACCURACY.NS
+[2021-07-15 14:11:12,240] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="b2aa2f2d-474e-4976-98c7-7e516c67fbfd")>]
+[2021-07-15 14:11:12,903] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAcelRx Pharmaceuticals, Inc. (ACRX)
+[2021-07-15 14:11:12,904] {logging_mixin.py:104} INFO - ACRX
+[2021-07-15 14:11:45,152] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="ab7c8e35-7997-428d-b2a3-96b4b8787af4")>]
+[2021-07-15 14:11:45,172] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAcrysil Limited (ACRYSIL.BO)
+[2021-07-15 14:11:45,173] {logging_mixin.py:104} INFO - ACRYSIL.BO
+[2021-07-15 14:12:17,244] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="b1795140-0550-49fd-9e10-ce1ac998333d")>]
+[2021-07-15 14:12:17,273] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdani Enterprises Limited (ADANIENT.NS)
+[2021-07-15 14:12:17,274] {logging_mixin.py:104} INFO - ADANIENT.NS
+[2021-07-15 14:12:48,755] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="b1795140-0550-49fd-9e10-ce1ac998333d")>]
+[2021-07-15 14:12:48,775] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdani Green Energy Limited (ADANIGREEN.NS)
+[2021-07-15 14:12:48,776] {logging_mixin.py:104} INFO - ADANIGREEN.NS
+[2021-07-15 14:13:20,360] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="cd4b605b-4248-44c0-abea-97c1825e589d")>]
+[2021-07-15 14:13:20,431] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdani Ports and Special Economic Zone Limited (ADANIPORTS.NS)
+[2021-07-15 14:13:20,433] {logging_mixin.py:104} INFO - ADANIPORTS.NS
+[2021-07-15 14:13:52,113] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="53fede74-965d-40d3-a343-8fa34be09ba9")>]
+[2021-07-15 14:13:52,135] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdani Power Limited (ADANIPOWER.NS)
+[2021-07-15 14:13:52,136] {logging_mixin.py:104} INFO - ADANIPOWER.NS
+[2021-07-15 14:14:24,203] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="53fede74-965d-40d3-a343-8fa34be09ba9")>]
+[2021-07-15 14:14:24,228] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdani Transmission Limited (ADANITRANS.NS)
+[2021-07-15 14:14:24,229] {logging_mixin.py:104} INFO - ADANITRANS.NS
+[2021-07-15 14:14:55,690] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="53fede74-965d-40d3-a343-8fa34be09ba9")>]
+[2021-07-15 14:14:55,725] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBADF Foods Limited (ADFFOODS.BO)
+[2021-07-15 14:14:55,726] {logging_mixin.py:104} INFO - ADFFOODS.BO
+[2021-07-15 14:15:27,436] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="9d6e180f-7536-4dac-ac6c-e58bd3794459")>]
+[2021-07-15 14:15:27,594] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdler Group S.A. (ADJ.DE)
+[2021-07-15 14:15:27,595] {logging_mixin.py:104} INFO - ADJ.DE
+[2021-07-15 14:15:59,354] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="5bee5c40-dfb9-47be-bdd8-323706d78297")>]
+[2021-07-15 14:15:59,379] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdor Welding Limited (ADORWELD.NS)
+[2021-07-15 14:15:59,380] {logging_mixin.py:104} INFO - ADORWELD.NS
+[2021-07-15 14:16:30,956] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="5bee5c40-dfb9-47be-bdd8-323706d78297")>]
+[2021-07-15 14:16:31,026] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdroit Infotech Limited (ADROITINFO.NS)
+[2021-07-15 14:16:31,027] {logging_mixin.py:104} INFO - ADROITINFO.NS
+[2021-07-15 14:17:02,572] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="5bee5c40-dfb9-47be-bdd8-323706d78297")>]
+[2021-07-15 14:17:02,598] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAllied Digital Services Limited (ADSL.NS)
+[2021-07-15 14:17:02,599] {logging_mixin.py:104} INFO - ADSL.NS
+[2021-07-15 14:17:34,247] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="b428651b-0e16-4cf3-90db-39c99a8f5eb1")>]
+[2021-07-15 14:17:34,329] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdvani Hotels & Resorts (India) Limited (ADVANIHOTR.BO)
+[2021-07-15 14:17:34,332] {logging_mixin.py:104} INFO - India
+[2021-07-15 14:18:06,404] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="c46f8a02-e7c2-4649-b06f-f6a3ada21975")>]
+[2021-07-15 14:18:06,593] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAdvanced Enzyme Technologies Limited (ADVENZYMES.NS)
+[2021-07-15 14:18:06,594] {logging_mixin.py:104} INFO - ADVENZYMES.NS
+[2021-07-15 14:18:38,165] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="9fd83393-3ea1-4648-804d-bbbaf533c6e6")>]
+[2021-07-15 14:18:38,185] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAegis Logistics Limited (AEGISCHEM.NS)
+[2021-07-15 14:18:38,186] {logging_mixin.py:104} INFO - AEGISCHEM.NS
+[2021-07-15 14:19:09,590] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="9fd83393-3ea1-4648-804d-bbbaf533c6e6")>]
+[2021-07-15 14:19:09,609] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAffle (India) Limited (AFFLE.NS)
+[2021-07-15 14:19:09,610] {logging_mixin.py:104} INFO - India
+[2021-07-15 14:19:41,049] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="9fd83393-3ea1-4648-804d-bbbaf533c6e6")>]
+[2021-07-15 14:19:41,063] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAgarwal Industrial Corporation Limited (AGARIND.NS)
+[2021-07-15 14:19:41,064] {logging_mixin.py:104} INFO - AGARIND.NS
+[2021-07-15 14:20:12,490] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="9fd83393-3ea1-4648-804d-bbbaf533c6e6")>]
+[2021-07-15 14:20:12,507] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAGC Networks Limited (AGCNET.NS)
+[2021-07-15 14:20:12,507] {logging_mixin.py:104} INFO - AGCNET.NS
+[2021-07-15 14:20:43,913] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="9fd83393-3ea1-4648-804d-bbbaf533c6e6")>]
+[2021-07-15 14:20:43,932] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBOrigin Agritech Limited (SEED)
+[2021-07-15 14:20:43,933] {logging_mixin.py:104} INFO - SEED
+[2021-07-15 14:21:15,351] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="9fd83393-3ea1-4648-804d-bbbaf533c6e6")>]
+[2021-07-15 14:21:15,373] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAgro Phos (India) Limited (AGROPHOS.NS)
+[2021-07-15 14:21:15,374] {logging_mixin.py:104} INFO - India
+[2021-07-15 14:21:46,854] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="9fd83393-3ea1-4648-804d-bbbaf533c6e6")>]
+[2021-07-15 14:21:46,868] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAhlada Engineers Limited (AHLADA.NS)
+[2021-07-15 14:21:46,869] {logging_mixin.py:104} INFO - AHLADA.NS
+[2021-07-15 14:22:18,321] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="fe2a92fc-a6b2-415e-8b14-316152dbac85")>]
+[2021-07-15 14:22:18,363] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAsian Hotels (East) Limited (AHLEAST.NS)
+[2021-07-15 14:22:18,363] {logging_mixin.py:104} INFO - East
+[2021-07-15 14:22:49,844] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="73b26be7-733d-430f-abbf-1528b15aca6c")>]
+[2021-07-15 14:22:49,859] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAhluwalia Contracts (India) Limited (AHLUCONT.NS)
+[2021-07-15 14:22:49,860] {logging_mixin.py:104} INFO - India
+[2021-07-15 14:23:21,316] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="73b26be7-733d-430f-abbf-1528b15aca6c")>]
+[2021-07-15 14:23:21,336] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAsian Hotels (West) Limited (AHLWEST.BO)
+[2021-07-15 14:23:21,337] {logging_mixin.py:104} INFO - West
+[2021-07-15 14:23:52,779] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="67f55ac0-9f49-4e49-8d0d-2c761e8d08c4")>]
+[2021-07-15 14:23:52,835] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAIA Engineering Limited (AIAENG.NS)
+[2021-07-15 14:23:52,836] {logging_mixin.py:104} INFO - AIAENG.NS
+[2021-07-15 14:24:24,455] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="ef51c086-a4d1-44e2-8a6c-77d8d1347098")>]
+[2021-07-15 14:24:24,481] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAiran Limited (AIRAN.NS)
+[2021-07-15 14:24:24,482] {logging_mixin.py:104} INFO - AIRAN.NS
+[2021-07-15 14:24:56,119] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="55dc713f-d38c-461c-8ef6-160bd9f464a6")>]
+[2021-07-15 14:24:56,248] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAjanta Pharma Limited (AJANTPHARM.NS)
+[2021-07-15 14:24:56,252] {logging_mixin.py:104} INFO - AJANTPHARM.NS
+[2021-07-15 14:25:27,819] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="692ad206-7d6e-468e-95bd-8b41c752533b")>]
+[2021-07-15 14:25:27,835] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAjmera Realty & Infra India Limited (AJMERA.BO)
+[2021-07-15 14:25:27,836] {logging_mixin.py:104} INFO - AJMERA.BO
+[2021-07-15 14:25:59,250] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="692ad206-7d6e-468e-95bd-8b41c752533b")>]
+[2021-07-15 14:25:59,271] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAjooni Biotech Limited (AJOONI.NS)
+[2021-07-15 14:25:59,272] {logging_mixin.py:104} INFO - AJOONI.NS
+[2021-07-15 14:26:30,669] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="692ad206-7d6e-468e-95bd-8b41c752533b")>]
+[2021-07-15 14:26:30,684] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBPT Akasha Wira International Tbk (ADES.JK)
+[2021-07-15 14:26:30,685] {logging_mixin.py:104} INFO - ADES.JK
+[2021-07-15 14:27:02,099] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="692ad206-7d6e-468e-95bd-8b41c752533b")>]
+[2021-07-15 14:27:02,122] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAksigorta A.S. (AKGRT.IS)
+[2021-07-15 14:27:02,123] {logging_mixin.py:104} INFO - AKGRT.IS
+[2021-07-15 14:27:33,631] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="692ad206-7d6e-468e-95bd-8b41c752533b")>]
+[2021-07-15 14:27:33,667] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAksharChem (India) Limited (AKSHARCHEM.NS)
+[2021-07-15 14:27:33,669] {logging_mixin.py:104} INFO - India
+[2021-07-15 14:28:05,110] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="692ad206-7d6e-468e-95bd-8b41c752533b")>]
+[2021-07-15 14:28:05,133] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAksh Optifibre Limited (AKSHOPTFBR.BO)
+[2021-07-15 14:28:05,134] {logging_mixin.py:104} INFO - AKSHOPTFBR.BO
+[2021-07-15 14:28:36,676] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="36780d7d-6ca0-407a-8e61-670bf7e6845f")>]
+[2021-07-15 14:28:36,801] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAkzo Nobel India Limited (AKZOINDIA.BO)
+[2021-07-15 14:28:36,802] {logging_mixin.py:104} INFO - AKZOINDIA.BO
+[2021-07-15 14:29:08,345] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="f66e2d18-9982-451a-8d4e-2be4ae41ca62")>]
+[2021-07-15 14:29:08,371] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlankit Limited (ALANKIT.NS)
+[2021-07-15 14:29:08,372] {logging_mixin.py:104} INFO - ALANKIT.NS
+[2021-07-15 14:29:39,825] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="f66e2d18-9982-451a-8d4e-2be4ae41ca62")>]
+[2021-07-15 14:29:39,840] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlbert David Limited (ALBERTDAVD.NS)
+[2021-07-15 14:29:39,840] {logging_mixin.py:104} INFO - ALBERTDAVD.NS
+[2021-07-15 14:30:11,290] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="f66e2d18-9982-451a-8d4e-2be4ae41ca62")>]
+[2021-07-15 14:30:11,304] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlembic Limited (ALEMBICLTD.BO)
+[2021-07-15 14:30:11,305] {logging_mixin.py:104} INFO - ALEMBICLTD.BO
+[2021-07-15 14:30:42,720] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="f66e2d18-9982-451a-8d4e-2be4ae41ca62")>]
+[2021-07-15 14:30:42,751] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlico, Inc. (ALCO)
+[2021-07-15 14:30:42,752] {logging_mixin.py:104} INFO - ALCO
+[2021-07-15 14:31:14,197] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="f66e2d18-9982-451a-8d4e-2be4ae41ca62")>]
+[2021-07-15 14:31:14,214] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBThe Alkaline Water Company Inc. (WTER)
+[2021-07-15 14:31:14,215] {logging_mixin.py:104} INFO - WTER
+[2021-07-15 14:31:45,651] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="f66e2d18-9982-451a-8d4e-2be4ae41ca62")>]
+[2021-07-15 14:31:45,666] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlkemy S.p.A. (ALK.MI)
+[2021-07-15 14:31:45,667] {logging_mixin.py:104} INFO - ALK.MI
+[2021-07-15 14:32:17,805] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="f66e2d18-9982-451a-8d4e-2be4ae41ca62")>]
+[2021-07-15 14:32:17,830] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlkyl Amines Chemicals Limited (ALKYLAMINE.NS)
+[2021-07-15 14:32:17,831] {logging_mixin.py:104} INFO - ALKYLAMINE.NS
+[2021-07-15 14:32:49,278] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="f66e2d18-9982-451a-8d4e-2be4ae41ca62")>]
+[2021-07-15 14:32:49,295] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAllcargo Logistics Limited (ALLCARGO.NS)
+[2021-07-15 14:32:49,296] {logging_mixin.py:104} INFO - ALLCARGO.NS
+[2021-07-15 14:33:20,735] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="5505a84d-a47b-4d9a-93f2-25e85a3dab98")>]
+[2021-07-15 14:33:20,781] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAllsec Technologies Limited (ALLSEC.NS)
+[2021-07-15 14:33:20,783] {logging_mixin.py:104} INFO - ALLSEC.NS
+[2021-07-15 14:33:52,239] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="c949fa77-8cfd-48d3-85ed-41ad2fd4a485")>]
+[2021-07-15 14:33:52,254] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlmondz Global Securities Limited (ALMONDZ.NS)
+[2021-07-15 14:33:52,255] {logging_mixin.py:104} INFO - ALMONDZ.NS
+[2021-07-15 14:34:23,666] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="c949fa77-8cfd-48d3-85ed-41ad2fd4a485")>]
+[2021-07-15 14:34:23,683] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlok Industries Limited (ALOKINDS.NS)
+[2021-07-15 14:34:23,684] {logging_mixin.py:104} INFO - ALOKINDS.NS
+[2021-07-15 14:34:55,070] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="c949fa77-8cfd-48d3-85ed-41ad2fd4a485")>]
+[2021-07-15 14:34:55,087] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlpha Esports Tech Inc. (ALPA.CN)
+[2021-07-15 14:34:55,088] {logging_mixin.py:104} INFO - ALPA.CN
+[2021-07-15 14:35:26,533] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="c949fa77-8cfd-48d3-85ed-41ad2fd4a485")>]
+[2021-07-15 14:35:26,631] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlphageo (India) Limited (ALPHAGEO.NS)
+[2021-07-15 14:35:26,633] {logging_mixin.py:104} INFO - India
+[2021-07-15 14:35:58,065] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="c949fa77-8cfd-48d3-85ed-41ad2fd4a485")>]
+[2021-07-15 14:35:58,081] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlps Industries Limited (ALPSINDUS.NS)
+[2021-07-15 14:35:58,082] {logging_mixin.py:104} INFO - ALPSINDUS.NS
+[2021-07-15 14:36:29,496] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="c949fa77-8cfd-48d3-85ed-41ad2fd4a485")>]
+[2021-07-15 14:36:29,551] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAmara Raja Batteries Limited (AMARAJABAT.NS)
+[2021-07-15 14:36:29,552] {logging_mixin.py:104} INFO - AMARAJABAT.NS
+[2021-07-15 14:37:01,001] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="c949fa77-8cfd-48d3-85ed-41ad2fd4a485")>]
+[2021-07-15 14:37:01,025] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBLux Amber, Corp. (LXAM)
+[2021-07-15 14:37:01,026] {logging_mixin.py:104} INFO - LXAM
+[2021-07-15 14:37:32,477] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="c949fa77-8cfd-48d3-85ed-41ad2fd4a485")>]
+[2021-07-15 14:37:32,491] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAmbica Agarbathies Aroma & Industries Limited (AMBICAAGAR.NS)
+[2021-07-15 14:37:32,491] {logging_mixin.py:104} INFO - AMBICAAGAR.NS
+[2021-07-15 14:38:03,995] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="f1c8fe47-809d-4347-96eb-4d37b231c628")>]
+[2021-07-15 14:38:04,090] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAmbika Cotton Mills Limited (AMBIKCO.NS)
+[2021-07-15 14:38:04,090] {logging_mixin.py:104} INFO - AMBIKCO.NS
+[2021-07-15 14:38:35,616] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:38:35,632] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAmbuja Cements Limited (AMBUJACEM.NS)
+[2021-07-15 14:38:35,633] {logging_mixin.py:104} INFO - AMBUJACEM.NS
+[2021-07-15 14:39:07,030] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:39:07,051] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAMD Industries Limited (AMDIND.NS)
+[2021-07-15 14:39:07,052] {logging_mixin.py:104} INFO - AMDIND.NS
+[2021-07-15 14:39:38,479] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:39:38,495] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAMJ Land Holdings Limited (AMJLAND.NS)
+[2021-07-15 14:39:38,496] {logging_mixin.py:104} INFO - AMJLAND.NS
+[2021-07-15 14:40:09,941] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:40:09,966] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAmrutanjan Health Care Limited (AMRUTANJAN.NS)
+[2021-07-15 14:40:09,966] {logging_mixin.py:104} INFO - AMRUTANJAN.NS
+[2021-07-15 14:40:41,387] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:40:41,401] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAnant Raj Limited (ANANTRAJ.NS)
+[2021-07-15 14:40:41,402] {logging_mixin.py:104} INFO - ANANTRAJ.NS
+[2021-07-15 14:41:13,005] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:41:13,033] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAndhra Cements Limited (ANDHRACEMT.NS)
+[2021-07-15 14:41:13,034] {logging_mixin.py:104} INFO - ANDHRACEMT.NS
+[2021-07-15 14:41:44,460] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:41:44,478] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAndhra Paper Limited (ANDHRAPAP.NS)
+[2021-07-15 14:41:44,483] {logging_mixin.py:104} INFO - ANDHRAPAP.NS
+[2021-07-15 14:42:15,899] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:42:15,950] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBThe Andhra Sugars Limited (ANDHRSUGAR.NS)
+[2021-07-15 14:42:15,951] {logging_mixin.py:104} INFO - ANDHRSUGAR.NS
+[2021-07-15 14:42:47,388] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:42:47,402] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAngel Broking Limited (ANGELBRKG.NS)
+[2021-07-15 14:42:47,403] {logging_mixin.py:104} INFO - ANGELBRKG.NS
+[2021-07-15 14:43:18,824] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:43:18,841] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAnik Industries Limited (ANIKINDS.NS)
+[2021-07-15 14:43:18,842] {logging_mixin.py:104} INFO - ANIKINDS.NS
+[2021-07-15 14:43:50,282] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:43:50,296] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAnkit Metal & Power Limited (ANKITMETAL.NS)
+[2021-07-15 14:43:50,297] {logging_mixin.py:104} INFO - ANKITMETAL.NS
+[2021-07-15 14:44:21,684] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:44:21,700] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAnmol India Limited (ANMOL.NS)
+[2021-07-15 14:44:21,701] {logging_mixin.py:104} INFO - ANMOL.NS
+[2021-07-15 14:44:53,141] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:44:53,154] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAnsal Properties & Infrastructure Limited (ANSALAPI.BO)
+[2021-07-15 14:44:53,155] {logging_mixin.py:104} INFO - ANSALAPI.BO
+[2021-07-15 14:45:24,612] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:45:24,638] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAnsal Housing Limited (ANSALHSG.NS)
+[2021-07-15 14:45:24,639] {logging_mixin.py:104} INFO - ANSALHSG.NS
+[2021-07-15 14:45:56,122] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:45:56,185] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBThe Anup Engineering Limited (ANUP.NS)
+[2021-07-15 14:45:56,185] {logging_mixin.py:104} INFO - ANUP.NS
+[2021-07-15 14:46:27,768] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:46:27,795] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAnupam Rasayan India Limited (ANURAS.BO)
+[2021-07-15 14:46:27,797] {logging_mixin.py:104} INFO - ANURAS.BO
+[2021-07-15 14:46:59,352] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="196eaaae-f047-46fe-85c4-c53b4a5f5ab3")>]
+[2021-07-15 14:46:59,378] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBApar Industries Limited (APARINDS.NS)
+[2021-07-15 14:46:59,379] {logging_mixin.py:104} INFO - APARINDS.NS
+[2021-07-15 14:47:30,915] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="6ce1dff0-f30c-44a3-9290-f0f213253fcc")>]
+[2021-07-15 14:47:30,963] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAnjani Portland Cement Limited (APCL.BO)
+[2021-07-15 14:47:30,968] {logging_mixin.py:104} INFO - APCL.BO
+[2021-07-15 14:48:02,575] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="168d8dfc-495f-42ca-97b0-a22576fcd152")>]
+[2021-07-15 14:48:02,593] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBApcotex Industries Limited (APCOTEXIND.NS)
+[2021-07-15 14:48:02,594] {logging_mixin.py:104} INFO - APCOTEXIND.NS
+[2021-07-15 14:48:34,064] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="168d8dfc-495f-42ca-97b0-a22576fcd152")>]
+[2021-07-15 14:48:34,082] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBPT Apexindo Pratama Duta Tbk (APEX.JK)
+[2021-07-15 14:48:34,084] {logging_mixin.py:104} INFO - APEX.JK
+[2021-07-15 14:49:05,510] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="168d8dfc-495f-42ca-97b0-a22576fcd152")>]
+[2021-07-15 14:49:05,530] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAPL Apollo Tubes Limited (APLAPOLLO.NS)
+[2021-07-15 14:49:05,531] {logging_mixin.py:104} INFO - APLAPOLLO.NS
+[2021-07-15 14:49:37,022] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="8511a9fc-2b9b-4331-9545-4fd4fbc80333")>]
+[2021-07-15 14:49:37,067] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAlembic Pharmaceuticals Limited (APLLTD.NS)
+[2021-07-15 14:49:37,068] {logging_mixin.py:104} INFO - APLLTD.NS
+[2021-07-15 14:50:08,565] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="cd0f2e0d-7c58-4457-b2ac-33f9b9b36158")>]
+[2021-07-15 14:50:08,586] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBApollo Medical Holdings, Inc. (AMEH)
+[2021-07-15 14:50:08,587] {logging_mixin.py:104} INFO - AMEH
+[2021-07-15 14:50:40,032] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="7d8ce0eb-0812-4837-a1e9-61b85e686ff2", element="8cf40550-c6e1-4a05-9712-a8892932f44a")>]
+[2021-07-15 14:50:40,065] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBApollo Hospitals Enterprise Limited (APOLLOHOSP.NS)
+[2021-07-15 14:50:40,066] {logging_mixin.py:104} INFO - APOLLOHOSP.NS
+[2021-07-15 14:50:47,626] {local_task_job.py:76} ERROR - Received SIGTERM. Terminating subprocesses

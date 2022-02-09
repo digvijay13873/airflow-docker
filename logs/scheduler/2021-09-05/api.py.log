@@ -1,0 +1,936 @@
+[2021-09-05 11:24:19,000] {scheduler_job.py:182} INFO - Started process (PID=62) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:24:19,035] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:24:19,046] {logging_mixin.py:104} INFO - [2021-09-05 11:24:19,046] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:24:19,659] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:24:19,793] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:24:25,262] {logging_mixin.py:104} INFO - [2021-09-05 11:24:25,261] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:24:25,567] {logging_mixin.py:104} INFO - [2021-09-05 11:24:25,567] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:24:25,831] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 6.876 seconds
+[2021-09-05 11:24:56,294] {scheduler_job.py:182} INFO - Started process (PID=92) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:24:56,298] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:24:56,301] {logging_mixin.py:104} INFO - [2021-09-05 11:24:56,300] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:24:56,392] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:24:56,415] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:24:57,467] {logging_mixin.py:104} INFO - [2021-09-05 11:24:57,467] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:24:57,581] {logging_mixin.py:104} INFO - [2021-09-05 11:24:57,581] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:24:57,622] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.340 seconds
+[2021-09-05 11:25:40,014] {scheduler_job.py:182} INFO - Started process (PID=139) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:25:40,024] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:25:40,027] {logging_mixin.py:104} INFO - [2021-09-05 11:25:40,027] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:25:40,274] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:25:40,380] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:25:41,948] {logging_mixin.py:104} INFO - [2021-09-05 11:25:41,948] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:25:42,116] {logging_mixin.py:104} INFO - [2021-09-05 11:25:42,115] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:25:42,205] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 2.209 seconds
+[2021-09-05 11:26:14,062] {scheduler_job.py:182} INFO - Started process (PID=179) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:26:14,067] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:26:14,070] {logging_mixin.py:104} INFO - [2021-09-05 11:26:14,070] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:26:14,249] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:26:14,279] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:26:15,168] {logging_mixin.py:104} INFO - [2021-09-05 11:26:15,168] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:26:15,284] {logging_mixin.py:104} INFO - [2021-09-05 11:26:15,283] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:26:15,337] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.283 seconds
+[2021-09-05 11:26:47,647] {scheduler_job.py:182} INFO - Started process (PID=226) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:26:47,650] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:26:47,652] {logging_mixin.py:104} INFO - [2021-09-05 11:26:47,652] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:26:47,747] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:26:47,780] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:26:48,939] {logging_mixin.py:104} INFO - [2021-09-05 11:26:48,939] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:26:48,989] {logging_mixin.py:104} INFO - [2021-09-05 11:26:48,988] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:26:49,021] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.382 seconds
+[2021-09-05 11:27:20,856] {scheduler_job.py:182} INFO - Started process (PID=265) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:27:20,860] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:27:20,862] {logging_mixin.py:104} INFO - [2021-09-05 11:27:20,862] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:27:20,934] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:27:20,957] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:27:21,522] {logging_mixin.py:104} INFO - [2021-09-05 11:27:21,522] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:27:21,595] {logging_mixin.py:104} INFO - [2021-09-05 11:27:21,594] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:27:21,635] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.785 seconds
+[2021-09-05 11:27:52,208] {scheduler_job.py:182} INFO - Started process (PID=305) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:27:52,212] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:27:52,215] {logging_mixin.py:104} INFO - [2021-09-05 11:27:52,215] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:27:52,302] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:27:52,325] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:27:53,178] {logging_mixin.py:104} INFO - [2021-09-05 11:27:53,178] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:27:53,226] {logging_mixin.py:104} INFO - [2021-09-05 11:27:53,226] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:27:53,256] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.053 seconds
+[2021-09-05 11:28:23,743] {scheduler_job.py:182} INFO - Started process (PID=336) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:28:23,747] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:28:23,751] {logging_mixin.py:104} INFO - [2021-09-05 11:28:23,749] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:28:23,891] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:28:23,923] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:28:24,849] {logging_mixin.py:104} INFO - [2021-09-05 11:28:24,848] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:28:24,931] {logging_mixin.py:104} INFO - [2021-09-05 11:28:24,930] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:28:24,983] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.250 seconds
+[2021-09-05 11:28:55,810] {scheduler_job.py:182} INFO - Started process (PID=381) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:28:55,813] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:28:55,816] {logging_mixin.py:104} INFO - [2021-09-05 11:28:55,815] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:28:55,886] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:28:55,913] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:28:56,451] {logging_mixin.py:104} INFO - [2021-09-05 11:28:56,451] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:28:56,490] {logging_mixin.py:104} INFO - [2021-09-05 11:28:56,490] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:28:56,520] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.716 seconds
+[2021-09-05 11:29:27,029] {scheduler_job.py:182} INFO - Started process (PID=420) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:29:27,033] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:29:27,036] {logging_mixin.py:104} INFO - [2021-09-05 11:29:27,036] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:29:27,120] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:29:27,142] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:29:27,673] {logging_mixin.py:104} INFO - [2021-09-05 11:29:27,673] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:29:27,739] {logging_mixin.py:104} INFO - [2021-09-05 11:29:27,738] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:29:27,771] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.746 seconds
+[2021-09-05 11:29:58,205] {scheduler_job.py:182} INFO - Started process (PID=461) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:29:58,215] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:29:58,220] {logging_mixin.py:104} INFO - [2021-09-05 11:29:58,220] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:29:58,361] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:29:58,404] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:29:59,106] {logging_mixin.py:104} INFO - [2021-09-05 11:29:59,106] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:29:59,234] {logging_mixin.py:104} INFO - [2021-09-05 11:29:59,232] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:29:59,331] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.140 seconds
+[2021-09-05 11:30:29,921] {scheduler_job.py:182} INFO - Started process (PID=501) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:30:29,924] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:30:29,926] {logging_mixin.py:104} INFO - [2021-09-05 11:30:29,926] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:30:30,001] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:30:30,023] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:30:30,619] {logging_mixin.py:104} INFO - [2021-09-05 11:30:30,619] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:30:30,658] {logging_mixin.py:104} INFO - [2021-09-05 11:30:30,657] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:30:30,694] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.779 seconds
+[2021-09-05 11:31:00,935] {scheduler_job.py:182} INFO - Started process (PID=541) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:31:00,938] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:31:00,950] {logging_mixin.py:104} INFO - [2021-09-05 11:31:00,949] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:31:01,111] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:31:01,143] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:31:01,757] {logging_mixin.py:104} INFO - [2021-09-05 11:31:01,757] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:31:01,813] {logging_mixin.py:104} INFO - [2021-09-05 11:31:01,813] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:31:01,849] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.934 seconds
+[2021-09-05 11:31:32,725] {scheduler_job.py:182} INFO - Started process (PID=581) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:31:32,728] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:31:32,730] {logging_mixin.py:104} INFO - [2021-09-05 11:31:32,730] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:31:32,810] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:31:32,833] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:31:33,485] {logging_mixin.py:104} INFO - [2021-09-05 11:31:33,484] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:31:33,538] {logging_mixin.py:104} INFO - [2021-09-05 11:31:33,537] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:31:33,567] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.847 seconds
+[2021-09-05 11:32:04,371] {scheduler_job.py:182} INFO - Started process (PID=622) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:32:04,374] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:32:04,376] {logging_mixin.py:104} INFO - [2021-09-05 11:32:04,376] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:32:04,451] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:32:04,473] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:32:05,023] {logging_mixin.py:104} INFO - [2021-09-05 11:32:05,022] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:32:05,066] {logging_mixin.py:104} INFO - [2021-09-05 11:32:05,065] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:32:05,095] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.730 seconds
+[2021-09-05 11:32:35,164] {scheduler_job.py:182} INFO - Started process (PID=664) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:32:35,166] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:32:35,169] {logging_mixin.py:104} INFO - [2021-09-05 11:32:35,168] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:32:35,246] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:32:35,270] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:32:35,951] {logging_mixin.py:104} INFO - [2021-09-05 11:32:35,951] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:32:35,998] {logging_mixin.py:104} INFO - [2021-09-05 11:32:35,997] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:32:36,025] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.866 seconds
+[2021-09-05 11:33:06,586] {scheduler_job.py:182} INFO - Started process (PID=704) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:33:06,590] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:33:06,592] {logging_mixin.py:104} INFO - [2021-09-05 11:33:06,592] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:33:06,669] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:33:06,697] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:33:07,238] {logging_mixin.py:104} INFO - [2021-09-05 11:33:07,237] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:33:07,294] {logging_mixin.py:104} INFO - [2021-09-05 11:33:07,294] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:33:07,330] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.750 seconds
+[2021-09-05 11:33:37,493] {scheduler_job.py:182} INFO - Started process (PID=743) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:33:37,496] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:33:37,499] {logging_mixin.py:104} INFO - [2021-09-05 11:33:37,498] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:33:37,586] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:33:37,613] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:33:38,627] {logging_mixin.py:104} INFO - [2021-09-05 11:33:38,627] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:33:38,710] {logging_mixin.py:104} INFO - [2021-09-05 11:33:38,710] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:33:38,915] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.428 seconds
+[2021-09-05 11:34:09,315] {scheduler_job.py:182} INFO - Started process (PID=782) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:34:09,319] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:34:09,322] {logging_mixin.py:104} INFO - [2021-09-05 11:34:09,322] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:34:09,402] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:34:09,439] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:34:10,210] {logging_mixin.py:104} INFO - [2021-09-05 11:34:10,209] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:34:10,486] {logging_mixin.py:104} INFO - [2021-09-05 11:34:10,486] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:34:10,523] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.215 seconds
+[2021-09-05 11:34:41,390] {scheduler_job.py:182} INFO - Started process (PID=822) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:34:41,393] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:34:41,395] {logging_mixin.py:104} INFO - [2021-09-05 11:34:41,395] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:34:41,535] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:34:41,561] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:34:42,130] {logging_mixin.py:104} INFO - [2021-09-05 11:34:42,129] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:34:42,326] {logging_mixin.py:104} INFO - [2021-09-05 11:34:42,326] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:34:42,355] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.973 seconds
+[2021-09-05 11:35:12,595] {scheduler_job.py:182} INFO - Started process (PID=862) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:35:12,601] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:35:12,605] {logging_mixin.py:104} INFO - [2021-09-05 11:35:12,604] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:35:12,697] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:35:12,720] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:35:13,243] {logging_mixin.py:104} INFO - [2021-09-05 11:35:13,243] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:35:13,434] {logging_mixin.py:104} INFO - [2021-09-05 11:35:13,434] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:35:13,464] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.881 seconds
+[2021-09-05 11:35:43,768] {scheduler_job.py:182} INFO - Started process (PID=901) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:35:43,772] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:35:43,775] {logging_mixin.py:104} INFO - [2021-09-05 11:35:43,774] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:35:43,949] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:35:43,975] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:35:44,607] {logging_mixin.py:104} INFO - [2021-09-05 11:35:44,607] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:35:44,840] {logging_mixin.py:104} INFO - [2021-09-05 11:35:44,840] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:35:44,875] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.116 seconds
+[2021-09-05 11:36:15,292] {scheduler_job.py:182} INFO - Started process (PID=940) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:36:15,295] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:36:15,297] {logging_mixin.py:104} INFO - [2021-09-05 11:36:15,297] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:36:15,441] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:36:15,489] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:36:16,572] {logging_mixin.py:104} INFO - [2021-09-05 11:36:16,572] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:36:17,064] {logging_mixin.py:104} INFO - [2021-09-05 11:36:17,064] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:36:17,123] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.839 seconds
+[2021-09-05 11:36:47,702] {scheduler_job.py:182} INFO - Started process (PID=980) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:36:47,706] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:36:47,708] {logging_mixin.py:104} INFO - [2021-09-05 11:36:47,708] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:36:47,791] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:36:47,818] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:36:48,337] {logging_mixin.py:104} INFO - [2021-09-05 11:36:48,336] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:36:48,588] {logging_mixin.py:104} INFO - [2021-09-05 11:36:48,587] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:36:48,625] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.928 seconds
+[2021-09-05 11:37:19,023] {scheduler_job.py:182} INFO - Started process (PID=1022) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:37:19,027] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:37:19,029] {logging_mixin.py:104} INFO - [2021-09-05 11:37:19,029] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:37:19,115] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:37:19,142] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:37:19,665] {logging_mixin.py:104} INFO - [2021-09-05 11:37:19,664] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:37:19,877] {logging_mixin.py:104} INFO - [2021-09-05 11:37:19,877] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:37:19,909] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.892 seconds
+[2021-09-05 11:37:50,791] {scheduler_job.py:182} INFO - Started process (PID=1062) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:37:50,795] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:37:50,797] {logging_mixin.py:104} INFO - [2021-09-05 11:37:50,797] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:37:50,937] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:37:50,965] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:37:51,651] {logging_mixin.py:104} INFO - [2021-09-05 11:37:51,650] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:37:51,920] {logging_mixin.py:104} INFO - [2021-09-05 11:37:51,920] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:37:51,955] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.170 seconds
+[2021-09-05 11:38:22,155] {scheduler_job.py:182} INFO - Started process (PID=1101) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:38:22,159] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:38:22,162] {logging_mixin.py:104} INFO - [2021-09-05 11:38:22,161] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:38:22,245] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:38:22,269] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:38:22,919] {logging_mixin.py:104} INFO - [2021-09-05 11:38:22,919] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:38:23,412] {logging_mixin.py:104} INFO - [2021-09-05 11:38:23,411] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:38:23,457] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.310 seconds
+[2021-09-05 11:38:54,427] {scheduler_job.py:182} INFO - Started process (PID=1140) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:38:54,432] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:38:54,440] {logging_mixin.py:104} INFO - [2021-09-05 11:38:54,439] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:38:54,571] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:38:54,605] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:38:55,410] {logging_mixin.py:104} INFO - [2021-09-05 11:38:55,410] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:38:55,456] {logging_mixin.py:104} INFO - [2021-09-05 11:38:55,456] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:38:55,487] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.071 seconds
+[2021-09-05 11:39:25,789] {scheduler_job.py:182} INFO - Started process (PID=1181) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:39:25,792] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:39:25,795] {logging_mixin.py:104} INFO - [2021-09-05 11:39:25,794] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:39:25,916] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:39:25,946] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:39:26,730] {logging_mixin.py:104} INFO - [2021-09-05 11:39:26,729] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:39:26,774] {logging_mixin.py:104} INFO - [2021-09-05 11:39:26,774] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:39:26,818] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.035 seconds
+[2021-09-05 11:39:57,508] {scheduler_job.py:182} INFO - Started process (PID=1222) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:39:57,512] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:39:57,515] {logging_mixin.py:104} INFO - [2021-09-05 11:39:57,514] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:39:57,638] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:39:57,667] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:39:58,578] {logging_mixin.py:104} INFO - [2021-09-05 11:39:58,577] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:39:58,627] {logging_mixin.py:104} INFO - [2021-09-05 11:39:58,627] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:39:58,666] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.169 seconds
+[2021-09-05 11:40:29,449] {scheduler_job.py:182} INFO - Started process (PID=1261) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:40:29,452] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:40:29,455] {logging_mixin.py:104} INFO - [2021-09-05 11:40:29,455] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:40:29,558] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:40:29,614] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:40:30,707] {logging_mixin.py:104} INFO - [2021-09-05 11:40:30,707] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:40:30,784] {logging_mixin.py:104} INFO - [2021-09-05 11:40:30,783] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:40:30,842] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.399 seconds
+[2021-09-05 11:41:01,585] {scheduler_job.py:182} INFO - Started process (PID=1300) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:41:01,589] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:41:01,591] {logging_mixin.py:104} INFO - [2021-09-05 11:41:01,590] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:41:01,675] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:41:01,706] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:41:02,651] {logging_mixin.py:104} INFO - [2021-09-05 11:41:02,651] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:41:02,712] {logging_mixin.py:104} INFO - [2021-09-05 11:41:02,711] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:41:02,755] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.176 seconds
+[2021-09-05 11:41:32,999] {scheduler_job.py:182} INFO - Started process (PID=1339) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:41:33,002] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:41:33,005] {logging_mixin.py:104} INFO - [2021-09-05 11:41:33,004] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:41:33,088] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:41:33,114] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:41:33,990] {logging_mixin.py:104} INFO - [2021-09-05 11:41:33,990] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:41:34,041] {logging_mixin.py:104} INFO - [2021-09-05 11:41:34,041] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:41:34,072] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.080 seconds
+[2021-09-05 11:42:04,297] {scheduler_job.py:182} INFO - Started process (PID=1379) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:42:04,300] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:42:04,303] {logging_mixin.py:104} INFO - [2021-09-05 11:42:04,303] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:42:04,387] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:42:04,417] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:42:05,389] {logging_mixin.py:104} INFO - [2021-09-05 11:42:05,389] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:42:05,438] {logging_mixin.py:104} INFO - [2021-09-05 11:42:05,437] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:42:05,466] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.175 seconds
+[2021-09-05 11:42:36,100] {scheduler_job.py:182} INFO - Started process (PID=1418) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:42:36,102] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:42:36,105] {logging_mixin.py:104} INFO - [2021-09-05 11:42:36,105] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:42:36,193] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:42:36,220] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:42:36,990] {logging_mixin.py:104} INFO - [2021-09-05 11:42:36,990] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:42:37,035] {logging_mixin.py:104} INFO - [2021-09-05 11:42:37,035] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:42:37,065] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.971 seconds
+[2021-09-05 11:43:07,394] {scheduler_job.py:182} INFO - Started process (PID=1459) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:43:07,397] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:43:07,400] {logging_mixin.py:104} INFO - [2021-09-05 11:43:07,399] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:43:07,485] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:43:07,510] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:43:08,315] {logging_mixin.py:104} INFO - [2021-09-05 11:43:08,315] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:43:08,359] {logging_mixin.py:104} INFO - [2021-09-05 11:43:08,358] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:43:08,391] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.002 seconds
+[2021-09-05 11:43:38,877] {scheduler_job.py:182} INFO - Started process (PID=1500) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:43:38,880] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:43:38,884] {logging_mixin.py:104} INFO - [2021-09-05 11:43:38,883] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:43:38,965] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:43:38,994] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:43:39,683] {logging_mixin.py:104} INFO - [2021-09-05 11:43:39,682] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:43:39,721] {logging_mixin.py:104} INFO - [2021-09-05 11:43:39,720] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:43:39,755] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.889 seconds
+[2021-09-05 11:44:10,081] {scheduler_job.py:182} INFO - Started process (PID=1541) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:44:10,088] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:44:10,090] {logging_mixin.py:104} INFO - [2021-09-05 11:44:10,090] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:44:10,209] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:44:10,241] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:44:11,024] {logging_mixin.py:104} INFO - [2021-09-05 11:44:11,024] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:44:11,064] {logging_mixin.py:104} INFO - [2021-09-05 11:44:11,064] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:44:11,094] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.023 seconds
+[2021-09-05 11:44:41,892] {scheduler_job.py:182} INFO - Started process (PID=1581) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:44:41,898] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:44:41,901] {logging_mixin.py:104} INFO - [2021-09-05 11:44:41,901] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:44:42,056] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:44:42,096] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:44:43,062] {logging_mixin.py:104} INFO - [2021-09-05 11:44:43,062] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:44:43,126] {logging_mixin.py:104} INFO - [2021-09-05 11:44:43,125] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:44:43,164] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.279 seconds
+[2021-09-05 11:45:13,610] {scheduler_job.py:182} INFO - Started process (PID=1622) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:45:13,627] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:45:13,633] {logging_mixin.py:104} INFO - [2021-09-05 11:45:13,633] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:45:13,955] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:45:14,036] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:45:15,035] {logging_mixin.py:104} INFO - [2021-09-05 11:45:15,034] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:45:15,085] {logging_mixin.py:104} INFO - [2021-09-05 11:45:15,085] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:45:15,117] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.521 seconds
+[2021-09-05 11:45:45,405] {scheduler_job.py:182} INFO - Started process (PID=1661) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:45:45,408] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:45:45,411] {logging_mixin.py:104} INFO - [2021-09-05 11:45:45,411] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:45:45,506] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:45:45,534] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:45:46,395] {logging_mixin.py:104} INFO - [2021-09-05 11:45:46,394] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:45:46,447] {logging_mixin.py:104} INFO - [2021-09-05 11:45:46,447] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:45:46,481] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.082 seconds
+[2021-09-05 11:46:16,860] {scheduler_job.py:182} INFO - Started process (PID=1701) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:46:16,864] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:46:16,867] {logging_mixin.py:104} INFO - [2021-09-05 11:46:16,866] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:46:16,943] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:46:16,967] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:46:17,676] {logging_mixin.py:104} INFO - [2021-09-05 11:46:17,676] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:46:17,737] {logging_mixin.py:104} INFO - [2021-09-05 11:46:17,736] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:46:17,769] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.915 seconds
+[2021-09-05 11:46:48,194] {scheduler_job.py:182} INFO - Started process (PID=1741) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:46:48,199] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:46:48,203] {logging_mixin.py:104} INFO - [2021-09-05 11:46:48,202] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:46:48,305] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:46:48,333] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:46:49,046] {logging_mixin.py:104} INFO - [2021-09-05 11:46:49,046] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:46:49,085] {logging_mixin.py:104} INFO - [2021-09-05 11:46:49,085] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:46:49,115] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.931 seconds
+[2021-09-05 11:47:19,486] {scheduler_job.py:182} INFO - Started process (PID=1781) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:47:19,489] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:47:19,493] {logging_mixin.py:104} INFO - [2021-09-05 11:47:19,493] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:47:19,577] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:47:19,608] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:47:20,375] {logging_mixin.py:104} INFO - [2021-09-05 11:47:20,375] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:47:20,419] {logging_mixin.py:104} INFO - [2021-09-05 11:47:20,418] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:47:20,454] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.975 seconds
+[2021-09-05 11:47:50,571] {scheduler_job.py:182} INFO - Started process (PID=1819) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:47:50,575] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:47:50,577] {logging_mixin.py:104} INFO - [2021-09-05 11:47:50,576] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:47:50,657] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:47:50,683] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:47:51,408] {logging_mixin.py:104} INFO - [2021-09-05 11:47:51,408] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:47:51,461] {logging_mixin.py:104} INFO - [2021-09-05 11:47:51,461] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:47:51,491] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.926 seconds
+[2021-09-05 11:48:22,167] {scheduler_job.py:182} INFO - Started process (PID=1860) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:48:22,170] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:48:22,173] {logging_mixin.py:104} INFO - [2021-09-05 11:48:22,172] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:48:22,254] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:48:22,279] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:48:22,970] {logging_mixin.py:104} INFO - [2021-09-05 11:48:22,969] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:48:23,009] {logging_mixin.py:104} INFO - [2021-09-05 11:48:23,009] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:48:23,040] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.880 seconds
+[2021-09-05 11:48:53,950] {scheduler_job.py:182} INFO - Started process (PID=1900) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:48:53,954] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:48:53,956] {logging_mixin.py:104} INFO - [2021-09-05 11:48:53,956] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:48:54,092] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:48:54,125] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:48:54,970] {logging_mixin.py:104} INFO - [2021-09-05 11:48:54,970] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:48:55,014] {logging_mixin.py:104} INFO - [2021-09-05 11:48:55,013] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:48:55,041] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.102 seconds
+[2021-09-05 11:49:25,286] {scheduler_job.py:182} INFO - Started process (PID=1940) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:49:25,289] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:49:25,292] {logging_mixin.py:104} INFO - [2021-09-05 11:49:25,292] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:49:25,418] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:49:25,454] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:49:26,575] {logging_mixin.py:104} INFO - [2021-09-05 11:49:26,575] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:49:26,636] {logging_mixin.py:104} INFO - [2021-09-05 11:49:26,635] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:49:26,681] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.402 seconds
+[2021-09-05 11:49:56,904] {scheduler_job.py:182} INFO - Started process (PID=1973) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:49:56,910] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:49:56,912] {logging_mixin.py:104} INFO - [2021-09-05 11:49:56,912] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:49:56,986] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:49:57,010] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:49:57,909] {logging_mixin.py:104} INFO - [2021-09-05 11:49:57,906] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:49:57,958] {logging_mixin.py:104} INFO - [2021-09-05 11:49:57,958] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:49:57,988] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.090 seconds
+[2021-09-05 11:50:28,246] {scheduler_job.py:182} INFO - Started process (PID=2003) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:50:28,249] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:50:28,252] {logging_mixin.py:104} INFO - [2021-09-05 11:50:28,251] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:50:28,335] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:50:28,367] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:50:29,405] {logging_mixin.py:104} INFO - [2021-09-05 11:50:29,404] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:50:29,454] {logging_mixin.py:104} INFO - [2021-09-05 11:50:29,453] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:50:29,483] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 1.243 seconds
+[2021-09-05 11:50:59,832] {scheduler_job.py:182} INFO - Started process (PID=2043) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:50:59,834] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:50:59,836] {logging_mixin.py:104} INFO - [2021-09-05 11:50:59,836] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:50:59,889] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:50:59,903] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:51:00,380] {logging_mixin.py:104} INFO - [2021-09-05 11:51:00,379] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:51:00,409] {logging_mixin.py:104} INFO - [2021-09-05 11:51:00,409] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:51:00,429] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.602 seconds
+[2021-09-05 11:51:30,897] {scheduler_job.py:182} INFO - Started process (PID=2102) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:51:30,898] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:51:30,899] {logging_mixin.py:104} INFO - [2021-09-05 11:51:30,899] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:51:30,944] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:51:30,959] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:51:31,307] {logging_mixin.py:104} INFO - [2021-09-05 11:51:31,307] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:51:31,329] {logging_mixin.py:104} INFO - [2021-09-05 11:51:31,329] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:51:31,347] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.454 seconds
+[2021-09-05 11:52:01,761] {scheduler_job.py:182} INFO - Started process (PID=2141) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:52:01,763] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:52:01,764] {logging_mixin.py:104} INFO - [2021-09-05 11:52:01,764] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:52:01,808] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:52:01,823] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:52:02,232] {logging_mixin.py:104} INFO - [2021-09-05 11:52:02,232] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:52:02,256] {logging_mixin.py:104} INFO - [2021-09-05 11:52:02,256] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:52:02,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.520 seconds
+[2021-09-05 11:52:32,638] {scheduler_job.py:182} INFO - Started process (PID=2181) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:52:32,640] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:52:32,642] {logging_mixin.py:104} INFO - [2021-09-05 11:52:32,642] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:52:32,709] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:52:32,723] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:52:33,190] {logging_mixin.py:104} INFO - [2021-09-05 11:52:33,190] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:52:33,223] {logging_mixin.py:104} INFO - [2021-09-05 11:52:33,222] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:52:33,244] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.611 seconds
+[2021-09-05 11:53:03,517] {scheduler_job.py:182} INFO - Started process (PID=2239) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:53:03,520] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:53:03,521] {logging_mixin.py:104} INFO - [2021-09-05 11:53:03,521] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:53:03,561] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:53:03,575] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:53:04,066] {logging_mixin.py:104} INFO - [2021-09-05 11:53:04,066] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:53:04,095] {logging_mixin.py:104} INFO - [2021-09-05 11:53:04,095] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:53:04,122] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.608 seconds
+[2021-09-05 11:53:34,635] {scheduler_job.py:182} INFO - Started process (PID=2279) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:53:34,637] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:53:34,639] {logging_mixin.py:104} INFO - [2021-09-05 11:53:34,639] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:53:34,699] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:53:34,716] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:53:35,324] {logging_mixin.py:104} INFO - [2021-09-05 11:53:35,323] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:53:35,375] {logging_mixin.py:104} INFO - [2021-09-05 11:53:35,375] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:53:35,398] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.769 seconds
+[2021-09-05 11:54:05,962] {scheduler_job.py:182} INFO - Started process (PID=2329) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:54:05,964] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:54:05,966] {logging_mixin.py:104} INFO - [2021-09-05 11:54:05,966] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:54:06,011] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:54:06,028] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:54:06,576] {logging_mixin.py:104} INFO - [2021-09-05 11:54:06,576] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:54:06,609] {logging_mixin.py:104} INFO - [2021-09-05 11:54:06,609] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:54:06,628] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.670 seconds
+[2021-09-05 11:54:36,742] {scheduler_job.py:182} INFO - Started process (PID=2378) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:54:36,745] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:54:36,746] {logging_mixin.py:104} INFO - [2021-09-05 11:54:36,746] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:54:36,794] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:54:36,806] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:54:37,257] {logging_mixin.py:104} INFO - [2021-09-05 11:54:37,257] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:54:37,280] {logging_mixin.py:104} INFO - [2021-09-05 11:54:37,279] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:54:37,298] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.560 seconds
+[2021-09-05 11:55:08,050] {scheduler_job.py:182} INFO - Started process (PID=2417) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:55:08,052] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:55:08,053] {logging_mixin.py:104} INFO - [2021-09-05 11:55:08,053] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:55:08,099] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:55:08,113] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:55:08,515] {logging_mixin.py:104} INFO - [2021-09-05 11:55:08,515] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:55:08,540] {logging_mixin.py:104} INFO - [2021-09-05 11:55:08,539] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:55:08,559] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.513 seconds
+[2021-09-05 11:55:39,092] {scheduler_job.py:182} INFO - Started process (PID=2473) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:55:39,093] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:55:39,094] {logging_mixin.py:104} INFO - [2021-09-05 11:55:39,094] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:55:39,138] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:55:39,152] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:55:39,590] {logging_mixin.py:104} INFO - [2021-09-05 11:55:39,590] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:55:39,622] {logging_mixin.py:104} INFO - [2021-09-05 11:55:39,622] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:55:39,643] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.554 seconds
+[2021-09-05 11:56:09,804] {scheduler_job.py:182} INFO - Started process (PID=2512) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:56:09,806] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:56:09,807] {logging_mixin.py:104} INFO - [2021-09-05 11:56:09,807] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:56:09,857] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:56:09,874] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:56:10,278] {logging_mixin.py:104} INFO - [2021-09-05 11:56:10,278] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:56:10,298] {logging_mixin.py:104} INFO - [2021-09-05 11:56:10,298] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:56:10,319] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.519 seconds
+[2021-09-05 11:56:41,310] {scheduler_job.py:182} INFO - Started process (PID=2563) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:56:41,313] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:56:41,314] {logging_mixin.py:104} INFO - [2021-09-05 11:56:41,314] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:56:41,369] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:56:41,388] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:56:41,807] {logging_mixin.py:104} INFO - [2021-09-05 11:56:41,807] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:56:41,829] {logging_mixin.py:104} INFO - [2021-09-05 11:56:41,829] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:56:41,854] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.548 seconds
+[2021-09-05 11:57:12,526] {scheduler_job.py:182} INFO - Started process (PID=2611) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:57:12,527] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:57:12,528] {logging_mixin.py:104} INFO - [2021-09-05 11:57:12,528] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:57:12,572] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:57:12,585] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:57:12,994] {logging_mixin.py:104} INFO - [2021-09-05 11:57:12,994] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:57:13,030] {logging_mixin.py:104} INFO - [2021-09-05 11:57:13,030] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:57:13,049] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.527 seconds
+[2021-09-05 11:57:43,243] {scheduler_job.py:182} INFO - Started process (PID=2650) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:57:43,245] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:57:43,246] {logging_mixin.py:104} INFO - [2021-09-05 11:57:43,246] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:57:43,296] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:57:43,311] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:57:43,766] {logging_mixin.py:104} INFO - [2021-09-05 11:57:43,765] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:57:43,855] {logging_mixin.py:104} INFO - [2021-09-05 11:57:43,855] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:57:43,897] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.658 seconds
+[2021-09-05 11:58:14,049] {scheduler_job.py:182} INFO - Started process (PID=2708) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:58:14,051] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:58:14,052] {logging_mixin.py:104} INFO - [2021-09-05 11:58:14,052] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:58:14,100] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:58:14,113] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:58:14,497] {logging_mixin.py:104} INFO - [2021-09-05 11:58:14,497] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:58:14,523] {logging_mixin.py:104} INFO - [2021-09-05 11:58:14,522] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:58:14,542] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.495 seconds
+[2021-09-05 11:58:44,621] {scheduler_job.py:182} INFO - Started process (PID=2749) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:58:44,623] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:58:44,624] {logging_mixin.py:104} INFO - [2021-09-05 11:58:44,624] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:58:44,667] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:58:44,682] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:58:45,006] {logging_mixin.py:104} INFO - [2021-09-05 11:58:45,006] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:58:45,029] {logging_mixin.py:104} INFO - [2021-09-05 11:58:45,028] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:58:45,044] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.426 seconds
+[2021-09-05 11:59:15,182] {scheduler_job.py:182} INFO - Started process (PID=2800) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:59:15,184] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:59:15,186] {logging_mixin.py:104} INFO - [2021-09-05 11:59:15,185] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:59:15,246] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:59:15,259] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:59:15,760] {logging_mixin.py:104} INFO - [2021-09-05 11:59:15,760] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:59:15,790] {logging_mixin.py:104} INFO - [2021-09-05 11:59:15,790] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:59:15,814] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.636 seconds
+[2021-09-05 11:59:46,770] {scheduler_job.py:182} INFO - Started process (PID=2846) to work on /opt/airflow/dags/api.py
+[2021-09-05 11:59:46,772] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 11:59:46,774] {logging_mixin.py:104} INFO - [2021-09-05 11:59:46,773] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 11:59:46,822] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 11:59:46,836] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 11:59:47,240] {logging_mixin.py:104} INFO - [2021-09-05 11:59:47,240] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 11:59:47,264] {logging_mixin.py:104} INFO - [2021-09-05 11:59:47,264] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 11:59:47,283] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.516 seconds
+[2021-09-05 12:00:17,961] {scheduler_job.py:182} INFO - Started process (PID=2896) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:00:17,962] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:00:17,964] {logging_mixin.py:104} INFO - [2021-09-05 12:00:17,963] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:00:18,022] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:00:18,038] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:00:18,482] {logging_mixin.py:104} INFO - [2021-09-05 12:00:18,482] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:00:18,512] {logging_mixin.py:104} INFO - [2021-09-05 12:00:18,511] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:00:18,533] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.575 seconds
+[2021-09-05 12:00:49,556] {scheduler_job.py:182} INFO - Started process (PID=2945) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:00:49,557] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:00:49,559] {logging_mixin.py:104} INFO - [2021-09-05 12:00:49,559] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:00:49,603] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:00:49,615] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:00:50,130] {logging_mixin.py:104} INFO - [2021-09-05 12:00:50,129] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:00:50,156] {logging_mixin.py:104} INFO - [2021-09-05 12:00:50,156] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:00:50,180] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.628 seconds
+[2021-09-05 12:01:20,556] {scheduler_job.py:182} INFO - Started process (PID=2985) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:01:20,559] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:01:20,560] {logging_mixin.py:104} INFO - [2021-09-05 12:01:20,560] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:01:20,599] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:01:20,618] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:01:21,060] {logging_mixin.py:104} INFO - [2021-09-05 12:01:21,059] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:01:21,086] {logging_mixin.py:104} INFO - [2021-09-05 12:01:21,086] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:01:21,105] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.552 seconds
+[2021-09-05 12:01:51,200] {scheduler_job.py:182} INFO - Started process (PID=3037) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:01:51,205] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:01:51,214] {logging_mixin.py:104} INFO - [2021-09-05 12:01:51,214] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:01:51,263] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:01:51,279] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:01:51,686] {logging_mixin.py:104} INFO - [2021-09-05 12:01:51,685] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:01:51,711] {logging_mixin.py:104} INFO - [2021-09-05 12:01:51,711] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:01:51,730] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.537 seconds
+[2021-09-05 12:02:22,265] {scheduler_job.py:182} INFO - Started process (PID=3083) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:02:22,266] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:02:22,268] {logging_mixin.py:104} INFO - [2021-09-05 12:02:22,268] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:02:22,358] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:02:22,376] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:02:22,878] {logging_mixin.py:104} INFO - [2021-09-05 12:02:22,877] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:02:22,912] {logging_mixin.py:104} INFO - [2021-09-05 12:02:22,912] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:02:22,938] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.677 seconds
+[2021-09-05 12:02:53,226] {scheduler_job.py:182} INFO - Started process (PID=3124) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:02:53,228] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:02:53,229] {logging_mixin.py:104} INFO - [2021-09-05 12:02:53,229] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:02:53,275] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:02:53,290] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:02:53,710] {logging_mixin.py:104} INFO - [2021-09-05 12:02:53,710] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:02:53,735] {logging_mixin.py:104} INFO - [2021-09-05 12:02:53,735] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:02:53,755] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.533 seconds
+[2021-09-05 12:03:23,994] {scheduler_job.py:182} INFO - Started process (PID=3180) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:03:23,996] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:03:23,997] {logging_mixin.py:104} INFO - [2021-09-05 12:03:23,997] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:03:24,052] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:03:24,066] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:03:24,453] {logging_mixin.py:104} INFO - [2021-09-05 12:03:24,453] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:03:24,476] {logging_mixin.py:104} INFO - [2021-09-05 12:03:24,475] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:03:24,498] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.509 seconds
+[2021-09-05 12:03:55,218] {scheduler_job.py:182} INFO - Started process (PID=3221) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:03:55,219] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:03:55,221] {logging_mixin.py:104} INFO - [2021-09-05 12:03:55,220] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:03:55,266] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:03:55,280] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:03:55,638] {logging_mixin.py:104} INFO - [2021-09-05 12:03:55,637] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:03:55,655] {logging_mixin.py:104} INFO - [2021-09-05 12:03:55,655] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:03:55,672] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.458 seconds
+[2021-09-05 12:04:25,947] {scheduler_job.py:182} INFO - Started process (PID=3260) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:04:25,949] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:04:25,950] {logging_mixin.py:104} INFO - [2021-09-05 12:04:25,950] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:04:25,995] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:04:26,009] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:04:26,352] {logging_mixin.py:104} INFO - [2021-09-05 12:04:26,351] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:04:26,375] {logging_mixin.py:104} INFO - [2021-09-05 12:04:26,375] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:04:26,394] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.450 seconds
+[2021-09-05 12:04:56,813] {scheduler_job.py:182} INFO - Started process (PID=3311) to work on /opt/airflow/dags/api.py
+[2021-09-05 12:04:56,816] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2021-09-05 12:04:56,818] {logging_mixin.py:104} INFO - [2021-09-05 12:04:56,817] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2021-09-05 12:04:56,860] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-09-05 12:04:56,882] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['api']) retrieved from /opt/airflow/dags/api.py
+[2021-09-05 12:04:57,705] {logging_mixin.py:104} INFO - [2021-09-05 12:04:57,704] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-09-05 12:04:57,743] {logging_mixin.py:104} INFO - [2021-09-05 12:04:57,743] {dag.py:2305} INFO - Setting next_dagrun for api to 2021-09-06T07:00:00+00:00
+[2021-09-05 12:04:57,770] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/api.py took 0.962 seconds

@@ -1,0 +1,72 @@
+[2021-07-14 13:10:05,432] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-13T10:03:48.810974+00:00 [queued]>
+[2021-07-14 13:10:05,612] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-13T10:03:48.810974+00:00 [queued]>
+[2021-07-14 13:10:05,618] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 13:10:05,620] {taskinstance.py:1068} INFO - Starting attempt 2 of 2
+[2021-07-14 13:10:05,621] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 13:10:05,715] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-13T10:03:48.810974+00:00
+[2021-07-14 13:10:05,805] {standard_task_runner.py:52} INFO - Started process 104 to run task
+[2021-07-14 13:10:05,866] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-13T10:03:48.810974+00:00', '--job-id', '174', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmpx1iqtvdg', '--error-file', '/tmp/tmpnyz8nilx']
+[2021-07-14 13:10:05,882] {standard_task_runner.py:77} INFO - Job 174: Subtask extract_task
+[2021-07-14 13:10:06,197] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-13T10:03:48.810974+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 13:10:06,782] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-13T10:03:48.810974+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-13T10:03:48.810974+00:00
+[2021-07-14 13:10:12,283] {local_task_job.py:76} ERROR - Received SIGTERM. Terminating subprocesses
+[2021-07-14 13:10:12,382] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 104
+[2021-07-14 13:10:12,493] {taskinstance.py:1264} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-07-14 13:10:12,962] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/seleniumtest.py", line 44, in extract
+    driver = webdriver.Remote("http://selenium:4444/wd/hub", options=opt)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 402, in _request
+    resp = http.request(method, url, body=body, headers=headers)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/request.py", line 80, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.6/http/client.py", line 1379, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.6/http/client.py", line 311, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.6/http/client.py", line 272, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1266, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-07-14 13:10:13,173] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=ticker_yahoo, task_id=extract_task, execution_date=20210713T100348, start_date=20210714T131005, end_date=20210714T131013
+[2021-07-14 13:10:17,118] {process_utils.py:66} INFO - Process psutil.Process(pid=104, status='terminated', exitcode=1, started='13:10:05') (104) terminated with exit code 1
+[2021-07-14 13:10:17,357] {local_task_job.py:76} ERROR - Received SIGTERM. Terminating subprocesses

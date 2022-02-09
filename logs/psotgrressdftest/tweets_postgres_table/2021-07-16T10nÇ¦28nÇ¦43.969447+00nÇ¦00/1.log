@@ -1,0 +1,23 @@
+[2021-07-16 10:29:01,931] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:28:43.969447+00:00 [queued]>
+[2021-07-16 10:29:02,000] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:28:43.969447+00:00 [queued]>
+[2021-07-16 10:29:02,002] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:29:02,003] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:29:02,005] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:29:02,072] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T10:28:43.969447+00:00
+[2021-07-16 10:29:02,108] {standard_task_runner.py:52} INFO - Started process 1314 to run task
+[2021-07-16 10:29:02,164] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T10:28:43.969447+00:00', '--job-id', '520', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpljkqtlw5', '--error-file', '/tmp/tmp9nmriidd']
+[2021-07-16 10:29:02,168] {standard_task_runner.py:77} INFO - Job 520: Subtask tweets_postgres_table
+[2021-07-16 10:29:02,559] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:28:43.969447+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:29:02,805] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:28:43.969447+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:28:43.969447+00:00
+[2021-07-16 10:29:02,946] {logging_mixin.py:104} INFO - [('AARTISURF - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/ZnbBFhKoE4', Decimal('-0.4019')), ('AARTISURF - Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018 https://t.co/R6sft3XjMT', Decimal('0.0000')), ('#AARTISURF for study of alike patterns 👇👇 https://t.co/YIin7bDx16', Decimal('0.0000')), ('Momentum #stocks For The Coming Weeks - \n#AARTISURF\n#AAVAS\n#ABB\n#ACCURACY\n#ACE\n#ADVENZYMES\n#ALEMBICLTD\n#ANANTRAJ… https://t.co/Za0PjkmvwR', Decimal('0.0000')), ('#aartisurf', Decimal('0.0000')), ('@asitis_gopal @ipo_mantra If not getting ipo... You can buy KEI, Bata, Bkt and AartiSurf.. for 20-30% annual returns', Decimal('0.0000')), ('Added Today for a Week\n#Swing #Trades\n#Momentum #Trading\n\n#DSSL\n#RPGLIFE\n#SUNDARMHLD\n#AARTISURF\n#SIYSIL\n#NSIL\n#DISHTV\n#INDIAMART', Decimal('0.0000')), ('@AmitabhJha3 @AnyBodyCanFly @Rishikesh_ADX @nid_rockz Sasken tech\nUflex\nAartisurf', Decimal('0.0000')), ('AARTISURF - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/ZnbBFhKoE4', Decimal('-0.4019')), ('AARTISURF - Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018 https://t.co/R6sft3XjMT', Decimal('0.0000')), ('#AARTISURF for study of alike patterns 👇👇 https://t.co/YIin7bDx16', Decimal('0.0000')), ('Momentum #stocks For The Coming Weeks - \n#AARTISURF\n#AAVAS\n#ABB\n#ACCURACY\n#ACE\n#ADVENZYMES\n#ALEMBICLTD\n#ANANTRAJ… https://t.co/Za0PjkmvwR', Decimal('0.0000')), ('#aartisurf', Decimal('0.0000')), ('@asitis_gopal @ipo_mantra If not getting ipo... You can buy KEI, Bata, Bkt and AartiSurf.. for 20-30% annual returns', Decimal('0.0000')), ('Added Today for a Week\n#Swing #Trades\n#Momentum #Trading\n\n#DSSL\n#RPGLIFE\n#SUNDARMHLD\n#AARTISURF\n#SIYSIL\n#NSIL\n#DISHTV\n#INDIAMART', Decimal('0.0000'))]
+[2021-07-16 10:29:02,953] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 10:29:02,984] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T102843, start_date=20210716T102901, end_date=20210716T102902
+[2021-07-16 10:29:03,106] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:29:03,124] {local_task_job.py:151} INFO - Task exited with return code 0

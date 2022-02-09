@@ -1,0 +1,22 @@
+[2021-07-16 16:21:34,382] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:21:19.834340+00:00 [queued]>
+[2021-07-16 16:21:34,738] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:21:19.834340+00:00 [queued]>
+[2021-07-16 16:21:34,739] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:21:34,741] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:21:34,742] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:21:34,769] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:21:19.834340+00:00
+[2021-07-16 16:21:34,804] {standard_task_runner.py:52} INFO - Started process 7423 to run task
+[2021-07-16 16:21:34,814] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:21:19.834340+00:00', '--job-id', '1020', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp9krin_kl', '--error-file', '/tmp/tmpcyyk89f2']
+[2021-07-16 16:21:34,816] {standard_task_runner.py:77} INFO - Job 1020: Subtask extract_tweets
+[2021-07-16 16:21:34,973] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:21:19.834340+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:21:35,152] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:21:19.834340+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:21:13.864431+00:00
+[2021-07-16 16:21:37,262] {python.py:151} INFO - Done. Returned value was: ['RT @ronakdgajjar: Lifting Operation Failed ⚠️\n\nTrain compartment fall down during lift operation at Adani Ports and Special Economic Zone,M…', 'RT @JusticeMyanmar: Advisory firm @GlassLewis rates @AdaniOnline as having “severe” risk of material financial impacts driven by ESG factor…', '#sensex #Nifty #banknifty #Midcaps #smallcap #fii #dii #bse #nse #Markets #DivisLabs #hcltech #bhartiairtel… https://t.co/TXWdLU0XZn', 'Top Gainers \n\nDIVISLAB: +3.46%\nBHARTIARTL: +2.95%\nULTRACEMCO: +1.82%\nTATASTEEL: +1.50%\nPOWERGRID: +1.35%\n\nTop Loser… https://t.co/YfnXGMwJsS', 'Daily Market Highlights | 16th July 2021 📊 \n\nNIFTY50: ₹15,923.40 | -0.01%\nTop Gainers 📈\nDIVISLAB: +3.46%\nBHARTIARTL… https://t.co/00p0e6Cj2H', 'ADANIPORTS - Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations, 2011. https://t.co/SWvqmaATgV', '@AdaniKaran @Adaniports Hamen jab aap ki Pratiksha hai 🙏🏻', '#Tradingview #MIZone #ICMCBO #Shadow #Shunting View #ADANIPORTS #NimblrTA Details of indicator at… https://t.co/qxrmUOMK3t', 'JULY MONTH\n🙋TODAYS GAINING POINTS🙋\n1.--INDEX BANKNIFTY OPTION\nGAINING POINTS :- 200 POINTS 💸💸\nTOTAL GAIN POINT :- 2… https://t.co/wFMAZrlXqe', '#Nifty Closed at 15923.4\n#Sensex Closed at 53140.0\n #HCLTECH #EICHERMOT #INFY #BAJAJFINSV #ADANIPORTS #ICICIBANK… https://t.co/nqEEi5JCz1', '#BreakingNews #stockmarket #marketupdate #UPDATE #NewsUpdates #nifty #nifty50 #Sensex #banknifty #Toplosers… https://t.co/BtbQmcHVfp', 'Top Losers\n\nHCLTECH     -3.25 %\nEICHERMOT   -1.81 %\nINFY        -1.52 %\nBAJAJFINSV  -1.49 %\nADANIPORTS  -1.44 %\nTAT… https://t.co/Vj43kExmDm', 'RT @AlertTrade: Trading Ideas: Short Adaniports https://t.co/z8h23VUxLp 📈 FREE trade-of-week via ⟶ https://t.co/BCEHq7Ce2N https://t.co/MXv…', 'Top Losers\n\nHCLTECH     -3.10 %\nEICHERMOT   -1.99 %\nINFY        -1.43 %\nNTPC        -1.29 %\nADANIPORTS  -1.22 %\nBAJ… https://t.co/bJDDdg8Q0b', '#Adaniports, i can see a #Bearish #Continuationpattern. https://t.co/tPg8zLgnhV']
+[2021-07-16 16:21:37,338] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T162119, start_date=20210716T162134, end_date=20210716T162137
+[2021-07-16 16:21:37,503] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:21:37,571] {local_task_job.py:151} INFO - Task exited with return code 0

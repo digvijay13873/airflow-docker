@@ -1,0 +1,41 @@
+[2021-07-12 14:59:07,222] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T14:58:58.445289+00:00 [queued]>
+[2021-07-12 14:59:07,523] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T14:58:58.445289+00:00 [queued]>
+[2021-07-12 14:59:07,539] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 14:59:07,542] {taskinstance.py:1068} INFO - Starting attempt 1 of 2
+[2021-07-12 14:59:07,543] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 14:59:07,638] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-12T14:58:58.445289+00:00
+[2021-07-12 14:59:07,740] {standard_task_runner.py:52} INFO - Started process 4995 to run task
+[2021-07-12 14:59:07,766] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-12T14:58:58.445289+00:00', '--job-id', '38', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmp_4ag535k', '--error-file', '/tmp/tmpi2tgn7my']
+[2021-07-12 14:59:07,777] {standard_task_runner.py:77} INFO - Job 38: Subtask extract_task
+[2021-07-12 14:59:08,142] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-12T14:58:58.445289+00:00 [running]> on host f29b1d03ad56
+[2021-07-12 14:59:08,671] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-12T14:58:58.445289+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-12T14:58:58.445289+00:00
+[2021-07-12 15:02:28,476] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="daf4db0b-8582-4bc9-aeef-651a0c4fd552", element="623b32b8-04c7-4a06-bf3d-40673abf3d05")>]
+[2021-07-12 15:02:38,269] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB20 Microns Limited (20MICRONS.BO)
+[2021-07-12 15:02:38,274] {logging_mixin.py:104} INFO - 20MICRONS.BO
+[2021-07-12 15:03:37,677] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="daf4db0b-8582-4bc9-aeef-651a0c4fd552", element="d7d6786b-9d83-4dc3-93d7-08146ca3ce34")>]
+[2021-07-12 15:03:38,776] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB20 Microns Limited (20MICRONS.BO)
+[2021-07-12 15:03:38,811] {logging_mixin.py:104} INFO - 20MICRONS.BO
+[2021-07-12 15:03:38,873] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/seleniumtest.py", line 67, in extract
+    cur.execute("INSERT INTO tickers1 (keyword,companyName) values ('" + ticker + "','" + companyname + "')")
+psycopg2.InterfaceError: cursor already closed
+[2021-07-12 15:03:39,122] {taskinstance.py:1531} INFO - Marking task as UP_FOR_RETRY. dag_id=ticker_yahoo, task_id=extract_task, execution_date=20210712T145858, start_date=20210712T145907, end_date=20210712T150339
+[2021-07-12 15:03:39,833] {local_task_job.py:151} INFO - Task exited with return code 1

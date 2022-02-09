@@ -1,0 +1,560 @@
+[2021-07-20 13:25:49,146] {scheduler_job.py:182} INFO - Started process (PID=65) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:25:49,150] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:25:49,161] {logging_mixin.py:104} INFO - [2021-07-20 13:25:49,160] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:25:49,494] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:25:59,693] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:25:59,697] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:26:02,784] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:26:02,822] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 13.693 seconds
+[2021-07-20 13:26:33,720] {scheduler_job.py:182} INFO - Started process (PID=110) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:26:33,725] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:26:33,727] {logging_mixin.py:104} INFO - [2021-07-20 13:26:33,727] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:26:33,851] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:27:02,536] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:27:02,539] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:27:03,777] {logging_mixin.py:104} INFO - [2021-07-20 13:27:03,773] {timeout.py:36} ERROR - Process timed out, PID: 110
+[2021-07-20 13:27:19,925] {logging_mixin.py:104} INFO - [2021-07-20 13:27:03,785] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/newdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/newdag.py", line 24, in <module>
+    from GoogleNews import GoogleNews
+  File "/home/airflow/.local/lib/python3.6/site-packages/GoogleNews/__init__.py", line 5, in <module>
+    import dateparser, copy
+  File "/home/airflow/.local/lib/python3.6/site-packages/dateparser/__init__.py", line 3, in <module>
+    from .date import DateDataParser
+  File "/home/airflow/.local/lib/python3.6/site-packages/dateparser/date.py", line 9, in <module>
+    from dateparser.date_parser import date_parser
+  File "/home/airflow/.local/lib/python3.6/site-packages/dateparser/date_parser.py", line 3, in <module>
+    from .timezone_parser import pop_tz_offset_from_string
+  File "/home/airflow/.local/lib/python3.6/site-packages/dateparser/timezone_parser.py", line 87, in <module>
+    _tz_offsets = list(build_tz_offsets(_search_regex_parts))
+  File "/home/airflow/.local/lib/python3.6/site-packages/dateparser/timezone_parser.py", line 71, in build_tz_offsets
+    yield get_offset(tz_obj, regex)
+  File "/home/airflow/.local/lib/python3.6/site-packages/dateparser/timezone_parser.py", line 62, in get_offset
+    'regex': re.compile(re.sub(repl, replw, regex % tz_obj[0]), re.IGNORECASE),
+  File "/home/airflow/.local/lib/python3.6/site-packages/regex/regex.py", line 351, in compile
+    return _compile(pattern, flags, ignore_unused, kwargs, _cache_all)
+  File "/home/airflow/.local/lib/python3.6/site-packages/regex/regex.py", line 629, in _compile
+    fs_code = _compile_firstset(info, parsed.get_firstset(reverse))
+  File "/home/airflow/.local/lib/python3.6/site-packages/regex/_regex_core.py", line 303, in _compile_firstset
+    fs = _check_firstset(info, reverse, fs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/regex/_regex_core.py", line 337, in _check_firstset
+    fs = fs.optimise(info, reverse, in_set=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/regex/_regex_core.py", line 3780, in optimise
+    m = m.optimise(info, reverse, in_set=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/regex/_regex_core.py", line 3780, in optimise
+    m = m.optimise(info, reverse, in_set=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/newdag.py after 30.0s, PID: 110
+[2021-07-20 13:27:20,103] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:27:20,288] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 46.579 seconds
+[2021-07-20 13:27:50,515] {scheduler_job.py:182} INFO - Started process (PID=168) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:27:50,518] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:27:50,522] {logging_mixin.py:104} INFO - [2021-07-20 13:27:50,521] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:27:50,652] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:27:55,538] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:27:55,551] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:27:58,846] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:27:59,331] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 8.823 seconds
+[2021-07-20 13:28:29,773] {scheduler_job.py:182} INFO - Started process (PID=208) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:28:29,780] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:28:29,783] {logging_mixin.py:104} INFO - [2021-07-20 13:28:29,782] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:28:30,045] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:28:32,498] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:28:32,501] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:28:35,822] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:28:35,900] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 6.140 seconds
+[2021-07-20 13:29:06,073] {scheduler_job.py:182} INFO - Started process (PID=245) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:29:06,079] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:29:06,081] {logging_mixin.py:104} INFO - [2021-07-20 13:29:06,081] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:29:06,236] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:29:08,971] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:29:08,975] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:29:11,759] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:29:11,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 5.749 seconds
+[2021-07-20 13:29:42,343] {scheduler_job.py:182} INFO - Started process (PID=278) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:29:42,347] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:29:42,351] {logging_mixin.py:104} INFO - [2021-07-20 13:29:42,350] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:29:42,520] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:29:53,601] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:29:53,606] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:29:57,363] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:29:57,603] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 15.275 seconds
+[2021-07-20 13:30:28,824] {scheduler_job.py:182} INFO - Started process (PID=328) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:30:28,828] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:30:28,838] {logging_mixin.py:104} INFO - [2021-07-20 13:30:28,835] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:30:29,005] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:30:34,427] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:30:34,430] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:30:37,650] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:30:38,153] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 9.341 seconds
+[2021-07-20 13:31:09,567] {scheduler_job.py:182} INFO - Started process (PID=360) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:31:09,590] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:31:09,593] {logging_mixin.py:104} INFO - [2021-07-20 13:31:09,593] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:31:09,777] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:31:30,773] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:31:30,781] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:31:34,822] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:31:34,906] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 25.350 seconds
+[2021-07-20 13:32:05,135] {scheduler_job.py:182} INFO - Started process (PID=406) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:32:05,141] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:32:05,150] {logging_mixin.py:104} INFO - [2021-07-20 13:32:05,149] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:32:05,893] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:32:32,338] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:32:32,342] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:32:38,768] {logging_mixin.py:104} INFO - [2021-07-20 13:32:38,767] {timeout.py:36} ERROR - Process timed out, PID: 406
+[2021-07-20 13:32:38,769] {logging_mixin.py:104} WARNING - Exception ignored in: <bound method Group.__del__ of <regex._regex_core.Group object at 0x7f0341440828>>
+[2021-07-20 13:32:38,776] {logging_mixin.py:104} WARNING - Traceback (most recent call last):
+[2021-07-20 13:32:38,778] {logging_mixin.py:104} WARNING -   File "/home/airflow/.local/lib/python3.6/site-packages/regex/_regex_core.py", line 3003, in __del__
+[2021-07-20 13:32:38,781] {logging_mixin.py:104} WARNING -     def __del__(self):
+[2021-07-20 13:32:38,782] {logging_mixin.py:104} WARNING -   File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+[2021-07-20 13:32:38,783] {logging_mixin.py:104} WARNING -     raise AirflowTaskTimeout(self.error_message)
+[2021-07-20 13:32:38,784] {logging_mixin.py:104} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/newdag.py after 30.0s, PID: 406
+[2021-07-20 13:32:45,392] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:32:45,431] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 40.309 seconds
+[2021-07-20 13:33:15,925] {scheduler_job.py:182} INFO - Started process (PID=428) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:33:15,928] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:33:15,930] {logging_mixin.py:104} INFO - [2021-07-20 13:33:15,929] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:33:15,993] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:33:17,458] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:33:17,460] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:33:18,523] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:33:18,561] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 2.641 seconds
+[2021-07-20 13:33:49,616] {scheduler_job.py:182} INFO - Started process (PID=468) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:33:49,619] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:33:49,621] {logging_mixin.py:104} INFO - [2021-07-20 13:33:49,621] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:33:49,699] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:33:51,145] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:33:51,147] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:33:52,601] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:33:52,622] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 3.012 seconds
+[2021-07-20 13:34:23,446] {scheduler_job.py:182} INFO - Started process (PID=507) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:34:23,450] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:34:23,453] {logging_mixin.py:104} INFO - [2021-07-20 13:34:23,452] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:34:23,522] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:34:25,740] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:34:25,742] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:34:27,637] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:34:27,664] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 4.224 seconds
+[2021-07-20 13:35:10,264] {scheduler_job.py:182} INFO - Started process (PID=529) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:35:10,267] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:35:10,269] {logging_mixin.py:104} INFO - [2021-07-20 13:35:10,269] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:35:10,375] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:35:12,231] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:35:12,248] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:35:14,285] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:35:14,324] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 4.066 seconds
+[2021-07-20 13:35:45,302] {scheduler_job.py:182} INFO - Started process (PID=552) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:35:45,304] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:35:45,306] {logging_mixin.py:104} INFO - [2021-07-20 13:35:45,306] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:35:45,367] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:35:47,058] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:35:47,059] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:35:48,004] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:35:48,034] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 2.736 seconds
+[2021-07-20 13:40:48,013] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:40:48,021] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:40:48,023] {logging_mixin.py:104} INFO - [2021-07-20 13:40:48,023] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:40:48,118] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:40:50,816] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:40:50,827] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:40:52,890] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:40:52,923] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 4.918 seconds
+[2021-07-20 13:41:23,057] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:41:23,194] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:41:23,196] {logging_mixin.py:104} INFO - [2021-07-20 13:41:23,196] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:41:24,098] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:41:31,850] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:41:31,854] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:41:33,911] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:41:33,943] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 10.895 seconds
+[2021-07-20 13:42:04,104] {scheduler_job.py:182} INFO - Started process (PID=133) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:42:04,116] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:42:04,118] {logging_mixin.py:104} INFO - [2021-07-20 13:42:04,117] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:42:04,193] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:42:09,111] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:42:09,113] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:42:11,234] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:42:11,262] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 7.160 seconds
+[2021-07-20 13:42:41,587] {scheduler_job.py:182} INFO - Started process (PID=172) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:42:41,589] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:42:41,591] {logging_mixin.py:104} INFO - [2021-07-20 13:42:41,591] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:42:41,662] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:42:43,133] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:42:43,142] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:42:44,470] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:42:44,500] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 2.918 seconds
+[2021-07-20 13:43:15,046] {scheduler_job.py:182} INFO - Started process (PID=210) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:43:15,115] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:43:15,117] {logging_mixin.py:104} INFO - [2021-07-20 13:43:15,117] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:43:15,349] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:43:31,727] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:43:31,729] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:43:36,008] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:43:36,086] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 21.127 seconds
+[2021-07-20 13:44:16,649] {scheduler_job.py:182} INFO - Started process (PID=245) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:44:16,654] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:44:16,659] {logging_mixin.py:104} INFO - [2021-07-20 13:44:16,659] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:44:16,735] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:44:23,529] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:44:23,537] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:44:40,533] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:44:40,598] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 23.968 seconds
+[2021-07-20 13:45:12,985] {scheduler_job.py:182} INFO - Started process (PID=302) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:45:13,107] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:45:13,142] {logging_mixin.py:104} INFO - [2021-07-20 13:45:13,141] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:45:14,049] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:45:28,283] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:45:28,287] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:45:30,702] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:45:30,783] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 17.822 seconds
+[2021-07-20 13:46:04,282] {scheduler_job.py:182} INFO - Started process (PID=348) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:46:04,291] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:46:04,295] {logging_mixin.py:104} INFO - [2021-07-20 13:46:04,295] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:46:04,688] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:46:11,129] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:46:11,131] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:46:15,415] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:46:15,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 11.264 seconds
+[2021-07-20 13:46:46,431] {scheduler_job.py:182} INFO - Started process (PID=370) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:46:46,435] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:46:46,439] {logging_mixin.py:104} INFO - [2021-07-20 13:46:46,439] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:46:46,553] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:46:49,181] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:46:49,193] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:46:53,253] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:46:53,294] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 6.878 seconds
+[2021-07-20 13:47:24,364] {scheduler_job.py:182} INFO - Started process (PID=409) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:47:24,369] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:47:24,373] {logging_mixin.py:104} INFO - [2021-07-20 13:47:24,372] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:47:24,551] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:47:36,335] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:47:36,337] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:47:43,201] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:47:43,265] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 18.908 seconds
+[2021-07-20 13:48:13,775] {scheduler_job.py:182} INFO - Started process (PID=452) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:48:13,839] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:48:13,855] {logging_mixin.py:104} INFO - [2021-07-20 13:48:13,855] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:48:14,549] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:48:26,531] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:48:26,533] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:48:30,750] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:48:30,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 17.258 seconds
+[2021-07-20 13:49:01,837] {scheduler_job.py:182} INFO - Started process (PID=503) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:49:01,840] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:49:01,842] {logging_mixin.py:104} INFO - [2021-07-20 13:49:01,842] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:49:01,945] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:49:04,313] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:49:04,315] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:49:05,683] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:49:05,712] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 3.880 seconds
+[2021-07-20 13:49:36,360] {scheduler_job.py:182} INFO - Started process (PID=548) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:49:36,364] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:49:36,365] {logging_mixin.py:104} INFO - [2021-07-20 13:49:36,365] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:49:36,436] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:49:38,740] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:49:38,742] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:49:39,680] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:49:39,705] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 3.349 seconds
+[2021-07-20 13:50:11,829] {scheduler_job.py:182} INFO - Started process (PID=587) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:50:11,838] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:50:11,841] {logging_mixin.py:104} INFO - [2021-07-20 13:50:11,841] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:50:11,949] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:50:17,783] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:50:17,786] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:50:20,671] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:50:20,743] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 8.922 seconds
+[2021-07-20 13:51:11,111] {scheduler_job.py:182} INFO - Started process (PID=627) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:51:11,117] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:51:11,119] {logging_mixin.py:104} INFO - [2021-07-20 13:51:11,119] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:51:11,293] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:51:13,872] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:51:13,878] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:51:18,540] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:51:18,590] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 7.483 seconds
+[2021-07-20 13:51:50,454] {scheduler_job.py:182} INFO - Started process (PID=631) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:51:50,504] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:51:50,537] {logging_mixin.py:104} INFO - [2021-07-20 13:51:50,536] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:51:50,721] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:52:15,947] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-20 13:52:15,949] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-20 13:52:20,710] {logging_mixin.py:104} INFO - [2021-07-20 13:52:20,710] {timeout.py:36} ERROR - Process timed out, PID: 631
+[2021-07-20 13:52:26,066] {logging_mixin.py:104} INFO - [2021-07-20 13:52:20,712] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/newdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/newdag.py", line 24, in <module>
+    from GoogleNews import GoogleNews
+  File "/home/airflow/.local/lib/python3.6/site-packages/GoogleNews/__init__.py", line 6, in <module>
+    from bs4 import BeautifulSoup as Soup, ResultSet
+  File "/home/airflow/.local/lib/python3.6/site-packages/bs4/__init__.py", line 32, in <module>
+    from .builder import builder_registry, ParserRejectedMarkup
+  File "/home/airflow/.local/lib/python3.6/site-packages/bs4/builder/__init__.py", line 7, in <module>
+    from bs4.element import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/bs4/element.py", line 12, in <module>
+    import soupsieve
+  File "/home/airflow/.local/lib/python3.6/site-packages/soupsieve/__init__.py", line 29, in <module>
+    from . import css_parser as cp
+  File "/home/airflow/.local/lib/python3.6/site-packages/soupsieve/css_parser.py", line 420, in <module>
+    class CSSParser(object):
+  File "/home/airflow/.local/lib/python3.6/site-packages/soupsieve/css_parser.py", line 436, in CSSParser
+    ("pseudo_dir", (':dir',), PAT_PSEUDO_DIR, SelectorPattern)
+  File "/home/airflow/.local/lib/python3.6/site-packages/soupsieve/css_parser.py", line 323, in __init__
+    pattern = p[3](name, p[2])
+  File "/home/airflow/.local/lib/python3.6/site-packages/soupsieve/css_parser.py", line 301, in __init__
+    self.re_pattern = re.compile(pattern, re.I | re.X | re.U)
+  File "/usr/local/lib/python3.6/re.py", line 233, in compile
+    return _compile(pattern, flags)
+  File "/usr/local/lib/python3.6/re.py", line 301, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 566, in compile
+    code = _code(p, flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 551, in _code
+    _compile(code, p.data, flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 146, in _compile
+    _compile(code, p, (flags | add_flags) & ~del_flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 146, in _compile
+    _compile(code, p, (flags | add_flags) & ~del_flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 187, in _compile
+    _compile(code, av, flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 134, in _compile
+    _compile(code, av[2], flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 146, in _compile
+    _compile(code, p, (flags | add_flags) & ~del_flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 146, in _compile
+    _compile(code, p, (flags | add_flags) & ~del_flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 187, in _compile
+    _compile(code, av, flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 134, in _compile
+    _compile(code, av[2], flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 146, in _compile
+    _compile(code, p, (flags | add_flags) & ~del_flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 187, in _compile
+    _compile(code, av, flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 146, in _compile
+    _compile(code, p, (flags | add_flags) & ~del_flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 146, in _compile
+    _compile(code, p, (flags | add_flags) & ~del_flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 187, in _compile
+    _compile(code, av, flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 134, in _compile
+    _compile(code, av[2], flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 146, in _compile
+    _compile(code, p, (flags | add_flags) & ~del_flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 187, in _compile
+    _compile(code, av, flags)
+  File "/usr/local/lib/python3.6/sre_compile.py", line 72, in _compile
+    if (flags & SRE_FLAG_IGNORECASE and
+  File "/usr/local/lib/python3.6/enum.py", line 806, in __and__
+    return self.__class__(self._value_ & self.__class__(other)._value_)
+  File "/usr/local/lib/python3.6/enum.py", line 293, in __call__
+    return cls.__new__(cls, value)
+  File "/usr/local/lib/python3.6/enum.py", line 521, in __new__
+    if type(value) is cls:
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/newdag.py after 30.0s, PID: 631
+[2021-07-20 13:52:26,083] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:52:26,147] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 35.734 seconds
+[2021-07-20 13:52:56,833] {scheduler_job.py:182} INFO - Started process (PID=645) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:52:56,837] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:52:56,841] {logging_mixin.py:104} INFO - [2021-07-20 13:52:56,841] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:52:57,024] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:53:30,540] {logging_mixin.py:104} INFO - [2021-07-20 13:53:30,539] {timeout.py:36} ERROR - Process timed out, PID: 645
+[2021-07-20 13:53:38,739] {logging_mixin.py:104} INFO - [2021-07-20 13:53:30,544] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/newdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/newdag.py", line 19, in <module>
+    import nltk
+  File "/home/airflow/.local/lib/python3.6/site-packages/nltk/__init__.py", line 128, in <module>
+    from nltk.collocations import *
+  File "/home/airflow/.local/lib/python3.6/site-packages/nltk/collocations.py", line 39, in <module>
+    from nltk.metrics import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/nltk/metrics/__init__.py", line 39, in <module>
+    from nltk.metrics.association import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/nltk/metrics/association.py", line 27, in <module>
+    from scipy.stats import fisher_exact
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1157, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1129, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1241, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 82, in _path_stat
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/newdag.py after 30.0s, PID: 645
+[2021-07-20 13:53:41,159] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/newdag.py
+[2021-07-20 13:53:45,401] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/newdag.py took 48.573 seconds
+[2021-07-20 13:54:45,496] {scheduler_job.py:182} INFO - Started process (PID=670) to work on /opt/airflow/dags/newdag.py
+[2021-07-20 13:54:45,507] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/newdag.py for tasks to queue
+[2021-07-20 13:54:45,512] {logging_mixin.py:104} INFO - [2021-07-20 13:54:45,512] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/newdag.py
+[2021-07-20 13:54:45,721] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-20 13:54:49,783] {logging_mixin.py:104} INFO - [2021-07-20 13:54:49,782] {process_utils.py:207} INFO - Waiting up to 5 seconds for processes to exit...

@@ -1,0 +1,22 @@
+[2021-07-16 16:59:37,979] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:59:28.369482+00:00 [queued]>
+[2021-07-16 16:59:38,024] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:59:28.369482+00:00 [queued]>
+[2021-07-16 16:59:38,026] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:59:38,026] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:59:38,027] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:59:38,054] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:59:28.369482+00:00
+[2021-07-16 16:59:38,078] {standard_task_runner.py:52} INFO - Started process 10432 to run task
+[2021-07-16 16:59:38,087] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:59:28.369482+00:00', '--job-id', '1371', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpe7yh4tvi', '--error-file', '/tmp/tmpxg1701k9']
+[2021-07-16 16:59:38,089] {standard_task_runner.py:77} INFO - Job 1371: Subtask extract_tweets
+[2021-07-16 16:59:38,194] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:59:28.369482+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:59:38,314] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:59:28.369482+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:59:25.996024+00:00
+[2021-07-16 16:59:39,386] {python.py:151} INFO - Done. Returned value was: ['#AARTIIND - Aarti Industries - Early Catch of Upswing (Repost) - TradingView - https://t.co/fTxXWjb8rn', 'NR7 IB Scanner: AARTIIND, AMBUJACEM, BANKNIFTY, COFORGE, DEEPAKNTR, GUJGASLTD, JSWSTEEL, MARUTI, MOTHERSUMI, MUTHOO… https://t.co/eoBwGXjZv4', '#AARTIIND #aartiindustries #StockMarket #stocks #StocksToWatch #TradingView \n\nSetup - Volatility contraction + 50EM… https://t.co/pGbarNry5E', 'AARTIIND - Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate https://t.co/DwUWgDC4tz', 'Stock gave a decent run-up previously and consolidated nicely. Looks poised for a run-up if there is a bullish reve… https://t.co/KsRcGrAHPe', '#AARTIIND - Aarti Industries Long Set-up - TradingView - https://t.co/wamN8ITqM6', 'AARTIIND - Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018 https://t.co/Dus6eOrTKU', 'AARTIIND - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/tIRk9RdicC', '#TradebullsMarketScanner - Daily market updates from Tradebulls Securities \n\n#AARTIIND #BATAINDIA #ISEC #SUNTV… https://t.co/oy1K4VzqeE', '@Mahesh69633660 wooohooo 😍\nBTW, what do you think about this Mam?👇\nI see a Upside in AARTIIND in Coming Days...\nThi… https://t.co/mKy8UEiP75', '@Alpha20_ Buy-and-Hold investors in #AARTIIND experienced a maximum drawdown of -17.38% over the last year.\n\nIt del… https://t.co/gVIB3sxVJn', "@Alpha20_ I'm a bot that helps investors identify the trend of stocks. Just tweet \n\n@SpotalphaIndia #AARTIIND, #PRAJIND\n\nand see the reply 👇", 'ICICIDirect  BUY #AARTIIND at 960, Open 861, 52wk(931.83 - 445.70). Analyst acc perc./total (11.11 / 126). Week tre… https://t.co/3Jdjd0YQlr', '#OPTION VIEW\n#AARTIIND 870CE Buy Near @17 with STOP LOSS - 14 TARGET - OPEN.', 'RT @Alpha20_: Keep eye on #AARTIIND and #PRAJIND \n\nLooking good on daily chart\n\n#StockstoWatch #Trading #Business']
+[2021-07-16 16:59:39,478] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T165928, start_date=20210716T165937, end_date=20210716T165939
+[2021-07-16 16:59:39,545] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:59:39,587] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-14 14:16:55,493] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:16:43.299665+00:00 [queued]>
+[2021-07-14 14:16:55,641] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:16:43.299665+00:00 [queued]>
+[2021-07-14 14:16:55,643] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:16:55,644] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:16:55,646] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:16:55,712] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-14T14:16:43.299665+00:00
+[2021-07-14 14:16:55,766] {standard_task_runner.py:52} INFO - Started process 3962 to run task
+[2021-07-14 14:16:55,790] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-14T14:16:43.299665+00:00', '--job-id', '254', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpufgoc19c', '--error-file', '/tmp/tmpq4z2bjzx']
+[2021-07-14 14:16:55,883] {standard_task_runner.py:77} INFO - Job 254: Subtask extract_tweets
+[2021-07-14 14:16:56,290] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:16:43.299665+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:16:56,626] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:16:43.299665+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:16:43.299665+00:00
+[2021-07-14 14:16:58,269] {python.py:151} INFO - Done. Returned value was: ['Stocks showing weakness : 07/14\n\nAartiDrugs\nADF foods\nAffle\nAmaraja batteries\nRosari\nSymphony\n3MIndia\nCholaFin\nVali… https://t.co/w4ZcpUgc7n', '#Update \n\n#BombayDyeing\n#AartiDrugs\n\n#Bombaydyeing: 86.7&lt;102  ( 17.64%)📈\n#AartiDrugs : 724&lt;750 (3%)\n\n#stocks… https://t.co/iJUv2bC9Tm', 'RT @mtm_method: The jolt on economy due to #lockdown was reflected initially but #indices started surging later. Here are 7 stocks from #BS…', 'RT @ayu_meel: Stocks to watch for next week-\n\n#jindalpoly\n#ratanamalik\n#wipro\n#diamond\n#sunteck \n#dlink\n#sonatasoftware\n#aartidrugs\n#vetosw…', '@IntradayGeeks Aartidrugs drugs at 725.\nLic housing at 465. Will hold till Dec.What can be target', '#AARTIDRUGS Making triangle Pattern. Potential target of 40%. Can enter now or wait for retest on the trend line.\nP… https://t.co/yoxArPdsqA', 'Stocks to watch for next week-\n\n#jindalpoly\n#ratanamalik\n#wipro\n#diamond\n#sunteck \n#dlink\n#sonatasoftware… https://t.co/Q0GDZWRxGN', 'Good time to enter?\n\nAARTIDRUGS\nWHIRLPOOL\nBANDHANBNK\nBRITANNIA\nHEROMOTOCO\nJCHAC', 'Paul Torres-Cohen $AARTIDRUGS.NS', '#AARTIDRUGS #frontpage_app https://t.co/UPy9SJ9gsn', 'Whn there was dip, cash used to be invested in something else.Few stocks which were booked just on 3x-4x in expecta… https://t.co/AGClqT0bYD', '@gaurang9007 #AARTIDRUGS 😬', '#AARTIDRUGS - Intraday aarti drugs - TradingView - https://t.co/rB3VZP2Y7u', 'RT @Rishikesh_ADX: #AartiDrugs https://t.co/6vp9FED7F1', 'Aarti Drugs Weekly Chart Analysis\nResistance 811-836\nSupport 615-628\n\nDaily 3 Swing or Positional Stock Analysis Vi… https://t.co/O3bVs59yJO']
+[2021-07-14 14:16:58,332] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210714T141643, start_date=20210714T141655, end_date=20210714T141658
+[2021-07-14 14:16:58,421] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:16:58,479] {local_task_job.py:151} INFO - Task exited with return code 0

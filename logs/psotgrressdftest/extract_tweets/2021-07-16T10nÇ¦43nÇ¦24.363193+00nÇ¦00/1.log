@@ -1,0 +1,22 @@
+[2021-07-16 10:43:34,630] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:43:24.363193+00:00 [queued]>
+[2021-07-16 10:43:34,677] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:43:24.363193+00:00 [queued]>
+[2021-07-16 10:43:34,679] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:43:34,680] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:43:34,681] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:43:34,719] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:43:24.363193+00:00
+[2021-07-16 10:43:34,748] {standard_task_runner.py:52} INFO - Started process 2483 to run task
+[2021-07-16 10:43:34,763] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:43:24.363193+00:00', '--job-id', '655', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpxz6aujxk', '--error-file', '/tmp/tmpgmamoeys']
+[2021-07-16 10:43:34,767] {standard_task_runner.py:77} INFO - Job 655: Subtask extract_tweets
+[2021-07-16 10:43:34,896] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:43:24.363193+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:43:35,020] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:43:24.363193+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:43:21.874908+00:00
+[2021-07-16 10:43:36,002] {python.py:151} INFO - Done. Returned value was: ['#Nifty Closed at 15923.4\n#Sensex Closed at 53140.0\n #HCLTECH #EICHERMOT #INFY #BAJAJFINSV #ADANIPORTS #ICICIBANK… https://t.co/nqEEi5JCz1', '#BreakingNews #stockmarket #marketupdate #UPDATE #NewsUpdates #nifty #nifty50 #Sensex #banknifty #Toplosers… https://t.co/BtbQmcHVfp', 'Top Losers\n\nHCLTECH     -3.25 %\nEICHERMOT   -1.81 %\nINFY        -1.52 %\nBAJAJFINSV  -1.49 %\nADANIPORTS  -1.44 %\nTAT… https://t.co/Vj43kExmDm', 'RT @AlertTrade: Trading Ideas: Short Adaniports https://t.co/z8h23VUxLp 📈 FREE trade-of-week via ⟶ https://t.co/BCEHq7Ce2N https://t.co/MXv…', 'Top Losers\n\nHCLTECH     -3.10 %\nEICHERMOT   -1.99 %\nINFY        -1.43 %\nNTPC        -1.29 %\nADANIPORTS  -1.22 %\nBAJ… https://t.co/bJDDdg8Q0b', '#Adaniports, i can see a #Bearish #Continuationpattern. https://t.co/tPg8zLgnhV', 'Trading Ideas: Short Adaniports https://t.co/z8h23VUxLp 📈 FREE trade-of-week via ⟶ https://t.co/BCEHq7Ce2N https://t.co/MXvv1CyzR6', "ORB Impulse Trades(Intraday): 'ADANIPORTS#/SELL @ 689.15/ T1:682.25/659.10/ SL:694.25/DTRL:4.09/OVLP:688.8(0.06%)//… https://t.co/0vCOQW1mib", 'Top Losers\n\nHCLTECH     -3.74 %\nEICHERMOT   -1.68 %\nINFY        -1.64 %\nADANIPORTS  -1.49 %\nTECHM       -1.45 %\nSHR… https://t.co/I1NzXzVe8q', '@karismaticrahul @kuttrapali26 On a weekly close below 690, Adani Ports in the short term could be headed lower tow… https://t.co/LFkBHf6IDF', 'Alert Sell #ADANIPORTS CMP: 690.85 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts… https://t.co/3KBgcyBQb7', 'Top Losers\n\nHCLTECH     -3.83 %\nTECHM       -1.90 %\nINFY        -1.45 %\nEICHERMOT   -1.29 %\nADANIPORTS  -1.20 %\nICI… https://t.co/EtVgwedtl9', 'Pullback Sell #ADANIPORTS 690 7/16/2021 12:15:00 PM SL: 702.9 T1: 680.2 #NimblrTA #Amibroker Alerts delayed by 20 m… https://t.co/lzH210xO7W', 'ADANIPORTS - Shareholding for the Period Ended June 30, 2021 https://t.co/cmn0NSynCs', 'Top Losers\n\nHCLTECH     -3.55 %\nTECHM       -2.33 %\nEICHERMOT   -1.41 %\nINFY        -1.32 %\nTATACONSUM  -1.13 %\nSHR… https://t.co/1tCf4FrsTb']
+[2021-07-16 10:43:36,046] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T104324, start_date=20210716T104334, end_date=20210716T104336
+[2021-07-16 10:43:36,126] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:43:36,176] {local_task_job.py:151} INFO - Task exited with return code 0

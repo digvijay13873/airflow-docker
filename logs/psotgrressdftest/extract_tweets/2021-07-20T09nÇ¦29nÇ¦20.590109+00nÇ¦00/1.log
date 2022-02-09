@@ -1,0 +1,22 @@
+[2021-07-20 09:30:02,139] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:29:20.590109+00:00 [queued]>
+[2021-07-20 09:30:02,792] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:29:20.590109+00:00 [queued]>
+[2021-07-20 09:30:02,794] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:30:02,796] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:30:02,797] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:30:02,939] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:29:20.590109+00:00
+[2021-07-20 09:30:03,023] {standard_task_runner.py:52} INFO - Started process 604 to run task
+[2021-07-20 09:30:03,025] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:29:20.590109+00:00', '--job-id', '1767', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp3aeq3wgg', '--error-file', '/tmp/tmphe81l3zt']
+[2021-07-20 09:30:03,030] {standard_task_runner.py:77} INFO - Job 1767: Subtask extract_tweets
+[2021-07-20 09:30:11,210] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:29:20.590109+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:30:11,555] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:29:20.590109+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:28:59.664824+00:00
+[2021-07-20 09:30:12,907] {python.py:151} INFO - Done. Returned value was: ['AKSHOPTFBR - Shareholding for the Period Ended June 30, 2021 https://t.co/jYPXhOfMPM', '#AKSHOPTFBR last week surged to touch peak profit of 83% https://t.co/91RgbrkoFr', 'Bought #AKSHOPTFBR at 9.95\n\nI Follow my "Stop-Loss Rule" very Strictly &amp; I also keep Revising my SL Value Every Wee… https://t.co/yvUcSRTh2l', '#Chapter_042\n8 July 2021\n\nAdded Aksh Optifibre #AKSHOPTFBR in my Portfolio at 9.95\n\nFor Study Purpose, You may chec… https://t.co/d1FAGhVkYO', 'Some more names to add on is #ABAN #MCLEODRUSS #JPPOWER #AKSHOPTFBR #AARON which performing strong .. https://t.co/PkAve2R5A0', 'Upper Circuit Days....\n10 Stock from Portfolio 🙂\nRarely Happens\n\n#PREMEXPLN\n#AKSHOPTFBR\n#ZODIACLOTH\n#JISLJALEQS… https://t.co/imqf1m82vJ', 'RT @arpit_goel_: #MHRIL 13%\n#FINCABLES 8%\n#LINCOLN 8%\n#EXCELINDUS 7%\n#AKSHOPTFBR 5%\n\nWhat else you want in free ? Except lincoln holding al…', '#MHRIL 13%\n#FINCABLES 8%\n#LINCOLN 8%\n#EXCELINDUS 7%\n#AKSHOPTFBR 5%\n\nWhat else you want in free ? Except lincoln hol… https://t.co/Tsa0UaNTo9', 'RT @5xMultibagger: #Alert \nGoogle SpreadSheet is now updated with 9 Confirmed Stock from Chapter 41 to 49. Revised SL is also updated as pe…', 'RT @5xMultibagger: #JINDWORLD\n#KAYA\n#GUJALKALI\n#AKSHOPTFBR\n#EDELWEISS\n#Centum\n#ONMOBILE\n#VARDHACRLC\n\nAll the above Stocks are crossing the…', 'RT @5xMultibagger: #Alert \nGoogle SpreadSheet is now updated with 9 Confirmed Stock from Chapter 41 to 49. Revised SL is also updated as pe…', '#Alert \nGoogle SpreadSheet is now updated with 9 Confirmed Stock from Chapter 41 to 49. Revised SL is also updated… https://t.co/OR9oM1IHMT', '#JINDWORLD\n#KAYA\n#GUJALKALI\n#AKSHOPTFBR\n#EDELWEISS\n#Centum\n#ONMOBILE\n#VARDHACRLC\n\nAll the above Stocks are crossing… https://t.co/027LoHWmzG']
+[2021-07-20 09:30:13,375] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T092920, start_date=20210720T093002, end_date=20210720T093013
+[2021-07-20 09:30:13,592] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:30:13,676] {local_task_job.py:151} INFO - Task exited with return code 0

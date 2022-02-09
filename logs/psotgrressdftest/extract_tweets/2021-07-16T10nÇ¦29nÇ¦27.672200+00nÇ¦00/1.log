@@ -1,0 +1,22 @@
+[2021-07-16 10:29:37,156] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:29:27.672200+00:00 [queued]>
+[2021-07-16 10:29:37,189] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:29:27.672200+00:00 [queued]>
+[2021-07-16 10:29:37,191] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:29:37,192] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:29:37,193] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:29:37,221] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:29:27.672200+00:00
+[2021-07-16 10:29:37,237] {standard_task_runner.py:52} INFO - Started process 1364 to run task
+[2021-07-16 10:29:37,246] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:29:27.672200+00:00', '--job-id', '527', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpj7o85f6o', '--error-file', '/tmp/tmpcfrw561f']
+[2021-07-16 10:29:37,248] {standard_task_runner.py:77} INFO - Job 527: Subtask extract_tweets
+[2021-07-16 10:29:37,348] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:29:27.672200+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:29:37,455] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:29:27.672200+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:29:25.471698+00:00
+[2021-07-16 10:29:38,018] {python.py:151} INFO - Done. Returned value was: ['AARVEEDEN - Loss Of Share Certificate  https://t.co/fH4GHIBwdH', 'https://t.co/eHiQCIV9E9 PREOPEN\n\nBE TO EQ FROM JUL 20TH : 63MOONS, A2ZINFRA, AARON, AARVEEDEN, ABAN, AJOONI, ALPA,… https://t.co/cmDRl9YX4m', 'AARVEEDEN - Disclosures under Reg. 29(1) &amp; 29(2) of SEBI (SAST) Regulations, 2011 https://t.co/kgUWi6htHB', 'AARVEEDEN - Disclosures under Reg. 29(1) &amp; 29(2) of SEBI (SAST) Regulations, 2011 https://t.co/3pOzgG3ff5']
+[2021-07-16 10:29:38,063] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T102927, start_date=20210716T102937, end_date=20210716T102938
+[2021-07-16 10:29:38,119] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:29:38,141] {local_task_job.py:151} INFO - Task exited with return code 0

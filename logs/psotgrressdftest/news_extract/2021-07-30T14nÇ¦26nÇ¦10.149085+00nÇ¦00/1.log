@@ -1,0 +1,23 @@
+[2021-07-30 14:26:19,285] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-30T14:26:10.149085+00:00 [queued]>
+[2021-07-30 14:26:19,537] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-30T14:26:10.149085+00:00 [queued]>
+[2021-07-30 14:26:19,548] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:26:19,561] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-30 14:26:19,579] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:26:19,729] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-30T14:26:10.149085+00:00
+[2021-07-30 14:26:19,786] {standard_task_runner.py:52} INFO - Started process 2253 to run task
+[2021-07-30 14:26:19,802] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-30T14:26:10.149085+00:00', '--job-id', '2177', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpb625kgtg', '--error-file', '/tmp/tmpl0qtph3n']
+[2021-07-30 14:26:19,819] {standard_task_runner.py:77} INFO - Job 2177: Subtask news_extract
+[2021-07-30 14:26:20,053] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-30T14:26:10.149085+00:00 [running]> on host 04be2259e97a
+[2021-07-30 14:26:20,308] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-30T14:26:10.149085+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-30T14:26:06.134727+00:00
+[2021-07-30 14:26:20,364] {logging_mixin.py:104} INFO - 3P LAND HOLDINGS LTD.
+[2021-07-30 14:27:46,251] {python.py:151} INFO - Done. Returned value was: ['Companies and stocks to watch: October 29, 2020', 'Buzzing Stocks: Shree Cement, JSW Steel, United Spirits and others that will be in focus today', 'Trade setup for Monday: Top 15 things to know before Opening Bell', 'Sensex tanks! But these stocks are up 10%', 'Top 10 things to know before the market opens', 'Single-use plastic ban sees paper stocks rally. Are the gains sustainable?', 'Ahead of Market: 12 things that will decide stock action on Tuesday', 'Important results today: Grasim Industries, India Cements, Mahanagar Gas, Barbeque-Nation Hospitality', 'These 8 stocks below Rs 20 rise up to 20% today']
+[2021-07-30 14:27:46,291] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210730T142610, start_date=20210730T142619, end_date=20210730T142746
+[2021-07-30 14:27:46,348] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-30 14:27:46,401] {local_task_job.py:151} INFO - Task exited with return code 0

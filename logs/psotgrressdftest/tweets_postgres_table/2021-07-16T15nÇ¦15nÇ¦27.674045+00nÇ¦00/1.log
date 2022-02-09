@@ -1,0 +1,22 @@
+[2021-07-16 15:15:57,882] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T15:15:27.674045+00:00 [queued]>
+[2021-07-16 15:15:57,990] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T15:15:27.674045+00:00 [queued]>
+[2021-07-16 15:15:57,992] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:15:57,994] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 15:15:57,997] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:15:58,032] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T15:15:27.674045+00:00
+[2021-07-16 15:15:58,121] {standard_task_runner.py:52} INFO - Started process 2970 to run task
+[2021-07-16 15:15:58,191] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T15:15:27.674045+00:00', '--job-id', '803', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpk3d4zomz', '--error-file', '/tmp/tmp7tyeh4j3']
+[2021-07-16 15:15:58,204] {standard_task_runner.py:77} INFO - Job 803: Subtask tweets_postgres_table
+[2021-07-16 15:15:58,561] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T15:15:27.674045+00:00 [running]> on host 13346afafa5b
+[2021-07-16 15:15:58,935] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T15:15:27.674045+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T15:15:22.845429+00:00
+[2021-07-16 15:15:59,129] {python.py:151} INFO - Done. Returned value was: 0
+[2021-07-16 15:15:59,465] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T151527, start_date=20210716T151557, end_date=20210716T151559
+[2021-07-16 15:16:00,393] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 15:16:00,543] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,37 @@
+[2021-07-15 14:01:38,184] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_trends 2021-07-15T13:59:00+00:00 [queued]>
+[2021-07-15 14:01:38,217] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_trends 2021-07-15T13:59:00+00:00 [queued]>
+[2021-07-15 14:01:38,218] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 14:01:38,219] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-15 14:01:38,220] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 14:01:38,248] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_trends> on 2021-07-15T13:59:00+00:00
+[2021-07-15 14:01:38,265] {standard_task_runner.py:52} INFO - Started process 3995 to run task
+[2021-07-15 14:01:38,272] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_trends', '2021-07-15T13:59:00+00:00', '--job-id', '429', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpdepwmldf', '--error-file', '/tmp/tmpk_golp5u']
+[2021-07-15 14:01:38,273] {standard_task_runner.py:77} INFO - Job 429: Subtask extract_trends
+[2021-07-15 14:01:38,348] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_trends 2021-07-15T13:59:00+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 14:01:38,449] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_trends
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T13:59:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-15T13:59:00+00:00
+[2021-07-15 14:01:38,471] {logging_mixin.py:104} INFO - ['3IINFOTECH.NS']
+[2021-07-15 14:01:50,594] {logging_mixin.py:104} INFO - AAAAAAAAAAAAAAAAAAAAAAAAAAAA[0.0, 0.0, 0.0, 0.0, 0.0]
+[2021-07-15 14:01:50,612] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/POSTGRESRSERS.py", line 148, in extract_trends
+    cur.execute("UPDATE stages SET trendsStage = trendsStage + 1 WHERE keyword = '" + ticker.replace("'", "''") + "'")
+AttributeError: 'list' object has no attribute 'replace'
+[2021-07-15 14:01:50,667] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=psotgrressdftest, task_id=extract_trends, execution_date=20210715T135900, start_date=20210715T140138, end_date=20210715T140150
+[2021-07-15 14:01:50,786] {local_task_job.py:151} INFO - Task exited with return code 1

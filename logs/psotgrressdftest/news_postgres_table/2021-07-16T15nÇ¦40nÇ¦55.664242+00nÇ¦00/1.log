@@ -1,0 +1,23 @@
+[2021-07-16 15:42:31,819] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T15:40:55.664242+00:00 [queued]>
+[2021-07-16 15:42:32,007] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T15:40:55.664242+00:00 [queued]>
+[2021-07-16 15:42:32,014] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:42:32,015] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 15:42:32,016] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:42:32,103] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_postgres_table> on 2021-07-16T15:40:55.664242+00:00
+[2021-07-16 15:42:32,184] {standard_task_runner.py:52} INFO - Started process 4676 to run task
+[2021-07-16 15:42:32,237] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_postgres_table', '2021-07-16T15:40:55.664242+00:00', '--job-id', '846', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp30vjtvsw', '--error-file', '/tmp/tmpr1olvjy0']
+[2021-07-16 15:42:32,251] {standard_task_runner.py:77} INFO - Job 846: Subtask news_postgres_table
+[2021-07-16 15:42:32,546] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T15:40:55.664242+00:00 [running]> on host 13346afafa5b
+[2021-07-16 15:42:32,857] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T15:40:55.664242+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T15:40:52.427851+00:00
+[2021-07-16 15:42:32,987] {logging_mixin.py:104} INFO - [('Meet the people paying $55 million each to fly to the space station', Decimal('0.0000')), ('Alienware Area-51m - Full Review and Benchmarks', Decimal('0.0000')), ('Middle East Construction News', Decimal('0.0000')), ('What is Doge?', Decimal('0.0000')), ('WikiLeaks demands answers after Google hands staff emails to US government', Decimal('0.0000')), ('As MySpace Sells for $35 Million, a History of the Network"s Valuation', Decimal('0.0000')), ('Spectacular photos from space', Decimal('0.0000')), ('Bitcoin: Why I Just Increased My Position By Another 33%', Decimal('0.2732')), ('First Drive: 2013 Ram 1500 - PickupTrucks.com News', Decimal('0.0000')), ('Meet the people paying $55 million each to fly to the space station', Decimal('0.0000')), ('Alienware Area-51m - Full Review and Benchmarks', Decimal('0.0000')), ('Middle East Construction News', Decimal('0.0000')), ('What is Doge?', Decimal('0.0000')), ('WikiLeaks demands answers after Google hands staff emails to US government', Decimal('0.0000')), ('As MySpace Sells for $35 Million, a History of the Network"s Valuation', Decimal('0.0000')), ('The $300m cable that will save traders milliseconds - Telegraph', Decimal('0.4939')), ('Spectacular photos from space', Decimal('0.0000')), ('Bitcoin: Why I Just Increased My Position By Another 33%', Decimal('0.2732')), ('First Drive: 2013 Ram 1500 - PickupTrucks.com News', Decimal('0.0000')), ('Meet the people paying $55 million each to fly to the space station', Decimal('0.0000')), ('Virgin V6 TV review: jack of all trades, master of none', Decimal('0.0000')), ('Alienware Area-51m - Full Review and Benchmarks', Decimal('0.0000')), ('First passenger drone makes its debut at CES', Decimal('0.0000')), ('Middle East Construction News', Decimal('0.0000')), ('What is Doge?', Decimal('0.0000')), ('WikiLeaks demands answers after Google hands staff emails to US government', Decimal('0.0000')), ('As MySpace Sells for $35 Million, a History of the Network"s Valuation', Decimal('0.0000')), ('Spectacular photos from space', Decimal('0.0000')), ('Bitcoin: Why I Just Increased My Position By Another 33%', Decimal('0.2732')), ('First Drive: 2013 Ram 1500 - PickupTrucks.com News', Decimal('0.0000'))]
+[2021-07-16 15:42:33,001] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 15:42:33,042] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_postgres_table, execution_date=20210716T154055, start_date=20210716T154231, end_date=20210716T154233
+[2021-07-16 15:42:33,207] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 15:42:33,266] {local_task_job.py:151} INFO - Task exited with return code 0

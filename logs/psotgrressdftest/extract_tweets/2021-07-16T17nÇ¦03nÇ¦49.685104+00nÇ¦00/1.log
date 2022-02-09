@@ -1,0 +1,22 @@
+[2021-07-16 17:03:59,825] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:03:49.685104+00:00 [queued]>
+[2021-07-16 17:03:59,899] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:03:49.685104+00:00 [queued]>
+[2021-07-16 17:03:59,903] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:03:59,913] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:03:59,915] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:03:59,960] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:03:49.685104+00:00
+[2021-07-16 17:03:59,991] {standard_task_runner.py:52} INFO - Started process 10797 to run task
+[2021-07-16 17:04:00,002] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:03:49.685104+00:00', '--job-id', '1420', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp2s11j8os', '--error-file', '/tmp/tmpkd1c6vbm']
+[2021-07-16 17:04:00,004] {standard_task_runner.py:77} INFO - Job 1420: Subtask extract_tweets
+[2021-07-16 17:04:00,144] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:03:49.685104+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:04:00,250] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:03:49.685104+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:03:46.415681+00:00
+[2021-07-16 17:04:01,479] {python.py:151} INFO - Done. Returned value was: ['RT @668Vedika: Pregnant nahi h anokhi, nahi yrrr....\nPoora ka poora Fandom CID join karne ki line mein hai ab..😂😂😜❤️\n\nSAAKK FANDOM-\n#Shaury…', 'RT @KarlaDeLaFuen16: La verdad si... https://t.co/mCU1pkgkCF', '@ThePushpendra_ RSS nhi ab ma aur beta damad sabka no. aa gaya ha Idli jane ka', 'RT @_EYODER_: The "Fit for 55" draft under the Green Deal has been announced.\nGreen Deal kapsamındaki "Fit for 55" taslağı açıklandı.\nAnıla…', '@HufsahZiza Ap kaha ab Hufsah?', 'RT @xguyx_: กรุ๊ปเลือดบอท\nA : เน็ตกระตุก ชอบตด อาบน้ำเก่ง\nO : หล่อสวย น่ารัก เก่ง แสนดี เฟรนลี่ โสด\nAB : แปรงฟันแรง ไม่มีกูเกิ้ล', 'RT @VQuaschning: Scheinheilig: Erst #Klimaschutz verhindern, dann mehr fordern.\nLieber @Markus_Soeder: Ohne #Windkraft kein Klimaschutz. In…', '@Giwa_Ab .', 'RT @AnwarBulediPPP: جنم🎂 دن🌷 مبارک🌷 پیارے بھائی مرتضیٰ بلوچ❤ \nHappy birthday 🎊💞🎂💞🎊\nTo you 💖 Dear brother 🎉\nGreat jiyala @MurtazaBalochPP 💞…', 'RT @Okay_Bye___: Ab sb tmhari mummy k jaise har roj naye ka intezam toh nhi krte.', '@MAsadAlii Agla to ab real hi lgana bs IA \U0001f970', '@Joanalistin Nope, Daten sind auch aus Passagierschiffe ab 1820 verfügbar die in NY an one gingen', 'RT @XpurpleflowerX: 10k + hogaya! Ab rt zoro shoro se karo!! We need to get the numbers up \n\n#AurrishtAsAnidita', 'RT @Karl_Lauterbach: (1) Man sollte nicht übertreiben. Was aber ab Montag in UK an Öffnungen geplant ist kann man epidemiologisch nur Schwa…', '@irisor2010 والنبي صحيح']
+[2021-07-16 17:04:01,536] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T170349, start_date=20210716T170359, end_date=20210716T170401
+[2021-07-16 17:04:01,600] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:04:01,621] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-30 14:26:21,593] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:26:10.149085+00:00 [queued]>
+[2021-07-30 14:26:21,634] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:26:10.149085+00:00 [queued]>
+[2021-07-30 14:26:21,635] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:26:21,636] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-30 14:26:21,637] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:26:21,669] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-30T14:26:10.149085+00:00
+[2021-07-30 14:26:21,690] {standard_task_runner.py:52} INFO - Started process 2254 to run task
+[2021-07-30 14:26:21,701] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-30T14:26:10.149085+00:00', '--job-id', '2178', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp5pl06m9n', '--error-file', '/tmp/tmpulha2gop']
+[2021-07-30 14:26:21,703] {standard_task_runner.py:77} INFO - Job 2178: Subtask extract_tweets
+[2021-07-30 14:26:21,835] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:26:10.149085+00:00 [running]> on host 04be2259e97a
+[2021-07-30 14:26:21,940] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-30T14:26:10.149085+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-30T14:26:06.134727+00:00
+[2021-07-30 14:26:23,383] {python.py:151} INFO - Done. Returned value was: ['3PLAND - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/Z9jkFhheaP', '3PLAND - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/BTRmrMYnJn', 'Important earnings schedule on 24th July, 2021 \n\n#ICICIBANK\n#ITC Ltd.\n#ChembondChemicals\n#Pudumjee \n#3PLand… https://t.co/tM9Wabz1BN', 'India Equity: 3P_Land_Hold. (#3PLAND) declares Quarterly Results. EPS = Rs 0.05 for quarter ended Jun\xa02021 https://t.co/ZID4tiIxbx', '3P Land Holdings Limited - Financial Result Updates https://t.co/62RP3fKuSV', '3PLAND - Unaudited Financial Results For The Quarter Ended 30Th June 2021 https://t.co/wbGbLs4xBm', '#3PLAND #FinancialResultUpdates\nCompany:: 3P Land Holdings Limited\n,  Financial Results For  Period Ended June 30,… https://t.co/2WnJnRXYWh', '3PLAND - Outcome Of Board Meeting-Statement Of Standalone And Consolidated Unaudited Financial Results For The Quar… https://t.co/sP4h9ki4RB', '#NseBoardMeetingToday #ICICIBANK #ITC #ZEEMEDIA #GAEL #UNIDT #BEDMUTHA #ZENTEC #GNA #3PLAND #VAISHALI #ASAL https://t.co/0bKyUQzV0X']
+[2021-07-30 14:26:23,435] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210730T142610, start_date=20210730T142621, end_date=20210730T142623
+[2021-07-30 14:26:23,496] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-30 14:26:23,517] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,23 @@
+[2021-07-16 16:48:48,501] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T16:48:14.278279+00:00 [queued]>
+[2021-07-16 16:48:48,532] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T16:48:14.278279+00:00 [queued]>
+[2021-07-16 16:48:48,533] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:48:48,534] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:48:48,534] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:48:48,551] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_postgres_table> on 2021-07-16T16:48:14.278279+00:00
+[2021-07-16 16:48:48,568] {standard_task_runner.py:52} INFO - Started process 9534 to run task
+[2021-07-16 16:48:48,574] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_postgres_table', '2021-07-16T16:48:14.278279+00:00', '--job-id', '1263', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpn5op5k0h', '--error-file', '/tmp/tmp6fkghcgs']
+[2021-07-16 16:48:48,575] {standard_task_runner.py:77} INFO - Job 1263: Subtask news_postgres_table
+[2021-07-16 16:48:48,653] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T16:48:14.278279+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:48:48,770] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:48:14.278279+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:48:11.212277+00:00
+[2021-07-16 16:48:48,890] {logging_mixin.py:104} INFO - [('Alok Agarwal steps down as Chairman and Non-Executive Director of Alankit', Decimal('0.0000')), ('ED arrests chartered accountant in fertilizer import scam case', Decimal('-0.7650')), ('Delhi Chartered Accountant Arrested In Money Laundering Case Linked To Fertiliser Scam', Decimal('-0.7783')), ('Making Swiss gold buying simple: Alankit partners with Digital Swiss Gold', Decimal('0.0000')), ('Alankit to start Aadhaar Enrolment for unorganized and Tea Garden workers', Decimal('0.0000')), ('Mazagon Dock IPO Allotment: How To Check IPO Allotment Status on Alankit Assignments', Decimal('0.0000')), ('Ankit Agarwal, Managing Director, Alankit Limited', Decimal('-0.2263')), ('Alankit ties with Digital Swiss Gold to make buying Swiss gold simpler, secure and cost-effective; Stock gains 2%', Decimal('0.5859')), ('Alankit Ltd partners with UTI for PAN Card Services', Decimal('0.0000')), ('Raids find tax fraud of Rs 1K-crore by e-governance service provider Alankit group', Decimal('-0.5859')), ('Alankit, Digital Swiss Gold Team Up to Ease Metal Buying', Decimal('0.3612')), ('NSDL e-Governance cancels agreement with Alankit for PAN and e-TDS statement filing services', Decimal('0.3182')), ('Mazagon Dock Shipbuilders IPO: Alankit website down as investors rush to check allotment status', Decimal('0.0000'))]
+[2021-07-16 16:48:48,896] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:48:48,918] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_postgres_table, execution_date=20210716T164814, start_date=20210716T164848, end_date=20210716T164848
+[2021-07-16 16:48:48,986] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:48:49,027] {local_task_job.py:151} INFO - Task exited with return code 0

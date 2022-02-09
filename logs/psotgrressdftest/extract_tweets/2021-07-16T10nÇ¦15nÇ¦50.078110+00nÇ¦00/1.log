@@ -1,0 +1,22 @@
+[2021-07-16 10:16:50,393] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:15:50.078110+00:00 [queued]>
+[2021-07-16 10:16:50,424] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:15:50.078110+00:00 [queued]>
+[2021-07-16 10:16:50,425] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:16:50,426] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:16:50,427] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:16:50,455] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:15:50.078110+00:00
+[2021-07-16 10:16:50,470] {standard_task_runner.py:52} INFO - Started process 416 to run task
+[2021-07-16 10:16:50,481] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:15:50.078110+00:00', '--job-id', '496', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpr5amnxgx', '--error-file', '/tmp/tmp6ecn0oo5']
+[2021-07-16 10:16:50,483] {standard_task_runner.py:77} INFO - Job 496: Subtask extract_tweets
+[2021-07-16 10:16:50,570] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:15:50.078110+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:16:50,664] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:15:50.078110+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:15:43.025711+00:00
+[2021-07-16 10:16:51,568] {python.py:151} INFO - Done. Returned value was: ['@SagarSa38539915 हमने टिकट नंबर #6274622 का जवाब दिया है।', '@MrInfinitive As checked there is no amount debited for any charges Rs8.2/- has been moved from Equity ledger and c… https://t.co/tNB1vidC5b', '@MrInfinitive As the SIP date was 13/07/2021 and the invested plan is Direct Fund for which we charge Rs10/-as proc… https://t.co/UYX8mzwfI9', '@deepchahal333 We have responded to ticket no#6266721. Payout done', '@gm4269 Responded to ticket no#6260733. Subscription charges amount has been reversed in ledger account.', '@c_satya The reversal of the amount Rs1060/- has been done from our end on 14/07/2021in your ledger account.', '@DibyajitHajong Funds will be updated in T+2 Days. For further clarification we request you to please write to us at support@5paisa.com.', '@TusharS55605657 We consider your suggestion. We request you to please share your client ID so that we can check th… https://t.co/S5urwJOlKd', 'Quick Update\n\nLower Circuit ▶️ Upper Circuit\n\n5Paisa had hit lower circuit today. In a stunning turnaround it is no… https://t.co/dMj3AwdQRl', "@5paisa i have requested for widrawal but still haven't received in my account and here it's showing its successful https://t.co/xtiD3tWQZj", 'Tatva Chintan Pharma Chem Ltd. is a leading specialty chemicals manufacturing company in India.\nTatva Chintan Pharm… https://t.co/1fgLFjQMoO', 'Apple Inc. (AAPL) sales up 54% higher than last year and reported double-digit growth in every single one of its pr… https://t.co/TqM5Kl2bWZ', 'I hope @5paisa you are aware of these bugs in your system and trying to improve it.', 'Any trade platform requires one function to perform without fail is to keep refreshing position. 5Paisa is even fai… https://t.co/CRipqCSpBX', '@5paisa i have been trading with your web trade station &amp; mobile app since 1 month. My genuine feedback:\n- user int… https://t.co/lCIJ8rv8tj']
+[2021-07-16 10:16:51,611] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T101550, start_date=20210716T101650, end_date=20210716T101651
+[2021-07-16 10:16:51,668] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:16:51,694] {local_task_job.py:151} INFO - Task exited with return code 0

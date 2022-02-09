@@ -1,0 +1,22 @@
+[2021-07-20 09:54:59,982] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:54:35.770771+00:00 [queued]>
+[2021-07-20 09:55:00,194] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:54:35.770771+00:00 [queued]>
+[2021-07-20 09:55:00,204] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:55:00,273] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:55:00,291] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:55:00,438] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:54:35.770771+00:00
+[2021-07-20 09:55:00,572] {standard_task_runner.py:52} INFO - Started process 2215 to run task
+[2021-07-20 09:55:00,596] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:54:35.770771+00:00', '--job-id', '1894', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpe0b3f50_', '--error-file', '/tmp/tmp8m3jvp9k']
+[2021-07-20 09:55:00,619] {standard_task_runner.py:77} INFO - Job 1894: Subtask extract_tweets
+[2021-07-20 09:55:01,305] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:54:35.770771+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:55:02,329] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:54:35.770771+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:54:30.089365+00:00
+[2021-07-20 09:55:04,196] {python.py:151} INFO - Done. Returned value was: ['#shortage #tightysupply #supplychain #nse #bse #trading #stocks #stockmarket #Agm/egm #AMARAJABAT - Shareholders me… https://t.co/95cmJTgbQ6', '@kuttrapali Mam, Your View on IDFC BANK and AMARAJABAT. Both are falling knifes but you please clear, this is the chance to buy any one?', '#shortage #tightysupply #supplychain #nse #bse #trading #stocks #stockmarket  #AMARAJABAT - Reg. 34 (1) Annual Repo… https://t.co/JK0cOgg3Cs', '#shortage #tightysupply #supplychain #nse #bse #trading #stocks #stockmarket #Agm/egm #AMARAJABAT - Notice Of 36Th… https://t.co/SfYza3Gr4I', 'AMARAJABAT - Reg. 34 (1) Annual Report https://t.co/i26tWVuK0T', 'AMARAJABAT - Notice Of 36Th Annual General Meeting - August 14, 2021 https://t.co/IasRxrgX9c', 'Alert Buy #AMARAJABAT CMP: 715 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/AEKjLFMJYY', '🆓🆕\nAMARA RAJA \n\n💌 CMP- 709.90\n\n🎯 Target- 740-780-820-850-900\n\n#amarajabat\nMID  TERM 💥💥', 'Next major support for #Amarajabat is 700 then 665\n But if market continues like this then no support will work', 'Call given in weekly group of Amarajabat \n\nBooked with great profit in overnight \n\nJoin us for weekly trade for 5k… https://t.co/rvlDg4RFnb', 'Short idea: Amara Raja Batteries. Industry getting disrupted and profitability is on the decline . Weak technically… https://t.co/m9ZtvvH6DT', 'Ye Mauka Stocks Lootne Ka Hai ✅\n\n● TCS\n● HDFC BANK\n● M&amp;M\n● AMARAJABAT\n● COAL INDIA\n● EICHER/HEROMOTOCO\n● BRITANNIA… https://t.co/PQAj0NOQWt', '@AnshumanCharts Amarajabat analysis please.', 'RT @RoketStocks: My Mid Term( 3 Month To 1 Year) #BigBullPicks 🐴🖤\n\n⚡️ #suntv  533\n⚡️ #SunPharma 688\n⚡️ #ITC 207\n⚡️ #IEX 412\n⚡️ #UnitedSpiri…', 'Alert Sell #AMARAJABAT CMP: 711.9 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts a… https://t.co/yPkBdzRHos']
+[2021-07-20 09:55:04,462] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T095435, start_date=20210720T095500, end_date=20210720T095504
+[2021-07-20 09:55:04,830] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:55:04,963] {local_task_job.py:151} INFO - Task exited with return code 0

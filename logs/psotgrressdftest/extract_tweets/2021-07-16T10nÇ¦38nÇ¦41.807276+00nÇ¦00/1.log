@@ -1,0 +1,22 @@
+[2021-07-16 10:38:49,688] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:38:41.807276+00:00 [queued]>
+[2021-07-16 10:38:49,722] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:38:41.807276+00:00 [queued]>
+[2021-07-16 10:38:49,724] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:38:49,725] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:38:49,726] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:38:49,769] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:38:41.807276+00:00
+[2021-07-16 10:38:49,791] {standard_task_runner.py:52} INFO - Started process 2116 to run task
+[2021-07-16 10:38:49,799] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:38:41.807276+00:00', '--job-id', '613', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmprzryrip6', '--error-file', '/tmp/tmpnxtay2x3']
+[2021-07-16 10:38:49,801] {standard_task_runner.py:77} INFO - Job 613: Subtask extract_tweets
+[2021-07-16 10:38:49,925] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:38:41.807276+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:38:50,060] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:38:41.807276+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:38:38.775532+00:00
+[2021-07-16 10:38:51,196] {python.py:151} INFO - Done. Returned value was: ['RT @NaturePortfolio: .@Nature has published the latest iteration of AlphaFold, a computational approach employing machine learning for pred…', 'RT @demishassabis: Last year we presented #AlphaFold v2 which predicts 3D structures of proteins down to atomic accuracy. Today we’re proud…', 'RT @PreciselyData: "Modern businesses require data with accuracy, consistency, and context to remain competitive – they require data integr…', "RT @WhoScored: 🎯 Kieran Trippier had the best cross accuracy (75+ attempted) of all full-backs in Europe's top 5 leagues last season (32.4%…", 'RT @demishassabis: Last year we presented #AlphaFold v2 which predicts 3D structures of proteins down to atomic accuracy. Today we’re proud…', '???????? I fucked up my accuracy but that beats my old combo by fucking 3x DUDE HOLY SHIT???!?!?! https://t.co/C4L15J7NRQ', '@xysanaz @BelalBKB The accuracy 🤣🤣', '@TechnicalShabb3 @waiwainu @nslwin @cpj_bracu @tunkhin80 @kyawwin78 @jessica_olney_1 @YThiha119 @KhinSan19… https://t.co/2a8crsU8p8', '@Austinj68620099 @Pr83_simfx @DayZ Weapon Models make a difference now in the same calibre, have done for a few pat… https://t.co/xODdCL1JFm', '@omgitslouis28 THE ACCURACY-', 'RT @hsharifain: AT 12:27 PM, The Sun will be directly above the Kabah.\nThe benefit of this is that everyone can record their position of th…', '@JM_Sparkle Accuracy 😭😭', 'With best level of accuracy and patience 👇 https://t.co/v5H9ad27F0', 'RT @J0lyne56: The accuracy of this lmao https://t.co/cuxbSgzV8f', 'AT 12:27 PM, The Sun will be directly above the Kabah.\nThe benefit of this is that everyone can record their positi… https://t.co/lT2VVAwDPF']
+[2021-07-16 10:38:51,267] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T103841, start_date=20210716T103849, end_date=20210716T103851
+[2021-07-16 10:38:51,417] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:38:51,504] {local_task_job.py:151} INFO - Task exited with return code 0

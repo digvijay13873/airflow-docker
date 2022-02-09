@@ -1,0 +1,23 @@
+[2021-07-16 16:56:29,625] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:56:14.650099+00:00 [queued]>
+[2021-07-16 16:56:29,679] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:56:14.650099+00:00 [queued]>
+[2021-07-16 16:56:29,680] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:56:29,681] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:56:29,682] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:56:29,706] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:56:14.650099+00:00
+[2021-07-16 16:56:29,729] {standard_task_runner.py:52} INFO - Started process 10173 to run task
+[2021-07-16 16:56:29,743] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:56:14.650099+00:00', '--job-id', '1341', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp3im4zcre', '--error-file', '/tmp/tmpabivcc_n']
+[2021-07-16 16:56:29,746] {standard_task_runner.py:77} INFO - Job 1341: Subtask tweets_postgres_table
+[2021-07-16 16:56:29,875] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:56:14.650099+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:56:30,036] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:56:14.650099+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:56:11.854491+00:00
+[2021-07-16 16:56:30,132] {logging_mixin.py:104} INFO - [('A2ZINFRA - Board Meeting Intimation for Audited Standalone &amp; Consolidated Financial Results For The Quarter (Q4) An… https://t.co/CezihFSf2V', Decimal('0.0000')), ('A2ZINFRA - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/eFsSkYQLFK', Decimal('-0.4019')), ('List of securities which shall be shifted back from Trade for Trade segment (series: BE) to Rolling segment (series… https://t.co/2Pz60pHZOR', Decimal('0.2960')), ('Paul Torres-Cohen $A2ZINFRA.BO', Decimal('0.0000')), ('https://t.co/eHiQCIV9E9 PREOPEN\n\nBE TO EQ FROM JUL 20TH : 63MOONS, A2ZINFRA, AARON, AARVEEDEN, ABAN, AJOONI, ALPA,… https://t.co/cmDRl9YX4m', Decimal('0.0000')), ('A2ZINFRA - Board Meeting Intimation for Audited Standalone &amp; Consolidated Financial Results For The Quarter (Q4) An… https://t.co/CezihFSf2V', Decimal('0.0000')), ('A2ZINFRA - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/eFsSkYQLFK', Decimal('-0.4019')), ('List of securities which shall be shifted back from Trade for Trade segment (series: BE) to Rolling segment (series… https://t.co/2Pz60pHZOR', Decimal('0.2960')), ('Paul Torres-Cohen $A2ZINFRA.BO', Decimal('0.0000')), ('https://t.co/eHiQCIV9E9 PREOPEN\n\nBE TO EQ FROM JUL 20TH : 63MOONS, A2ZINFRA, AARON, AARVEEDEN, ABAN, AJOONI, ALPA,… https://t.co/cmDRl9YX4m', Decimal('0.0000')), ('A2ZINFRA - Board Meeting Intimation for Audited Standalone &amp; Consolidated Financial Results For The Quarter (Q4) An… https://t.co/CezihFSf2V', Decimal('0.0000')), ('A2ZINFRA - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/eFsSkYQLFK', Decimal('-0.4019'))]
+[2021-07-16 16:56:30,139] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:56:30,167] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T165614, start_date=20210716T165629, end_date=20210716T165630
+[2021-07-16 16:56:30,253] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:56:30,278] {local_task_job.py:151} INFO - Task exited with return code 0

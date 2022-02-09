@@ -1,0 +1,22 @@
+[2021-07-30 15:40:19,627] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T15:39:48.580082+00:00 [queued]>
+[2021-07-30 15:40:19,820] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T15:39:48.580082+00:00 [queued]>
+[2021-07-30 15:40:19,825] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 15:40:19,833] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-30 15:40:19,838] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 15:40:19,881] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-30T15:39:48.580082+00:00
+[2021-07-30 15:40:19,932] {standard_task_runner.py:52} INFO - Started process 219 to run task
+[2021-07-30 15:40:19,956] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-30T15:39:48.580082+00:00', '--job-id', '2194', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpuhkg36ob', '--error-file', '/tmp/tmpc5_4klok']
+[2021-07-30 15:40:19,960] {standard_task_runner.py:77} INFO - Job 2194: Subtask extract_tweets
+[2021-07-30 15:40:20,499] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T15:39:48.580082+00:00 [running]> on host 04be2259e97a
+[2021-07-30 15:40:20,782] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-30T15:39:48.580082+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-30T15:39:14.310916+00:00
+[2021-07-30 15:40:22,894] {python.py:151} INFO - Done. Returned value was: ['63MOONS TECHNOLOG\nBUY AT CMP\nTARGET 125-145-184 \n\n#63Moons #stocks #StocksToBuy #StocksToWatch #stockmarketnews… https://t.co/J9YrU7daSc', 'Calls @ feel sure dt. 29.07.2021\n#nrail  #talbro #Nifty #StockMarket #63moons @DBhorwani @GaneshAdi786 https://t.co/t6OaOkb8Fi', '63MOONS - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/SzL1IFG231', '#Swanenergy locked at 20% UC\n#63Moons locked at 5% UC\n#SAIL 7%++\n#Hindcopper 4%++\n#Rain 3%++\n#IBREALTY 3%++\n#IRCTC… https://t.co/kiE4YouWGa', '#63Moons bought at 100 - 50% Qty\nCan add more above 115\n\nDisc: Not a recommendation \n\n#dalalstreetbets', 'DHFL के  FD,NCD निवेशकों को NCLAT से झटका https://t.co/DQUwQs5TRp via @YouTube #DHFL #NCD #FD \n#Piramal #NCLT #RBI… https://t.co/tHriD1njvn', '63MOONS hit UC back to back 2 days https://t.co/RTQVX3Op1l', 'RT @in_tradingview: #63MOONS - Long 63 Moons...5X and more - TradingView - https://t.co/wC5RI8byUE', '#63MOONS - Long 63 Moons...5X and more - TradingView - https://t.co/wC5RI8byUE', '🚀🚀🚀🚀🚀🚀🚀 63 moons #63moons https://t.co/WXEgDeXWw8 https://t.co/Ev45iXfpza', 'Calls @ feel sure dt. 23.07.2021\n#ksl #shalby #iex #rajeshexpo #63moons \nAll calls rocket 🚀🚀🚀 @KBhorwani @Feelsure2… https://t.co/RLhOgVnxzG', '#ડીએચએફએલ રીઝોલ્યુશન પ્લાનઃ NCLATમાં આખરી સુનાવણી ૧૫મી સપ્ટેમ્બરે.\nઆમ, ૬૩ મૂન્સ ટેક્નોલોજીસે કરેલી #અપીલ બાબતે NCLA… https://t.co/I0ETDk5tgV', "RT @ETNOWlive: #NCLAT refuses interim stay on #Piramal's resolution plan for bankrupt @DHFL_India \n\n@PiramalCHF #63Moons @abhhimanyus \nhttp…", "#NCLAT refuses interim stay on #Piramal's resolution plan for bankrupt @DHFL_India \n\n@PiramalCHF #63Moons… https://t.co/B586UDiQWE", 'RT @in_tradingview: #63MOONS - 63 Moons - CMP: 104 - TradingView - https://t.co/euhqCZrVQQ']
+[2021-07-30 15:40:23,007] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210730T153948, start_date=20210730T154019, end_date=20210730T154023
+[2021-07-30 15:40:23,104] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-30 15:40:23,172] {local_task_job.py:151} INFO - Task exited with return code 0

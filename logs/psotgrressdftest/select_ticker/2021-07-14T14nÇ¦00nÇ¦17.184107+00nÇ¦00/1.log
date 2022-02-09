@@ -1,0 +1,26 @@
+[2021-07-14 14:00:24,547] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.select_ticker 2021-07-14T14:00:17.184107+00:00 [queued]>
+[2021-07-14 14:00:24,604] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.select_ticker 2021-07-14T14:00:17.184107+00:00 [queued]>
+[2021-07-14 14:00:24,606] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:00:24,607] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:00:24,608] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:00:24,637] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): select_ticker> on 2021-07-14T14:00:17.184107+00:00
+[2021-07-14 14:00:24,662] {standard_task_runner.py:52} INFO - Started process 2859 to run task
+[2021-07-14 14:00:24,671] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'select_ticker', '2021-07-14T14:00:17.184107+00:00', '--job-id', '218', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpwqg0mzir', '--error-file', '/tmp/tmpixx4u9fc']
+[2021-07-14 14:00:24,673] {standard_task_runner.py:77} INFO - Job 218: Subtask select_ticker
+[2021-07-14 14:00:24,769] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.select_ticker 2021-07-14T14:00:17.184107+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:00:24,872] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=select_ticker
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:00:17.184107+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:00:17.184107+00:00
+[2021-07-14 14:00:24,883] {logging_mixin.py:104} INFO - 6
+[2021-07-14 14:00:24,884] {logging_mixin.py:104} INFO - [(1, '20MICRONS.BO', '20 Microns Limited'), (2, '21STCENMGM.NS', '21ST CENTURY MANAG'), (3, '3IINFOTECH.NS', '3i Infotech Limited'), (4, '3MINDIA.NS', '3M India Limited'), (5, '3PLAND.BO', '3P LAND HOLDINGS LTD.'), (6, '5PAISA.NS', '5paisa Capital Limited'), (7, '63MOONS.NS', '63 MOONS TECHNOLOG'), (8, 'A2ZINFRA.NS', 'A2Z Infra Engineering Limited'), (9, 'AAKASH.NS', 'Aakash Exploration Services Limited'), (10, 'AAN', "The Aaron's Company, Inc."), (11, 'AARTIDRUGS.NS', 'Aarti Drugs Limited'), (12, 'AARTIIND.NS', 'Aarti Industries Limited'), (13, 'AARTISURF.NS', 'Aarti Surfactants Limited'), (14, 'AARVEEDEN.BO', 'Aarvee Denims and Exports Limited'), (15, 'AARVI.NS', 'Aarvi Encon Limited'), (16, 'AAVAS.NS', 'Aavas Financiers Limited'), (17, 'ABANF', 'Automatic Bank Services Limited'), (18, 'ABB', 'ABB Ltd'), (19, '20MICRONS.BO', '20 Microns Limited'), (20, '21STCENMGM.NS', '21ST CENTURY MANAG'), (21, '3IINFOTECH.NS', '3i Infotech Limited'), (22, '3MINDIA.NS', '3M India Limited'), (23, '3PLAND.BO', '3P LAND HOLDINGS LTD.'), (24, '5PAISA.NS', '5paisa Capital Limited'), (25, '63MOONS.NS', '63 MOONS TECHNOLOG'), (26, 'A2ZINFRA.NS', 'A2Z Infra Engineering Limited'), (27, 'AAKASH.NS', 'Aakash Exploration Services Limited'), (28, 'AAN', "The Aaron's Company, Inc.")]
+[2021-07-14 14:00:24,886] {logging_mixin.py:104} INFO - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA('5PAISA.NS',)
+[2021-07-14 14:00:24,887] {logging_mixin.py:104} INFO - 5PAISA.NS
+[2021-07-14 14:00:24,891] {python.py:151} INFO - Done. Returned value was: 5PAISA.NS
+[2021-07-14 14:00:24,961] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=select_ticker, execution_date=20210714T140017, start_date=20210714T140024, end_date=20210714T140024
+[2021-07-14 14:00:25,084] {taskinstance.py:1245} INFO - 3 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:00:25,123] {local_task_job.py:151} INFO - Task exited with return code 0

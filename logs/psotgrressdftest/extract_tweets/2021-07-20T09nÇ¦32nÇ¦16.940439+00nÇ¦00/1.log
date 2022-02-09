@@ -1,0 +1,24 @@
+[2021-07-20 09:32:28,511] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:32:16.940439+00:00 [queued]>
+[2021-07-20 09:32:29,036] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:32:16.940439+00:00 [queued]>
+[2021-07-20 09:32:29,037] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:32:29,038] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:32:29,039] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:32:29,503] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:32:16.940439+00:00
+[2021-07-20 09:32:29,526] {standard_task_runner.py:52} INFO - Started process 786 to run task
+[2021-07-20 09:32:29,560] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:32:16.940439+00:00', '--job-id', '1784', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpq_khcs7n', '--error-file', '/tmp/tmph4tz8q47']
+[2021-07-20 09:32:29,562] {standard_task_runner.py:77} INFO - Job 1784: Subtask extract_tweets
+[2021-07-20 09:32:29,764] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:32:16.940439+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:32:30,605] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:32:16.940439+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:32:11.007743+00:00
+[2021-07-20 09:32:34,302] {python.py:151} INFO - Done. Returned value was: ['#Alankit wishes you a glorious and blessed Eid-ul-Adha. \nMay the almighty accept your good deeds, forgive your tran… https://t.co/EzJExwDpkJ', 'Alankit Limited (“the Company”) has been \nshortlisted as a National Business Correspondent (BC) by State Bank of In… https://t.co/zmgsZ1Q3zd', 'Alankit Limited - Updates https://t.co/qSSrVGGPxN', 'ALANKIT - Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements https://t.co/gP4mCUT3TM', 'With the Alankit marriage certificate attestation service, you can fulfill your dream of adopting a child legally.… https://t.co/upyt0RiKa5', 'Class 1, Class 2 or Class 3\nGet your individual or business digital signature need fulfilled by Alankit!\n\nTo apply,… https://t.co/Nbdau16wZt', 'Class 1, Class 2 or Class 3\nGet your individual or business digital signature need fulfilled by Alankit!\nTo apply,… https://t.co/7Z5PvQFg6p', 'AUSOM ENTERPRISE....FINANCE &amp;INVESTMENT......................GPT INFRA................INFRASTRUCTURE...............… https://t.co/y4nSnHbJpS', '#Alankit We booked. https://t.co/Gr0uSVXd3S', '@Twinkleinvest Mere Pass Alankit Ltd\n\nNSE: ALANKIT\n\nKe 10000 Share Hai Price of 20Rs\n Sir Ye Stock 20 year tk hold… https://t.co/O7WKIZPC3h', 'Make your business your identity by printing your VAT number on invoices. \n\nGet online VAT registration support fro… https://t.co/bt29w9si3A', 'Let your money multiply with an investment in the stock market.\n\nTake the first step and open a trading account wit… https://t.co/S06yAWiZK9', 'Alankit पान सेंटर 1.5 साल से बंध हो चुका है। तो अब डिपोजिट कब वापस मिलेगा?@AlankitGroup1 @NSDLeGovernance', '⚽️ 🐐 \n\nhttps://t.co/P7JEYtlRt2', "RT @GHAZIMURTAZA1: @AlankitGroup1  i don't want to work with alankit because nsdl has terminated his services through alankit. Now the poin…"]
+[2021-07-20 09:32:34,608] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T093216, start_date=20210720T093228, end_date=20210720T093234
+[2021-07-20 09:32:34,728] {local_task_job.py:197} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2021-07-20 09:32:34,776] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 786
+[2021-07-20 09:32:35,132] {taskinstance.py:1264} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-07-20 09:32:35,190] {process_utils.py:66} INFO - Process psutil.Process(pid=786, status='terminated', exitcode=1, started='09:32:29') (786) terminated with exit code 1

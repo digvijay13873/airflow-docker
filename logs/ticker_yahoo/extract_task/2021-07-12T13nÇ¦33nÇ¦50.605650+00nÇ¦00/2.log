@@ -1,0 +1,58 @@
+[2021-07-12 13:45:03,061] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T13:33:50.605650+00:00 [queued]>
+[2021-07-12 13:45:03,124] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T13:33:50.605650+00:00 [queued]>
+[2021-07-12 13:45:03,125] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 13:45:03,126] {taskinstance.py:1068} INFO - Starting attempt 2 of 2
+[2021-07-12 13:45:03,127] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 13:45:03,158] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-12T13:33:50.605650+00:00
+[2021-07-12 13:45:03,197] {standard_task_runner.py:52} INFO - Started process 1076 to run task
+[2021-07-12 13:45:03,213] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-12T13:33:50.605650+00:00', '--job-id', '23', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmpxhbm2dd6', '--error-file', '/tmp/tmpjwkxxbsl']
+[2021-07-12 13:45:03,216] {standard_task_runner.py:77} INFO - Job 23: Subtask extract_task
+[2021-07-12 13:45:03,412] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-12T13:33:50.605650+00:00 [running]> on host f29b1d03ad56
+[2021-07-12 13:45:03,626] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-12T13:33:50.605650+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-12T13:33:50.605650+00:00
+[2021-07-12 13:46:12,905] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:46:47,250] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:47:18,991] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:47:50,644] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:48:23,253] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:48:55,245] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:49:27,001] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:49:59,024] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:50:30,893] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:51:03,389] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:51:37,898] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:52:12,532] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:52:45,195] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:53:17,246] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:53:48,954] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:54:20,749] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:54:54,699] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:55:27,555] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:56:04,543] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:56:41,508] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:57:13,638] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:57:46,848] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:58:19,019] {logging_mixin.py:104} INFO - None
+[2021-07-12 13:58:50,788] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/seleniumtest.py", line 59, in extract
+    ticker = str(ticker[0].text)
+IndexError: list index out of range
+[2021-07-12 13:58:51,072] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=ticker_yahoo, task_id=extract_task, execution_date=20210712T133350, start_date=20210712T134503, end_date=20210712T135850
+[2021-07-12 13:58:52,245] {local_task_job.py:151} INFO - Task exited with return code 1

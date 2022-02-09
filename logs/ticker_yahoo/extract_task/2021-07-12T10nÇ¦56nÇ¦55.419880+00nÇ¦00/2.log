@@ -1,0 +1,35 @@
+[2021-07-12 13:27:18,547] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T10:56:55.419880+00:00 [queued]>
+[2021-07-12 13:27:18,627] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T10:56:55.419880+00:00 [queued]>
+[2021-07-12 13:27:18,629] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 13:27:18,631] {taskinstance.py:1068} INFO - Starting attempt 2 of 2
+[2021-07-12 13:27:18,632] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 13:27:18,709] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-12T10:56:55.419880+00:00
+[2021-07-12 13:27:18,753] {standard_task_runner.py:52} INFO - Started process 98 to run task
+[2021-07-12 13:27:18,778] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-12T10:56:55.419880+00:00', '--job-id', '19', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmp4yglk5sg', '--error-file', '/tmp/tmp8e9xaf5a']
+[2021-07-12 13:27:18,793] {standard_task_runner.py:77} INFO - Job 19: Subtask extract_task
+[2021-07-12 13:27:19,129] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-12T10:56:55.419880+00:00 [running]> on host f29b1d03ad56
+[2021-07-12 13:27:19,528] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-12T10:56:55.419880+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-12T10:56:55.419880+00:00
+[2021-07-12 13:27:19,531] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/seleniumtest.py", line 38, in extract
+    with open(r'./fromlocal/EQUITY_L.csv') as read_obj:
+FileNotFoundError: [Errno 2] No such file or directory: './fromlocal/EQUITY_L.csv'
+[2021-07-12 13:27:19,570] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=ticker_yahoo, task_id=extract_task, execution_date=20210712T105655, start_date=20210712T132718, end_date=20210712T132719
+[2021-07-12 13:27:19,732] {local_task_job.py:151} INFO - Task exited with return code 1

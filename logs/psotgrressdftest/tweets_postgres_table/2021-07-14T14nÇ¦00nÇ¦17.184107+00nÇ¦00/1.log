@@ -1,0 +1,23 @@
+[2021-07-14 14:00:53,703] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-14T14:00:17.184107+00:00 [queued]>
+[2021-07-14 14:00:53,879] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-14T14:00:17.184107+00:00 [queued]>
+[2021-07-14 14:00:53,880] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:00:53,882] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:00:53,885] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:00:53,955] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-14T14:00:17.184107+00:00
+[2021-07-14 14:00:54,005] {standard_task_runner.py:52} INFO - Started process 2892 to run task
+[2021-07-14 14:00:54,029] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-14T14:00:17.184107+00:00', '--job-id', '222', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpqy4vjwe7', '--error-file', '/tmp/tmp8na9_4tu']
+[2021-07-14 14:00:54,031] {standard_task_runner.py:77} INFO - Job 222: Subtask tweets_postgres_table
+[2021-07-14 14:00:54,177] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-14T14:00:17.184107+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:00:54,478] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:00:17.184107+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:00:17.184107+00:00
+[2021-07-14 14:00:54,793] {logging_mixin.py:104} INFO - [('RT @mystockbookapp: #Q1FY22WithStockBook I Result Update l 5 Paisa Capital\n\n#EarningsReport #Q1FY22 #Investwise #StockBookApp #earningswatc…', Decimal('0.0000')), ('#Q1FY22WithStockBook I Result Update l 5 Paisa Capital\n\n#EarningsReport #Q1FY22 #Investwise #StockBookApp… https://t.co/BlUKbasx98', Decimal('0.0000')), ('#5PAISA #FinancialResultUpdates\nCompany:: 5Paisa Capital Limited\n,  Financial Results For  Period Ended June 30, 20… https://t.co/QAi6yPqmVl', Decimal('-0.2263')), ('@Netaji89 Please share your client ID to assist you better.', Decimal('0.7506')), ('@rawats12345 We request you to please allow us sometime we will update you when the parcel is delivered.', Decimal('0.4939')), ('@bpushkaronline You are trying to create a fresh position which is not allowed, in last week of expiry. Hence, the order is rejected.', Decimal('0.0258')), ('@bpushkaronline As checked order is rejected due to insufficient margin. The margin requirement is decided by excha… https://t.co/ezd6DlOK3G', Decimal('-0.5106')), ('@5paisa Do you have any answer for this or not? Please reply to close this ticket soon.', Decimal('-0.2411')), ('@5paisa - probably the worst support, My wife opened account 2 weeks back and getting repeated IVR Calls saying the… https://t.co/2Z3TvpTIbE', Decimal('-0.3400')), ('@5paisa Thanks yes its fixed now.', Decimal('0.6808')), ('@VidzTrendy We charge brokerage and other charges as per SEBI guidelines. Charges related information is available… https://t.co/voQMIiHVD8', Decimal('-0.4939')), ('@jaydipp69324444 Orders are placed from the exchanges end. We are just a platform for your orders. The margin requi… https://t.co/D9nVs3TKFH', Decimal('0.0000')), ('@learner_1990 The M to  M for the stock has been updated properly now. We request you to check the same.', Decimal('0.0000')), ('@ravikant_in Responded to ticket no#6237497. We have highlighted the concern to team and the same has been fixed no… https://t.co/dEcdqvdaCV', Decimal('0.0000')), ('@Deepakkumawat2 We require proof of correspondence if you have that add on it or  other proof like driving license that will also do', Decimal('0.3612'))]
+[2021-07-14 14:00:54,859] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-14 14:00:54,951] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210714T140017, start_date=20210714T140053, end_date=20210714T140054
+[2021-07-14 14:00:55,144] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:00:55,200] {local_task_job.py:151} INFO - Task exited with return code 0

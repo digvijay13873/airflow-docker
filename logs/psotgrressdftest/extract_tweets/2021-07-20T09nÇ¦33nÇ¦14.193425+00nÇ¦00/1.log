@@ -1,0 +1,22 @@
+[2021-07-20 09:33:29,135] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:33:14.193425+00:00 [queued]>
+[2021-07-20 09:33:29,332] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:33:14.193425+00:00 [queued]>
+[2021-07-20 09:33:29,382] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:33:29,414] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:33:29,426] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:33:29,619] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:33:14.193425+00:00
+[2021-07-20 09:33:29,771] {standard_task_runner.py:52} INFO - Started process 850 to run task
+[2021-07-20 09:33:29,795] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:33:14.193425+00:00', '--job-id', '1791', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp4_1nypq1', '--error-file', '/tmp/tmpl286p_qm']
+[2021-07-20 09:33:29,805] {standard_task_runner.py:77} INFO - Job 1791: Subtask extract_tweets
+[2021-07-20 09:33:30,252] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:33:14.193425+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:33:30,801] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:33:14.193425+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:33:06.136034+00:00
+[2021-07-20 09:33:31,993] {python.py:151} INFO - Done. Returned value was: ['#albertdavd Positional trade \n\nCMP 595\n\nTARGET 625-630👍 https://t.co/bTPtKBfx8E', 'RT @TrendTrader85: #ALBERTDAVD : 608 🙏', 'RT @murugavell: ALBERTDAVD @ 575\n\nMore than 2 years congestion come to an end\n\nPotential to retest the ATH https://t.co/SwJlJDO9Oj', '#ALBERTDAVD updated chart next target 690😃😃', '@shyamsek Baught https://t.co/nGUjsIh3yj\n\n#ALBERTDAVD  at 580\n\n 2 Yers Brekuout', 'RT @murugavell: ALBERTDAVD @ 575\n\nMore than 2 years congestion come to an end\n\nPotential to retest the ATH https://t.co/SwJlJDO9Oj', '#ALBERTDAVD (Albert David Limited) gave a return of 10.31% within 25 trading sessions.\n\nBUY call given on… https://t.co/8PnjBvl4JF', 'RT @Thekalal: @TrendTrader85 Superb Run in this market #ALBERTDAVD', '@TrendTrader85 Superb Run in this market #ALBERTDAVD', '#ALBERTDAVD : 608 🙏 https://t.co/S00QwU1fXy', 'ALBERTDAVD @ 575\n\nMore than 2 years congestion come to an end\n\nPotential to retest the ATH https://t.co/SwJlJDO9Oj', '#albertdavd still in redar if it crosses 550 and sustain there for 30 mins than we will see good upside move tomorrow', '#ALBERTDAVD chart  3 year long breakout with good rsi above 70 @anand_luhar https://t.co/vqWKaoRWip', 'ALBERTDAVID - Price and Trend Setup - #ALBERTDAVD chart https://t.co/T2PtqhU6xv', 'RT @TrendTrader85: #ALBERTDAVD" 558\n\ntaken at 528 today https://t.co/fehWXZ97Z6']
+[2021-07-20 09:33:32,099] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T093314, start_date=20210720T093329, end_date=20210720T093332
+[2021-07-20 09:33:32,649] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:33:32,700] {local_task_job.py:151} INFO - Task exited with return code 0

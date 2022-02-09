@@ -1,0 +1,510 @@
+[2021-07-22 13:29:02,398] {scheduler_job.py:182} INFO - Started process (PID=81) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:29:02,407] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:29:02,412] {logging_mixin.py:104} INFO - [2021-07-22 13:29:02,411] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:29:02,766] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:29:18,159] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:29:18,161] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:29:21,190] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:29:21,304] {logging_mixin.py:104} INFO - [2021-07-22 13:29:21,303] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:29:21,349] {logging_mixin.py:104} INFO - [2021-07-22 13:29:21,348] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:29:21,409] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 19.017 seconds
+[2021-07-22 13:29:52,141] {scheduler_job.py:182} INFO - Started process (PID=135) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:29:52,153] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:29:52,162] {logging_mixin.py:104} INFO - [2021-07-22 13:29:52,162] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:29:52,453] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:29:59,108] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:29:59,122] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:30:03,839] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:30:03,940] {logging_mixin.py:104} INFO - [2021-07-22 13:30:03,940] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:30:04,001] {logging_mixin.py:104} INFO - [2021-07-22 13:30:04,001] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:30:04,038] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 11.922 seconds
+[2021-07-22 13:30:34,752] {scheduler_job.py:182} INFO - Started process (PID=179) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:30:34,765] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:30:34,768] {logging_mixin.py:104} INFO - [2021-07-22 13:30:34,768] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:30:34,985] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:30:36,816] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:30:36,826] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:30:38,489] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:30:38,544] {logging_mixin.py:104} INFO - [2021-07-22 13:30:38,544] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:30:38,585] {logging_mixin.py:104} INFO - [2021-07-22 13:30:38,585] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:30:38,613] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 3.867 seconds
+[2021-07-22 13:31:09,465] {scheduler_job.py:182} INFO - Started process (PID=226) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:31:09,467] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:31:09,469] {logging_mixin.py:104} INFO - [2021-07-22 13:31:09,469] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:31:09,546] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:31:11,262] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:31:11,264] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:31:12,538] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:31:12,576] {logging_mixin.py:104} INFO - [2021-07-22 13:31:12,575] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:31:12,602] {logging_mixin.py:104} INFO - [2021-07-22 13:31:12,602] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:31:12,638] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 3.177 seconds
+[2021-07-22 13:31:44,066] {scheduler_job.py:182} INFO - Started process (PID=283) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:31:44,070] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:31:44,072] {logging_mixin.py:104} INFO - [2021-07-22 13:31:44,072] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:31:44,178] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:31:46,025] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:31:46,026] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:31:47,205] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:31:47,251] {logging_mixin.py:104} INFO - [2021-07-22 13:31:47,251] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:31:47,280] {logging_mixin.py:104} INFO - [2021-07-22 13:31:47,279] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:31:47,299] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 3.242 seconds
+[2021-07-22 13:32:17,552] {scheduler_job.py:182} INFO - Started process (PID=331) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:32:17,553] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:32:17,555] {logging_mixin.py:104} INFO - [2021-07-22 13:32:17,555] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:32:17,646] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:32:18,788] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:32:18,790] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:32:19,697] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:32:19,736] {logging_mixin.py:104} INFO - [2021-07-22 13:32:19,736] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:32:19,757] {logging_mixin.py:104} INFO - [2021-07-22 13:32:19,757] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:32:19,779] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 2.232 seconds
+[2021-07-22 13:32:49,981] {scheduler_job.py:182} INFO - Started process (PID=371) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:32:49,983] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:32:49,984] {logging_mixin.py:104} INFO - [2021-07-22 13:32:49,984] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:32:50,034] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:32:51,526] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:32:51,528] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:32:52,582] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:32:52,620] {logging_mixin.py:104} INFO - [2021-07-22 13:32:52,620] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:32:52,651] {logging_mixin.py:104} INFO - [2021-07-22 13:32:52,650] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:32:52,670] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 2.694 seconds
+[2021-07-22 13:33:23,284] {scheduler_job.py:182} INFO - Started process (PID=428) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:33:23,292] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:33:23,299] {logging_mixin.py:104} INFO - [2021-07-22 13:33:23,298] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:33:23,414] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:33:25,421] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:33:25,423] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:33:27,009] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:33:27,055] {logging_mixin.py:104} INFO - [2021-07-22 13:33:27,055] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:33:27,115] {logging_mixin.py:104} INFO - [2021-07-22 13:33:27,115] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:33:27,140] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 3.867 seconds
+[2021-07-22 13:33:58,519] {scheduler_job.py:182} INFO - Started process (PID=467) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:33:58,533] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:33:58,547] {logging_mixin.py:104} INFO - [2021-07-22 13:33:58,546] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:33:58,967] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:34:03,656] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:34:03,710] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:34:06,676] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:34:06,801] {logging_mixin.py:104} INFO - [2021-07-22 13:34:06,801] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:34:06,889] {logging_mixin.py:104} INFO - [2021-07-22 13:34:06,889] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:34:08,664] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 10.151 seconds
+[2021-07-22 13:34:39,278] {scheduler_job.py:182} INFO - Started process (PID=506) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:34:39,282] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:34:39,285] {logging_mixin.py:104} INFO - [2021-07-22 13:34:39,284] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:34:39,336] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:34:41,963] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:34:41,967] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:34:44,259] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:34:44,330] {logging_mixin.py:104} INFO - [2021-07-22 13:34:44,330] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:34:44,381] {logging_mixin.py:104} INFO - [2021-07-22 13:34:44,380] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:34:44,455] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 5.186 seconds
+[2021-07-22 13:35:14,899] {scheduler_job.py:182} INFO - Started process (PID=544) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:35:14,908] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:35:14,910] {logging_mixin.py:104} INFO - [2021-07-22 13:35:14,910] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:35:15,040] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:35:17,776] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:35:17,777] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:35:19,812] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:35:19,896] {logging_mixin.py:104} INFO - [2021-07-22 13:35:19,891] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:35:19,947] {logging_mixin.py:104} INFO - [2021-07-22 13:35:19,947] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:35:19,986] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 5.093 seconds
+[2021-07-22 13:35:50,131] {scheduler_job.py:182} INFO - Started process (PID=584) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:35:50,134] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:35:50,137] {logging_mixin.py:104} INFO - [2021-07-22 13:35:50,137] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:35:50,332] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:35:52,319] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:35:52,321] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:35:53,597] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:35:53,634] {logging_mixin.py:104} INFO - [2021-07-22 13:35:53,634] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:35:53,653] {logging_mixin.py:104} INFO - [2021-07-22 13:35:53,653] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:35:53,679] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 3.552 seconds
+[2021-07-22 13:36:24,065] {scheduler_job.py:182} INFO - Started process (PID=624) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:36:24,068] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:36:24,069] {logging_mixin.py:104} INFO - [2021-07-22 13:36:24,069] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:36:24,139] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:36:26,361] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:36:26,362] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:36:27,381] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:36:27,422] {logging_mixin.py:104} INFO - [2021-07-22 13:36:27,421] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:36:27,452] {logging_mixin.py:104} INFO - [2021-07-22 13:36:27,451] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:36:27,479] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 3.417 seconds
+[2021-07-22 13:36:57,564] {scheduler_job.py:182} INFO - Started process (PID=664) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:36:57,567] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:36:57,570] {logging_mixin.py:104} INFO - [2021-07-22 13:36:57,570] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:36:57,644] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:36:59,401] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:36:59,403] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:37:00,453] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:37:00,490] {logging_mixin.py:104} INFO - [2021-07-22 13:37:00,490] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:37:00,519] {logging_mixin.py:104} INFO - [2021-07-22 13:37:00,518] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:37:00,545] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 2.987 seconds
+[2021-07-22 13:37:31,080] {scheduler_job.py:182} INFO - Started process (PID=703) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:37:31,082] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:37:31,084] {logging_mixin.py:104} INFO - [2021-07-22 13:37:31,084] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:37:31,186] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:37:32,030] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:37:32,032] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:37:32,723] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:37:32,756] {logging_mixin.py:104} INFO - [2021-07-22 13:37:32,756] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:37:32,776] {logging_mixin.py:104} INFO - [2021-07-22 13:37:32,776] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:37:32,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 1.728 seconds
+[2021-07-22 13:38:03,217] {scheduler_job.py:182} INFO - Started process (PID=751) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:38:03,219] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:38:03,221] {logging_mixin.py:104} INFO - [2021-07-22 13:38:03,221] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:38:03,338] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:38:04,663] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:38:04,666] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:38:05,934] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:38:05,963] {logging_mixin.py:104} INFO - [2021-07-22 13:38:05,963] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:38:05,992] {logging_mixin.py:104} INFO - [2021-07-22 13:38:05,991] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:38:06,024] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 2.813 seconds
+[2021-07-22 13:38:36,936] {scheduler_job.py:182} INFO - Started process (PID=805) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:38:36,939] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:38:36,942] {logging_mixin.py:104} INFO - [2021-07-22 13:38:36,941] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:38:37,060] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:38:39,211] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:38:39,212] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:38:39,972] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:38:40,001] {logging_mixin.py:104} INFO - [2021-07-22 13:38:40,001] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:38:40,031] {logging_mixin.py:104} INFO - [2021-07-22 13:38:40,031] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:38:40,051] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 3.119 seconds
+[2021-07-22 13:39:10,286] {scheduler_job.py:182} INFO - Started process (PID=844) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:39:10,289] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:39:10,291] {logging_mixin.py:104} INFO - [2021-07-22 13:39:10,290] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:39:10,363] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:39:11,331] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:39:11,333] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:39:12,299] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:39:12,369] {logging_mixin.py:104} INFO - [2021-07-22 13:39:12,369] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:39:12,413] {logging_mixin.py:104} INFO - [2021-07-22 13:39:12,413] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:39:12,456] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 2.174 seconds
+[2021-07-22 13:42:57,116] {scheduler_job.py:182} INFO - Started process (PID=60) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:42:57,121] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:42:57,135] {logging_mixin.py:104} INFO - [2021-07-22 13:42:57,134] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:42:57,581] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:43:17,944] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:43:17,949] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:43:20,311] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:43:20,384] {logging_mixin.py:104} INFO - [2021-07-22 13:43:20,383] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:43:20,425] {logging_mixin.py:104} INFO - [2021-07-22 13:43:20,425] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:43:20,463] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 23.365 seconds
+[2021-07-22 13:43:51,134] {scheduler_job.py:182} INFO - Started process (PID=123) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:43:51,137] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:43:51,146] {logging_mixin.py:104} INFO - [2021-07-22 13:43:51,139] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:43:51,309] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:43:59,514] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:43:59,517] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:44:01,515] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:44:01,588] {logging_mixin.py:104} INFO - [2021-07-22 13:44:01,588] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:44:01,639] {logging_mixin.py:104} INFO - [2021-07-22 13:44:01,639] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:44:01,705] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 10.580 seconds
+[2021-07-22 13:44:32,151] {scheduler_job.py:182} INFO - Started process (PID=176) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:44:32,161] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:44:32,164] {logging_mixin.py:104} INFO - [2021-07-22 13:44:32,164] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:44:32,498] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:44:41,678] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:44:41,709] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:44:45,864] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:44:46,036] {logging_mixin.py:104} INFO - [2021-07-22 13:44:46,036] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:44:46,153] {logging_mixin.py:104} INFO - [2021-07-22 13:44:46,153] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:44:46,204] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 14.079 seconds
+[2021-07-22 13:45:16,724] {scheduler_job.py:182} INFO - Started process (PID=232) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:45:16,727] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:45:16,730] {logging_mixin.py:104} INFO - [2021-07-22 13:45:16,729] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:45:16,885] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:45:21,300] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:45:21,302] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:45:23,663] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:45:23,787] {logging_mixin.py:104} INFO - [2021-07-22 13:45:23,786] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:45:23,849] {logging_mixin.py:104} INFO - [2021-07-22 13:45:23,849] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:45:23,918] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 7.202 seconds
+[2021-07-22 13:45:54,656] {scheduler_job.py:182} INFO - Started process (PID=274) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:45:54,661] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:45:54,669] {logging_mixin.py:104} INFO - [2021-07-22 13:45:54,668] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:45:54,972] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:45:56,920] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:45:56,922] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:45:59,018] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:45:59,067] {logging_mixin.py:104} INFO - [2021-07-22 13:45:59,067] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:45:59,095] {logging_mixin.py:104} INFO - [2021-07-22 13:45:59,094] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:45:59,145] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 4.496 seconds
+[2021-07-22 13:46:29,764] {scheduler_job.py:182} INFO - Started process (PID=326) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:46:29,768] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:46:29,771] {logging_mixin.py:104} INFO - [2021-07-22 13:46:29,770] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:46:29,893] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:46:32,422] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:46:32,423] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:46:34,434] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:46:34,488] {logging_mixin.py:104} INFO - [2021-07-22 13:46:34,487] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:46:34,535] {logging_mixin.py:104} INFO - [2021-07-22 13:46:34,534] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:46:34,572] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 4.813 seconds
+[2021-07-22 13:47:04,913] {scheduler_job.py:182} INFO - Started process (PID=365) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:47:04,915] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:47:04,916] {logging_mixin.py:104} INFO - [2021-07-22 13:47:04,916] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:47:04,971] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:47:05,891] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:47:05,893] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:47:06,825] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:47:06,856] {logging_mixin.py:104} INFO - [2021-07-22 13:47:06,856] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:47:06,879] {logging_mixin.py:104} INFO - [2021-07-22 13:47:06,879] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:47:06,897] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 1.986 seconds
+[2021-07-22 13:47:37,134] {scheduler_job.py:182} INFO - Started process (PID=404) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:47:37,136] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:47:37,137] {logging_mixin.py:104} INFO - [2021-07-22 13:47:37,137] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:47:37,230] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:47:38,293] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:47:38,294] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:47:39,354] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:47:39,400] {logging_mixin.py:104} INFO - [2021-07-22 13:47:39,400] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:47:39,436] {logging_mixin.py:104} INFO - [2021-07-22 13:47:39,436] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:47:39,472] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 2.341 seconds
+[2021-07-22 13:48:10,220] {scheduler_job.py:182} INFO - Started process (PID=444) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:48:10,223] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:48:10,225] {logging_mixin.py:104} INFO - [2021-07-22 13:48:10,225] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:48:10,308] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:48:12,962] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:48:12,973] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:48:15,272] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:48:15,398] {logging_mixin.py:104} INFO - [2021-07-22 13:48:15,397] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:48:15,442] {logging_mixin.py:104} INFO - [2021-07-22 13:48:15,442] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:48:15,478] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 5.266 seconds
+[2021-07-22 13:48:45,621] {scheduler_job.py:182} INFO - Started process (PID=496) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:48:45,632] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:48:45,637] {logging_mixin.py:104} INFO - [2021-07-22 13:48:45,636] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:48:45,725] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:48:47,597] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:48:47,599] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:48:48,573] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:48:48,600] {logging_mixin.py:104} INFO - [2021-07-22 13:48:48,600] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:48:48,619] {logging_mixin.py:104} INFO - [2021-07-22 13:48:48,619] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:48:48,633] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 3.018 seconds
+[2021-07-22 13:49:19,194] {scheduler_job.py:182} INFO - Started process (PID=541) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:49:19,196] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:49:19,197] {logging_mixin.py:104} INFO - [2021-07-22 13:49:19,197] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:49:19,242] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:49:20,172] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:49:20,173] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:49:21,071] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:49:21,111] {logging_mixin.py:104} INFO - [2021-07-22 13:49:21,110] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:49:21,133] {logging_mixin.py:104} INFO - [2021-07-22 13:49:21,132] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:49:21,149] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 1.958 seconds
+[2021-07-22 13:49:51,701] {scheduler_job.py:182} INFO - Started process (PID=598) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:49:51,703] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:49:51,705] {logging_mixin.py:104} INFO - [2021-07-22 13:49:51,705] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:49:51,765] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:49:52,717] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:49:52,720] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:49:53,362] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:49:53,392] {logging_mixin.py:104} INFO - [2021-07-22 13:49:53,392] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:49:53,412] {logging_mixin.py:104} INFO - [2021-07-22 13:49:53,411] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:49:53,426] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 1.731 seconds
+[2021-07-22 13:50:23,570] {scheduler_job.py:182} INFO - Started process (PID=637) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:50:23,572] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:50:23,573] {logging_mixin.py:104} INFO - [2021-07-22 13:50:23,573] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:50:23,614] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:50:24,394] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:50:24,395] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:50:25,011] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:50:25,034] {logging_mixin.py:104} INFO - [2021-07-22 13:50:25,034] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:50:25,050] {logging_mixin.py:104} INFO - [2021-07-22 13:50:25,050] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:50:25,071] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 1.504 seconds
+[2021-07-22 13:50:55,861] {scheduler_job.py:182} INFO - Started process (PID=686) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:50:55,863] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:50:55,864] {logging_mixin.py:104} INFO - [2021-07-22 13:50:55,864] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:50:55,922] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:50:56,785] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:50:56,786] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:50:57,845] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:50:57,882] {logging_mixin.py:104} INFO - [2021-07-22 13:50:57,882] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:50:57,918] {logging_mixin.py:104} INFO - [2021-07-22 13:50:57,918] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:50:57,935] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 2.077 seconds
+[2021-07-22 13:51:28,594] {scheduler_job.py:182} INFO - Started process (PID=733) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:51:28,596] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:51:28,597] {logging_mixin.py:104} INFO - [2021-07-22 13:51:28,597] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:51:28,648] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:51:29,836] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:51:29,837] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:51:30,451] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:51:30,476] {logging_mixin.py:104} INFO - [2021-07-22 13:51:30,475] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:51:30,491] {logging_mixin.py:104} INFO - [2021-07-22 13:51:30,491] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:51:30,507] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 1.917 seconds
+[2021-07-22 13:52:00,781] {scheduler_job.py:182} INFO - Started process (PID=784) to work on /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:52:00,783] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/POSTGRESRSERS.py for tasks to queue
+[2021-07-22 13:52:00,785] {logging_mixin.py:104} INFO - [2021-07-22 13:52:00,785] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:52:00,843] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:52:02,539] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-07-22 13:52:02,541] {logging_mixin.py:104} WARNING - [nltk_data]   Package vader_lexicon is already up-to-date!
+[2021-07-22 13:52:03,420] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['psotgrressdftest']) retrieved from /opt/airflow/dags/POSTGRESRSERS.py
+[2021-07-22 13:52:03,449] {logging_mixin.py:104} INFO - [2021-07-22 13:52:03,449] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:52:03,466] {logging_mixin.py:104} INFO - [2021-07-22 13:52:03,466] {dag.py:2305} INFO - Setting next_dagrun for psotgrressdftest to None
+[2021-07-22 13:52:03,484] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/POSTGRESRSERS.py took 2.707 seconds

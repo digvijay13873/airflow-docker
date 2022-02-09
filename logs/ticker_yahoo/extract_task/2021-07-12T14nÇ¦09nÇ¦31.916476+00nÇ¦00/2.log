@@ -1,0 +1,24 @@
+[2021-07-12 14:19:13,415] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T14:09:31.916476+00:00 [queued]>
+[2021-07-12 14:19:13,613] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T14:09:31.916476+00:00 [queued]>
+[2021-07-12 14:19:13,614] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 14:19:13,615] {taskinstance.py:1068} INFO - Starting attempt 2 of 2
+[2021-07-12 14:19:13,617] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 14:19:13,665] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-12T14:09:31.916476+00:00
+[2021-07-12 14:19:13,735] {standard_task_runner.py:52} INFO - Started process 2933 to run task
+[2021-07-12 14:19:13,803] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-12T14:09:31.916476+00:00', '--job-id', '26', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmpmtp3qcbp', '--error-file', '/tmp/tmps5w_mgo5']
+[2021-07-12 14:19:13,819] {standard_task_runner.py:77} INFO - Job 26: Subtask extract_task
+[2021-07-12 14:19:14,288] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-12T14:09:31.916476+00:00 [running]> on host f29b1d03ad56
+[2021-07-12 14:19:18,964] {local_task_job.py:193} WARNING - Recorded pid 2464 does not match the current pid 2933
+[2021-07-12 14:19:19,224] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 2933
+[2021-07-12 14:19:19,305] {taskinstance.py:1264} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-07-12 14:19:19,544] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-12T14:09:31.916476+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-12T14:09:31.916476+00:00
+[2021-07-12 14:20:19,320] {process_utils.py:113} WARNING - process psutil.Process(pid=2933, name='airflow task ru', status='sleeping', started='14:19:12') did not respond to SIGTERM. Trying SIGKILL
+[2021-07-12 14:20:20,101] {process_utils.py:66} INFO - Process psutil.Process(pid=2933, name='airflow task ru', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='14:19:12') (2933) terminated with exit code Negsignal.SIGKILL
+[2021-07-12 14:20:23,344] {standard_task_runner.py:130} ERROR - Job 26 was killed before it finished (likely due to running out of memory)

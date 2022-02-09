@@ -1,0 +1,22 @@
+[2021-07-16 10:37:52,036] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:37:39.933376+00:00 [queued]>
+[2021-07-16 10:37:52,157] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:37:39.933376+00:00 [queued]>
+[2021-07-16 10:37:52,159] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:37:52,160] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:37:52,161] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:37:52,220] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:37:39.933376+00:00
+[2021-07-16 10:37:52,254] {standard_task_runner.py:52} INFO - Started process 2048 to run task
+[2021-07-16 10:37:52,274] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:37:39.933376+00:00', '--job-id', '607', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpbdtbkxge', '--error-file', '/tmp/tmpof1pqjhb']
+[2021-07-16 10:37:52,275] {standard_task_runner.py:77} INFO - Job 607: Subtask extract_tweets
+[2021-07-16 10:37:52,506] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:37:39.933376+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:37:52,817] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:37:39.933376+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:37:35.091373+00:00
+[2021-07-16 10:37:53,955] {python.py:151} INFO - Done. Returned value was: ['RT @WealthEnrich: Mr. @varinder_bansal has shared these amazing fundamental #stocks in recent past.\n\n1. Orient Ref\n2. ISGEC\n3. Gujarat Ambu…', 'RT @WealthEnrich: Mr. @varinder_bansal has shared these amazing fundamental #stocks in recent past.\n\n1. Orient Ref\n2. ISGEC\n3. Gujarat Ambu…', '⭐️#CasodeÉxito⭐️@AccelyaGroup ya procedía de un #outsourcing de #nómina. Con el servicio de @seresco consigue cubri… https://t.co/TdQhVehAzG', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'RT @DhanValue: New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla Dairy 328…', 'New Stocks Added By Mutual Funds - June 21\n\nRs in Cr (Based on mkt Value) \n1. Sona BLW  2500\n2. KIMS 862\n3. Dodla D… https://t.co/8dvDqiPFsm']
+[2021-07-16 10:37:54,007] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T103739, start_date=20210716T103752, end_date=20210716T103754
+[2021-07-16 10:37:54,101] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:37:54,154] {local_task_job.py:151} INFO - Task exited with return code 0

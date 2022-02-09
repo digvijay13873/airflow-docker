@@ -1,0 +1,22 @@
+[2021-07-16 10:50:37,644] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:50:30.497423+00:00 [queued]>
+[2021-07-16 10:50:37,669] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:50:30.497423+00:00 [queued]>
+[2021-07-16 10:50:37,670] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:50:37,670] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:50:37,671] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:50:37,703] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:50:30.497423+00:00
+[2021-07-16 10:50:37,724] {standard_task_runner.py:52} INFO - Started process 3024 to run task
+[2021-07-16 10:50:37,733] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:50:30.497423+00:00', '--job-id', '717', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp7zfye_i7', '--error-file', '/tmp/tmpc969hxpo']
+[2021-07-16 10:50:37,734] {standard_task_runner.py:77} INFO - Job 717: Subtask extract_tweets
+[2021-07-16 10:50:37,839] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:50:30.497423+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:50:37,945] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:50:30.497423+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:50:25.446765+00:00
+[2021-07-16 10:50:39,125] {python.py:151} INFO - Done. Returned value was: ['kung noon excited akong mag college putek ngayon indi na 😀', "RT @1muhafazakar_: Gezi'de halkın %3'ü sokağa indi direniş dediler..\n\n15 Temmuz'da halkın %60'ı sokağa indi tiyatro dediler..😉", 'RT @jikanclock: JAY LAHAMS PLS END GAME PLS KUNG INDI EDI SHING', '@joshtinsoulmate @SB19Official aw hala, indi ako nagtanong pero tinkyu sai \U0001f97a HSUHSHSHSHSHSSHSHS ang kyut hahahahhah… https://t.co/QznDdYZOQY', 'RT @melek__1991: Bu ana deyir, uşağlarım iki gündür su içmeyiblər\niran fars molla rejimi, iki ay imam hüsyn və uşağları susuz ölüb deyib ya…', 'Palpak permi luto ko sng talong indi ma puslan kay sunog sila tanan. te laban namn itlog eh. hahaha ang isda namn ya dapat gli utdon pgd', '@sadecedent Param 75 den 12 ye indi hayırlısı sabır sabır nereye kadar daha ne kadar düşecek', '@erMolazza82 @icardismoo Hai letteralmente scritto che la nazionale per te come la juve. Hai quindi asserito che Cr… https://t.co/JOE2qiBoeY', '@efsaneoid Təbii ki, konsumerist cəmiyyət/sistemdə o tora düşürsən/düşmə ehtimalın olur. Sadəcə mən bir az bu məsəl… https://t.co/UebzyygTS2', 'RT @nitin2kool: This is the struggle of people living in chicknayakahalli, rayasandra, choodasandra area. Pathetic roads due kaveri water w…', 'RT @saramalekun: HOLA!\nEstoy buscando piso en Valladolid (zona centro). Así que si sabéis de alguien/algo escribidme, porfa!\nMe mudo por cu…', '@hyunicano Benim indi bilee', '@leijila1 Aa mənim də anam mənim üçün tikirdi 🙂 Hətta üniversitetdə belə anamın toxuduğu sviterləri geyirdim. Sonra… https://t.co/AxlyuiHLwV', '@jordiborras @AnnaGaSabate @omnium @MonDiari Ha fet entre poc i res x la indi en el seu exili', "Gözüme perde mi indi şimdi benim? Çok zormuş yav. Bilgisayar ekranındaki timecode'ları hep yanlış okuyorum. Yakın g… https://t.co/0QE0tl9shD"]
+[2021-07-16 10:50:39,171] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T105030, start_date=20210716T105037, end_date=20210716T105039
+[2021-07-16 10:50:39,237] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:50:39,270] {local_task_job.py:151} INFO - Task exited with return code 0

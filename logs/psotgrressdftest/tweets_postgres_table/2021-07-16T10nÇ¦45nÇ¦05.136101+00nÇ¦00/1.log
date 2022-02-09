@@ -1,0 +1,23 @@
+[2021-07-16 10:45:22,023] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:45:05.136101+00:00 [queued]>
+[2021-07-16 10:45:22,058] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:45:05.136101+00:00 [queued]>
+[2021-07-16 10:45:22,060] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:45:22,061] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:45:22,062] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:45:22,096] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T10:45:05.136101+00:00
+[2021-07-16 10:45:22,119] {standard_task_runner.py:52} INFO - Started process 2625 to run task
+[2021-07-16 10:45:22,126] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T10:45:05.136101+00:00', '--job-id', '672', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpu_k_dl_t', '--error-file', '/tmp/tmpqfq6xvvv']
+[2021-07-16 10:45:22,128] {standard_task_runner.py:77} INFO - Job 672: Subtask tweets_postgres_table
+[2021-07-16 10:45:22,215] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:45:05.136101+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:45:22,319] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:45:05.136101+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:45:02.031732+00:00
+[2021-07-16 10:45:22,420] {logging_mixin.py:104} INFO - [('#InsiderTrades #stockmarket\n#ADANITRANS https://t.co/R5J7vRJbNF', Decimal('0.0000')), ('ADANITRANS - Disclosure of Voting results of AGM (Regulation 44(3) of SEBI (LODR) Regulations, 2015) https://t.co/0tNHTOq3BV', Decimal('0.0000')), ('4.64 is S/E ratio 4 today its down a bit ADANITRANS HAVELLS  ATGL  NATCOPHARM  BAJAJELEC  NEWGEN  TVS compression p… https://t.co/fAqrC1k4sb', Decimal('0.0000')), ('RT @SpotalphaIndia: @Navi030325 #ADANITRANS is currently in a down trend.\n\nOver the last year Buy-and-Hold has been a better strategy (retu…', Decimal('0.4404')), ('@Navi030325 #ADANITRANS is currently in a down trend.\n\nOver the last year Buy-and-Hold has been a better strategy (… https://t.co/xAAYX18mYc', Decimal('0.4404')), ('@Navi030325 Did you mean :\n\n@SpotalphaIndia #ADANITRANS\n\nPlease check for valid "NSE India" symbols at:\nhttps://t.co/Hm3nv63RK7', Decimal('0.3182')), ('ADANITRANS - Regulation 44(3) Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations, 2015 - Det… https://t.co/9vwHh9TNnC', Decimal('0.0000')), ('ADANITRANS - Shareholder Meeting / Postal Ballot-Scrutinizer""s Report https://t.co/1JKWU0za7x', Decimal('0.0000')), ('BLOCK DEALS TODAY-\n\n#ADANITRANS-180464 shares @ 974.5\n\n#RELIANCE-98778 shares @ 2087.25\n\n#FORTISHEALTH-1755778 shar… https://t.co/YjvS7osQJ5', Decimal('-0.0601')), ('Added more #ADANITRANS today https://t.co/2suB0P2cfz', Decimal('0.0000')), ('#nifty50  next 50 top leaders and laggards on july 13\n#NMDC #mrf #infoedge #ADANITRANS https://t.co/oE6WXYbX0a', Decimal('0.2023')), ('#Nifty50 next50 heatmap july 13\n#NMDC #mrf #infoedge #ADANITRANS https://t.co/7oKQqUDyzF', Decimal('0.0000')), ('Reversal Buy #ADANITRANS 983.8 7/13/2021 3:25:00 PM SL: 975.5 T1(fibo): 1079.28 T2(fibo): 1128.28 T3(fibo): 1177.28… https://t.co/JG0p7UNewE', Decimal('0.0000')), ('ADANITRANS - Shareholder Meeting / Postal Ballot-Outcome of AGM https://t.co/L3XGsZDOXg', Decimal('0.0000')), ('ADANITRANS 1672 to 840 Low 50 % Down Almost After my tweet 👇 https://t.co/JTMOuYONH8', Decimal('-0.2732'))]
+[2021-07-16 10:45:22,427] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 10:45:22,462] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T104505, start_date=20210716T104522, end_date=20210716T104522
+[2021-07-16 10:45:22,595] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:45:22,664] {local_task_job.py:151} INFO - Task exited with return code 0

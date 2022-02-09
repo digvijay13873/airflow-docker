@@ -1,0 +1,23 @@
+[2021-07-16 17:21:16,294] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:21:04.498600+00:00 [queued]>
+[2021-07-16 17:21:16,343] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:21:04.498600+00:00 [queued]>
+[2021-07-16 17:21:16,344] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:21:16,346] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:21:16,347] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:21:16,372] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T17:21:04.498600+00:00
+[2021-07-16 17:21:16,394] {standard_task_runner.py:52} INFO - Started process 12372 to run task
+[2021-07-16 17:21:16,401] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T17:21:04.498600+00:00', '--job-id', '1621', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpgup09_fp', '--error-file', '/tmp/tmpf_v7lhhv']
+[2021-07-16 17:21:16,402] {standard_task_runner.py:77} INFO - Job 1621: Subtask tweets_postgres_table
+[2021-07-16 17:21:16,492] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:21:04.498600+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:21:16,609] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:21:04.498600+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:21:02.003024+00:00
+[2021-07-16 17:21:16,680] {logging_mixin.py:104} INFO - [('AGCNET - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/3nhJwPbUox', Decimal('-0.4019')), ('AGCNET - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/3nhJwPbUox', Decimal('-0.4019'))]
+[2021-07-16 17:21:16,685] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 17:21:16,708] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T172104, start_date=20210716T172116, end_date=20210716T172116
+[2021-07-16 17:21:16,776] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:21:16,812] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-14 14:46:52,596] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:46:42.429772+00:00 [queued]>
+[2021-07-14 14:46:52,661] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:46:42.429772+00:00 [queued]>
+[2021-07-14 14:46:52,663] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:46:52,664] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:46:52,666] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:46:52,708] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-14T14:46:42.429772+00:00
+[2021-07-14 14:46:52,750] {standard_task_runner.py:52} INFO - Started process 6110 to run task
+[2021-07-14 14:46:52,771] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-14T14:46:42.429772+00:00', '--job-id', '301', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpxiyg9d7u', '--error-file', '/tmp/tmpqpj8bly8']
+[2021-07-14 14:46:52,772] {standard_task_runner.py:77} INFO - Job 301: Subtask extract_tweets
+[2021-07-14 14:46:52,909] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:46:42.429772+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:46:53,041] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:46:42.429772+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:46:42.429772+00:00
+[2021-07-14 14:46:54,053] {python.py:151} INFO - Done. Returned value was: ['♥⸝\u200d이게 최근 주목받는다던데  써큘레이터 알아보니 파세코 3D 에어 서큘레이터 블랙, PCF-D087AB, 1개  https://t.co/FJf8UKGuxv 그래도 꼼꼼히 체크하세요ㅋ 제휴 커미션 발생해요… https://t.co/tTiBJtE0P9', 'eri kl  b trend hui cos her amazing acting or ik ml fans ko mirchi lag gayi hogi 😂✋ ab show story fl char se proble… https://t.co/Y56SJ8fSkq', 'RT @Ana40249352: @CarrilEuge @SiiriTop @Cerasel71265444 @orseekon @Gladys06662319 @LauraNogueira64 @miyaros2 @Natalia44488908 @magda_11_22…', 'RT @MostArdently29: Mujhe bhi kisi shadi mein Jana hai ab, koi yahan hi shadi karke invite karlo yaar \n\nRAHUL DISHA KI MEHNDI', 'RT @Peace___Red: Ab 3rd time victim ho gya😜😜🤣🤣\nAcc - @Gaandivdhaari \nFollowers - 60\nThanks twitter\n💐💐 https://t.co/hKQL8B5654', 'パ卿こんなにかわいらしい方なんですか？！？！うわ  引きた……', '@lisapaus @sixtus Wenn wir Glück haben kommt diese CXU ab Werk mit vormontiertem Selbstzerstörungsmechanismus.', 'Spruce Point Capital Management Announces Investment Opinion: Releases Report and Strong Sell Research Opinion on Oa https://t.co/vg98zQpRx6', 'RT @akari_akku: @snow_kf @Jiggy712 Jiggy ab idhar v aag lagani hai😎😎🌚🌚....sab ko ssk2 k powers se rubaroo karana hai 🌚🌚🌚', '@Yashasv36354836 Hi Yashasvi! We have replied through private messages. Kindly check.-AB', '@NILU21372919 🤣🤣🤣', 'RT @LauraNogueira64: @SiiriTop @CarrilEuge @Cerasel71265444 @orseekon @Gladys06662319 @miyaros2 @Natalia44488908 @magda_11_22 @WhatMeDiZany…', '@USA_AB_NN 응원할게, 나나씨.\n\n(손을 내민다.)', 'RT @JustRahul: Idol ne jaldi Sadi Karli so ab me v jldi sadi karungi ;-) \n\nRAHUL DISHA KI MEHNDI', "RT @MadhumitaroyC: Warriors... I'm totally depressed now to see two taglines\n\nSSR kaya ab tukdo me palege??\naj ka din SSR ko hm baat bhi di…"]
+[2021-07-14 14:46:54,094] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210714T144642, start_date=20210714T144652, end_date=20210714T144654
+[2021-07-14 14:46:54,158] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:46:54,182] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-16 16:48:22,292] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:48:14.278279+00:00 [queued]>
+[2021-07-16 16:48:22,354] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:48:14.278279+00:00 [queued]>
+[2021-07-16 16:48:22,355] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:48:22,356] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:48:22,357] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:48:22,385] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:48:14.278279+00:00
+[2021-07-16 16:48:22,419] {standard_task_runner.py:52} INFO - Started process 9492 to run task
+[2021-07-16 16:48:22,434] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:48:14.278279+00:00', '--job-id', '1258', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmplbnxhy5f', '--error-file', '/tmp/tmpgukblw9k']
+[2021-07-16 16:48:22,436] {standard_task_runner.py:77} INFO - Job 1258: Subtask extract_tweets
+[2021-07-16 16:48:22,592] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:48:14.278279+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:48:22,794] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:48:14.278279+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:48:11.212277+00:00
+[2021-07-16 16:48:23,939] {python.py:151} INFO - Done. Returned value was: ['Drive through the toll lanes without any breaks with FASTag!\n\nWant a new FASTag or recharge an old one?\n\nJust visit… https://t.co/f5ucCrWlhA', 'BUY ALANKIT CASH TARGET 27 BUY 21.40 - 22 SL 20.25 FUNDAMENTAL STOCK NOT HOLDING VALUE / TECHNICAL TRADE #alankit #TRADINGTIPS #trading', '@AlankitGroup1 ,@Alankit_  @CMOGuj\n@aajtak @CNBCTV18News \nAlankit Ltd. has closed the TIN facility but does not giv… https://t.co/RHEKd5wAil', 'BSE SmallCap Index at record highs; Alankit, Datamatics Top SmallCap\xa0gainers https://t.co/R8z29jaMtP', 'Plan a smart investment for peaceful retirement!\n\nFor the opening of a paperless NPS account, approach the proficie… https://t.co/rZon8JoZfB', 'Alankit Ltd. has closed the TIN facility but does not give after deposit. Has been taking lollipops for 1.5 years.… https://t.co/KNOkY4ad4V', "@BBCHindi Dear sir/mam\nI mannu kumar baitha and my problem is sd refund for alankit limited I'm using tin fc center… https://t.co/tx11qYFsUa", "@ABPNews Dear sir/mam\nI mannu kumar baitha and my problem is sd refund for alankit limited I'm using tin fc center… https://t.co/9fEN6h7Sh2", '@AlankitGroup1 @PMOIndia @nsdlgst \n\nAlankit ne security deposit li TIN fc dene ke liye or jab kaam band hua to pais… https://t.co/maj48Oj0a8', 'RT @Narendr42708436: @ZeeBusiness @AnilSinghvi_ \nSir alankit ltd nay nsdl pan center retaler bane k liya diposit liya tha wo sara amount bh…', '@ZeeBusiness @AnilSinghvi_ \nSir alankit ltd nay nsdl pan center retaler bane k liya diposit liya tha wo sara amount… https://t.co/9AagOYzt6X', 'Demat Account helps you to gain access to a variety of banking services, even loans. It boosts your eligibility &amp; s… https://t.co/olPiYxjCHd', '@TheBullBull is it still good buy for alankit?', 'Sign documents anywhere, anytime via online means with Digital Sign Certificate.\n\nTo get your Class-1 / Class-2 / C… https://t.co/IvuS2tyPCx', 'RT @capt_ivane: ED ने Alankit Group के चेयरमैन आलोक अग्रवाल को मनी लॉड्रिंग मामले में गिरफ्तार किया है। आरोप है कि आलोक  ने हवाला के जरिये…']
+[2021-07-16 16:48:24,088] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T164814, start_date=20210716T164822, end_date=20210716T164824
+[2021-07-16 16:48:24,215] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:48:24,253] {local_task_job.py:151} INFO - Task exited with return code 0

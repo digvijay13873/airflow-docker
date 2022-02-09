@@ -1,0 +1,23 @@
+[2021-07-16 10:40:21,388] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:39:58.899323+00:00 [queued]>
+[2021-07-16 10:40:21,453] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:39:58.899323+00:00 [queued]>
+[2021-07-16 10:40:21,455] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:40:21,456] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:40:21,457] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:40:21,497] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T10:39:58.899323+00:00
+[2021-07-16 10:40:21,520] {standard_task_runner.py:52} INFO - Started process 2224 to run task
+[2021-07-16 10:40:21,530] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T10:39:58.899323+00:00', '--job-id', '624', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpr62l17pi', '--error-file', '/tmp/tmp3brbqeok']
+[2021-07-16 10:40:21,531] {standard_task_runner.py:77} INFO - Job 624: Subtask tweets_postgres_table
+[2021-07-16 10:40:21,669] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:39:58.899323+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:40:21,883] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:39:58.899323+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:39:47.748192+00:00
+[2021-07-16 10:40:22,052] {logging_mixin.py:104} INFO - [('@APokerbr @e_prata\n\nACR: Alaercio Brasil', Decimal('0.0000')), ('RT @saltcumlee: https://t.co/33fNaaylOx', Decimal('0.0000')), ('@AcrLatam @Nightvsp\n \n@e_prata\n \n@Escaffa1\n \n@ASMautoneJr\n \n@SugizoBR\n \n@hitio\n\nACR: Alaercio Brasil', Decimal('0.0000')), ('RT @HinmanRana: Muscle strength and osteoarthritis progression after surgery or exercise for degenerative meniscal tears: Secondary analyse…', Decimal('0.3182')), ('RT @acrmcr: Get up to 50% ACR merchandise this weekend only, including men"s and ladies apparel and enamel badges &gt;&gt; https://t.co/3bKsd04OI…', Decimal('0.0000')), ('\U0001f970 https://t.co/9EBbOeon8N', Decimal('0.0000')), ('RT @seonhosite: calligraphy for tvn drama Hometown Chachacha made by daruum_calligraphy\n\nthe artist have created a lot of calligraphy for o…', Decimal('0.2500')), ('@y_y_ACR 身体は倦怠感以外は大丈夫なんけどねー、\nとりあえず近々検査は必要かな\n引きこもる準備しないと', Decimal('0.0000')), ('RT @RadiologyACR: In the latest #VoiceofRadiology blog, @DrDMonticciolo addresses the importance of creating inclusive #breastcancer screen…', Decimal('0.5719')), ('みんなからの匿名質問を募集中！\n\nたにたに@彩ちゃん推し。さんはまだ答えた質問がありません！\nたにたに@彩ちゃん推し。さんの記念すべき最初の回答はあなたの質問かも！？\n#質問箱 #匿名質問募集中\n\nhttps://t.co/GplFMQ9WlZ', Decimal('0.0000')), ('クラファンの活動報告を更新しました！！\n#A_Case_of_RanK\n#ACR\nリターンのシナリオライター書下ろしオリジナル小説について少し触れます by ADV『A Case of RanK』制作プロジェクトをお蔵入りにしたく… https://t.co/2CWjpNg1s9', Decimal('0.0000')), ('RT @acrmcr: Get up to 50% ACR merchandise this weekend only, including men"s and ladies apparel and enamel badges &gt;&gt; https://t.co/3bKsd04OI…', Decimal('0.0000')), ('RT @apestyles: ATTN: The 1st puzzle piece for the @ACR_POKER 10 Million dollar Venom Running July 23 - August 4th\n\nIt’s simple:\n\n1. Like th…', Decimal('0.3612')), ('@ACR_POKER So many more options to bet you should be much more efficient can’t even access my own funds for 16 HOURS lol', Decimal('0.7089')), ('RT @zounose: 長めのサンプルはこちら！\nhttps://t.co/53yn2taTRO', Decimal('0.0000'))]
+[2021-07-16 10:40:22,073] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 10:40:22,106] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T103958, start_date=20210716T104021, end_date=20210716T104022
+[2021-07-16 10:40:22,237] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:40:22,277] {local_task_job.py:151} INFO - Task exited with return code 0

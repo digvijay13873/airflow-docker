@@ -1,0 +1,22 @@
+[2021-07-20 09:27:16,226] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:27:03.214964+00:00 [queued]>
+[2021-07-20 09:27:16,301] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:27:03.214964+00:00 [queued]>
+[2021-07-20 09:27:16,304] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:27:16,307] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:27:16,308] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:27:16,359] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:27:03.214964+00:00
+[2021-07-20 09:27:16,398] {standard_task_runner.py:52} INFO - Started process 444 to run task
+[2021-07-20 09:27:16,421] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:27:03.214964+00:00', '--job-id', '1750', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmptf9635xm', '--error-file', '/tmp/tmptoixphyy']
+[2021-07-20 09:27:16,424] {standard_task_runner.py:77} INFO - Job 1750: Subtask extract_tweets
+[2021-07-20 09:27:16,721] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:27:03.214964+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:27:16,853] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:27:03.214964+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:26:58.687940+00:00
+[2021-07-20 09:27:17,792] {python.py:151} INFO - Done. Returned value was: ['"Mara morwa modimo [Jesus Christ] odira dilo tse dingwe sometimes guys kore ya neh!!... \n\nAkga!! Sham!! maaka a dir… https://t.co/Q8z7NVCGmG', 'Maduro por fin quito el 7+7 o no???', "@CapricornFM @uncleTS1 Good afternoon @uncleTS1 I'm listening to your beautiful show here in Mokopane at Sekgakgape… https://t.co/naZDsUXrgI", '@kickitjy @_akga', "@TshepisoMotsebe @TheRealPitso Akga!🤕 nina you guys always got something to say! You always ruined tau's career wit… https://t.co/YqeMnr0bmb", 'BATTLESHIP\u3000YAMATO\nBATTLESHIP\u3000MUSASHI\nBATTLESHIP\u3000AMAGI\nBATTLESHIP\u3000ASHITAKA\nBATTLESHIP\u3000NAGATO\nBATTLESHIP\u3000MUTU\nBATTLESHIP\u3000AKGA', '@vmorosis hooh, akhirnya di tabung duluuu😂nungguin kalod ah akga kaget lagie😭😭', '@MbalulaFikile Mara Mbaks, you guys are forever reactive. Akga maan sies.', 'Harusnya aku nonton ini dengan hati senang tapi akga bisaaaa, gak tenang banget 😭 https://t.co/5yWEpfAVGs', '@MolokoMabotja Akga maan 😂😂😂😂', 'jah ne. Just nou nou it was Steve Kekana, Sis Ouma, and now Tshepo. Akga man. Death be not proud. https://t.co/SiVBdyEQK3', 'Al contar va un prefijo que nos dice que estamos contando y el número. \nAkg/ Objetos de forma esférica ⚽\nAkga/ Árbo… https://t.co/6lQBeY4RNG', '@_akga Cspm!!', 'Ahora cantv jodiendo otra vez......', "a 76 liner being a jk akga€ dragging sj\nseriously!!! i didn't think id see this day too"]
+[2021-07-20 09:27:17,911] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T092703, start_date=20210720T092716, end_date=20210720T092717
+[2021-07-20 09:27:17,995] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:27:18,020] {local_task_job.py:151} INFO - Task exited with return code 0

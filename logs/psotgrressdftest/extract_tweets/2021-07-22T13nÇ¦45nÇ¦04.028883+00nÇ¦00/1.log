@@ -1,0 +1,22 @@
+[2021-07-22 13:45:16,711] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-22T13:45:04.028883+00:00 [queued]>
+[2021-07-22 13:45:16,782] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-22T13:45:04.028883+00:00 [queued]>
+[2021-07-22 13:45:16,784] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-22 13:45:16,786] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-22 13:45:16,788] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-22 13:45:16,856] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-22T13:45:04.028883+00:00
+[2021-07-22 13:45:16,916] {standard_task_runner.py:52} INFO - Started process 216 to run task
+[2021-07-22 13:45:16,937] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-22T13:45:04.028883+00:00', '--job-id', '2063', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpfqjo5m8l', '--error-file', '/tmp/tmp10iufnr4']
+[2021-07-22 13:45:16,950] {standard_task_runner.py:77} INFO - Job 2063: Subtask extract_tweets
+[2021-07-22 13:45:17,512] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-22T13:45:04.028883+00:00 [running]> on host 5795a622f846
+[2021-07-22 13:45:17,914] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-22T13:45:04.028883+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-22T13:44:52.486251+00:00
+[2021-07-22 13:45:19,065] {python.py:151} INFO - Done. Returned value was: ['21st Century Management Services Limited - Copy of Newspaper Publication https://t.co/DQR75ZDdbP', '21STCENMGM - Closure of Trading Window https://t.co/w1ghM7BEit', '21STCENMGM - Board Meeting Intimation for Approval Of Unaudited  Financial Results For The Quarter Ended 30Th June… https://t.co/HbKNKQsort', '21STCENMGM - Disclosure of Voting results of AGM (Regulation 44(3) of SEBI (LODR) Regulations, 2015) https://t.co/7OixA3N92L', '21STCENMGM - Shareholder Meeting / Postal Ballot-Outcome of AGM https://t.co/L1WM5BLRQt', "21STCENMGM - Shareholder Meeting / Postal Ballot-Scrutinizer''s Report https://t.co/djf7fse3K6"]
+[2021-07-22 13:45:19,202] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210722T134504, start_date=20210722T134516, end_date=20210722T134519
+[2021-07-22 13:45:19,454] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-22 13:45:19,524] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-15 13:22:30,007] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T13:21:31.411319+00:00 [queued]>
+[2021-07-15 13:22:30,050] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T13:21:31.411319+00:00 [queued]>
+[2021-07-15 13:22:30,052] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:22:30,053] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-15 13:22:30,054] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:22:30,090] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-15T13:21:31.411319+00:00
+[2021-07-15 13:22:30,117] {standard_task_runner.py:52} INFO - Started process 1172 to run task
+[2021-07-15 13:22:30,127] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-15T13:21:31.411319+00:00', '--job-id', '359', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp4k1s7ptd', '--error-file', '/tmp/tmpivwvnifb']
+[2021-07-15 13:22:30,130] {standard_task_runner.py:77} INFO - Job 359: Subtask extract_tweets
+[2021-07-15 13:22:30,219] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T13:21:31.411319+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 13:22:30,336] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T13:21:31.411319+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-15T13:21:28.631433+00:00
+[2021-07-15 13:22:31,302] {python.py:151} INFO - Done. Returned value was: ['Welcome to #5paisaDaily. This is the #5paisaWrapUp report as of 15th July 2021.\n\nDownload the App and stay updated.… https://t.co/P8EF92ihK5', '#angelbroking\nQ1 👏👍 in crs\nCons Rev 474 vs 246 cr yoy\n\nPBT 162 vs 65 yoy ,up 149% yoy 🛫\n\nPAT 121 vs 48 cr yoy ,up 1… https://t.co/eQhxhhsVQQ', '@IAMABHI181991 Unable to trace the ticket no request you to help us with the client code or mail Id.', 'Following concalls will be available at \nhttps://t.co/XESwaSNGYV\n\nDodla Dairy Ltd\n5paisa Capital Limited\nCraftsman… https://t.co/2Gt37Yt1ja', '@modibhakt_aashu Please elaborate on your query and ticket number to assist you better.', '@5paisa The worst customer support I have ever seen, non proficient customer support agent.', '#5PAISA - 5PAISA - TradingView - https://t.co/pGEuLkElOY', 'RT @ujjwaal81: #5paisa FAO SENIOR MANAGEMENT . hav been contctng ur cntct center for last 6 mnts regarding issue with ur web(shit)chart for…', 'RT @ujjwaal81: #5paisa have spoken to numerous agents from your techncal dsk, some tuk me on remote session but still same also complaint o…', "When it comes to investing in IPO stocks, new issues don't play by the usual rules. \n\nHow does one determine the fr… https://t.co/TpgPXTF8vF", '@rathoreaakash18 Sure!', '@smjani We would require a mail regarding this query .Kindly write to us at support@5paisa.com from your registered… https://t.co/R2pigZAynE', '@5paisa Have Dm  you', '@5paisa Hello sir I want to change my sip date of mutual fund. I have 3 mutual fund with 5th,10th,15th of Every mon… https://t.co/0aropvbKBe', '5PAISA CAPITA CONSOLIDATED JUNE 2021 NET SALES AT RS 60.09 CRORE, UP 41.71% Y-O-Y\nhttps://t.co/J2KuSjFyTj']
+[2021-07-15 13:22:31,376] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210715T132131, start_date=20210715T132230, end_date=20210715T132231
+[2021-07-15 13:22:31,448] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 13:22:31,471] {local_task_job.py:151} INFO - Task exited with return code 0

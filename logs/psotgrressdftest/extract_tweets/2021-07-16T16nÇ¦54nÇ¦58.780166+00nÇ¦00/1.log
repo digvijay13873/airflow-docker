@@ -1,0 +1,22 @@
+[2021-07-16 16:55:06,656] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:54:58.780166+00:00 [queued]>
+[2021-07-16 16:55:06,979] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:54:58.780166+00:00 [queued]>
+[2021-07-16 16:55:06,981] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:55:06,982] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:55:06,984] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:55:07,024] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:54:58.780166+00:00
+[2021-07-16 16:55:07,073] {standard_task_runner.py:52} INFO - Started process 10066 to run task
+[2021-07-16 16:55:07,082] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:54:58.780166+00:00', '--job-id', '1331', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmptikdmdc3', '--error-file', '/tmp/tmp5y0xjafj']
+[2021-07-16 16:55:07,085] {standard_task_runner.py:77} INFO - Job 1331: Subtask extract_tweets
+[2021-07-16 16:55:07,218] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:54:58.780166+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:55:07,400] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:54:58.780166+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:54:55.359956+00:00
+[2021-07-16 16:55:08,317] {python.py:151} INFO - Done. Returned value was: ['63MOONS - Shareholding for the Period Ended June 30, 2021 https://t.co/QZ9yCkORKW', 'List of securities which shall be shifted back from Trade for Trade segment (series: BE) to Rolling segment (series… https://t.co/2Pz60pHZOR', 'RT @Veeam_APAC: The #cybersecurity threat landscape is evolving rapidly &amp; the the financial sector is one of the most targeted sectors. See…', 'The #cybersecurity threat landscape is evolving rapidly &amp; the the financial sector is one of the most targeted sect… https://t.co/xbTUR9UF1N', 'https://t.co/eHiQCIV9E9 PREOPEN\n\nBE TO EQ FROM JUL 20TH : 63MOONS, A2ZINFRA, AARON, AARVEEDEN, ABAN, AJOONI, ALPA,… https://t.co/cmDRl9YX4m', '@WeekendInvestng 63moons', '@Rishikesh_ADX ONGC\nNTPC\nRELIANCE\nDATAMATICS\nDCMNVL\n63MOONS\nTV18\nINDIACEMENT', '@theicai @FinMinIndia @nsitharaman @JambusariaNihar @drdebashismitra @atulguptagst @PrafullaCa @AniketTalati… https://t.co/yr1IhdyzKI', '63MOONS - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/YEmTjCtsAJ']
+[2021-07-16 16:55:08,407] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T165458, start_date=20210716T165506, end_date=20210716T165508
+[2021-07-16 16:55:08,539] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:55:08,591] {local_task_job.py:151} INFO - Task exited with return code 0

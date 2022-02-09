@@ -1,0 +1,22 @@
+[2021-07-15 13:18:50,177] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T13:17:49.076758+00:00 [queued]>
+[2021-07-15 13:18:50,205] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T13:17:49.076758+00:00 [queued]>
+[2021-07-15 13:18:50,206] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:18:50,207] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-15 13:18:50,208] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:18:50,240] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-15T13:17:49.076758+00:00
+[2021-07-15 13:18:50,258] {standard_task_runner.py:52} INFO - Started process 883 to run task
+[2021-07-15 13:18:50,269] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-15T13:17:49.076758+00:00', '--job-id', '335', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpa4zs78hd', '--error-file', '/tmp/tmpcakpbbhe']
+[2021-07-15 13:18:50,271] {standard_task_runner.py:77} INFO - Job 335: Subtask extract_tweets
+[2021-07-15 13:18:50,376] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T13:17:49.076758+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 13:18:50,490] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T13:17:49.076758+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-15T13:17:49.076758+00:00
+[2021-07-15 13:18:51,463] {python.py:151} INFO - Done. Returned value was: ['Added a little of #SHREERENUKA today along with #3IINFOTECH and #RALLIS\n\nSold #AuroPharma, #HindCopper and #NALCO completely', '#3iinfotech can be a good buy CMP 9.50 for long term', 'Thinking to invest in a penny stock for the first time just for experience! \nHow is #3iinfotech? \nNot invested as of now!', "@chartbent But when doc😭 I bought it, my gut says this is my retirement fund right here so I'm not planning to sell… https://t.co/4CujcMFDxS", 'RT @SpotalphaIndia: @Abhi29613066 #3IINFOTECH showed a strong bullish trend over the last year.\n\nDuring this period #3IINFOTECH delivered +…', '@3iInfotech hallo,  any chance to increase 3i infotech?', '@IntradayGeeks 3iinfotech', 'RT @SpotalphaIndia: @Abhi29613066 #3IINFOTECH showed a strong bullish trend over the last year.\n\nDuring this period #3IINFOTECH delivered +…', '@Abhi29613066 #3IINFOTECH showed a strong bullish trend over the last year.\n\nDuring this period #3IINFOTECH deliver… https://t.co/wUz5Xl3wXq', '@SpotalphaIndia #3iinfotech', '@irini97373837 I MISS Pudumjee paper but you can hold, 2nd my choice is 3Iinfotech is hold &amp; my first choice is only SUBEX LTD.', 'Wannago has played an important role in shaping the digital presence of its clients. With its various services, it… https://t.co/oAWbxGd0XO', 'Buy-and-Hold investors in #3IINFOTECH experienced a maximum drawdown of -31.67% over the last year.\n\nIt delivered +… https://t.co/t9VfB6k8jk', 'Trend \U0001f9f5 of IT Services stocks.\n\nPart 3/3:\n\n@SpotalphaIndia #SHRIRAMEPC, #POLARIS, #HCL-INSYS, #AXISCADES, #TCS,… https://t.co/jeiVOonGYb', '@amit_manerkar @SantoshBiyani @3iInfotech Maybe company is allowing pref shareholders to exit around… https://t.co/8gRfvH1ltm']
+[2021-07-15 13:18:51,531] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210715T131749, start_date=20210715T131850, end_date=20210715T131851
+[2021-07-15 13:18:51,593] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 13:18:51,608] {local_task_job.py:151} INFO - Task exited with return code 0

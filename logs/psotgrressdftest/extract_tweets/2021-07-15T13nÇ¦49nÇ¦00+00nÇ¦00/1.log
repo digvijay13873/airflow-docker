@@ -1,0 +1,22 @@
+[2021-07-15 13:52:41,654] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T13:49:00+00:00 [queued]>
+[2021-07-15 13:52:41,683] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T13:49:00+00:00 [queued]>
+[2021-07-15 13:52:41,684] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:52:41,685] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-15 13:52:41,686] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:52:41,716] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-15T13:49:00+00:00
+[2021-07-15 13:52:41,732] {standard_task_runner.py:52} INFO - Started process 3411 to run task
+[2021-07-15 13:52:41,742] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-15T13:49:00+00:00', '--job-id', '408', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp03gb6ykm', '--error-file', '/tmp/tmpcz_dk40f']
+[2021-07-15 13:52:41,743] {standard_task_runner.py:77} INFO - Job 408: Subtask extract_tweets
+[2021-07-15 13:52:41,839] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T13:49:00+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 13:52:41,955] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T13:49:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-15T13:49:00+00:00
+[2021-07-15 13:52:43,010] {python.py:151} INFO - Done. Returned value was: ["'Mera number change hogaya h mujhy ab is number par msg karna', bro, meny aj tk uspar msg nh kiya", '@AbdulwahabAlt13 Mera hi aya he😭, phle mene kia tha ab mere sath ho raha \U0001f97a🤧', 'RT @heidelberg_de: Heute spontan und ohne Termin #Impfen: Beim mobilen #Impfteam an der SRH Fachhochschule, Ludwig-Guttmann-Straße 6. Geimp…', 'RT @AuiNrao: Participación de nuestras mentoras Provoca, Camila Martínez y Tatiana López en “Mujeres que la rompen” organizado por @JA_Chil…', 'RT @VaishnvAbhishek: @AIRAAALIVE @TwitterIndia @PayalKamat @Twitter @jack @verified Ab ur chup nhi bethege ab pir se blok krdiya kya ab bhi…', 'RT @129likehwi: 대휘가 좋아서💜\n#이대휘 #대휘 #AB6IX \n\n[이대휘/DAEHWI/AB6IX] 영스트리트 휘디💜 권과 함께 토크모음.zip\nhttps://t.co/y8MZHPKktN https://t.co/dj3BUDYY2J', 'MP ladakh handing over the knitting machines to the beneficiaries through MP Photo Opportunity &amp; Publicity Scheme.… https://t.co/SrTWjOLGHA', 'RT @qh_masterd: [AB_MD]: https://t.co/skSbGc1gpr\nNghe MasterD kể chuyện trong lúc được "breaktime" nha 😙😙 \n#Ad #QuangHungMasterD', 'RT @yeniakit: Cihat Yaycı Akit’e konuştu: Ege’de NATO ve AB’nin var olmasını FETÖ sağladı! https://t.co/DxeO4dqhBm https://t.co/3cDfI6poB6', 'RT @Only4Sid: @sidharth_shukla Sidharth hume to kaam ke beech me b aake aapke khayal distract kar jaate hai!! Ab uska kya karein!! \U0001f97a\U0001f97a \n\nHum…', 'RT @altimet: Jangan lagak ok bila benda makin teruk. \nSusah nak kunci mulut bila ketat ikatan perut. \nBernafas dlm lumpur kami lemas dlm se…', 'RT @00_switch_00: 僕AB型(RH-)左利きなんだけど\n確率的に日本で9人くらいしかいないらしい\n多分そろそろコロナが可視化されたモンスターになって、でもABのRH-だけは抗体持ってるみたいな展開が起こる\nさらに特殊能力与えられてコロナと戦うみたいなことが起こる…', '@Kadirjaloley_ Momentan eigentlich nur Forza Horizon 4 und ab und zu mal ein paar Runden Fortnite mit meinen Eltern haha', '@Ritesh30870949 @arkaph @jatti_somesh 😬😔😭😭kya karu ab', 'Ab to yusra bhi zaleel karrahi hai.\n\n#Justice4Dow_Students']
+[2021-07-15 13:52:43,083] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210715T134900, start_date=20210715T135241, end_date=20210715T135243
+[2021-07-15 13:52:43,178] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 13:52:43,239] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-16 16:44:52,410] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:44:43.304473+00:00 [queued]>
+[2021-07-16 16:44:52,471] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:44:43.304473+00:00 [queued]>
+[2021-07-16 16:44:52,472] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:44:52,473] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:44:52,474] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:44:52,502] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:44:43.304473+00:00
+[2021-07-16 16:44:52,529] {standard_task_runner.py:52} INFO - Started process 9197 to run task
+[2021-07-16 16:44:52,544] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:44:43.304473+00:00', '--job-id', '1220', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpyrvrtvwn', '--error-file', '/tmp/tmp3q6b27xb']
+[2021-07-16 16:44:52,546] {standard_task_runner.py:77} INFO - Job 1220: Subtask extract_tweets
+[2021-07-16 16:44:52,669] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:44:43.304473+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:44:52,805] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:44:43.304473+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:44:40.197407+00:00
+[2021-07-16 16:44:54,139] {python.py:151} INFO - Done. Returned value was: ['RT @Ates_Sindicato: Hoy a las 19.00hs en Informe Capital la Secretaria General de ATES, Karen Pietrzik, habla sobre la situación sanitaria…', 'RT @Ates_Sindicato: Hoy a las 19.00hs en Informe Capital la Secretaria General de ATES, Karen Pietrzik, habla sobre la situación sanitaria…', 'RT @Ates_Sindicato: Hoy a las 19.00hs en Informe Capital la Secretaria General de ATES, Karen Pietrzik, habla sobre la situación sanitaria…', 'Hoy a las 19.00hs en Informe Capital la Secretaria General de ATES, Karen Pietrzik, habla sobre la situación sanita… https://t.co/OZhomLiGhl', 'RT @ValenLen20: el día está para un ades en el parque', 'Vi um vídeo sobre como SEMPRE os personagens gays estiveram presentes em desenhos infantis, mas os conservadores nã… https://t.co/rEYmJhcdn5', 'RT @ValenLen20: el día está para un ades en el parque', '@mjjunnie GEWEES KA ADES', '@ades_stars 呼んでもらえたら嬉しい！ですが誘導した感じになるのも申し訳なさあってもじもじしちゃいますねーっ\n配信する分には固有の名称を名乗った方がいいのかなーっ（思い浮かばない', 'Unos sanguchitos, un ades y de postre helado de menta granizada y te juro que me caso', '@ades_dami I gotchu! HMU or follow back so I can send you some dope work as your DMs are closed.', 'Hindi naman lahat ng nagiging teacher maraming pera 🙄🙄.. eh yung anes nga ko nga eh teacher pero mas may ades pa daw akis hahahaha...', "@ades_dami \n\nHey there! hope you'd be doing good.\nI'm a professional graphic designer, saw your tweet and I think I… https://t.co/nAApVATHE8", 'RT @ValenLen20: el día está para un ades en el parque', '@mjjunnie Semangat kak ades!! 💜 https://t.co/zfPPs4Q6aL']
+[2021-07-16 16:44:54,201] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T164443, start_date=20210716T164452, end_date=20210716T164454
+[2021-07-16 16:44:54,302] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:44:54,361] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,14 @@
+pandas
+yfinance
+celery
+pytrends
+numpy
+GoogleNews
+nltk
+alpha-vantage
+tweepy
+selenium
+datetime
+psycopg2
+regex
+xlwt

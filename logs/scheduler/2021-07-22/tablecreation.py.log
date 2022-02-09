@@ -1,0 +1,456 @@
+[2021-07-22 13:29:02,399] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:29:02,402] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:29:02,407] {logging_mixin.py:104} INFO - [2021-07-22 13:29:02,405] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:29:02,776] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:29:02,883] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:29:12,437] {logging_mixin.py:104} INFO - [2021-07-22 13:29:12,436] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:29:13,564] {logging_mixin.py:104} INFO - [2021-07-22 13:29:13,563] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:29:13,637] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 11.243 seconds
+[2021-07-22 13:29:44,757] {scheduler_job.py:182} INFO - Started process (PID=127) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:29:44,772] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:29:44,791] {logging_mixin.py:104} INFO - [2021-07-22 13:29:44,791] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:29:45,207] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:29:45,281] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:29:46,597] {logging_mixin.py:104} INFO - [2021-07-22 13:29:46,597] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:29:46,701] {logging_mixin.py:104} INFO - [2021-07-22 13:29:46,700] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:29:46,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 2.036 seconds
+[2021-07-22 13:30:17,193] {scheduler_job.py:182} INFO - Started process (PID=159) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:30:17,209] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:30:17,225] {logging_mixin.py:104} INFO - [2021-07-22 13:30:17,225] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:30:17,612] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:30:17,688] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:30:19,200] {logging_mixin.py:104} INFO - [2021-07-22 13:30:19,199] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:30:19,332] {logging_mixin.py:104} INFO - [2021-07-22 13:30:19,332] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:30:19,390] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 2.228 seconds
+[2021-07-22 13:30:49,752] {scheduler_job.py:182} INFO - Started process (PID=206) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:30:49,756] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:30:49,759] {logging_mixin.py:104} INFO - [2021-07-22 13:30:49,759] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:30:49,862] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:30:49,881] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:30:50,321] {logging_mixin.py:104} INFO - [2021-07-22 13:30:50,320] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:30:50,356] {logging_mixin.py:104} INFO - [2021-07-22 13:30:50,356] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:30:50,385] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.642 seconds
+[2021-07-22 13:31:20,712] {scheduler_job.py:182} INFO - Started process (PID=246) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:31:20,715] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:31:20,716] {logging_mixin.py:104} INFO - [2021-07-22 13:31:20,716] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:31:20,785] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:31:20,810] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:31:21,224] {logging_mixin.py:104} INFO - [2021-07-22 13:31:21,224] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:31:21,297] {logging_mixin.py:104} INFO - [2021-07-22 13:31:21,297] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:31:21,351] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.647 seconds
+[2021-07-22 13:31:52,083] {scheduler_job.py:182} INFO - Started process (PID=292) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:31:52,085] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:31:52,087] {logging_mixin.py:104} INFO - [2021-07-22 13:31:52,087] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:31:52,152] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:31:52,167] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:31:52,597] {logging_mixin.py:104} INFO - [2021-07-22 13:31:52,597] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:31:52,633] {logging_mixin.py:104} INFO - [2021-07-22 13:31:52,633] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:31:52,660] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.584 seconds
+[2021-07-22 13:32:22,915] {scheduler_job.py:182} INFO - Started process (PID=332) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:32:22,917] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:32:22,919] {logging_mixin.py:104} INFO - [2021-07-22 13:32:22,919] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:32:23,030] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:32:23,075] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:32:23,608] {logging_mixin.py:104} INFO - [2021-07-22 13:32:23,607] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:32:23,659] {logging_mixin.py:104} INFO - [2021-07-22 13:32:23,659] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:32:23,713] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.808 seconds
+[2021-07-22 13:32:54,058] {scheduler_job.py:182} INFO - Started process (PID=383) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:32:54,066] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:32:54,068] {logging_mixin.py:104} INFO - [2021-07-22 13:32:54,068] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:32:54,168] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:32:54,193] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:32:54,698] {logging_mixin.py:104} INFO - [2021-07-22 13:32:54,698] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:32:54,751] {logging_mixin.py:104} INFO - [2021-07-22 13:32:54,751] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:32:54,814] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.761 seconds
+[2021-07-22 13:33:25,323] {scheduler_job.py:182} INFO - Started process (PID=429) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:33:25,330] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:33:25,333] {logging_mixin.py:104} INFO - [2021-07-22 13:33:25,333] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:33:25,460] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:33:25,497] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:33:26,227] {logging_mixin.py:104} INFO - [2021-07-22 13:33:26,226] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:33:26,280] {logging_mixin.py:104} INFO - [2021-07-22 13:33:26,279] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:33:26,328] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.012 seconds
+[2021-07-22 13:33:56,503] {scheduler_job.py:182} INFO - Started process (PID=459) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:33:56,505] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:33:56,507] {logging_mixin.py:104} INFO - [2021-07-22 13:33:56,507] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:33:56,675] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:33:56,712] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:33:57,855] {logging_mixin.py:104} INFO - [2021-07-22 13:33:57,855] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:33:58,013] {logging_mixin.py:104} INFO - [2021-07-22 13:33:58,012] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:33:58,096] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.598 seconds
+[2021-07-22 13:34:28,433] {scheduler_job.py:182} INFO - Started process (PID=486) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:34:28,471] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:34:28,478] {logging_mixin.py:104} INFO - [2021-07-22 13:34:28,478] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:34:28,798] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:34:28,892] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:34:30,139] {logging_mixin.py:104} INFO - [2021-07-22 13:34:30,139] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:34:30,221] {logging_mixin.py:104} INFO - [2021-07-22 13:34:30,221] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:34:30,296] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.869 seconds
+[2021-07-22 13:35:00,872] {scheduler_job.py:182} INFO - Started process (PID=525) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:35:00,876] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:35:00,882] {logging_mixin.py:104} INFO - [2021-07-22 13:35:00,881] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:35:01,001] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:35:01,040] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:35:02,487] {logging_mixin.py:104} INFO - [2021-07-22 13:35:02,487] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:35:02,600] {logging_mixin.py:104} INFO - [2021-07-22 13:35:02,599] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:35:02,678] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.812 seconds
+[2021-07-22 13:35:33,474] {scheduler_job.py:182} INFO - Started process (PID=564) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:35:33,476] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:35:33,479] {logging_mixin.py:104} INFO - [2021-07-22 13:35:33,478] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:35:33,591] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:35:33,624] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:35:34,024] {logging_mixin.py:104} INFO - [2021-07-22 13:35:34,024] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:35:34,061] {logging_mixin.py:104} INFO - [2021-07-22 13:35:34,061] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:35:34,087] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.618 seconds
+[2021-07-22 13:36:04,403] {scheduler_job.py:182} INFO - Started process (PID=604) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:36:04,406] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:36:04,409] {logging_mixin.py:104} INFO - [2021-07-22 13:36:04,409] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:36:04,573] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:36:04,616] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:36:05,481] {logging_mixin.py:104} INFO - [2021-07-22 13:36:05,481] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:36:05,523] {logging_mixin.py:104} INFO - [2021-07-22 13:36:05,523] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:36:05,552] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.156 seconds
+[2021-07-22 13:36:35,882] {scheduler_job.py:182} INFO - Started process (PID=637) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:36:35,897] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:36:35,911] {logging_mixin.py:104} INFO - [2021-07-22 13:36:35,899] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:36:36,214] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:36:36,259] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:36:37,251] {logging_mixin.py:104} INFO - [2021-07-22 13:36:37,250] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:36:37,310] {logging_mixin.py:104} INFO - [2021-07-22 13:36:37,310] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:36:37,347] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.483 seconds
+[2021-07-22 13:37:07,654] {scheduler_job.py:182} INFO - Started process (PID=665) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:37:07,656] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:37:07,658] {logging_mixin.py:104} INFO - [2021-07-22 13:37:07,658] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:37:07,709] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:37:07,725] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:37:08,131] {logging_mixin.py:104} INFO - [2021-07-22 13:37:08,130] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:37:08,169] {logging_mixin.py:104} INFO - [2021-07-22 13:37:08,169] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:37:08,199] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.547 seconds
+[2021-07-22 13:37:38,920] {scheduler_job.py:182} INFO - Started process (PID=721) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:37:38,922] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:37:38,923] {logging_mixin.py:104} INFO - [2021-07-22 13:37:38,923] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:37:38,970] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:37:38,984] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:37:39,371] {logging_mixin.py:104} INFO - [2021-07-22 13:37:39,371] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:37:39,418] {logging_mixin.py:104} INFO - [2021-07-22 13:37:39,417] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:37:39,450] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.535 seconds
+[2021-07-22 13:38:10,124] {scheduler_job.py:182} INFO - Started process (PID=760) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:38:10,128] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:38:10,129] {logging_mixin.py:104} INFO - [2021-07-22 13:38:10,129] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:38:10,184] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:38:10,211] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:38:10,814] {logging_mixin.py:104} INFO - [2021-07-22 13:38:10,814] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:38:10,864] {logging_mixin.py:104} INFO - [2021-07-22 13:38:10,863] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:38:10,896] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.776 seconds
+[2021-07-22 13:38:41,039] {scheduler_job.py:182} INFO - Started process (PID=806) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:38:41,041] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:38:41,042] {logging_mixin.py:104} INFO - [2021-07-22 13:38:41,042] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:38:41,083] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:38:41,099] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:38:41,454] {logging_mixin.py:104} INFO - [2021-07-22 13:38:41,454] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:38:41,492] {logging_mixin.py:104} INFO - [2021-07-22 13:38:41,492] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:38:41,519] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.484 seconds
+[2021-07-22 13:39:11,819] {scheduler_job.py:182} INFO - Started process (PID=845) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:39:11,821] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:39:11,823] {logging_mixin.py:104} INFO - [2021-07-22 13:39:11,823] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:39:11,873] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:39:11,891] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:39:12,360] {logging_mixin.py:104} INFO - [2021-07-22 13:39:12,360] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:39:12,416] {logging_mixin.py:104} INFO - [2021-07-22 13:39:12,415] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:39:12,477] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.663 seconds
+[2021-07-22 13:42:57,138] {scheduler_job.py:182} INFO - Started process (PID=61) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:42:57,150] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:42:57,154] {logging_mixin.py:104} INFO - [2021-07-22 13:42:57,153] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:42:57,596] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:42:57,793] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:43:00,254] {logging_mixin.py:104} INFO - [2021-07-22 13:43:00,254] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:43:00,378] {logging_mixin.py:104} INFO - [2021-07-22 13:43:00,377] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:43:00,478] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 3.344 seconds
+[2021-07-22 13:43:30,678] {scheduler_job.py:182} INFO - Started process (PID=92) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:43:30,680] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:43:30,682] {logging_mixin.py:104} INFO - [2021-07-22 13:43:30,681] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:43:30,730] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:43:30,749] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:43:31,086] {logging_mixin.py:104} INFO - [2021-07-22 13:43:31,086] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:43:31,114] {logging_mixin.py:104} INFO - [2021-07-22 13:43:31,114] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:43:31,134] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.460 seconds
+[2021-07-22 13:44:03,650] {scheduler_job.py:182} INFO - Started process (PID=133) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:44:03,654] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:44:03,662] {logging_mixin.py:104} INFO - [2021-07-22 13:44:03,662] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:44:03,810] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:44:03,878] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:44:04,564] {logging_mixin.py:104} INFO - [2021-07-22 13:44:04,564] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:44:04,609] {logging_mixin.py:104} INFO - [2021-07-22 13:44:04,609] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:44:04,644] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.000 seconds
+[2021-07-22 13:44:46,307] {scheduler_job.py:182} INFO - Started process (PID=188) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:44:46,311] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:44:46,315] {logging_mixin.py:104} INFO - [2021-07-22 13:44:46,315] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:44:46,464] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:44:46,521] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:44:47,599] {logging_mixin.py:104} INFO - [2021-07-22 13:44:47,599] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:44:47,717] {logging_mixin.py:104} INFO - [2021-07-22 13:44:47,716] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:44:47,797] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.499 seconds
+[2021-07-22 13:45:18,809] {scheduler_job.py:182} INFO - Started process (PID=234) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:45:18,811] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:45:18,815] {logging_mixin.py:104} INFO - [2021-07-22 13:45:18,814] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:45:18,990] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:45:19,039] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:45:20,519] {logging_mixin.py:104} INFO - [2021-07-22 13:45:20,519] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:45:20,642] {logging_mixin.py:104} INFO - [2021-07-22 13:45:20,641] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:45:20,725] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.926 seconds
+[2021-07-22 13:45:51,507] {scheduler_job.py:182} INFO - Started process (PID=272) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:45:51,514] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:45:51,517] {logging_mixin.py:104} INFO - [2021-07-22 13:45:51,516] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:45:51,708] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:45:51,793] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:45:53,510] {logging_mixin.py:104} INFO - [2021-07-22 13:45:53,510] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:45:53,587] {logging_mixin.py:104} INFO - [2021-07-22 13:45:53,587] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:45:53,627] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 2.125 seconds
+[2021-07-22 13:46:24,039] {scheduler_job.py:182} INFO - Started process (PID=307) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:46:24,053] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:46:24,058] {logging_mixin.py:104} INFO - [2021-07-22 13:46:24,057] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:46:24,397] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:46:24,479] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:46:25,432] {logging_mixin.py:104} INFO - [2021-07-22 13:46:25,431] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:46:25,490] {logging_mixin.py:104} INFO - [2021-07-22 13:46:25,490] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:46:25,628] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.604 seconds
+[2021-07-22 13:46:56,167] {scheduler_job.py:182} INFO - Started process (PID=346) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:46:56,171] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:46:56,175] {logging_mixin.py:104} INFO - [2021-07-22 13:46:56,174] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:46:56,268] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:46:56,291] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:46:56,732] {logging_mixin.py:104} INFO - [2021-07-22 13:46:56,732] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:46:56,773] {logging_mixin.py:104} INFO - [2021-07-22 13:46:56,772] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:46:56,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.638 seconds
+[2021-07-22 13:47:26,924] {scheduler_job.py:182} INFO - Started process (PID=385) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:47:26,925] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:47:26,927] {logging_mixin.py:104} INFO - [2021-07-22 13:47:26,927] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:47:26,988] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:47:27,003] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:47:28,029] {logging_mixin.py:104} INFO - [2021-07-22 13:47:28,029] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:47:28,061] {logging_mixin.py:104} INFO - [2021-07-22 13:47:28,060] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:47:28,262] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.342 seconds
+[2021-07-22 13:47:58,968] {scheduler_job.py:182} INFO - Started process (PID=436) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:47:58,972] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:47:58,974] {logging_mixin.py:104} INFO - [2021-07-22 13:47:58,974] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:47:59,123] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:47:59,238] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:48:00,085] {logging_mixin.py:104} INFO - [2021-07-22 13:48:00,084] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:48:00,205] {logging_mixin.py:104} INFO - [2021-07-22 13:48:00,205] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:48:00,253] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 1.296 seconds
+[2021-07-22 13:48:30,816] {scheduler_job.py:182} INFO - Started process (PID=476) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:48:30,828] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:48:30,830] {logging_mixin.py:104} INFO - [2021-07-22 13:48:30,830] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:48:30,909] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:48:30,928] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:48:31,445] {logging_mixin.py:104} INFO - [2021-07-22 13:48:31,445] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:48:31,498] {logging_mixin.py:104} INFO - [2021-07-22 13:48:31,497] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:48:31,526] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.715 seconds
+[2021-07-22 13:49:01,843] {scheduler_job.py:182} INFO - Started process (PID=522) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:49:01,845] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:49:01,846] {logging_mixin.py:104} INFO - [2021-07-22 13:49:01,846] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:49:01,890] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:49:01,905] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:49:02,166] {logging_mixin.py:104} INFO - [2021-07-22 13:49:02,166] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:49:02,202] {logging_mixin.py:104} INFO - [2021-07-22 13:49:02,202] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:49:02,222] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.382 seconds
+[2021-07-22 13:49:32,570] {scheduler_job.py:182} INFO - Started process (PID=561) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:49:32,572] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:49:32,573] {logging_mixin.py:104} INFO - [2021-07-22 13:49:32,573] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:49:32,618] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:49:32,631] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:49:32,877] {logging_mixin.py:104} INFO - [2021-07-22 13:49:32,877] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:49:32,897] {logging_mixin.py:104} INFO - [2021-07-22 13:49:32,897] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:49:32,914] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.347 seconds
+[2021-07-22 13:50:02,975] {scheduler_job.py:182} INFO - Started process (PID=610) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:50:02,978] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:50:02,980] {logging_mixin.py:104} INFO - [2021-07-22 13:50:02,980] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:50:03,050] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:50:03,075] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:50:03,475] {logging_mixin.py:104} INFO - [2021-07-22 13:50:03,475] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:50:03,504] {logging_mixin.py:104} INFO - [2021-07-22 13:50:03,504] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:50:03,524] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.553 seconds
+[2021-07-22 13:50:33,635] {scheduler_job.py:182} INFO - Started process (PID=657) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:50:33,637] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:50:33,639] {logging_mixin.py:104} INFO - [2021-07-22 13:50:33,639] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:50:33,684] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:50:33,698] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:50:33,967] {logging_mixin.py:104} INFO - [2021-07-22 13:50:33,967] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:50:33,989] {logging_mixin.py:104} INFO - [2021-07-22 13:50:33,989] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:50:34,013] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.381 seconds
+[2021-07-22 13:51:04,349] {scheduler_job.py:182} INFO - Started process (PID=696) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:51:04,351] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:51:04,353] {logging_mixin.py:104} INFO - [2021-07-22 13:51:04,353] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:51:04,404] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:51:04,420] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:51:04,690] {logging_mixin.py:104} INFO - [2021-07-22 13:51:04,690] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:51:04,718] {logging_mixin.py:104} INFO - [2021-07-22 13:51:04,718] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:51:04,736] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.390 seconds
+[2021-07-22 13:51:35,025] {scheduler_job.py:182} INFO - Started process (PID=746) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:51:35,028] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:51:35,029] {logging_mixin.py:104} INFO - [2021-07-22 13:51:35,029] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:51:35,081] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:51:35,101] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:51:35,457] {logging_mixin.py:104} INFO - [2021-07-22 13:51:35,457] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:51:35,486] {logging_mixin.py:104} INFO - [2021-07-22 13:51:35,485] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:51:35,505] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.484 seconds
+[2021-07-22 13:52:05,546] {scheduler_job.py:182} INFO - Started process (PID=792) to work on /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:52:05,548] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/tablecreation.py for tasks to queue
+[2021-07-22 13:52:05,550] {logging_mixin.py:104} INFO - [2021-07-22 13:52:05,549] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:52:05,599] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py:25 DeprecationWarning: This decorator is deprecated.
+
+In previous versions, all subclasses of BaseOperator must use apply_default decorator for the`default_args` feature to work properly.
+
+In current version, it is optional. The decorator is applied automatically using the metaclass.
+[2021-07-22 13:52:05,612] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['maintest']) retrieved from /opt/airflow/dags/tablecreation.py
+[2021-07-22 13:52:05,978] {logging_mixin.py:104} INFO - [2021-07-22 13:52:05,978] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-22 13:52:06,015] {logging_mixin.py:104} INFO - [2021-07-22 13:52:06,014] {dag.py:2305} INFO - Setting next_dagrun for maintest to 2021-07-23T07:00:00+00:00
+[2021-07-22 13:52:06,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/tablecreation.py took 0.500 seconds

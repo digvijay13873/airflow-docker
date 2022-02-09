@@ -1,0 +1,23 @@
+[2021-07-16 16:46:23,096] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:46:07.631606+00:00 [queued]>
+[2021-07-16 16:46:23,129] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:46:07.631606+00:00 [queued]>
+[2021-07-16 16:46:23,130] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:46:23,130] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:46:23,131] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:46:23,147] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:46:07.631606+00:00
+[2021-07-16 16:46:23,165] {standard_task_runner.py:52} INFO - Started process 9321 to run task
+[2021-07-16 16:46:23,171] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:46:07.631606+00:00', '--job-id', '1237', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpgpiylu23', '--error-file', '/tmp/tmpduhpc2kb']
+[2021-07-16 16:46:23,172] {standard_task_runner.py:77} INFO - Job 1237: Subtask tweets_postgres_table
+[2021-07-16 16:46:23,255] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:46:07.631606+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:46:23,348] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:46:07.631606+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:46:04.902434+00:00
+[2021-07-16 16:46:23,408] {logging_mixin.py:104} INFO - [('STAR PERFORMER OF THIS WEEK - \n\nKITEX \nCHEMFAB\nAKSHARCHEM\nLODHA. https://t.co/O3XXUPBVKD', Decimal('0.0000')), ('@PrafulllaPhadke Hahaha \n\nAisa nhi hai... last 4 days se jo stocks share kiye hain wo sabhi TV pe share kiya hai. u… https://t.co/SCU3gbXff4', Decimal('0.7906')), ('#kitex 45 % ⬆️ till now\n#Jindal 7 %⬆️\n#justdial at cost\n#Aksharchem 13 % ⬆️ \n#vrllog 2% ⬇️\n#sobha 2 % ⬆️ https://t.co/FmjeQioT0w', Decimal('0.0000')), ('RT @ajitsingh2406: @Atulsingh_asan TTK Healthcare\nAksharchem\nJublient Industries\nFairchem\nPrivi\nVipul Organic.\nJust Dial\nCosco \nJyoti Resin…', Decimal('0.0000')), ('@Atulsingh_asan TTK Healthcare\nAksharchem\nJublient Industries\nFairchem\nPrivi\nVipul Organic.\nJust Dial\nCosco \nJyoti… https://t.co/Mb4Mmd6JJ5', Decimal('0.0000')), ('@vetris_stocks TTK Healthcare\nAksharchem\nJublient Industries\nFairchem\nPrivi\nVipul Organic.\nJust Dial\nCosco \nJyoti Resin\nJindal Polyfilm', Decimal('0.0000')), ('#Aksharchem was suggested in my telegram on 12th July \nFrom 406 to 497.70 (day high)\n22.5% returns in just 2 days 🔥… https://t.co/SAytMhGs2W', Decimal('0.0000')), ('RT @Rishikesh_ADX: 495+ \n\nToday again UP near 10% \n\n#AksharChem\n\n👇', Decimal('0.0000')), ('RT @50crBloke: #Aksharchem \n#StocksLove ❣ https://t.co/Z3ypmjcFt9', Decimal('0.0000')), ('#Aksharchem \n#StocksLove ❣ https://t.co/EfKVAA8d2P https://t.co/Z3ypmjcFt9', Decimal('0.0000')), ('Chart Update\n\n⚡AksharChem\n#StockLifeCycle\n#GrowthPhase\n#OnlyForLearning\n\nhttps://t.co/9v4DXuTtpY https://t.co/hWwsX9VuKQ', Decimal('0.0000')), ('RT @DeskJasarena: #AKSHARCHEM\nCarrying look wise decision for this stock. May show higher targets \nMid terms looks great https://t.co/0U90q…', Decimal('0.8020')), ('#AKSHARCHEM\nCarrying look wise decision for this stock. May show higher targets \nMid terms looks great https://t.co/0U90qWKqso', Decimal('0.8020')), ('#AKSHARCHEM #NSE #BSE #CASH #STOCKWATCH #BULLISH  #POSITIONAL #WEALTHTRENDZ\n406.30 TO 497.70 HIGH HIT😍😍 https://t.co/BSOF9v1ehF', Decimal('0.0000')), ('#AksharChem 485+ https://t.co/kdgphQHDAM', Decimal('0.0000'))]
+[2021-07-16 16:46:23,413] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:46:23,434] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T164607, start_date=20210716T164623, end_date=20210716T164623
+[2021-07-16 16:46:23,540] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:46:23,582] {local_task_job.py:151} INFO - Task exited with return code 0

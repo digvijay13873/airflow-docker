@@ -1,0 +1,22 @@
+[2021-07-16 10:40:13,312] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:39:58.899323+00:00 [queued]>
+[2021-07-16 10:40:13,380] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:39:58.899323+00:00 [queued]>
+[2021-07-16 10:40:13,381] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:40:13,383] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:40:13,384] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:40:13,445] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:39:58.899323+00:00
+[2021-07-16 10:40:13,509] {standard_task_runner.py:52} INFO - Started process 2215 to run task
+[2021-07-16 10:40:13,533] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:39:58.899323+00:00', '--job-id', '623', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpf7hpsgqe', '--error-file', '/tmp/tmplfoi_zg_']
+[2021-07-16 10:40:13,537] {standard_task_runner.py:77} INFO - Job 623: Subtask extract_tweets
+[2021-07-16 10:40:13,700] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:39:58.899323+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:40:13,866] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:39:58.899323+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:39:47.748192+00:00
+[2021-07-16 10:40:14,995] {python.py:151} INFO - Done. Returned value was: ['@APokerbr @e_prata\n\nACR: Alaercio Brasil', 'RT @saltcumlee: https://t.co/33fNaaylOx', '@AcrLatam @Nightvsp\n \n@e_prata\n \n@Escaffa1\n \n@ASMautoneJr\n \n@SugizoBR\n \n@hitio\n\nACR: Alaercio Brasil', 'RT @HinmanRana: Muscle strength and osteoarthritis progression after surgery or exercise for degenerative meniscal tears: Secondary analyse…', "RT @acrmcr: Get up to 50% ACR merchandise this weekend only, including men's and ladies apparel and enamel badges &gt;&gt; https://t.co/3bKsd04OI…", '\U0001f970 https://t.co/9EBbOeon8N', 'RT @seonhosite: calligraphy for tvn drama Hometown Chachacha made by daruum_calligraphy\n\nthe artist have created a lot of calligraphy for o…', '@y_y_ACR 身体は倦怠感以外は大丈夫なんけどねー、\nとりあえず近々検査は必要かな\n引きこもる準備しないと', 'RT @RadiologyACR: In the latest #VoiceofRadiology blog, @DrDMonticciolo addresses the importance of creating inclusive #breastcancer screen…', 'みんなからの匿名質問を募集中！\n\nたにたに@彩ちゃん推し。さんはまだ答えた質問がありません！\nたにたに@彩ちゃん推し。さんの記念すべき最初の回答はあなたの質問かも！？\n#質問箱 #匿名質問募集中\n\nhttps://t.co/GplFMQ9WlZ', 'クラファンの活動報告を更新しました！！\n#A_Case_of_RanK\n#ACR\nリターンのシナリオライター書下ろしオリジナル小説について少し触れます by ADV『A Case of RanK』制作プロジェクトをお蔵入りにしたく… https://t.co/2CWjpNg1s9', "RT @acrmcr: Get up to 50% ACR merchandise this weekend only, including men's and ladies apparel and enamel badges &gt;&gt; https://t.co/3bKsd04OI…", 'RT @apestyles: ATTN: The 1st puzzle piece for the @ACR_POKER 10 Million dollar Venom Running July 23 - August 4th\n\nIt’s simple:\n\n1. Like th…', '@ACR_POKER So many more options to bet you should be much more efficient can’t even access my own funds for 16 HOURS lol', 'RT @zounose: 長めのサンプルはこちら！\nhttps://t.co/53yn2taTRO']
+[2021-07-16 10:40:15,106] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T103958, start_date=20210716T104013, end_date=20210716T104015
+[2021-07-16 10:40:15,265] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:40:15,298] {local_task_job.py:151} INFO - Task exited with return code 0

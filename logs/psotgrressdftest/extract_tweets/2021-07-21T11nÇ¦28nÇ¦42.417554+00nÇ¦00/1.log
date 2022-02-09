@@ -1,0 +1,22 @@
+[2021-07-21 11:29:05,227] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:28:42.417554+00:00 [queued]>
+[2021-07-21 11:29:05,367] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:28:42.417554+00:00 [queued]>
+[2021-07-21 11:29:05,388] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:29:05,407] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-21 11:29:05,418] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:29:07,273] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-21T11:28:42.417554+00:00
+[2021-07-21 11:29:08,181] {standard_task_runner.py:52} INFO - Started process 928 to run task
+[2021-07-21 11:29:08,240] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-21T11:28:42.417554+00:00', '--job-id', '1937', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpntlgw9mn', '--error-file', '/tmp/tmpalc05cyw']
+[2021-07-21 11:29:08,242] {standard_task_runner.py:77} INFO - Job 1937: Subtask extract_tweets
+[2021-07-21 11:29:13,836] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:28:42.417554+00:00 [running]> on host 5795a622f846
+[2021-07-21 11:29:18,772] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-21T11:28:42.417554+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-21T11:28:42.417554+00:00
+[2021-07-21 11:29:23,433] {python.py:151} INFO - Done. Returned value was: ['Here is the list of stocks under my radar forming high tight pivots for trading in INDIAN markets: \n\nLuxind, Arihan… https://t.co/p7rBesBG0B', 'T-165 - Next Breakout Story - #20Microns&gt;67 . \n\nFlag + VCP\n\nTarget 98\n\n(20/20) of Series 8.\n\nApologies for late upd… https://t.co/y2rM9uSdSL', '#paintsandcoatings #industry, Kindly Check out our "FMSIL Series" which is newly developed fumed silica for High-Pe… https://t.co/QmcW3QQN5e', 'Portfolio - 16th July, 2021\n\n#20Microns\n#Apcotexind\n#guficbio\n#IGPL #IGpetro\n#Kanprpla\n#Kopran\n#NCC\n#Onwardtec… https://t.co/WI7rzXBdEa', '#20MICRONS #SMCGLOBAL #EMKAY #Intraday #Positional #Trading\n\nfor Live calls, pls join on TELEGRAM… https://t.co/0DlJp8Wuge', 'Buy 20Microns at 66 and hold', 'Positional Trade: 20 Microns breaks above a descending trend line .\nBuy: #20Microns\nTarget: Open\nLast Close: 65.80… https://t.co/XJqOhJvwS0', '#20MICRONS - 20MICRONS - TradingView - https://t.co/r7BbhnPFSa']
+[2021-07-21 11:29:36,676] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210721T112842, start_date=20210721T112905, end_date=20210721T112936
+[2021-07-21 11:29:36,875] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-21 11:29:36,935] {local_task_job.py:151} INFO - Task exited with return code 0

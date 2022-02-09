@@ -1,0 +1,22 @@
+[2022-01-06 13:11:16,831] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.transform_trends 2022-01-06T13:10:54.506620+00:00 [queued]>
+[2022-01-06 13:11:16,859] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.transform_trends 2022-01-06T13:10:54.506620+00:00 [queued]>
+[2022-01-06 13:11:16,860] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:11:16,861] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 13:11:16,862] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:11:16,889] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): transform_trends> on 2022-01-06T13:10:54.506620+00:00
+[2022-01-06 13:11:16,910] {standard_task_runner.py:52} INFO - Started process 707 to run task
+[2022-01-06 13:11:16,919] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'transform_trends', '2022-01-06T13:10:54.506620+00:00', '--job-id', '2224', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpfyprg633', '--error-file', '/tmp/tmpkhff2ovp']
+[2022-01-06 13:11:16,920] {standard_task_runner.py:77} INFO - Job 2224: Subtask transform_trends
+[2022-01-06 13:11:16,999] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.transform_trends 2022-01-06T13:10:54.506620+00:00 [running]> on host 04be2259e97a
+[2022-01-06 13:11:17,135] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=transform_trends
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T13:10:54.506620+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T13:10:52.454471+00:00
+[2022-01-06 13:11:17,194] {python.py:151} INFO - Done. Returned value was: None
+[2022-01-06 13:11:17,222] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=transform_trends, execution_date=20220106T131054, start_date=20220106T131116, end_date=20220106T131117
+[2022-01-06 13:11:17,293] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 13:11:17,333] {local_task_job.py:151} INFO - Task exited with return code 0

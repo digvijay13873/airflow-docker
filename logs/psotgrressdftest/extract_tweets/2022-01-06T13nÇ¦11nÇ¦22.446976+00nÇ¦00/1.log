@@ -1,0 +1,22 @@
+[2022-01-06 13:11:28,453] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T13:11:22.446976+00:00 [queued]>
+[2022-01-06 13:11:28,479] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T13:11:22.446976+00:00 [queued]>
+[2022-01-06 13:11:28,480] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:11:28,480] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 13:11:28,481] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:11:28,509] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2022-01-06T13:11:22.446976+00:00
+[2022-01-06 13:11:28,526] {standard_task_runner.py:52} INFO - Started process 726 to run task
+[2022-01-06 13:11:28,533] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2022-01-06T13:11:22.446976+00:00', '--job-id', '2230', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp1czq4swd', '--error-file', '/tmp/tmpdy9ur1z1']
+[2022-01-06 13:11:28,534] {standard_task_runner.py:77} INFO - Job 2230: Subtask extract_tweets
+[2022-01-06 13:11:28,612] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T13:11:22.446976+00:00 [running]> on host 04be2259e97a
+[2022-01-06 13:11:28,708] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T13:11:22.446976+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T13:11:20.447771+00:00
+[2022-01-06 13:11:29,620] {python.py:151} INFO - Done. Returned value was: ['RT @withlovebts7: The fact that they confidently aired their own crime too! 🤡https://t.co/tlxVdplEWL', 'South k superstar aa rhe hai aap ki puri family ko entertainment ka new dose dene\n#BlockbusterBangarraju https://t.co/0wQ15WnRcg', '@KasaSaaz Lgta hai qayamat aa ke rhegi :(', '@Zi_k_aa تم', 'RT @T_Bouhafs: Nous avions aussi retrouvé Samir, qui a décidé de déposer plainte contre les policiers en question. \n@AA_Avocats s’était cha…', 'RT @BestForBritain: At the end of #PMQs, @AngelaRayner asks Johnson to correct the record on something he claims he never said, a clip of w…', '@jjkpapz07 pls lng ang kalat niyo sa tl ko, ang sakit niyo aa mata', 'RT @LifeOfAls: People that bang f 🤝 Econ/Finance grads 🤝 Tories 🤝 Aspirational Dinner with Jay-Z guests 🤝 “We all have the same 24 hours”', 'RT @eisincera: finjo q não me importo com certas coisas mas por dentro to igual a carminha gritando AAAAAAA AA A A A A AAAAAAAAAAAAAAAAAINF…', '@ItsDamira 😂😂Acha kiya jo waps aa gyiin', '@WaleedAl_salahi أّلَلَهّـمً أّمًيِّنِ يِّأّربً أّلَعٌأّلَمًيِّنِ\nأّلَلَهّ يِّسِـعٌدٍ قُلَبًکْ\nمًسِـأّء أّلَسِـعٌأّدٍهّـ', 'RT @yyour__aa: Keèf &amp; Shell\n\n—haechan, au\n© yyour__aa, 2022 https://t.co/eBqhgCXQkT', 'RT @arpitahindu: Poore duniya mein hoga Bharat ka naam kyunki Make in India initiative ki sabse badi misaal ab aa rahi hai Tv par!\n\n#WaahZi…', 'لاتعاملني بمزاجك، لأن مزاجي لن يعجبك ."', '諭吉うらやま～～']
+[2022-01-06 13:11:29,665] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20220106T131122, start_date=20220106T131128, end_date=20220106T131129
+[2022-01-06 13:11:29,723] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 13:11:29,751] {local_task_job.py:151} INFO - Task exited with return code 0

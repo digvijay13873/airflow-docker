@@ -1,0 +1,22 @@
+[2021-07-16 17:12:18,594] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:12:12.819339+00:00 [queued]>
+[2021-07-16 17:12:18,664] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:12:12.819339+00:00 [queued]>
+[2021-07-16 17:12:18,665] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:12:18,666] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:12:18,667] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:12:18,698] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:12:12.819339+00:00
+[2021-07-16 17:12:18,725] {standard_task_runner.py:52} INFO - Started process 11519 to run task
+[2021-07-16 17:12:18,737] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:12:12.819339+00:00', '--job-id', '1508', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmppj3r2yqa', '--error-file', '/tmp/tmpix8o4auu']
+[2021-07-16 17:12:18,739] {standard_task_runner.py:77} INFO - Job 1508: Subtask extract_tweets
+[2021-07-16 17:12:18,877] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:12:12.819339+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:12:19,047] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:12:12.819339+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:12:11.097248+00:00
+[2021-07-16 17:12:20,520] {python.py:151} INFO - Done. Returned value was: ['ADANIGREEN - Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations, 2011. https://t.co/wgHIYEx9vQ', '@AnilSinghvi_ Heavy loss in adanigreen....what to do?', 'Reversal Buy #ADANIGREEN 981 7/16/2021 2:10:00 PM SL: 985 T1(fibo): 1048.54 T2(fibo): 1078.54 T3(fibo): 1108.54… https://t.co/u79vR9aKrJ', '#InsiderTrades #stockmarket\n#ADANIGREEN https://t.co/MomHNNHS2y', 'RT adanigreen now 980 can up till  1100rs v soon #StockMarket #stocks #invest #investors #optiontrading follow… https://t.co/l1V46Ssjy9', 'adanigreen now 980 can up till  1100rs v soon #StockMarket #stocks #invest #investors #optiontrading', 'Fresh Buy #ADANIGREEN 983 7/16/2021 9:15:00 AM SL: 995.8 T1(fibo): 1006.8 T2(fibo): 1011 T3(fibo): 1015.2 #NimblrTA… https://t.co/VngWhEzS4G', 'Reversal Sell #ADANIGREEN 970.1 7/15/2021 1:25:00 PM SL: 976.5 T1(fibo): 927.79 T2(fibo): 904.79 T3(fibo): 881.79… https://t.co/PpC2Zrk9yj', 'RT @ETHindi: कर्ज सीमा बढ़ाने की मंजूरी मिल जाने से अडानी ग्रीन एनर्जी (Adani Green Energy) को अपनी विस्तार योजनाओं को पूरा करने में मदद मि…', 'Adani Group crosses $100 billion in market capitalisation.\n\n#adani #adanigroup #thefinstaworld #adaniport… https://t.co/SNGjnfYuoJ', 'RT @ETHindi: कर्ज सीमा बढ़ाने की मंजूरी मिल जाने से अडानी ग्रीन एनर्जी (Adani Green Energy) को अपनी विस्तार योजनाओं को पूरा करने में मदद मि…', 'कर्ज सीमा बढ़ाने की मंजूरी मिल जाने से अडानी ग्रीन एनर्जी (Adani Green Energy) को अपनी विस्तार योजनाओं को पूरा करने… https://t.co/YZr73zpn2w', 'RT @TheFinstaWorld: Adani Group takes over management of mumbai airport from GVK.\n\n#adani #adanigroup #adaniairport #thefinstaworld #adanie…', '#adani, #adanigroup, #adanipower, #adanipowershare, #adanipowersharenews, #adanipowerlatestnews, #adanigreenenergy,… https://t.co/2pbkDkYFKO', 'Pullback Buy #ADANIGREEN 988.2 7/14/2021 2:20:00 PM SL: 997.5 T1(fibo): 1055.45 T2(fibo): 1080.45 T3(fibo): 1105.45… https://t.co/fMRPz8f4YG']
+[2021-07-16 17:12:20,596] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T171212, start_date=20210716T171218, end_date=20210716T171220
+[2021-07-16 17:12:20,679] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:12:20,723] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-16 17:20:34,684] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:20:26.899280+00:00 [queued]>
+[2021-07-16 17:20:34,734] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:20:26.899280+00:00 [queued]>
+[2021-07-16 17:20:34,736] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:20:34,737] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:20:34,738] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:20:34,762] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:20:26.899280+00:00
+[2021-07-16 17:20:34,788] {standard_task_runner.py:52} INFO - Started process 12311 to run task
+[2021-07-16 17:20:34,798] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:20:26.899280+00:00', '--job-id', '1611', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp8na0gnv3', '--error-file', '/tmp/tmpobojqefg']
+[2021-07-16 17:20:34,800] {standard_task_runner.py:77} INFO - Job 1611: Subtask extract_tweets
+[2021-07-16 17:20:34,910] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:20:26.899280+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:20:35,051] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:20:26.899280+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:20:25.065014+00:00
+[2021-07-16 17:20:36,077] {python.py:151} INFO - Done. Returned value was: ['Agarwal Industrial Corporation Limited - Press Release https://t.co/yqU8h973N3', '#pressRelease #NSE #BSE #trading #stocks #stockmarket #PressRelease #AGARIND - Press Release Agarwal Industrial Cor… https://t.co/sLpwGZupg4', 'AGARIND - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/a41bBVB8TF', 'new High in #AGARIND.  WE hold https://t.co/l6fmoxjtMH', 'Chart of stock on radar. similar to our top performers #SIYSIL and #AGARIND. \n\nwhy don`t you guess and comment?\n\nRe… https://t.co/5EfhVfFEna', 'Swing Buy:,\nAGARIND - 351,\n@ 9:23 am,\n* Learn #NimblrTA. Join our video course at https://t.co/dYgrFqlVsU\n* Get a t… https://t.co/0GlfFgwHj5', '@academy_share agarwal industry(agarind) is ready to run after retracement with fresh volume added. Please suggest… https://t.co/XqASqtfsOL', 'RT @AnshumanCharts: Some of our stocks blasted today \n\nVLS FINANCE 10% UC\nMaanAluminium 10% UC\nPrimeSec 5% UC\nAgarIND 5% UC\nWendt 14%\nAries…', 'RT @AnshumanCharts: Some of our stocks blasted today \n\nVLS FINANCE 10% UC\nMaanAluminium 10% UC\nPrimeSec 5% UC\nAgarIND 5% UC\nWendt 14%\nAries…', 'RT @AnshumanCharts: Some of our stocks blasted today \n\nVLS FINANCE 10% UC\nMaanAluminium 10% UC\nPrimeSec 5% UC\nAgarIND 5% UC\nWendt 14%\nAries…', 'Some of our stocks blasted today \n\n#VLSFINANCE 10% UC\n#MaanAluminium 10% UC\n#PrimeSec 5% UC\n#AgarIND 5% UC\n#Wendt 1… https://t.co/snm92x8w7v', 'RT @AnshumanCharts: Some of our stocks blasted today \n\nVLS FINANCE 10% UC\nMaanAluminium 10% UC\nPrimeSec 5% UC\nAgarIND 5% UC\nWendt 14%\nAries…', 'RT @AnshumanCharts: Some of our stocks blasted today \n\nVLS FINANCE 10% UC\nMaanAluminium 10% UC\nPrimeSec 5% UC\nAgarIND 5% UC\nWendt 14%\nAries…', 'RT @AnshumanCharts: Some of our stocks blasted today \n\nVLS FINANCE 10% UC\nMaanAluminium 10% UC\nPrimeSec 5% UC\nAgarIND 5% UC\nWendt 14%\nAries…', 'RT @AnshumanCharts: Some of our stocks blasted today \n\nVLS FINANCE 10% UC\nMaanAluminium 10% UC\nPrimeSec 5% UC\nAgarIND 5% UC\nWendt 14%\nAries…']
+[2021-07-16 17:20:36,127] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T172026, start_date=20210716T172034, end_date=20210716T172036
+[2021-07-16 17:20:36,183] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:20:36,216] {local_task_job.py:151} INFO - Task exited with return code 0

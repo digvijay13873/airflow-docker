@@ -1,0 +1,23 @@
+[2021-07-16 10:50:42,459] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:50:30.497423+00:00 [queued]>
+[2021-07-16 10:50:42,496] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:50:30.497423+00:00 [queued]>
+[2021-07-16 10:50:42,497] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:50:42,498] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:50:42,499] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:50:42,529] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T10:50:30.497423+00:00
+[2021-07-16 10:50:42,546] {standard_task_runner.py:52} INFO - Started process 3028 to run task
+[2021-07-16 10:50:42,557] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T10:50:30.497423+00:00', '--job-id', '720', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp_z87bjuh', '--error-file', '/tmp/tmpn1v40wda']
+[2021-07-16 10:50:42,559] {standard_task_runner.py:77} INFO - Job 720: Subtask tweets_postgres_table
+[2021-07-16 10:50:42,671] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:50:30.497423+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:50:42,791] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:50:30.497423+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:50:25.446765+00:00
+[2021-07-16 10:50:43,150] {logging_mixin.py:104} INFO - [('kung noon excited akong mag college putek ngayon indi na 😀', Decimal('0.3400')), ('RT @1muhafazakar_: Gezi"de halkın %3"ü sokağa indi direniş dediler..\n\n15 Temmuz"da halkın %60"ı sokağa indi tiyatro dediler..😉', Decimal('0.0000')), ('RT @jikanclock: JAY LAHAMS PLS END GAME PLS KUNG INDI EDI SHING', Decimal('0.4707')), ('@joshtinsoulmate @SB19Official aw hala, indi ako nagtanong pero tinkyu sai \U0001f97a HSUHSHSHSHSHSSHSHS ang kyut hahahahhah… https://t.co/QznDdYZOQY', Decimal('0.0000')), ('RT @melek__1991: Bu ana deyir, uşağlarım iki gündür su içmeyiblər\niran fars molla rejimi, iki ay imam hüsyn və uşağları susuz ölüb deyib ya…', Decimal('0.0000')), ('Palpak permi luto ko sng talong indi ma puslan kay sunog sila tanan. te laban namn itlog eh. hahaha ang isda namn ya dapat gli utdon pgd', Decimal('0.5574')), ('@sadecedent Param 75 den 12 ye indi hayırlısı sabır sabır nereye kadar daha ne kadar düşecek', Decimal('0.0000')), ('@erMolazza82 @icardismoo Hai letteralmente scritto che la nazionale per te come la juve. Hai quindi asserito che Cr… https://t.co/JOE2qiBoeY', Decimal('0.0000')), ('@efsaneoid Təbii ki, konsumerist cəmiyyət/sistemdə o tora düşürsən/düşmə ehtimalın olur. Sadəcə mən bir az bu məsəl… https://t.co/UebzyygTS2', Decimal('0.0000')), ('RT @nitin2kool: This is the struggle of people living in chicknayakahalli, rayasandra, choodasandra area. Pathetic roads due kaveri water w…', Decimal('-0.7184')), ('RT @saramalekun: HOLA!\nEstoy buscando piso en Valladolid (zona centro). Así que si sabéis de alguien/algo escribidme, porfa!\nMe mudo por cu…', Decimal('0.0000')), ('@hyunicano Benim indi bilee', Decimal('0.0000')), ('@leijila1 Aa mənim də anam mənim üçün tikirdi 🙂 Hətta üniversitetdə belə anamın toxuduğu sviterləri geyirdim. Sonra… https://t.co/AxlyuiHLwV', Decimal('0.0000')), ('@jordiborras @AnnaGaSabate @omnium @MonDiari Ha fet entre poc i res x la indi en el seu exili', Decimal('0.3400')), ('Gözüme perde mi indi şimdi benim? Çok zormuş yav. Bilgisayar ekranındaki timecode"ları hep yanlış okuyorum. Yakın g… https://t.co/0QE0tl9shD', Decimal('0.0000'))]
+[2021-07-16 10:50:43,162] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 10:50:43,191] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T105030, start_date=20210716T105042, end_date=20210716T105043
+[2021-07-16 10:50:43,326] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:50:43,376] {local_task_job.py:151} INFO - Task exited with return code 0

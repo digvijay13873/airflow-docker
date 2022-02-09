@@ -1,0 +1,23 @@
+[2021-07-16 16:35:35,178] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:35:10.264426+00:00 [queued]>
+[2021-07-16 16:35:35,221] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:35:10.264426+00:00 [queued]>
+[2021-07-16 16:35:35,222] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:35:35,222] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:35:35,223] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:35:35,242] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:35:10.264426+00:00
+[2021-07-16 16:35:35,263] {standard_task_runner.py:52} INFO - Started process 8453 to run task
+[2021-07-16 16:35:35,270] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:35:10.264426+00:00', '--job-id', '1133', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpe1tfmpao', '--error-file', '/tmp/tmp5dba8udg']
+[2021-07-16 16:35:35,272] {standard_task_runner.py:77} INFO - Job 1133: Subtask tweets_postgres_table
+[2021-07-16 16:35:35,373] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:35:10.264426+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:35:35,527] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:35:10.264426+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:35:03.425987+00:00
+[2021-07-16 16:35:35,630] {logging_mixin.py:104} INFO - [('RT @YEONWULUVR: you see the overflowing water is actually a representation of the tears he’s going to shed after yeonwu rejected him yet ag…', Decimal('-0.6369')), ('@mattswider I see Walmart updated their website… They are offering a ps5 for $499 rather than the third party selle… https://t.co/A9zC0fHz7S', Decimal('0.4019')), ('@directorjkay @Manaswi26080150 @Broski_lit4485 @butteredvmin @ShinnyBoppers @JackManifoldTV @BTS_twt LMAO AWWWW! i… https://t.co/0GmjgXZnI0', Decimal('0.7118')), ('RT @FranciscoGaius: Messi fans been in cloud nine since 1:30am Sunday. Love to see it https://t.co/PAOEIuGRaZ', Decimal('0.6369')), ('RT @AlexBerenson: Human Weathervane (TM) @ScottGottliebMD with some majestic spin on behalf of his paymaster @pfizer. It’s not that the vac…', Decimal('0.0000')), ('@killjaash We gone see ☺️😴', Decimal('0.0000')), ('@WomaninaHat1 @chrischirp They don"t believe that getting a vaccine will give them back the freedom they had before… https://t.co/WObChfa4z7', Decimal('0.6369')), ('@JohnJGaltrules More of that white privilege I see!🤔', Decimal('0.4199')), ('RT @diorvampp: last night was eventful american horror stories premiered and we got to see paris jackson show off her talent as an actress…', Decimal('-0.2263')), ('RT @_iambatchoii: Hello ARMYs!\n\nAfter the release of Permission to Dance, we have decided to do something amazing.\n\nThe choreography really…', Decimal('0.6239')), ('RT @_Ortodox: Short hair Messi was all about goals, breaking records and winning balon d’ors but you see long hair Messi 19? That was an ev…', Decimal('0.2960')), ('RT @_firamustafa: Salam Tan Sri Dato’ Seri @DGHisham . I’m praying to see your smile again. Please don’t give up as we all Malaysians only…', Decimal('0.7430')), ('RT @MrGeorgeWallace: Temporary insanity is the funniest way to be not guilty. "You see Your Honor, I was insane that night and whatnot."', Decimal('0.4082')), ('RT @RealPNavarro: How come Joe Biden"s jackboots can go door to door forcing vaccines on people and Biden"s Justice Department doesn"t want…', Decimal('0.5267')), ('RT @ChrisWe19956626: #CovidVaccine #Brexit: @BorisJohnson It"s so sad to see what was once a great nation (uk) &amp; a beacon in the dark days…', Decimal('0.0281'))]
+[2021-07-16 16:35:35,637] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:35:35,663] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T163510, start_date=20210716T163535, end_date=20210716T163535
+[2021-07-16 16:35:35,755] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:35:35,805] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-16 17:23:28,776] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:23:21.587852+00:00 [queued]>
+[2021-07-16 17:23:28,815] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:23:21.587852+00:00 [queued]>
+[2021-07-16 17:23:28,816] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:23:28,817] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:23:28,818] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:23:28,838] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:23:21.587852+00:00
+[2021-07-16 17:23:28,858] {standard_task_runner.py:52} INFO - Started process 12589 to run task
+[2021-07-16 17:23:28,868] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:23:21.587852+00:00', '--job-id', '1650', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpkjtq5un9', '--error-file', '/tmp/tmp6s100ceu']
+[2021-07-16 17:23:28,870] {standard_task_runner.py:77} INFO - Job 1650: Subtask extract_tweets
+[2021-07-16 17:23:28,957] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:23:21.587852+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:23:29,064] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:23:21.587852+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:23:19.596791+00:00
+[2021-07-16 17:23:29,679] {python.py:151} INFO - Done. Returned value was: ['Asian hotel east(AHLEAST) closed at https://t.co/VBWbH0NNvT is bullish above https://t.co/OWhB32KoqG may rise to 19… https://t.co/2ghXcyuax8', 'AHLEAST - Shareholding for the Period Ended June 30, 2021 https://t.co/RPCVoGryYT']
+[2021-07-16 17:23:29,736] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T172321, start_date=20210716T172328, end_date=20210716T172329
+[2021-07-16 17:23:29,810] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:23:29,839] {local_task_job.py:151} INFO - Task exited with return code 0

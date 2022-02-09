@@ -1,0 +1,22 @@
+[2021-07-21 11:44:22,618] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:44:09.245967+00:00 [queued]>
+[2021-07-21 11:44:23,602] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:44:09.245967+00:00 [queued]>
+[2021-07-21 11:44:23,606] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:44:23,607] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-21 11:44:23,609] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:44:24,096] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-21T11:44:09.245967+00:00
+[2021-07-21 11:44:24,120] {standard_task_runner.py:52} INFO - Started process 1788 to run task
+[2021-07-21 11:44:24,151] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-21T11:44:09.245967+00:00', '--job-id', '2006', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpud515nfm', '--error-file', '/tmp/tmpz1eek8wn']
+[2021-07-21 11:44:24,155] {standard_task_runner.py:77} INFO - Job 2006: Subtask extract_tweets
+[2021-07-21 11:44:24,666] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:44:09.245967+00:00 [running]> on host 5795a622f846
+[2021-07-21 11:44:24,874] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-21T11:44:09.245967+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-21T11:44:05.854621+00:00
+[2021-07-21 11:44:25,992] {python.py:151} INFO - Done. Returned value was: ['@mimirk @NRKYtring Kan du reise til Island igjen etter å ha sagt noe slikt? Har ikke de europas lengste arbeidsuke eller noe sånt?', '"faatih udah kerja, anis udah kerja, nanti sebentar lagi aa kerja, aamiin." :\')\n\nmaaf bu, aa ga sehebat itu', '@INN1ECORE Susar msn cnm aa', 'RT @Foodwithdom: My problem is that I don’t see it as a waste of money if it’s making me happy', 'Kinj Karaan Taareef Tere Chehre Di\nJid din Da Tera Mukh Vekheya\nRooh Hoyi Aa Deewani👉🏻👈🏻\U0001f97a\n\n#songs #Trending', '@nandiniisharmaa @nitin_gadkari @SBhardwajBJP Haa😂 tu dm me aa', 'RT @sadkiido: "let\'s get food" is literally my love language https://t.co/RptjJYJ1TJ', 'RT @AAstierOff: Cher tous,\n\nA priori, au dodo de ce soir, vous serez 200.000 à avoir vu KV1.\n\nC’est avec une vive émotion (ce n’est pas une…', '@Udayvarma1882 @urstrulyMahesh Aa Pawan Kalyan dhi thappa migathavi 90% jaragochu', 'RT @swatic12: Jeff Bezos 10 min main space se wapas aa gaya. Koi Indian hota to 2 ghante to sirf pics leta jo agle 5 saal tak Facebook aur…', 'RT @izone_bot: [#안유진] _yujin_an instagram 📸\n\n🌷\n\nhttps://t.co/AWfWuevaAY https://t.co/O1tk82Okww', '足が小さくてサイズがないのは仕方のない事だけど選ぶ時にぜんっぶレディースを勧められるのは嫌すぎる！\n足の小さい男性全員、レディース勧められる宿命を持っているのかな。', 'RT @ducku000: First dominate \n\nPk in fanbase \nMb , pb in long run\nRC in box office, screen presence\nNtr in acting \nAA following in other st…', '@nur_sabiha Hot isuu beb harus laah menyelit, yg penting diva aa dpt Pfizer. Ko hadooo hahaha', '@AA_blank_space 움\n모구모구\n조와해?\n아니묜\n에이드나\n아이스티나\n라떼나\n• • •']
+[2021-07-21 11:44:26,115] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210721T114409, start_date=20210721T114422, end_date=20210721T114426
+[2021-07-21 11:44:26,217] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-21 11:44:26,284] {local_task_job.py:151} INFO - Task exited with return code 0

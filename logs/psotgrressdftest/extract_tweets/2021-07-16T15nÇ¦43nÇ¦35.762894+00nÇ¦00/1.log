@@ -1,0 +1,22 @@
+[2021-07-16 15:43:47,676] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T15:43:35.762894+00:00 [queued]>
+[2021-07-16 15:43:47,732] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T15:43:35.762894+00:00 [queued]>
+[2021-07-16 15:43:47,733] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:43:47,734] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 15:43:47,735] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:43:47,766] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T15:43:35.762894+00:00
+[2021-07-16 15:43:47,791] {standard_task_runner.py:52} INFO - Started process 4773 to run task
+[2021-07-16 15:43:47,803] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T15:43:35.762894+00:00', '--job-id', '858', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpbqj26_h4', '--error-file', '/tmp/tmpxpw7xkvh']
+[2021-07-16 15:43:47,805] {standard_task_runner.py:77} INFO - Job 858: Subtask extract_tweets
+[2021-07-16 15:43:48,003] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T15:43:35.762894+00:00 [running]> on host 13346afafa5b
+[2021-07-16 15:43:48,155] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T15:43:35.762894+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T15:43:31.057388+00:00
+[2021-07-16 15:43:49,460] {python.py:151} INFO - Done. Returned value was: ['@Aryan_Arya19 https://t.co/AjhtZtuaGF', 'RT @bprd_tns: @aakash_2017 जिसे कई पात्रों से भरा "नावल" भी कहा जा सकता है 😉', '@576_balaji https://t.co/1BIXdHDizx', '@menve_s https://t.co/M3ZnPZd5fF', '@_Bit_2 Chal jaldi https://t.co/NvQduxnper', '@novimemer https://t.co/6A4B37pC3P', '@ankit_acerbic https://t.co/Z4oYzB8dub', 'RT @r91931418: UPके आगरा में धरना प्रर्दशन के दौरान लालटोपी गैंग(तथाकथित समाजवादियों) द्वारा "पाकिस्तान जिंदाबाद"के नारे के प्रकरण में केस…', 'RT @r91931418: शर्म करो तथाकथित समाजवादियों  सत्ता के लिए धरना प्रदर्शन और तिलमिलाने तक तो ठीक है लेकिन आतंकियों के लिए यूपी पुलिस पर भरोसा…', '@shashwatshukla_ https://t.co/B4VHFWfUM5', '@aakash_2017 जिसे कई पात्रों से भरा "नावल" भी कहा जा सकता है 😉', 'RT @RealJyoti_1: कुछ ही दिन शेष \nचने बेचेंगे अखिलेश...🙈🤣🤣😂', 'RT @Noida100: सभी न्यूज चैनल बालों को बजट में रक्षा बजट भी रखना चाहिए बल्कि इन्हें टीम में रक्षा सम्बंधित सैन्य, गोला बारूद, मिग 21, राफेल,…', 'RT @AnkitChourasia_: ⓘ This user wants "अखंड भारत" https://t.co/54e5jhu1P9', 'RT @Noida100: @RahulGandhi जो कोंग्रेसी RSS की विचारधारा का है उसे\nकोंग्रेस से बाहर फेंक देंगे - राहुल गांधी \nऔर जो कोंग्रेसी खुद बीजेपी की…']
+[2021-07-16 15:43:49,551] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T154335, start_date=20210716T154347, end_date=20210716T154349
+[2021-07-16 15:43:49,643] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 15:43:49,703] {local_task_job.py:151} INFO - Task exited with return code 0

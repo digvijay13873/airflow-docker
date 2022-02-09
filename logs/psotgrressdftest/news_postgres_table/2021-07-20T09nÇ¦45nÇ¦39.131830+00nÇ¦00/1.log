@@ -1,0 +1,23 @@
+[2021-07-20 09:47:47,044] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-20T09:45:39.131830+00:00 [queued]>
+[2021-07-20 09:47:47,084] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-20T09:45:39.131830+00:00 [queued]>
+[2021-07-20 09:47:47,086] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:47:47,087] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:47:47,088] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:47:47,120] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_postgres_table> on 2021-07-20T09:45:39.131830+00:00
+[2021-07-20 09:47:47,146] {standard_task_runner.py:52} INFO - Started process 1768 to run task
+[2021-07-20 09:47:47,153] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_postgres_table', '2021-07-20T09:45:39.131830+00:00', '--job-id', '1860', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp_5gn81ak', '--error-file', '/tmp/tmpwlrso3pr']
+[2021-07-20 09:47:47,155] {standard_task_runner.py:77} INFO - Job 1860: Subtask news_postgres_table
+[2021-07-20 09:47:47,277] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-20T09:45:39.131830+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:47:47,370] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:45:39.131830+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:45:33.808500+00:00
+[2021-07-20 09:47:47,437] {logging_mixin.py:104} INFO - [('What Percentage Of Almondz Global Securities Limited (NSE:ALMONDZ) Shares Do Insiders Own?', Decimal('0.3612')), ('Sebi suspends Almondz merchant banker certificate for 6 months', Decimal('0.0000')), ('Stocks Brokers Cannot Act As Merchant Banker: Sebi', Decimal('0.0000')), ('Sebi makes monitoring agency compulsory for all IPO funds', Decimal('0.0000')), ('Force Motors inks JV with MTU as it looks to diversify into high-technology verticals', Decimal('0.0000')), ('How much cash did you park with SRS? - The Sunday Guardian Live - The Sunday Guardian', Decimal('0.0000')), ('Shree Ganesh Jewellery House plans debt amid gold import curbs', Decimal('-0.3612')), ('Shocking! Unitech depositors asked to pursue other remedies by Tribunal', Decimal('-0.4574'))]
+[2021-07-20 09:47:47,455] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:47:47,496] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_postgres_table, execution_date=20210720T094539, start_date=20210720T094747, end_date=20210720T094747
+[2021-07-20 09:47:47,601] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:47:47,647] {local_task_job.py:151} INFO - Task exited with return code 0

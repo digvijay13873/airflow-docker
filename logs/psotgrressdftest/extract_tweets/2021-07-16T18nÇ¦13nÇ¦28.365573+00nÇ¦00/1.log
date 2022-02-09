@@ -1,0 +1,22 @@
+[2021-07-16 18:13:35,202] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T18:13:28.365573+00:00 [queued]>
+[2021-07-16 18:13:35,386] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T18:13:28.365573+00:00 [queued]>
+[2021-07-16 18:13:35,388] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 18:13:35,388] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 18:13:35,389] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 18:13:35,407] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T18:13:28.365573+00:00
+[2021-07-16 18:13:35,422] {standard_task_runner.py:52} INFO - Started process 12825 to run task
+[2021-07-16 18:13:35,428] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T18:13:28.365573+00:00', '--job-id', '1683', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmppu0wewg2', '--error-file', '/tmp/tmp3t12yk4i']
+[2021-07-16 18:13:35,429] {standard_task_runner.py:77} INFO - Job 1683: Subtask extract_tweets
+[2021-07-16 18:13:35,509] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T18:13:28.365573+00:00 [running]> on host 13346afafa5b
+[2021-07-16 18:13:35,597] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T18:13:28.365573+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T18:13:26.982823+00:00
+[2021-07-16 18:13:36,528] {python.py:151} INFO - Done. Returned value was: ['最近、妹のようすがちょっとおかしいんだがのアニメやるならながされて藍蘭島の二期もやろおよ～。', '@airan_ika たっぷり味わってね٩ (  ｰ̀֊ｰ́ )و🌸✨', 'よしゃ https://t.co/ce2TxYMYyg', '何アンダーテイルしとんねん！', '@niconicokino こんな幸せなことは無い😍', 'lineのあのウザいキャラのアニメやるならながされて藍蘭島の二期もやろおよ～。', '@kocha_DEG @yu_sohr @airan_game14 @HARRIER1126 @GDB_Love35 @250trKawasaki @80HARRIER_ryu @NAOS46 @l8WC2TQ8v5UNZs9… https://t.co/fVRXhMTrxg', 'うにゃああああああああああああああああ！', '@sug4_mipan @airan_game14 @sorepunipunisit @TR25_BRZ @gin_mishima @frzn_ed @11_k4t @sorao0109 @perfect_nico… https://t.co/zCdMN3haae', 'なずなはクズ。', '@s__pomcinnamon @yu_sohr @airan_game14 @HARRIER1126 @GDB_Love35 @80HARRIER_ryu @NAOS46 @gin_mishima @mizusawa0701… https://t.co/i0SbJ3RBaq', '@ViewOfPleco @YouTube @yu_sohr @airan_game14 @HARRIER1126 @GDB_Love35 @80HARRIER_ryu @NAOS46 @l8WC2TQ8v5UNZs9… https://t.co/PC3koYtcY8', '@rennstars @airan_game14 @HARRIER1126 @GDB_Love35 @80HARRIER_ryu @NAOS46 @gin_mishima @mizusawa0701 @perfect_nico… https://t.co/l1tcVh70zv', 'どうぶつの森？あぁ、あのケモナー御用達の。', "Airan: Someday you'll find a companion to help shoulder your burden."]
+[2021-07-16 18:13:36,567] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T181328, start_date=20210716T181335, end_date=20210716T181336
+[2021-07-16 18:13:36,616] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 18:13:36,648] {local_task_job.py:151} INFO - Task exited with return code 0

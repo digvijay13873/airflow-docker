@@ -1,0 +1,22 @@
+[2021-07-16 16:12:10,438] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:12:00.906468+00:00 [queued]>
+[2021-07-16 16:12:10,539] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:12:00.906468+00:00 [queued]>
+[2021-07-16 16:12:10,540] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:12:10,542] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:12:10,544] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:12:10,571] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:12:00.906468+00:00
+[2021-07-16 16:12:10,592] {standard_task_runner.py:52} INFO - Started process 6797 to run task
+[2021-07-16 16:12:10,606] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:12:00.906468+00:00', '--job-id', '967', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpkmskqf2t', '--error-file', '/tmp/tmpg2gjo79z']
+[2021-07-16 16:12:10,608] {standard_task_runner.py:77} INFO - Job 967: Subtask extract_tweets
+[2021-07-16 16:12:10,759] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:12:00.906468+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:12:10,949] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:12:00.906468+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:11:56.081694+00:00
+[2021-07-16 16:12:12,053] {python.py:151} INFO - Done. Returned value was: ['RT @dave_janak: 20 जुलाई को प्राइवेट और पब्लिक ट्रांसपोर्ट में नॉन AC बसों में 100% यात्री क्षमता के साथ और AC बसों मे\xa075% यात्री केपीसीटी…', '@bertanyarl tanpa ac', 'RT @brfootball: Olivier Giroud is in Italy to complete a move to AC Milan after nine years in London 📸 https://t.co/AvoutJa3rR', 'So excited that @LondonMet_SST is running a pop up injury and rehab clinic @LondonHeathside #5Kfestival run well an… https://t.co/Otq6m8MJ4M', '[#INFO] 210716- #JUNGWOO (junto com Lee Know do Stray Kids) foi escolhido como o novo MC do MBC Music Core!!\n\nA tra… https://t.co/5flfFDuFmY', 'Bu ülkede sittin sene işsiz kalmak trol olmaktan yüzbin kat daha iyi. İlk yapılanı savunmak için zaten göbekleri ça… https://t.co/K8GHAcbrLC', 'RT @acmilan: Clivet joins #ACMilan as our new Air Conditioning and Air Quality Partner ➡️ https://t.co/SSBUMTUlJR\n \n@ClivetSpA è il nostro…', '……………………(ベルベットナイトメアの整備中のようです)', '気にしない気にしない。', '@kevinalifka hmm bisa jadii mari tanya abang ac besok👍🏻', 'RT @Nihal_K34: .@kilistarim Müdürlüğünce soruşturma başlatılarak, SUYU bile olmayan yasa dışı yere hayvan toplayıp, aç susuz hastalıkla işk…', 'chilling in the AC at the apartment while making beats type beat', 'RT @SkySportsNews: Olivier Giroud is undergoing a medical with AC Milan before signing a two-year deal with the Serie A club.', 'RT @brfootball: Olivier Giroud is in Italy to complete a move to AC Milan after nine years in London 📸 https://t.co/AvoutJa3rR', 'RT @CSRIatLSTM: As it is #WorldSnakeDay we wanted to shout out to all those interested in taking part in research on #snakebite. We are rec…']
+[2021-07-16 16:12:12,110] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T161200, start_date=20210716T161210, end_date=20210716T161212
+[2021-07-16 16:12:12,323] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:12:12,387] {local_task_job.py:151} INFO - Task exited with return code 0

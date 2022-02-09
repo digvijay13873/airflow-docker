@@ -1,0 +1,22 @@
+[2021-07-16 17:16:09,973] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:16:02.839519+00:00 [queued]>
+[2021-07-16 17:16:10,007] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:16:02.839519+00:00 [queued]>
+[2021-07-16 17:16:10,008] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:16:10,009] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:16:10,009] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:16:10,032] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:16:02.839519+00:00
+[2021-07-16 17:16:10,050] {standard_task_runner.py:52} INFO - Started process 11874 to run task
+[2021-07-16 17:16:10,056] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:16:02.839519+00:00', '--job-id', '1556', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp97vzf57q', '--error-file', '/tmp/tmpp7m81vmk']
+[2021-07-16 17:16:10,058] {standard_task_runner.py:77} INFO - Job 1556: Subtask extract_tweets
+[2021-07-16 17:16:10,136] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:16:02.839519+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:16:10,237] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:16:02.839519+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:16:01.088505+00:00
+[2021-07-16 17:16:11,345] {python.py:151} INFO - Done. Returned value was: ['#AutomobilesandAutoParts : 5.46%\n#RAJRATAN : 5.46%\n\n#MediaandPublishing : 5.36%\n#SAREGAMA : 5.36%… https://t.co/6dnOLZOVxp', 'Top 3 Gainers for the week :\n#GEECEE : 16.69%\n#ADORWELD : 14.60%\n#PDSMFL : 14.50%\n\nTop 3 Losers for the week :… https://t.co/aXXSrBc2tz', '#adorweld 880 :) https://t.co/kl3phhItXl', 'Paul Torres-Cohen $ADORWELD.BO', 'ADORWELD - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/HIYkU8XLAt', '#ADORWELD #StocksToWatch https://t.co/FferCTK9TC', 'ADORWELD #ADORWELD     \n.\n.\n#stocktigers #StockToWatch  #TeamStockTigers 🐯🙏 https://t.co/BIAtyqSefP', 'Resistance broken shares\n#Adorweld\n#Avtnpl\n#Bodalchem', 'Swing Buy:,\nADORWELD - 724,\n@ 11:25 am,\n* Learn #NimblrTA. Join our video course at https://t.co/dYgrFqlVsU\n* Get a… https://t.co/ioMQaTlcwi', 'Paul Torres-Cohen $ADORWELD.BO', 'ADORWELD - Shareholding for the Period Ended June 30, 2021 https://t.co/hrueWxVGM6', '#ConstructionMaterials: 4.79%\n#KCP: 4.79%\n\n#Pharmaceuticals: 4.72%\n#LAURUSLABS: 4.72%\n\n#RealEstateOperations: 4.69%… https://t.co/YJtydufrns', '#ADORWELD: cooling down for sometime. Near the retest zone of ATH breakout levels. https://t.co/KLKjDaojoR https://t.co/1eQ78LKhmO']
+[2021-07-16 17:16:11,405] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T171602, start_date=20210716T171609, end_date=20210716T171611
+[2021-07-16 17:16:11,469] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:16:11,513] {local_task_job.py:151} INFO - Task exited with return code 0

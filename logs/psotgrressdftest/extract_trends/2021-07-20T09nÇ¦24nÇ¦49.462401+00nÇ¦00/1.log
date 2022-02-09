@@ -1,0 +1,26 @@
+[2021-07-20 09:25:06,781] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_trends 2021-07-20T09:24:49.462401+00:00 [queued]>
+[2021-07-20 09:25:06,885] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_trends 2021-07-20T09:24:49.462401+00:00 [queued]>
+[2021-07-20 09:25:06,893] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:25:06,896] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:25:06,898] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:25:06,951] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_trends> on 2021-07-20T09:24:49.462401+00:00
+[2021-07-20 09:25:06,980] {standard_task_runner.py:52} INFO - Started process 310 to run task
+[2021-07-20 09:25:07,047] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_trends', '2021-07-20T09:24:49.462401+00:00', '--job-id', '1742', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpgy7co6wk', '--error-file', '/tmp/tmpun5peaa8']
+[2021-07-20 09:25:07,067] {standard_task_runner.py:77} INFO - Job 1742: Subtask extract_trends
+[2021-07-20 09:25:07,320] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_trends 2021-07-20T09:24:49.462401+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:25:08,282] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_trends
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:24:49.462401+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:24:44.227776+00:00
+[2021-07-20 09:25:08,430] {logging_mixin.py:104} INFO - ['ADES.JK']
+[2021-07-20 09:25:28,560] {logging_mixin.py:104} INFO - number of searches: [0.0, 0.0, 0.0, 0.0, 0.0]
+[2021-07-20 09:25:29,744] {python.py:151} INFO - Done. Returned value was: [0.0, 0.0, 0.0, 0.0, 0.0]
+[2021-07-20 09:25:32,263] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_trends, execution_date=20210720T092449, start_date=20210720T092506, end_date=20210720T092532
+[2021-07-20 09:25:33,700] {local_task_job.py:197} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2021-07-20 09:25:34,822] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 310
+[2021-07-20 09:25:35,808] {taskinstance.py:1264} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-07-20 09:25:36,411] {process_utils.py:66} INFO - Process psutil.Process(pid=310, status='terminated', exitcode=1, started='09:25:06') (310) terminated with exit code 1

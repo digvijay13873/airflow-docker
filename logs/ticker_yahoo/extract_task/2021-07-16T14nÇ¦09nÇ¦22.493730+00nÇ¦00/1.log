@@ -1,0 +1,71 @@
+[2021-07-16 14:09:25,192] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-16T14:09:22.493730+00:00 [queued]>
+[2021-07-16 14:09:25,230] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-16T14:09:22.493730+00:00 [queued]>
+[2021-07-16 14:09:25,231] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 14:09:25,232] {taskinstance.py:1068} INFO - Starting attempt 1 of 2
+[2021-07-16 14:09:25,233] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 14:09:25,275] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-16T14:09:22.493730+00:00
+[2021-07-16 14:09:25,294] {standard_task_runner.py:52} INFO - Started process 1513 to run task
+[2021-07-16 14:09:25,300] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-16T14:09:22.493730+00:00', '--job-id', '738', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmpc52l05t1', '--error-file', '/tmp/tmpzif7vlpu']
+[2021-07-16 14:09:25,301] {standard_task_runner.py:77} INFO - Job 738: Subtask extract_task
+[2021-07-16 14:09:25,441] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-16T14:09:22.493730+00:00 [running]> on host 5d5ba9428780
+[2021-07-16 14:09:25,593] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T14:09:22.493730+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T14:09:22.493730+00:00
+[2021-07-16 14:10:18,695] {logging_mixin.py:104} INFO - comapny name: 20 Microns Limited (20MICRONS.NS)
+[2021-07-16 14:10:18,709] {logging_mixin.py:104} INFO - extracted ticker: 20MICRONS.NS
+[2021-07-16 14:10:51,400] {logging_mixin.py:104} INFO - comapny name: 21ST CENTURY MANAG (21STCENMGM.NS)
+[2021-07-16 14:10:51,401] {logging_mixin.py:104} INFO - extracted ticker: 21STCENMGM.NS
+[2021-07-16 14:11:30,871] {logging_mixin.py:104} INFO - comapny name: 3i Infotech Limited (3IINFOTECH.NS)
+[2021-07-16 14:11:30,876] {logging_mixin.py:104} INFO - extracted ticker: 3IINFOTECH.NS
+[2021-07-16 14:12:20,616] {logging_mixin.py:104} INFO - comapny name: 3M India Limited (3MINDIA.NS)
+[2021-07-16 14:12:20,623] {logging_mixin.py:104} INFO - extracted ticker: 3MINDIA.NS
+[2021-07-16 14:13:04,110] {logging_mixin.py:104} INFO - comapny name: 3P LAND HOLDINGS L (3PLAND.NS)
+[2021-07-16 14:13:04,115] {logging_mixin.py:104} INFO - extracted ticker: 3PLAND.NS
+[2021-07-16 14:13:41,112] {logging_mixin.py:104} INFO - comapny name: 5paisa Capital Limited (5PAISA.NS)
+[2021-07-16 14:13:41,119] {logging_mixin.py:104} INFO - extracted ticker: 5PAISA.NS
+[2021-07-16 14:14:15,639] {logging_mixin.py:104} INFO - comapny name: 63 MOONS TECHNOLOG (63MOONS.NS)
+[2021-07-16 14:14:15,640] {logging_mixin.py:104} INFO - extracted ticker: 63MOONS.NS
+[2021-07-16 14:14:48,820] {logging_mixin.py:104} INFO - comapny name: A2Z Infra Engineering Limited (A2ZINFRA.NS)
+[2021-07-16 14:14:48,821] {logging_mixin.py:104} INFO - extracted ticker: A2ZINFRA.NS
+[2021-07-16 14:15:20,542] {logging_mixin.py:104} INFO - comapny name: Aakash Exploration Services Limited (AAKASH.NS)
+[2021-07-16 14:15:20,546] {logging_mixin.py:104} INFO - extracted ticker: AAKASH.NS
+[2021-07-16 14:15:52,545] {logging_mixin.py:104} INFO - comapny name: The Aaron's Company, Inc. (AAN)
+[2021-07-16 14:15:52,747] {logging_mixin.py:104} INFO - extracted ticker: AAN
+[2021-07-16 14:16:25,256] {logging_mixin.py:104} INFO - comapny name: Aarti Drugs Limited (AARTIDRUGS.NS)
+[2021-07-16 14:16:25,258] {logging_mixin.py:104} INFO - extracted ticker: AARTIDRUGS.NS
+[2021-07-16 14:16:56,757] {logging_mixin.py:104} INFO - comapny name: Aarti Industries Limited (AARTIIND.NS)
+[2021-07-16 14:16:56,759] {logging_mixin.py:104} INFO - extracted ticker: AARTIIND.NS
+[2021-07-16 14:17:28,349] {logging_mixin.py:104} INFO - comapny name: Aarti Surfactants Limited (AARTISURF.NS)
+[2021-07-16 14:17:28,351] {logging_mixin.py:104} INFO - extracted ticker: AARTISURF.NS
+[2021-07-16 14:18:00,871] {logging_mixin.py:104} INFO - comapny name: Aarvee Denims and Exports Limited (AARVEEDEN.BO)
+[2021-07-16 14:18:00,875] {logging_mixin.py:104} INFO - extracted ticker: AARVEEDEN.BO
+[2021-07-16 14:18:32,425] {logging_mixin.py:104} INFO - comapny name: Aarvi Encon Limited (AARVI.NS)
+[2021-07-16 14:18:32,432] {logging_mixin.py:104} INFO - extracted ticker: AARVI.NS
+[2021-07-16 14:19:04,061] {logging_mixin.py:104} INFO - comapny name: Aavas Financiers Limited (AAVAS.NS)
+[2021-07-16 14:19:04,063] {logging_mixin.py:104} INFO - extracted ticker: AAVAS.NS
+[2021-07-16 14:19:36,161] {logging_mixin.py:104} INFO - comapny name: Automatic Bank Services Limited (ABANF)
+[2021-07-16 14:19:36,163] {logging_mixin.py:104} INFO - extracted ticker: ABANF
+[2021-07-16 14:20:07,852] {logging_mixin.py:104} INFO - comapny name: ABB Ltd (ABB)
+[2021-07-16 14:20:07,855] {logging_mixin.py:104} INFO - extracted ticker: ABB
+[2021-07-16 14:20:44,632] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/seleniumtest.py", line 61, in extract
+    ticker = companyname = str(companyname[0].text)
+IndexError: list index out of range
+[2021-07-16 14:20:45,570] {taskinstance.py:1531} INFO - Marking task as UP_FOR_RETRY. dag_id=ticker_yahoo, task_id=extract_task, execution_date=20210716T140922, start_date=20210716T140925, end_date=20210716T142045
+[2021-07-16 14:20:47,358] {local_task_job.py:151} INFO - Task exited with return code 1

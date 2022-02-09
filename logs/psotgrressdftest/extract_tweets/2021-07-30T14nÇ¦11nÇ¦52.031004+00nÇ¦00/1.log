@@ -1,0 +1,22 @@
+[2021-07-30 14:12:08,697] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:11:52.031004+00:00 [queued]>
+[2021-07-30 14:12:08,792] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:11:52.031004+00:00 [queued]>
+[2021-07-30 14:12:08,834] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:12:08,851] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-30 14:12:08,883] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:12:08,952] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-30T14:11:52.031004+00:00
+[2021-07-30 14:12:08,991] {standard_task_runner.py:52} INFO - Started process 1279 to run task
+[2021-07-30 14:12:09,012] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-30T14:11:52.031004+00:00', '--job-id', '2126', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpga5t98o_', '--error-file', '/tmp/tmpxnc4z37z']
+[2021-07-30 14:12:09,020] {standard_task_runner.py:77} INFO - Job 2126: Subtask extract_tweets
+[2021-07-30 14:12:09,272] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:11:52.031004+00:00 [running]> on host 04be2259e97a
+[2021-07-30 14:12:09,521] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-30T14:11:52.031004+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-30T14:11:43.927727+00:00
+[2021-07-30 14:12:10,941] {python.py:151} INFO - Done. Returned value was: ['@AbhiGreenz Thank you for reaching out to 3M India. Please share your request to 3mcustomercontactcenter.in@mmm.com… https://t.co/81nqjBrPDt', 'Did you know? ADA and AAPD guidelines now conclude that sealants are effective in preventing and arresting non-cavi… https://t.co/Ic0xhLd6ef', '#3MIndia 24,842 \n\nIs it getting ready for an up move? \n\nKeep on watch list\n\n#Nifty #Nifty50 #banknifty #NiftyBank… https://t.co/u8IVaR4O7Y', 'Bharti Airtel: 0.43%\nWhirlpool: -2.03%\nGlaxo: 10.63%\n3MIndia : 15.7%\nBata India: 29.05%', 'RT @3MIndia: 3M has a long-standing commitment to sustainability, and it’s a core value of our company. Committing to a sustainable lifesty…', 'We undertook a crucial project for children undergoing cancer treatment &amp; their families at Lakshmi Children’s Heal… https://t.co/QBOSQaApFM', 'RT @3MIndia: 3M has a long-standing commitment to sustainability, and it’s a core value of our company. Committing to a sustainable lifesty…', '3M has a long-standing commitment to sustainability, and it’s a core value of our company. Committing to a sustaina… https://t.co/Ld7Fw0xkqe', '@3MIndia', '@3MIndia can you please let me know, who is  your distributor of 3m tegaderm 8526in, in pincode 848101.', '3MINDIA - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/XUMbaW6LuJ', '@BT_India @3MIndia @ZeeNews @the_hindu @anandmahindra DONT BUY WOVENGOLD JACUZZIS SHOWERS BECAUSE WOVENGOLD OFFICIA… https://t.co/aaef3zGFrN', '@3MIndia What? @3MIndia social media team too debunked🤔', 'India Equity: 3M India (3MINDIA) Annual report and results for Financial-Year-2021 https://t.co/sIRpOimoAs', "@3MIndia Thank you for your response. Two days ago I've sent an email sincerely after your response but looks like… https://t.co/J7tl6N1NEJ"]
+[2021-07-30 14:12:10,999] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210730T141152, start_date=20210730T141208, end_date=20210730T141210
+[2021-07-30 14:12:11,067] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-30 14:12:11,114] {local_task_job.py:151} INFO - Task exited with return code 0

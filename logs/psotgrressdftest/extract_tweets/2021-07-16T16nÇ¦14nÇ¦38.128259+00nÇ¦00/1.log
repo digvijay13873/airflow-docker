@@ -1,0 +1,22 @@
+[2021-07-16 16:14:56,666] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:14:38.128259+00:00 [queued]>
+[2021-07-16 16:14:56,727] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:14:38.128259+00:00 [queued]>
+[2021-07-16 16:14:56,729] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:14:56,735] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:14:56,736] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:14:56,771] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:14:38.128259+00:00
+[2021-07-16 16:14:56,813] {standard_task_runner.py:52} INFO - Started process 6979 to run task
+[2021-07-16 16:14:56,828] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:14:38.128259+00:00', '--job-id', '981', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpm_7yyfbx', '--error-file', '/tmp/tmp_4phn_38']
+[2021-07-16 16:14:56,830] {standard_task_runner.py:77} INFO - Job 981: Subtask extract_tweets
+[2021-07-16 16:14:57,035] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:14:38.128259+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:14:57,289] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:14:38.128259+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:14:31.844660+00:00
+[2021-07-16 16:14:58,450] {python.py:151} INFO - Done. Returned value was: ["Are you able to do European accents? — I've been working on them here and there. I think I'm most comfortable with… https://t.co/cpaIChsCxK", '@BoatbomberRBLX @sleitnick Similarly, it is annoying to hear people advocate to use *this new thing* because "it ha… https://t.co/VwiISSPDx2', 'RT @demishassabis: Last year we presented #AlphaFold v2 which predicts 3D structures of proteins down to atomic accuracy. Today we’re proud…', 'Hope this one works and accuracy is ok. Read that the rise in daily cases in SK lately is due to false negatives fr… https://t.co/DOmD1t1wyb', 'Never Seen such an Accuracy https://t.co/AS39gNaWlX via @YouTube', '@originalspin The accuracy 🤣🤣', '@LittleBitOfLaLa Lawd Baby cheezus in the manger, i do not have the bandwidth today to accuracy convey what watchin… https://t.co/Lh55HhOGx1', 'My son feels we can abandon the old school journalism of accuracy and just say about the woman in this piece that s… https://t.co/z009gIQtE4', 'Tried to fix my swing today with proper stance, grip and follow through. I almost hit a bird. Not a birdie but an a… https://t.co/gHcP364uUS', '@pigletish They’ve narrowed it down to a small handful of blood biomarkers, another objective measurement. Some sle… https://t.co/LtmPXRtD8C', 'RT @eno_barony: The silent moment of a lion is not foolishness but calculation of accuracy #RapGoddess', '@MadhavSheth1 Being a flagship X2 pro user I have not received yet. Since many days  I can see the rumour of Realme… https://t.co/8JRKcmaY5j', '@brownskincess @Luminary_Wings 😮The ACCURACY! My Sag sister stay strapped🤣!', '@ka1mar @Openenergymon Thanks @ka1mar and great to hear! This board is designed to read from 2x MID standard meters… https://t.co/H2rx0DIwDc']
+[2021-07-16 16:14:58,525] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T161438, start_date=20210716T161456, end_date=20210716T161458
+[2021-07-16 16:14:58,646] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:14:58,696] {local_task_job.py:151} INFO - Task exited with return code 0

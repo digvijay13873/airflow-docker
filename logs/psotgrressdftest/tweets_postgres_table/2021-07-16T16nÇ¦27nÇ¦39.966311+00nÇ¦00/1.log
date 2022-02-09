@@ -1,0 +1,23 @@
+[2021-07-16 16:28:04,772] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:27:39.966311+00:00 [queued]>
+[2021-07-16 16:28:04,856] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:27:39.966311+00:00 [queued]>
+[2021-07-16 16:28:04,862] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:28:04,867] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:28:04,871] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:28:04,931] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:27:39.966311+00:00
+[2021-07-16 16:28:05,036] {standard_task_runner.py:52} INFO - Started process 7888 to run task
+[2021-07-16 16:28:05,071] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:27:39.966311+00:00', '--job-id', '1070', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmptt1dzvxx', '--error-file', '/tmp/tmplrmabza7']
+[2021-07-16 16:28:05,084] {standard_task_runner.py:77} INFO - Job 1070: Subtask tweets_postgres_table
+[2021-07-16 16:28:05,515] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:27:39.966311+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:28:05,812] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:27:39.966311+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:27:33.017429+00:00
+[2021-07-16 16:28:06,028] {logging_mixin.py:104} INFO - [('@jainchintan67 Sir you had not mentioned ADROITINFO in your sheet', Decimal('0.0000')), ('@StocksCall_ @caniravkaria ADROITINFO \nTime frame - 1 month', Decimal('0.0000')), ('@jainchintan67 ADROITINFO', Decimal('0.0000')), ('@Dare2Dr10109801 @caniravkaria @option_square Sir can you look at ADROITINFO chart\nPlease sir', Decimal('0.3182')), ('@jainchintan67 Sir you had not mentioned ADROITINFO in your sheet', Decimal('0.0000')), ('@StocksCall_ @caniravkaria ADROITINFO \nTime frame - 1 month', Decimal('0.0000')), ('@jainchintan67 ADROITINFO', Decimal('0.0000')), ('@Dare2Dr10109801 @caniravkaria @option_square Sir can you look at ADROITINFO chart\nPlease sir', Decimal('0.3182'))]
+[2021-07-16 16:28:06,039] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:28:06,089] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T162739, start_date=20210716T162804, end_date=20210716T162806
+[2021-07-16 16:28:06,240] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:28:06,295] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,105 @@
+[2021-07-12 15:16:02,209] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T15:08:22.343591+00:00 [queued]>
+[2021-07-12 15:16:02,280] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T15:08:22.343591+00:00 [queued]>
+[2021-07-12 15:16:02,282] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 15:16:02,283] {taskinstance.py:1068} INFO - Starting attempt 2 of 2
+[2021-07-12 15:16:02,284] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 15:16:02,332] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-12T15:08:22.343591+00:00
+[2021-07-12 15:16:02,362] {standard_task_runner.py:52} INFO - Started process 80 to run task
+[2021-07-12 15:16:02,377] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-12T15:08:22.343591+00:00', '--job-id', '42', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmpeh8spqo9', '--error-file', '/tmp/tmpvsnn61tl']
+[2021-07-12 15:16:02,379] {standard_task_runner.py:77} INFO - Job 42: Subtask extract_task
+[2021-07-12 15:16:02,554] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-12T15:08:22.343591+00:00 [running]> on host f29b1d03ad56
+[2021-07-12 15:16:02,821] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-12T15:08:22.343591+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-12T15:08:22.343591+00:00
+[2021-07-12 15:17:55,378] {local_task_job.py:76} ERROR - Received SIGTERM. Terminating subprocesses
+[2021-07-12 15:17:55,567] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 80
+[2021-07-12 15:17:55,635] {taskinstance.py:1264} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-07-12 15:17:58,482] {local_task_job.py:76} ERROR - Received SIGTERM. Terminating subprocesses
+[2021-07-12 15:17:58,513] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 80
+[2021-07-12 15:17:58,525] {taskinstance.py:1264} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-07-12 15:17:58,527] {logging_mixin.py:104} WARNING - --- Logging error ---
+[2021-07-12 15:18:00,198] {logging_mixin.py:104} WARNING - Traceback (most recent call last):
+[2021-07-12 15:18:00,215] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/***/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+[2021-07-12 15:18:00,227] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/***/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+[2021-07-12 15:18:00,229] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/***/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+[2021-07-12 15:18:00,230] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/***/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+[2021-07-12 15:18:00,231] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/***/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+[2021-07-12 15:18:00,233] {logging_mixin.py:104} WARNING -   File "/opt/***/dags/seleniumtest.py", line 45, in extract
+    driver.get(url)
+[2021-07-12 15:18:00,286] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+[2021-07-12 15:18:00,299] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+[2021-07-12 15:18:00,301] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+[2021-07-12 15:18:00,302] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 402, in _request
+    resp = http.request(method, url, body=body, headers=headers)
+[2021-07-12 15:18:00,303] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/urllib3/request.py", line 80, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+[2021-07-12 15:18:00,304] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/urllib3/request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+[2021-07-12 15:18:00,305] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/urllib3/poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+[2021-07-12 15:18:00,306] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+[2021-07-12 15:18:00,387] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+[2021-07-12 15:18:00,414] {logging_mixin.py:104} WARNING -   File "<string>", line 3, in raise_from
+[2021-07-12 15:18:00,427] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+[2021-07-12 15:18:00,441] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/http/client.py", line 1379, in getresponse
+    response.begin()
+[2021-07-12 15:18:00,444] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/http/client.py", line 311, in begin
+    version, status, reason = self._read_status()
+[2021-07-12 15:18:00,446] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/http/client.py", line 272, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+[2021-07-12 15:18:00,449] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+[2021-07-12 15:18:00,451] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/***/models/taskinstance.py", line 1266, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+[2021-07-12 15:18:00,461] {logging_mixin.py:104} WARNING - ***.exceptions.AirflowException: Task received SIGTERM signal
+[2021-07-12 15:18:00,462] {logging_mixin.py:104} WARNING - 
+During handling of the above exception, another exception occurred:
+[2021-07-12 15:18:00,464] {logging_mixin.py:104} WARNING - Traceback (most recent call last):
+[2021-07-12 15:18:00,465] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/logging/__init__.py", line 994, in emit
+    msg = self.format(record)
+[2021-07-12 15:18:00,466] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/logging/__init__.py", line 840, in format
+    return fmt.format(record)
+[2021-07-12 15:18:00,468] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/logging/__init__.py", line 585, in format
+    record.exc_text = self.formatException(record.exc_info)
+[2021-07-12 15:18:00,469] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/logging/__init__.py", line 535, in formatException
+    traceback.print_exception(ei[0], ei[1], tb, None, sio)
+[2021-07-12 15:18:00,470] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/traceback.py", line 104, in print_exception
+    type(value), value, tb, limit=limit).format(chain=chain):
+[2021-07-12 15:18:00,472] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/traceback.py", line 509, in __init__
+    capture_locals=capture_locals)
+[2021-07-12 15:18:00,473] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/traceback.py", line 364, in extract
+    f.line
+[2021-07-12 15:18:00,474] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/traceback.py", line 286, in line
+    self._line = linecache.getline(self.filename, self.lineno).strip()
+[2021-07-12 15:18:00,480] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/linecache.py", line 16, in getline
+    lines = getlines(filename, module_globals)
+[2021-07-12 15:18:00,481] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/linecache.py", line 47, in getlines
+    return updatecache(filename, module_globals)
+[2021-07-12 15:18:00,482] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/linecache.py", line 136, in updatecache
+    with tokenize.open(fullname) as fp:
+[2021-07-12 15:18:00,484] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/tokenize.py", line 454, in open
+    encoding, lines = detect_encoding(buffer.readline)
+[2021-07-12 15:18:00,485] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/tokenize.py", line 423, in detect_encoding
+    first = read_or_stop()
+[2021-07-12 15:18:00,486] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/tokenize.py", line 381, in read_or_stop
+    return readline()
+[2021-07-12 15:18:00,487] {logging_mixin.py:104} WARNING -   File "/home/***/.local/lib/python3.6/site-packages/***/models/taskinstance.py", line 1266, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+[2021-07-12 15:18:00,489] {logging_mixin.py:104} WARNING - ***.exceptions.AirflowException: Task received SIGTERM signal
+[2021-07-12 15:18:00,490] {logging_mixin.py:104} WARNING - Call stack:

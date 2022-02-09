@@ -1,0 +1,22 @@
+[2021-07-22 13:38:28,305] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-22T13:38:18.477159+00:00 [queued]>
+[2021-07-22 13:38:28,397] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-22T13:38:18.477159+00:00 [queued]>
+[2021-07-22 13:38:28,406] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-22 13:38:28,407] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-22 13:38:28,409] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-22 13:38:28,453] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-22T13:38:18.477159+00:00
+[2021-07-22 13:38:28,549] {standard_task_runner.py:52} INFO - Started process 774 to run task
+[2021-07-22 13:38:28,568] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-22T13:38:18.477159+00:00', '--job-id', '2055', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpacis7ytr', '--error-file', '/tmp/tmpg2lngb0b']
+[2021-07-22 13:38:28,575] {standard_task_runner.py:77} INFO - Job 2055: Subtask extract_tweets
+[2021-07-22 13:38:28,812] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-22T13:38:18.477159+00:00 [running]> on host 5795a622f846
+[2021-07-22 13:38:29,035] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-22T13:38:18.477159+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-22T13:38:16.155193+00:00
+[2021-07-22 13:38:30,279] {python.py:151} INFO - Done. Returned value was: ['#MarketWatch 3 PM  #BTST for 23 July \n\nAPOLLOHOSP LT TRENT TECHM COFORGE AARTIIND MGL LTI are looking good with tre… https://t.co/LS2xh8dXWG', 'Aarti Industries Limited - Loss of Share Certificates https://t.co/q7Dft63KVc', 'AARTIIND - Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate https://t.co/kVgj0oPUhA', '#TradebullsMarketScanner - Daily market updates from Tradebulls Securities \n\n#AARTIIND\n#MARICO\n#ACC\n#HAVELLS… https://t.co/MCRQ9OAZKP', 'Long stock picks with uptrend potential:\n    \nAARTIIND at 862.15\nCOLPAL at 1754.45\nNAM-INDIA at 397.9\n    \nTrade wi… https://t.co/TcUoikvSSP', 'AartiInd is showing good strength and any dip till 856 should be added for upside targets of 867/80/94. Maintain a… https://t.co/4jr1ct8pkR', 'RT @NimmiRaz: #Aartiind\n\nDaily chart📊 BO\n\n@Jitendra_stock , @Rishikesh_ADX https://t.co/ZQHoDAHs7Z', 'New Stock Idea for Investment | 22  JULY\n\nRead Below for Details👇🏼👇🏼\nhttps://t.co/NwpLGZQux7 \n\nVisit regularly… https://t.co/sjHuq8tzl7', 'AARTIIND 862 https://t.co/wmNV7MaNBz', '#AartiInd #aartiindustries #BSE #NSE #nifty50 #BANKNIFTYFUTURE \n\nBuy above 880 for long\nSL below 850 \nT1 - 930 \nT2… https://t.co/rioBlKTV76', 'RT @Kuldeep222786: #AartiInd https://t.co/kbzfkvx9eQ', '#AartiInd https://t.co/kbzfkvx9eQ', 'Long stock picks with uptrend potential:\n    \nAARTIIND at 862.15\nCOLPAL at 1754.45\nNAM-INDIA at 397.9\n    \nTrade wi… https://t.co/53v7bS5sti', '#nifty50 midcap100 top leaders and laggards on july 20\n#GUJGASLTD #GSPL #JSWENERGY #AARTIIND #MINDTREE #MPHASIS… https://t.co/96rJKh0Viu', '#nifty50 midcap100 heatmap july 20\n#GUJGASLTD #GSPL #JSWENERGY #AARTIIND #MINDTREE #MPHASIS https://t.co/SKDYJ0QwcH']
+[2021-07-22 13:38:30,366] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210722T133818, start_date=20210722T133828, end_date=20210722T133830
+[2021-07-22 13:38:30,468] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-22 13:38:30,484] {local_task_job.py:151} INFO - Task exited with return code 0

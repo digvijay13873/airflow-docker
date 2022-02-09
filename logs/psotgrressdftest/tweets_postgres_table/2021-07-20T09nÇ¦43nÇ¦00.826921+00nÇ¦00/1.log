@@ -1,0 +1,23 @@
+[2021-07-20 09:43:27,432] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:43:00.826921+00:00 [queued]>
+[2021-07-20 09:43:27,586] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:43:00.826921+00:00 [queued]>
+[2021-07-20 09:43:27,595] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:43:27,596] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:43:27,598] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:43:27,645] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-20T09:43:00.826921+00:00
+[2021-07-20 09:43:27,681] {standard_task_runner.py:52} INFO - Started process 1498 to run task
+[2021-07-20 09:43:27,712] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-20T09:43:00.826921+00:00', '--job-id', '1842', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp1hv5oa4v', '--error-file', '/tmp/tmp1o2pvuhg']
+[2021-07-20 09:43:27,732] {standard_task_runner.py:77} INFO - Job 1842: Subtask tweets_postgres_table
+[2021-07-20 09:43:28,170] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:43:00.826921+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:43:28,595] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:43:00.826921+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:42:54.131588+00:00
+[2021-07-20 09:43:28,741] {logging_mixin.py:104} INFO - [('Share Bazaar Live। Prashant Sawant। TV100 Karobar । 20th July 2021.\n\nhttps://t.co/8RAxFFw8TG\n\n@TKarobar \n\nPrashant… https://t.co/vQwgXS7o9f', Decimal('0.2960')), ('Textiles : Nitin, Rswm, himmat (25%) left  Centenka \nHeranba, Bodal, Apar, Td power, welcorp, allcargo, Itd Cementa… https://t.co/fhqwVkxzZ9', Decimal('0.0000')), ('Cred upg:#NaharCapital\nPled rel:#Gati #VenusRemedies\nInv meet today:#Allcargo #Wardwizards #DishmanCarbogen… https://t.co/6eDUQtHpSa', Decimal('0.0000')), ('@AnshumanCharts ITC, HAPPSTMIND,PRINCEPIPES,SMSPHARMA,SKIPPER,ALLCARGO,NELCAST', Decimal('0.0000')), ('Unitech: \nIL&amp;FS Financial Services sold 1.53 crore shares (0.59%) at Rs 2.08 per share. \n\nVishwaraj Sugar Industrie… https://t.co/AdbZBvChdk', Decimal('0.5267')), ('❇️🎁Keep your eyes on these stocks which are ready to make new High on Today👍👍\n\n🔹#HIKAL @ 555.70\n🔹#ORIENTELEC @ 336.… https://t.co/5na44hq8IN', Decimal('0.3612')), ('Allcargo Logistics: The company"s officials will meet Abakkus Asset Managers on July 20.', Decimal('0.3612')), ('Short Term\nBuy ALLCARGO \nCMP 162.40\nENTRY 162.40-162.60\nTARGET 170.75\nSL 154.50\n\n#ALLCARGO', Decimal('0.0000')), ('ALLCARGO - Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation https://t.co/ux5BblWun1', Decimal('0.0000')), ('RT @umang_20: Bought Allcargo\nTrading cum investment...\n\nCmp is 166..', Decimal('0.0000')), ('RT @umang_20: Allcargo can move mega...', Decimal('0.0000')), ('#India: Stocks on the move (#भारतीयशेयर्स)\n\n▲ Financial svc #Edelweiss +3.5%. Infra #GTL +5%. Logistic #Allcargo +3… https://t.co/kBkWq46diQ', Decimal('0.0000')), ('#ALLCARGO \n\nKeeping Logistics companies in watchlist\n\nCMP 165 now https://t.co/uvPKXYXCKH', Decimal('0.0000')), ('Bought Allcargo\nTrading cum investment...\n\nCmp is 166', Decimal('0.0000')), ('Allcargo can move mega...', Decimal('0.0000'))]
+[2021-07-20 09:43:28,760] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:43:28,815] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210720T094300, start_date=20210720T094327, end_date=20210720T094328
+[2021-07-20 09:43:28,953] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:43:28,992] {local_task_job.py:151} INFO - Task exited with return code 0

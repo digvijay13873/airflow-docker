@@ -1,0 +1,90 @@
+[2021-07-14 13:23:09,835] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-14T13:23:04.752292+00:00 [queued]>
+[2021-07-14 13:23:10,106] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-14T13:23:04.752292+00:00 [queued]>
+[2021-07-14 13:23:10,140] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 13:23:10,188] {taskinstance.py:1068} INFO - Starting attempt 1 of 2
+[2021-07-14 13:23:10,205] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 13:23:10,329] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-14T13:23:04.752292+00:00
+[2021-07-14 13:23:10,380] {standard_task_runner.py:52} INFO - Started process 649 to run task
+[2021-07-14 13:23:10,392] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-14T13:23:04.752292+00:00', '--job-id', '178', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmpbvtei9of', '--error-file', '/tmp/tmp3l2iwae_']
+[2021-07-14 13:23:10,397] {standard_task_runner.py:77} INFO - Job 178: Subtask extract_task
+[2021-07-14 13:23:10,899] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-14T13:23:04.752292+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 13:23:11,385] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T13:23:04.752292+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T13:23:04.752292+00:00
+[2021-07-14 13:24:39,769] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="2a9aabcd-6f87-49b6-8bdf-e5f24c33af9f")>]
+[2021-07-14 13:24:40,471] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB20 Microns Limited (20MICRONS.BO)
+[2021-07-14 13:24:40,473] {logging_mixin.py:104} INFO - 20MICRONS.BO
+[2021-07-14 13:25:15,378] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:25:15,512] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB21ST CENTURY MANAG (21STCENMGM.NS)
+[2021-07-14 13:25:15,513] {logging_mixin.py:104} INFO - 21STCENMGM.NS
+[2021-07-14 13:25:47,429] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:25:47,451] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB3i Infotech Limited (3IINFOTECH.NS)
+[2021-07-14 13:25:47,452] {logging_mixin.py:104} INFO - 3IINFOTECH.NS
+[2021-07-14 13:26:19,114] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:26:19,152] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB3M India Limited (3MINDIA.NS)
+[2021-07-14 13:26:19,153] {logging_mixin.py:104} INFO - 3MINDIA.NS
+[2021-07-14 13:26:50,753] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:26:50,826] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB3P LAND HOLDINGS LTD. (3PLAND.BO)
+[2021-07-14 13:26:50,826] {logging_mixin.py:104} INFO - 3PLAND.BO
+[2021-07-14 13:27:22,537] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:27:22,574] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5paisa Capital Limited (5PAISA.NS)
+[2021-07-14 13:27:22,575] {logging_mixin.py:104} INFO - 5PAISA.NS
+[2021-07-14 13:27:55,279] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:27:55,325] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB63 MOONS TECHNOLOG (63MOONS.NS)
+[2021-07-14 13:27:55,327] {logging_mixin.py:104} INFO - 63MOONS.NS
+[2021-07-14 13:28:27,718] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:28:27,761] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBA2Z Infra Engineering Limited (A2ZINFRA.NS)
+[2021-07-14 13:28:27,763] {logging_mixin.py:104} INFO - A2ZINFRA.NS
+[2021-07-14 13:28:59,302] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:28:59,319] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAakash Exploration Services Limited (AAKASH.NS)
+[2021-07-14 13:28:59,320] {logging_mixin.py:104} INFO - AAKASH.NS
+[2021-07-14 13:29:31,193] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:29:31,264] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBThe Aaron's Company, Inc. (AAN)
+[2021-07-14 13:29:31,268] {logging_mixin.py:104} INFO - AAN
+[2021-07-14 13:30:03,639] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:30:03,758] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarti Drugs Limited (AARTIDRUGS.NS)
+[2021-07-14 13:30:03,760] {logging_mixin.py:104} INFO - AARTIDRUGS.NS
+[2021-07-14 13:30:36,072] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:30:36,243] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarti Industries Limited (AARTIIND.NS)
+[2021-07-14 13:30:36,245] {logging_mixin.py:104} INFO - AARTIIND.NS
+[2021-07-14 13:31:08,343] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:31:08,379] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarti Surfactants Limited (AARTISURF.NS)
+[2021-07-14 13:31:08,380] {logging_mixin.py:104} INFO - AARTISURF.NS
+[2021-07-14 13:31:40,937] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:31:41,072] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarvee Denims and Exports Limited (AARVEEDEN.BO)
+[2021-07-14 13:31:41,073] {logging_mixin.py:104} INFO - AARVEEDEN.BO
+[2021-07-14 13:32:12,687] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:32:12,720] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAarvi Encon Limited (AARVI.NS)
+[2021-07-14 13:32:12,721] {logging_mixin.py:104} INFO - AARVI.NS
+[2021-07-14 13:32:44,135] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:32:44,154] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAavas Financiers Limited (AAVAS.NS)
+[2021-07-14 13:32:44,155] {logging_mixin.py:104} INFO - AAVAS.NS
+[2021-07-14 13:33:15,875] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:33:16,126] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBAutomatic Bank Services Limited (ABANF)
+[2021-07-14 13:33:16,150] {logging_mixin.py:104} INFO - ABANF
+[2021-07-14 13:33:48,917] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="e749620a-aa3b-403a-b986-21fb67b2f10a", element="a7ff6f41-6ee3-4467-82af-bda82f3811b6")>]
+[2021-07-14 13:33:49,178] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBABB Ltd (ABB)
+[2021-07-14 13:33:49,179] {logging_mixin.py:104} INFO - ABB
+[2021-07-14 13:34:22,094] {logging_mixin.py:104} INFO - []
+[2021-07-14 13:34:22,152] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/seleniumtest.py", line 63, in extract
+    print("BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"+ companyname)
+IndexError: list index out of range
+[2021-07-14 13:34:22,417] {taskinstance.py:1531} INFO - Marking task as UP_FOR_RETRY. dag_id=ticker_yahoo, task_id=extract_task, execution_date=20210714T132304, start_date=20210714T132309, end_date=20210714T133422
+[2021-07-14 13:34:23,257] {local_task_job.py:151} INFO - Task exited with return code 1

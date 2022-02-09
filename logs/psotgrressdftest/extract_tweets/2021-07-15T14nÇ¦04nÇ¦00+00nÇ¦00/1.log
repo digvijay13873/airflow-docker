@@ -1,0 +1,22 @@
+[2021-07-15 14:07:17,462] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T14:04:00+00:00 [queued]>
+[2021-07-15 14:07:17,517] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T14:04:00+00:00 [queued]>
+[2021-07-15 14:07:17,519] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 14:07:17,521] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-15 14:07:17,522] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 14:07:17,556] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-15T14:04:00+00:00
+[2021-07-15 14:07:17,576] {standard_task_runner.py:52} INFO - Started process 4343 to run task
+[2021-07-15 14:07:17,584] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-15T14:04:00+00:00', '--job-id', '443', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpx7deqpgi', '--error-file', '/tmp/tmpds9zm7r0']
+[2021-07-15 14:07:17,586] {standard_task_runner.py:77} INFO - Job 443: Subtask extract_tweets
+[2021-07-15 14:07:17,680] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T14:04:00+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 14:07:17,827] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T14:04:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-15T14:04:00+00:00
+[2021-07-15 14:07:18,887] {python.py:151} INFO - Done. Returned value was: ['RT @TheVivekSinghal: I have booked profit in 5Paisa Capital at cmp 531.20\n104% profit in just 105 days\nHappy Trading!\n#5Paisa #trading #inv…', '@TheVivekSinghal Sir I have booked profit in 5paisa capital\nAt cmp 420.31\nProfit in just 24 days\nBooked at 560 in t… https://t.co/PrdUQa3Fg9', '@5paisa\n\nअरे सर मे कितने दिन से कह रहा हु कि आप मेरा अकाउंट क्लोज करदो फिर बी आप लोग नही कर रहे हो हे आप लोगो कि जब… https://t.co/nIFsW3lSTH', 'Welcome to #5paisaDaily. This is the #5paisaWrapUp report as of 15th July 2021.\n\nDownload the App and stay updated.… https://t.co/P8EF92ihK5', '#angelbroking\nQ1 👏👍 in crs\nCons Rev 474 vs 246 cr yoy\n\nPBT 162 vs 65 yoy ,up 149% yoy 🛫\n\nPAT 121 vs 48 cr yoy ,up 1… https://t.co/eQhxhhsVQQ', '@IAMABHI181991 Unable to trace the ticket no request you to help us with the client code or mail Id.', 'Following concalls will be available at \nhttps://t.co/XESwaSNGYV\n\nDodla Dairy Ltd\n5paisa Capital Limited\nCraftsman… https://t.co/2Gt37Yt1ja', '@modibhakt_aashu Please elaborate on your query and ticket number to assist you better.', '@5paisa The worst customer support I have ever seen, non proficient customer support agent.', '#5PAISA - 5PAISA - TradingView - https://t.co/pGEuLkElOY', 'RT @ujjwaal81: #5paisa FAO SENIOR MANAGEMENT . hav been contctng ur cntct center for last 6 mnts regarding issue with ur web(shit)chart for…', 'RT @ujjwaal81: #5paisa have spoken to numerous agents from your techncal dsk, some tuk me on remote session but still same also complaint o…', "When it comes to investing in IPO stocks, new issues don't play by the usual rules. \n\nHow does one determine the fr… https://t.co/TpgPXTF8vF", '@rathoreaakash18 Sure!', '@smjani We would require a mail regarding this query .Kindly write to us at support@5paisa.com from your registered… https://t.co/R2pigZAynE']
+[2021-07-15 14:07:19,011] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210715T140400, start_date=20210715T140717, end_date=20210715T140719
+[2021-07-15 14:07:19,106] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 14:07:19,166] {local_task_job.py:151} INFO - Task exited with return code 0

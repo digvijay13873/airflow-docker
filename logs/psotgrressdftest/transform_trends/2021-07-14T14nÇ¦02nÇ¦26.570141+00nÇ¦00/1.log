@@ -1,0 +1,38 @@
+[2021-07-14 14:03:04,061] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.transform_trends 2021-07-14T14:02:26.570141+00:00 [queued]>
+[2021-07-14 14:03:04,093] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.transform_trends 2021-07-14T14:02:26.570141+00:00 [queued]>
+[2021-07-14 14:03:04,094] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:03:04,096] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:03:04,097] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:03:04,114] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): transform_trends> on 2021-07-14T14:02:26.570141+00:00
+[2021-07-14 14:03:04,133] {standard_task_runner.py:52} INFO - Started process 3034 to run task
+[2021-07-14 14:03:04,140] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'transform_trends', '2021-07-14T14:02:26.570141+00:00', '--job-id', '230', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpizo7mev6', '--error-file', '/tmp/tmp_fjbzw4w']
+[2021-07-14 14:03:04,141] {standard_task_runner.py:77} INFO - Job 230: Subtask transform_trends
+[2021-07-14 14:03:04,249] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.transform_trends 2021-07-14T14:02:26.570141+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:03:04,362] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=transform_trends
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:02:26.570141+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:02:26.570141+00:00
+[2021-07-14 14:03:04,399] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/POSTGRESRSERS.py", line 173, in transform_trends
+    cur.execute("INSERT INTO googleTrends_"+ticker+" (current_date," + str(number_of_searches[i]) + ",'" + str(region[i]) +"')")
+psycopg2.ProgrammingError: syntax error at or near "current_date"
+LINE 1: INSERT INTO googleTrends_AAPL (current_date,20.7444444444444...
+                                       ^
+
+[2021-07-14 14:03:04,414] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=psotgrressdftest, task_id=transform_trends, execution_date=20210714T140226, start_date=20210714T140304, end_date=20210714T140304
+[2021-07-14 14:03:04,472] {local_task_job.py:151} INFO - Task exited with return code 1

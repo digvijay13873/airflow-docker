@@ -1,0 +1,23 @@
+[2021-07-16 10:44:34,789] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:44:16.157204+00:00 [queued]>
+[2021-07-16 10:44:34,814] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:44:16.157204+00:00 [queued]>
+[2021-07-16 10:44:34,815] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:44:34,816] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:44:34,817] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:44:34,845] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T10:44:16.157204+00:00
+[2021-07-16 10:44:34,866] {standard_task_runner.py:52} INFO - Started process 2556 to run task
+[2021-07-16 10:44:34,874] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T10:44:16.157204+00:00', '--job-id', '664', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp0fhbgj26', '--error-file', '/tmp/tmpeo3cz8ph']
+[2021-07-16 10:44:34,875] {standard_task_runner.py:77} INFO - Job 664: Subtask tweets_postgres_table
+[2021-07-16 10:44:34,964] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:44:16.157204+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:44:35,086] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:44:16.157204+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:44:12.871265+00:00
+[2021-07-16 10:44:35,205] {logging_mixin.py:104} INFO - [('#AdaniPower What a performance of the stock 200% return and now again ready for new leg of rally. https://t.co/o3rFPPhG6v', Decimal('0.3612')), ('Fantastic Day - \n\n#OrientalAromatics 12%\n#AnupEng 10%\n#Syngene 8%\n#Sirca 6%\n#JBChem 6%\n#Sequent 5%\n#NaharSpinning 5… https://t.co/bYpMgSDkix', Decimal('0.5574')), ('Comparison between Adani Power and Tata Power. Which one would you choose ?\n~Source( Ticker)\n#StockMarketindia… https://t.co/NmfkvdeC3O', Decimal('0.0000')), ('#AdaniPower is back !!!', Decimal('0.0000')), ('Buy #ADANIPOWER at 107', Decimal('0.0000')), ('@Moneypurseadv sir what is the future of adanipower', Decimal('0.0000')), ('@kuttrapali26 @kuttrapali26 any view on ADANIPOWER ?', Decimal('0.0000')), ('NIFTY BNIFTY avg Here Now✅\n\n15910\n35720\n\nWe will Make All TIME HIGH CLOSE💚 Today\n#nifty50 #banknifty #sharemarket… https://t.co/swb7aYhCmL', Decimal('0.5319')), ('@Munu72161512 @aswathiguna Suggestion about #AdaniPower', Decimal('0.0000')), ('Mr. @gautam_adani i am holding your stocks Last 4 month but Cannot Increase Your Stock"s Cost I Have 37 Shares… https://t.co/UDGwogVgCk', Decimal('-0.3491')), ('RT @ruddarm: People who says Adani group stocks goes only up.\n...\nKidher gye tum plz mil jao\U0001f97a\U0001f97a\n#AdaniGroup #stocks #AdaniPower #invest #inv…', Decimal('0.0772')), ('People who says Adani group stocks goes only up.\n...\nKidher gye tum plz mil jao\U0001f97a\U0001f97a\n#AdaniGroup #stocks #AdaniPower… https://t.co/C1tZLCpO38', Decimal('0.0772')), ('RT @indiacom: #AdaniShare #Price: Check #GautamAdani Group of Companies’ Share Prices at #BSE, #NSE\n#AdaniGroup #AdaniPower \nhttps://t.co/3…', Decimal('0.2960')), ('3 Reasons to buy Adani Shares💸 -\n1. Upar Jayega📈\n2. Upar Jayega📈\n3. Upar Jayega📈\n\n#du #dusociety #vangati… https://t.co/RjG8xNMYtT', Decimal('0.0000')), ('@RahulGandhi Modi looted psu companies in 2014 coal india was NAVRATNA stock price 400+ when nifty was 6500 now 160… https://t.co/kL4vohbJ9t', Decimal('0.4019'))]
+[2021-07-16 10:44:35,214] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 10:44:35,239] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T104416, start_date=20210716T104434, end_date=20210716T104435
+[2021-07-16 10:44:35,371] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:44:35,407] {local_task_job.py:151} INFO - Task exited with return code 0

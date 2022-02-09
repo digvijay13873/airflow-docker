@@ -1,0 +1,22 @@
+[2021-07-16 10:41:56,404] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:41:44.797794+00:00 [queued]>
+[2021-07-16 10:41:56,453] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:41:44.797794+00:00 [queued]>
+[2021-07-16 10:41:56,455] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:41:56,456] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:41:56,457] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:41:56,496] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:41:44.797794+00:00
+[2021-07-16 10:41:56,523] {standard_task_runner.py:52} INFO - Started process 2353 to run task
+[2021-07-16 10:41:56,534] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:41:44.797794+00:00', '--job-id', '638', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpaah1uphj', '--error-file', '/tmp/tmp_q_auifv']
+[2021-07-16 10:41:56,537] {standard_task_runner.py:77} INFO - Job 638: Subtask extract_tweets
+[2021-07-16 10:41:56,690] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:41:44.797794+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:41:56,913] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:41:44.797794+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:41:39.998436+00:00
+[2021-07-16 10:41:58,064] {python.py:151} INFO - Done. Returned value was: ['Alert Buy #ADANIENT CMP: 1398.65 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts an… https://t.co/PdqOKxdAEd', '@WeekendInvestng Retail Investor is outcome of secular bull market, when they trade in stock and once market falls… https://t.co/FL2ukfs4ar', 'गौतमभाइ के चाहने वालो एलेर्ट हो जाओ....\n#AdaniEnt cmp 1393,🚫1380\n#AdaniPort 689,🚫 680', 'Alert Sell #ADANIENT CMP: 1393.65 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts a… https://t.co/HBVBuFLA7E', '@kuttrapali26 Mam,maine 6 june ko demat open kia and uskey baad kuch shares aise liye jo roz ATH dere the(adanient😅… https://t.co/2oLlmODUD1', 'Alert Sell #ADANIENT CMP: 1401 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/2FBPJWkImE', 'RT @Dealmoneysecur: Chart of the Day - UCL\n\n#DEALMONEYSECURITIES #SHAREMARKET #Sensex #adanient #adani #banknifty #trading #StockMarket #ju…', 'Chart of the Day - UCL\n\n#DEALMONEYSECURITIES #SHAREMARKET #Sensex #adanient #adani #banknifty #trading #StockMarket… https://t.co/PG7dsPyq7j', 'BUY ADANIENT @ CP WITH STRICT SL OF 1389, TRGT 1476 INTRADAY.', 'RT @flyingvikas129: #AdaniEnt- \n\n@dtbhat - Our true friend https://t.co/qCMOfs9yTC', 'Paul Torres-Cohen $ADANIENT.BO', 'C. OPTION: ONCE EXIT LONG IN ADANIENT JUL  1400 PE AT 44 #frontpage_app', 'RT @Dealmoneysecur: Chart of the Day - AUROPHARMA\n\n#DEALMONEYSECURITIES #SHAREMARKET #Sensex #adanient #adani #banknifty #trading #StockMar…', "ORB Impulse Trades(Intraday): 'ADANIENT#/BUY @1407.90 / T1:1421.95/1481.60/ SL:1393.65/DTRL:4.60/OVLP:1404.5(0.25%)… https://t.co/Ejr0OyuUeX", 'Good.well done. But b Alert \nTwo ministers @ianuragthakur Thakur &amp; @HardeepSPuri r sufficient to harm… https://t.co/pgb3puOxeP']
+[2021-07-16 10:41:58,156] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T104144, start_date=20210716T104156, end_date=20210716T104158
+[2021-07-16 10:41:58,253] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:41:58,314] {local_task_job.py:151} INFO - Task exited with return code 0

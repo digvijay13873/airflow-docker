@@ -1,0 +1,22 @@
+[2022-01-06 14:31:42,782] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:31:32.955902+00:00 [queued]>
+[2022-01-06 14:31:42,846] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:31:32.955902+00:00 [queued]>
+[2022-01-06 14:31:42,852] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:31:42,854] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 14:31:42,855] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:31:42,899] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2022-01-06T14:31:32.955902+00:00
+[2022-01-06 14:31:42,931] {standard_task_runner.py:52} INFO - Started process 1444 to run task
+[2022-01-06 14:31:42,944] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2022-01-06T14:31:32.955902+00:00', '--job-id', '2309', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp9sbbr5ss', '--error-file', '/tmp/tmp81_xh7u_']
+[2022-01-06 14:31:42,946] {standard_task_runner.py:77} INFO - Job 2309: Subtask extract_tweets
+[2022-01-06 14:31:43,098] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:31:32.955902+00:00 [running]> on host 04be2259e97a
+[2022-01-06 14:31:43,246] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T14:31:32.955902+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T14:31:29.996064+00:00
+[2022-01-06 14:31:44,303] {python.py:151} INFO - Done. Returned value was: ['#abcapital very good setup. Respected the resistance and spent 3 days there and now breakout with Bullish Engulfing… https://t.co/ZSXBXVZGm8', 'RT @kgkuvadiya: #ABCAPITAL https://t.co/LflNinuKbo', '#ABCAPITAL https://t.co/LflNinuKbo', 'RT @jungleofwords: @rdkriplani Should fly above 141 #abcapital https://t.co/DpgOABqACj', 'RT @Niteshca7: #abcapital 133 View Bullish..\n\n#Nifty #nifty50 #invest #StockMarket #banknifty https://t.co/uVzZEeMQYu', '#ABCAPITAL - Aditya Birla Capital Limited - TradingView - https://t.co/ngMPdtQ5IS', "@mystockedge @vivbajaj It's really knowlagable video I make a watchlist and also bought some like Asian paints abca… https://t.co/fJK80XSAwa", '@rdkriplani Should fly above 141 #abcapital https://t.co/DpgOABqACj', '#abcapital 133 View Bullish..\n\n#Nifty #nifty50 #invest #StockMarket #banknifty https://t.co/uVzZEeMQYu', '@abcapital Renewal Receipt not received of ABHI Policy_ Policy No  26-20-0003955-00/23-20-0034178-00\n*Year 2022-2023*', "BEWARE: Never use any services from Aditya Birla Capital or Finance. They're are the scamsters #adityabirlagroup… https://t.co/sDIUPaH4Di", '#ABCAPITAL 116 TO 134++ FIRST TGT ALMOST DONE ✅ https://t.co/rvDI6SlCXW', 'ABCapital standing strong in down market\n\n#NIFTYFUTURE #BREAKOUTSTOCKS https://t.co/n4Xe0mkjox', '@MTSECT20 @AdityaBirlaGrp @abfinance @ABPaymentsBank @abcapital @abcmyuniverse @abhousingfin @abslmf @abslifein… https://t.co/AwaXuB9ozn', '2 UC today\n\n#NITINSPINNERS\n#SHREERENUKA \n\nGood Move in #ABCAPITAL']
+[2022-01-06 14:31:44,348] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20220106T143132, start_date=20220106T143142, end_date=20220106T143144
+[2022-01-06 14:31:44,428] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 14:31:44,464] {local_task_job.py:151} INFO - Task exited with return code 0

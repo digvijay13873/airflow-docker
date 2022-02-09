@@ -1,0 +1,23 @@
+[2021-07-16 17:23:15,594] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T17:22:52.586583+00:00 [queued]>
+[2021-07-16 17:23:15,623] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T17:22:52.586583+00:00 [queued]>
+[2021-07-16 17:23:15,624] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:23:15,625] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:23:15,626] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:23:15,641] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_postgres_table> on 2021-07-16T17:22:52.586583+00:00
+[2021-07-16 17:23:15,653] {standard_task_runner.py:52} INFO - Started process 12562 to run task
+[2021-07-16 17:23:15,659] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_postgres_table', '2021-07-16T17:22:52.586583+00:00', '--job-id', '1647', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpq5q6a37m', '--error-file', '/tmp/tmpfvjhh9dv']
+[2021-07-16 17:23:15,660] {standard_task_runner.py:77} INFO - Job 1647: Subtask news_postgres_table
+[2021-07-16 17:23:15,730] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T17:22:52.586583+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:23:15,816] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:22:52.586583+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:22:50.086111+00:00
+[2021-07-16 17:23:15,864] {logging_mixin.py:104} INFO - [('Ahlada Engineers secures order worth Rs38cr from APEWIDC', Decimal('0.4939')), ('Chedepudi Suresh Mohan Reddy, Managing Director, Ahlada Engineers Limited', Decimal('-0.2263')), ('Ahlada Engineers’ ₹51-crore SME IPO opens today', Decimal('0.0000')), ('Ahlada Engineers takes IPO route after exclusive biz deal with Tata Steel', Decimal('0.1280')), ('Steel door makers to go for IPO', Decimal('0.0000')), ('Ahlada Engineers to raise INR 51 crore through IPO - Newsbarons', Decimal('0.0000')), ('Ahead of Market: 12 things that will decide stock action on Wednesday', Decimal('0.0000')), ('Ahead of Market: 12 things that will decide stock action on Thursday', Decimal('0.0000')), ('Ahead of Market: 12 things that will decide stock action on Tuesday', Decimal('0.0000')), ('Engineers Day: The little-known histories of Indian engineers before 1947', Decimal('0.0000')), ('Traders’ Diary: Market outlook is still bullish', Decimal('0.0000')), ('Traders’ Diary: Nifty has major support at 10,500', Decimal('0.6597')), ('Woman ‘commits suicide’', Decimal('0.0000')), ('Ahlada Engineers secures order worth Rs38cr from APEWIDC', Decimal('0.4939')), ('Chedepudi Suresh Mohan Reddy, Managing Director, Ahlada Engineers Limited', Decimal('-0.2263')), ('Ahlada Engineers’ ₹51-crore SME IPO opens today', Decimal('0.0000')), ('Ahlada Engineers takes IPO route after exclusive biz deal with Tata Steel', Decimal('0.1280')), ('Steel door makers to go for IPO', Decimal('0.0000')), ('Ahlada Engineers to raise INR 51 crore through IPO - Newsbarons', Decimal('0.0000')), ('Ahead of Market: 12 things that will decide stock action on Wednesday', Decimal('0.0000')), ('Ahead of Market: 12 things that will decide stock action on Thursday', Decimal('0.0000')), ('Ahead of Market: 12 things that will decide stock action on Tuesday', Decimal('0.0000')), ('Engineers Day: The little-known histories of Indian engineers before 1947', Decimal('0.0000')), ('Traders’ Diary: Market outlook is still bullish', Decimal('0.0000')), ('Traders’ Diary: Nifty has major support at 10,500', Decimal('0.6597')), ('Woman ‘commits suicide’', Decimal('0.0000'))]
+[2021-07-16 17:23:15,869] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 17:23:15,885] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_postgres_table, execution_date=20210716T172252, start_date=20210716T172315, end_date=20210716T172315
+[2021-07-16 17:23:15,928] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:23:15,950] {local_task_job.py:151} INFO - Task exited with return code 0

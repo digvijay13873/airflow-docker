@@ -1,0 +1,22 @@
+[2022-01-06 14:29:12,824] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:29:00.284954+00:00 [queued]>
+[2022-01-06 14:29:12,889] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:29:00.284954+00:00 [queued]>
+[2022-01-06 14:29:12,890] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:29:12,891] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 14:29:12,893] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:29:12,941] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2022-01-06T14:29:00.284954+00:00
+[2022-01-06 14:29:12,978] {standard_task_runner.py:52} INFO - Started process 1246 to run task
+[2022-01-06 14:29:12,987] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2022-01-06T14:29:00.284954+00:00', '--job-id', '2285', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp4kksh0gm', '--error-file', '/tmp/tmpp0_c5g3c']
+[2022-01-06 14:29:12,989] {standard_task_runner.py:77} INFO - Job 2285: Subtask extract_tweets
+[2022-01-06 14:29:13,112] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:29:00.284954+00:00 [running]> on host 04be2259e97a
+[2022-01-06 14:29:13,234] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T14:29:00.284954+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T14:28:57.947021+00:00
+[2022-01-06 14:29:15,159] {python.py:151} INFO - Done. Returned value was: ['@TVN @Aban_Ice #ContigoCHV\n#IFELaboral este mes me dice que no tengo pago, pues no están declaradas las cotizacione… https://t.co/4hwZttB1b8', '@PuivNePqDbOXDUQ @Aban_fh خیلی ممنون😂😂', '@Aban_fh نه چندتا عصب کشی و روکش داشتم.\nدندون کشیدم اشتباهه', 'RT @TVN: 🔴 #Nacional \n\nSe registran 3.134 contagios de coronavirus: La cifra más alta desde julio\n\nMás detalles ⬇\nhttps://t.co/fDnsThH4Uz', 'RT @QuePasaCL: Chile registra hoy las peores cifras diarias de la pandemia de los últimos 6 meses, con 3.134 casos Covid y una positividad…', '과연... 여기선 그렇게 부르나. 어쨌든 이 힘이 있는 한 날 이길 수 있는 자는 아무도 없다!', '@Aban_fh @TA____Ra_ https://t.co/VJo1pMfxnS', '@Majid_Aban @mahdimoein25 بک پسرم', 'De verdad manejar acá y llegar bien a casa es un talento. Tanto weon al volante que a veces ni se saben las leyes b… https://t.co/IC8u6nRF5p', '@alireza__nouri @Aban_fh لول یو پرو بگیر مال سامسونگه ایرپاد گردنی هستش قیمتش هم خوبه کیفیتش هم عالی', 'BUY : ABAN OFFSHORE \nCMP : 51.90\nSL : 43\nTARGET: 55 - 58 - 63\nTIMEFRAME: 3 MONTH\n.\n\n#indianstockmarket… https://t.co/oSFCMjPaxU', '@ABAN_ARMY @58_love_13 منم از این به بعد همین کارو میکنم', '@Aban_fh واسه پسرا و دخترا مسخره س\nجفتشون وقتی سیگار میکشن حس خفن بودن میگیرن در صورتی که خیلی چیپ و بی فایده س', '@Aban_fh اخ گفتی', '@58_love_13 بلاک کن راحت شی \nمن اصلا تا چک نکنم رای نباشه بک نمیدم تو هم اینکارو کن']
+[2022-01-06 14:29:15,259] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20220106T142900, start_date=20220106T142912, end_date=20220106T142915
+[2022-01-06 14:29:15,462] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 14:29:15,511] {local_task_job.py:151} INFO - Task exited with return code 0

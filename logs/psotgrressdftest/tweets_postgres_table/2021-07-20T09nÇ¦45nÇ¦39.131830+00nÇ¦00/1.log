@@ -1,0 +1,23 @@
+[2021-07-20 09:46:24,145] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:45:39.131830+00:00 [queued]>
+[2021-07-20 09:46:24,264] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:45:39.131830+00:00 [queued]>
+[2021-07-20 09:46:24,285] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:46:24,287] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:46:24,308] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:46:24,405] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-20T09:45:39.131830+00:00
+[2021-07-20 09:46:24,623] {standard_task_runner.py:52} INFO - Started process 1684 to run task
+[2021-07-20 09:46:24,675] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-20T09:45:39.131830+00:00', '--job-id', '1858', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpsf8tu637', '--error-file', '/tmp/tmptjqas6iy']
+[2021-07-20 09:46:24,773] {standard_task_runner.py:77} INFO - Job 1858: Subtask tweets_postgres_table
+[2021-07-20 09:46:25,379] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:45:39.131830+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:46:26,166] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:45:39.131830+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:45:33.808500+00:00
+[2021-07-20 09:46:26,605] {logging_mixin.py:104} INFO - [('ALMONDZ - Shareholding for the Period Ended June 30, 2021 https://t.co/PsgjsdAfQR', Decimal('0.0000')), ('@Moisted_Almondz u have no idea how mad I am that they are only in Europe', Decimal('-0.6597')), ('RT @ObsydiannAnim: I do not have a Reddit but here is the image :)\n@roguesmorg @roguejame @suddenlyoranges @salty_rebel @FlanderstoNed (i m…', Decimal('0.6124')), ('@roguesmorg it looks like if they took Transformers 1 jazz and fused him with transformers 2 sideswipe and it"s so… https://t.co/wOOsDbcu14', Decimal('0.3612')), ('RT @chris_notcapn: TikTok would be a nonexistent app without white people stealing from black creators. He really tried it!!! https://t.co/…', Decimal('0.5959')), ('That video of sparky the husky puppy saying "FUCK"?\n\nThats a mood rn', Decimal('0.0000')), ('@BlackeSkye I thought so', Decimal('0.0000')), ('@Moisted_Almondz Dream and Pewdiepie', Decimal('0.2500')), ('@hritikgoyal26 Almondz global', Decimal('0.0000')), ('RT @nagunkgunk: warmind au friend https://t.co/xjK5vwhIoZ', Decimal('0.4939')), ('@BlackeSkye Im afraid to ask whomst', Decimal('0.0000')), ('@roguejame That"s what bottoms say when they don"t wanna be the bottom anymore', Decimal('0.0000')), ('@Halobeast98 https://t.co/5y4SrkF268', Decimal('0.0000')), ('@Moisted_Almondz https://t.co/FFCMbASQ8m', Decimal('0.0000')), ('@Halobeast98 I paid Jeff Zuckerberg or whoever runs twitter to prevent you from seeing posts', Decimal('0.0258'))]
+[2021-07-20 09:46:26,764] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:46:26,973] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210720T094539, start_date=20210720T094624, end_date=20210720T094626
+[2021-07-20 09:46:27,346] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:46:27,558] {local_task_job.py:151} INFO - Task exited with return code 0

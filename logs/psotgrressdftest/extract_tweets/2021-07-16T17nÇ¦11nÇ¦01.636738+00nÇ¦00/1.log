@@ -1,0 +1,22 @@
+[2021-07-16 17:11:09,013] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:11:01.636738+00:00 [queued]>
+[2021-07-16 17:11:09,222] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:11:01.636738+00:00 [queued]>
+[2021-07-16 17:11:09,223] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:11:09,223] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:11:09,224] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:11:09,246] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:11:01.636738+00:00
+[2021-07-16 17:11:09,274] {standard_task_runner.py:52} INFO - Started process 11407 to run task
+[2021-07-16 17:11:09,283] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:11:01.636738+00:00', '--job-id', '1490', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp4ag_vi07', '--error-file', '/tmp/tmp1rk3pvhl']
+[2021-07-16 17:11:09,284] {standard_task_runner.py:77} INFO - Job 1490: Subtask extract_tweets
+[2021-07-16 17:11:09,380] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:11:01.636738+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:11:09,512] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:11:01.636738+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:10:59.794569+00:00
+[2021-07-16 17:11:10,537] {python.py:151} INFO - Done. Returned value was: ['RT @ishmohit1: A simple shortcut for anyone creating circle of Competence: look for smaller industries with supply side dominance. \n\n1) Why…', '@Arunstockguru Balaji amine.  Acrysil.  Hindustan foods. Cdsl. Dixon tech. Best of 4 stocks for next cagr 25$ for ten years...', '@nid_rockz Acrysil, mastek, tata elxsi', 'RT @scorpiomanojFRM: #ACRYSIL \n615\nA possible second / third exists at CMP above 630.\nLooking promising.\nFree trade for those who entered a…', '@TA_Purvesh Sir, most of your followers know how can you make an impact on long side\nAcrysil, DLF, Brightcom\n100 so… https://t.co/2LIrzg2i9t', 'Disclosure: Stock charts only used as examples and not a recommendation to buy or sell. All the 3 stocks are under… https://t.co/ldPjefMdhv', 'Acrysil https://t.co/wwIHCjlL94', '** Just an observation about my selection of stop loss, very important to highlight. I exited #Acrysil an #Neogen f… https://t.co/jB0Bds4SYd', 'RT @scorpiomanojFRM: #ACRYSIL \n615\nA possible second / third exists at CMP above 630.\nLooking promising.\nFree trade for those who entered a…', 'RT @scorpiomanojFRM: #ACRYSIL \n615\nA possible second / third exists at CMP above 630.\nLooking promising.\nFree trade for those who entered a…', '@Arunstockguru Tata Communications\nTata Elxsi\nIntellect\nHCL Tech\nAcrysil', '#ACRYSIL \n615\nA possible second / third exists at CMP above 630.\nLooking promising.\nFree trade for those who entere… https://t.co/MjIp5yVu8u', 'WEIGHT 3 -6% ( EMERGING OR TURNAROUND)\n20) XELPMOC\n21) AFFLE\n22) INDIAMART \n23) ACE\n24) APPOLO TRICOAT\n25)  IRCTC\n2… https://t.co/33aW32zn3e', '@soicfinance APL Apollo group, Somany cera, Acrysil, Greenpanel, Prince pipes, SHIL', '@soicfinance Acrysil']
+[2021-07-16 17:11:10,584] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T171101, start_date=20210716T171109, end_date=20210716T171110
+[2021-07-16 17:11:10,631] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:11:10,661] {local_task_job.py:151} INFO - Task exited with return code 0

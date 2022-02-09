@@ -1,0 +1,23 @@
+[2021-07-16 16:40:42,321] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:40:25.096223+00:00 [queued]>
+[2021-07-16 16:40:42,596] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:40:25.096223+00:00 [queued]>
+[2021-07-16 16:40:42,597] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:40:42,599] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:40:42,600] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:40:42,646] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:40:25.096223+00:00
+[2021-07-16 16:40:42,694] {standard_task_runner.py:52} INFO - Started process 8850 to run task
+[2021-07-16 16:40:42,708] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:40:25.096223+00:00', '--job-id', '1181', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp0_m11y9r', '--error-file', '/tmp/tmplks9xb2t']
+[2021-07-16 16:40:42,711] {standard_task_runner.py:77} INFO - Job 1181: Subtask tweets_postgres_table
+[2021-07-16 16:40:42,836] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:40:25.096223+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:40:42,992] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:40:25.096223+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:40:21.165832+00:00
+[2021-07-16 16:40:43,098] {logging_mixin.py:104} INFO - [('Alert Buy #AIAENG CMP: 2046.65 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/jHGiIQrol9', Decimal('0.1779')), ('Alert Sell #AIAENG CMP: 2033.65 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/gXusTgIGbt', Decimal('0.1779')), ('Alert Sell #AIAENG CMP: 2051.95 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/MN2rWBAhxJ', Decimal('0.1779')), ('AIAENG - Shareholding for the Period Ended June 30, 2021 https://t.co/xtID4ugYtu', Decimal('0.0000')), ('Please focus on following today and if they meet your evaluation criteria you can decide to trade\n1. #AIAENG\n2.… https://t.co/izroJvpTo2', Decimal('0.3182')), ('Alert Buy #AIAENG CMP: 2118.6 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and s… https://t.co/PQ6xzJ3xx8', Decimal('0.1779')), ('Alert Sell #AIAENG CMP: 2077.6 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/CGLkUmajMJ', Decimal('0.1779')), ('Alert Buy #AIAENG CMP: 2076.5 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and s… https://t.co/drlAmgbBk1', Decimal('0.1779')), ('#AIAENG is in watchlist for now. Above 2224 will add with a small SL at 2100. https://t.co/wAAehLXlHQ', Decimal('0.0000')), ('Alert Sell #AIAENG CMP: 2073.3 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/4hbXcVqd2L', Decimal('0.1779')), ('#ICMCBO Alert Sell #AIAENG CMP: 2133.05 #NimblrTA, These alerts are delayed and for demonstration. For live alerts… https://t.co/LuJKPFUjhu', Decimal('0.1779')), ('#ICMCBO Alert Sell #AIAENG CMP: 2133.05 #NimblrTA, These alerts are delayed and for demonstration. For live alerts… https://t.co/QZekUHZiNy', Decimal('0.1779'))]
+[2021-07-16 16:40:43,105] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:40:43,136] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T164025, start_date=20210716T164042, end_date=20210716T164043
+[2021-07-16 16:40:43,283] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:40:43,321] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-16 16:49:50,524] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:49:41.085070+00:00 [queued]>
+[2021-07-16 16:49:50,606] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:49:41.085070+00:00 [queued]>
+[2021-07-16 16:49:50,607] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:49:50,610] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:49:50,612] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:49:50,656] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:49:41.085070+00:00
+[2021-07-16 16:49:50,694] {standard_task_runner.py:52} INFO - Started process 9625 to run task
+[2021-07-16 16:49:50,724] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:49:41.085070+00:00', '--job-id', '1276', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpvr4vv_qo', '--error-file', '/tmp/tmpsz3j9y6h']
+[2021-07-16 16:49:50,735] {standard_task_runner.py:77} INFO - Job 1276: Subtask extract_tweets
+[2021-07-16 16:49:51,054] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:49:41.085070+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:49:51,260] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:49:41.085070+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:49:38.080514+00:00
+[2021-07-16 16:49:53,379] {python.py:151} INFO - Done. Returned value was: ['RT @vijay_P69: #Alembicltd\n\nLow risk setup\n\nAll set to catch fire.\n\nBuy at cmp\nSl 125 on daily clbs.\n\nVolumes Popping up in the end of cons…', '**BTST (16/07/2021)**\n\nANGELBRKG\nSTEELCITY\nSUNCLAYLTD\nGEOJITFSL\nNITINSPIN\nSUNDARMHLD\nGPTINFRA\nLUMAXTECH\nGIPCL\nHAVEL… https://t.co/xxLkfO5LRF', 'Alembic Ltd - Chart to keep an eye on \n#ALEMBICLTD\n #frontpage_app https://t.co/oDVpkuazrj', '#ALEMBICLTD - alembicltd - TradingView - https://t.co/lS33s23Ogs', '#Alembicltd\n\n5% up.\n\nThis is called conviction to buy before breakout. https://t.co/w47i9lnTNh https://t.co/z4Yniorzoi', 'RT @vijay_box69: #Alembicltd\n\nLow risk setup\n\nAll set to catch fire.\n\nBuy at cmp\nSl 125 on daily clbs.\n\nVolumes Popping up in the end of co…', 'RT @vijay_box69: #Alembicltd\n\nLow risk setup\n\nAll set to catch fire.\n\nBuy at cmp\nSl 125 on daily clbs.\n\nVolumes Popping up in the end of co…', 'RT @vijay_box69: #Alembicltd\n\nLow risk setup\n\nAll set to catch fire.\n\nBuy at cmp\nSl 125 on daily clbs.\n\nVolumes Popping up in the end of co…', '#Alembicltd\n\nLow risk setup\n\nAll set to catch fire.\n\nBuy at cmp\nSl 125 on daily clbs.\n\nVolumes Popping up in the en… https://t.co/HpUCsqJzuu', 'ALEMBICLTD - Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate https://t.co/AgkksuoqJm', '#ALEMBICLTD \nbuy 131\nsl 127.50\ntgt 139 / 148 #frontpage_app', 'RT @in_tradingview: #ALEMBICLTD - Stock may give breakout after crossing ₹133 level .  - TradingView - https://t.co/0y6tDg7sbe', '#ALEMBICLTD - Stock may give breakout after crossing ₹133 level .  - TradingView - https://t.co/0y6tDg7sbe', 'ALEMBICLTD : Matter of time now. https://t.co/wdzX0EIXYk', 'Momentum #stocks For The Coming Weeks - \n#AARTISURF\n#AAVAS\n#ABB\n#ACCURACY\n#ACE\n#ADVENZYMES\n#ALEMBICLTD\n#ANANTRAJ… https://t.co/Za0PjkmvwR']
+[2021-07-16 16:49:53,481] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T164941, start_date=20210716T164950, end_date=20210716T164953
+[2021-07-16 16:49:53,577] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:49:53,640] {local_task_job.py:151} INFO - Task exited with return code 0

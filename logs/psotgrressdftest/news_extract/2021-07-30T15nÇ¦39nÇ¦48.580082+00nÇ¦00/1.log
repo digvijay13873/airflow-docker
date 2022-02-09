@@ -1,0 +1,23 @@
+[2021-07-30 15:40:19,281] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-30T15:39:48.580082+00:00 [queued]>
+[2021-07-30 15:40:19,531] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-30T15:39:48.580082+00:00 [queued]>
+[2021-07-30 15:40:19,544] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 15:40:19,549] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-30 15:40:19,566] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 15:40:19,620] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-30T15:39:48.580082+00:00
+[2021-07-30 15:40:19,710] {standard_task_runner.py:52} INFO - Started process 217 to run task
+[2021-07-30 15:40:19,733] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-30T15:39:48.580082+00:00', '--job-id', '2193', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpjeexdd0f', '--error-file', '/tmp/tmpph7vowec']
+[2021-07-30 15:40:19,747] {standard_task_runner.py:77} INFO - Job 2193: Subtask news_extract
+[2021-07-30 15:40:20,017] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-30T15:39:48.580082+00:00 [running]> on host 04be2259e97a
+[2021-07-30 15:40:20,510] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-30T15:39:48.580082+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-30T15:39:14.310916+00:00
+[2021-07-30 15:40:20,679] {logging_mixin.py:104} INFO - 63 MOONS TECHNOLOG
+[2021-07-30 15:42:00,195] {python.py:151} INFO - Done. Returned value was: ['After pandemic free-for-all, parents struggle to reinstate screen-time rules', 'Meet the people paying $55 million each to fly to the space station', 'How a Tiny Bit of Indian Soil Might Have Found Its Way to the Moon', "Barrett Brown sentenced to 63 months for 'merely linking to hacked material'", 'Virgin V6 TV review: jack of all trades, master of none', 'First passenger drone makes its debut at CES', 'Alienware Area-51m - Full Review and Benchmarks', 'Say ISRO Sends an Indian to Space on an Indian Rocket. What Happens After?', 'Facebook calls for end to Flash as Firefox blocks it over hacking holes', 'Middle East Construction News', 'What is Doge?', 'Amazon stops encryption on Fire tablets, leaving data vulnerable to attack', 'Feminist games critic cancels talk after terror threat', "Three graphs to stop smartphone fans fretting about 'market share'", 'Spectacular photos from space', 'Bitcoin: Why I Just Increased My Position By Another 33%', "Violent action films DON'T cause more violence among teenagers, say psychiatrists", 'First Drive: 2013 Ram 1500 - PickupTrucks.com News']
+[2021-07-30 15:42:00,251] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210730T153948, start_date=20210730T154019, end_date=20210730T154200
+[2021-07-30 15:42:00,319] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-30 15:42:00,380] {local_task_job.py:151} INFO - Task exited with return code 0

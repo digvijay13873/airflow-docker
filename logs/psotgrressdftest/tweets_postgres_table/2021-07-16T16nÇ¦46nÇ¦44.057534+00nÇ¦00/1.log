@@ -1,0 +1,23 @@
+[2021-07-16 16:46:59,154] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:46:44.057534+00:00 [queued]>
+[2021-07-16 16:46:59,242] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:46:44.057534+00:00 [queued]>
+[2021-07-16 16:46:59,245] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:46:59,247] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:46:59,249] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:46:59,275] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:46:44.057534+00:00
+[2021-07-16 16:46:59,302] {standard_task_runner.py:52} INFO - Started process 9384 to run task
+[2021-07-16 16:46:59,324] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:46:44.057534+00:00', '--job-id', '1245', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp47668n01', '--error-file', '/tmp/tmpteb747zn']
+[2021-07-16 16:46:59,327] {standard_task_runner.py:77} INFO - Job 1245: Subtask tweets_postgres_table
+[2021-07-16 16:46:59,439] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:46:44.057534+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:46:59,569] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:46:44.057534+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:46:40.477597+00:00
+[2021-07-16 16:46:59,660] {logging_mixin.py:104} INFO - [('Some more names to add on is #ABAN #MCLEODRUSS #JPPOWER #AKSHOPTFBR #AARON which performing strong .. https://t.co/PkAve2R5A0', Decimal('0.5106')), ('Upper Circuit Days....\n10 Stock from Portfolio 🙂\nRarely Happens\n\n#PREMEXPLN\n#AKSHOPTFBR\n#ZODIACLOTH\n#JISLJALEQS… https://t.co/imqf1m82vJ', Decimal('0.0000')), ('RT @arpit_goel_: #MHRIL 13%\n#FINCABLES 8%\n#LINCOLN 8%\n#EXCELINDUS 7%\n#AKSHOPTFBR 5%\n\nWhat else you want in free ? Except lincoln holding al…', Decimal('0.5574')), ('#MHRIL 13%\n#FINCABLES 8%\n#LINCOLN 8%\n#EXCELINDUS 7%\n#AKSHOPTFBR 5%\n\nWhat else you want in free ? Except lincoln hol… https://t.co/Tsa0UaNTo9', Decimal('0.5574')), ('RT @5xMultibagger: #Alert \nGoogle SpreadSheet is now updated with 9 Confirmed Stock from Chapter 41 to 49. Revised SL is also updated as pe…', Decimal('0.0000')), ('RT @5xMultibagger: #JINDWORLD\n#KAYA\n#GUJALKALI\n#AKSHOPTFBR\n#EDELWEISS\n#Centum\n#ONMOBILE\n#VARDHACRLC\n\nAll the above Stocks are crossing the…', Decimal('0.0000')), ('RT @5xMultibagger: #Alert \nGoogle SpreadSheet is now updated with 9 Confirmed Stock from Chapter 41 to 49. Revised SL is also updated as pe…', Decimal('0.0000')), ('#Alert \nGoogle SpreadSheet is now updated with 9 Confirmed Stock from Chapter 41 to 49. Revised SL is also updated… https://t.co/OR9oM1IHMT', Decimal('0.0000')), ('#JINDWORLD\n#KAYA\n#GUJALKALI\n#AKSHOPTFBR\n#EDELWEISS\n#Centum\n#ONMOBILE\n#VARDHACRLC\n\nAll the above Stocks are crossing… https://t.co/027LoHWmzG', Decimal('0.0000')), ('@indian_stockss Bought Kabraextru and Akshoptfbr', Decimal('0.0000')), ('#AKSHOPTFBR today notched 50% profit.\nHappy investing. 😀', Decimal('0.7650')), ('RT @arpit_goel_: #AKSHOPTFBR Inverted head and shoulders pattern breakout on weekly chart. This pick is only for high risk players. Usually…', Decimal('-0.2732')), ('#AKSHOPTFBR First 5% lower circuit and than 5% upper circuit, I hope you got some.', Decimal('0.1779'))]
+[2021-07-16 16:46:59,666] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:46:59,689] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T164644, start_date=20210716T164659, end_date=20210716T164659
+[2021-07-16 16:46:59,759] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:46:59,783] {local_task_job.py:151} INFO - Task exited with return code 0

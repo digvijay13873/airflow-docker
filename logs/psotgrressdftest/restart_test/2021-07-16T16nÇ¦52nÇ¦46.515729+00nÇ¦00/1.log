@@ -1,0 +1,21 @@
+[2021-07-16 16:53:33,293] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.restart_test 2021-07-16T16:52:46.515729+00:00 [queued]>
+[2021-07-16 16:53:33,338] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.restart_test 2021-07-16T16:52:46.515729+00:00 [queued]>
+[2021-07-16 16:53:33,339] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:53:33,340] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:53:33,341] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:53:33,364] {taskinstance.py:1087} INFO - Executing <Task(TriggerDagRunOperator): restart_test> on 2021-07-16T16:52:46.515729+00:00
+[2021-07-16 16:53:33,385] {standard_task_runner.py:52} INFO - Started process 9935 to run task
+[2021-07-16 16:53:33,394] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'restart_test', '2021-07-16T16:52:46.515729+00:00', '--job-id', '1312', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpzif1tv_x', '--error-file', '/tmp/tmpv4dn4amw']
+[2021-07-16 16:53:33,396] {standard_task_runner.py:77} INFO - Job 1312: Subtask restart_test
+[2021-07-16 16:53:33,498] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.restart_test 2021-07-16T16:52:46.515729+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:53:33,623] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=restart_test
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:52:46.515729+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:52:43.252524+00:00
+[2021-07-16 16:53:37,005] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=restart_test, execution_date=20210716T165246, start_date=20210716T165333, end_date=20210716T165337
+[2021-07-16 16:53:37,050] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:53:37,108] {local_task_job.py:151} INFO - Task exited with return code 0

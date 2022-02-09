@@ -1,0 +1,22 @@
+[2021-07-20 09:28:17,685] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:28:03.310296+00:00 [queued]>
+[2021-07-20 09:28:17,780] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:28:03.310296+00:00 [queued]>
+[2021-07-20 09:28:17,783] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:28:17,784] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:28:17,785] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:28:17,873] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:28:03.310296+00:00
+[2021-07-20 09:28:17,915] {standard_task_runner.py:52} INFO - Started process 513 to run task
+[2021-07-20 09:28:17,944] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:28:03.310296+00:00', '--job-id', '1759', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpusw0xymf', '--error-file', '/tmp/tmp5bhz82uq']
+[2021-07-20 09:28:17,948] {standard_task_runner.py:77} INFO - Job 1759: Subtask extract_tweets
+[2021-07-20 09:28:18,192] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:28:03.310296+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:28:18,508] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:28:03.310296+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:27:58.372112+00:00
+[2021-07-20 09:28:19,789] {python.py:151} INFO - Done. Returned value was: ['RT @nadheem1122: #aksharchem\nMomentum picking up.\nIf sustain it will head towards 520+\n🤞 https://t.co/6z5QjqHBgi', '#aksharchem\nMomentum picking up.\nIf sustain it will head towards 520+\n🤞 https://t.co/6z5QjqHBgi', 'RT @EarnWithMB: 4 Chemical stocks I was betting from a long time\n\n1. Tirumalai (ran from 40 to 100)\n\n2. Fairchem now organics (price was  5…', '@equialpha TTK Healthcare\nAksharchem\nJublient Industries\nFairchem\nPrivi\nVipul Organic.\nJust Dial\nCosco \nJyoti Resin… https://t.co/vawkAY21eG', 'Aksharchem made a high of 497, now consolidating near 440, 2nd target done. Hold for final target', '@WealthEnrich TTK Healthcare\nAksharchem\nJublient Industries\nFairchem\nPrivi\nVipul Organic.\nJust Dial\nCosco \nJyoti Re… https://t.co/Jw3rwAQTJC', 'STAR PERFORMER OF THIS WEEK - \n\nKITEX \nCHEMFAB\nAKSHARCHEM\nLODHA. https://t.co/O3XXUPBVKD', '@PrafulllaPhadke Hahaha \n\nAisa nhi hai... last 4 days se jo stocks share kiye hain wo sabhi TV pe share kiya hai. u… https://t.co/SCU3gbXff4', '#kitex 45 % ⬆️ till now\n#Jindal 7 %⬆️\n#justdial at cost\n#Aksharchem 13 % ⬆️ \n#vrllog 2% ⬇️\n#sobha 2 % ⬆️ https://t.co/FmjeQioT0w', 'RT @ajitsingh2406: @Atulsingh_asan TTK Healthcare\nAksharchem\nJublient Industries\nFairchem\nPrivi\nVipul Organic.\nJust Dial\nCosco \nJyoti Resin…', '@Atulsingh_asan TTK Healthcare\nAksharchem\nJublient Industries\nFairchem\nPrivi\nVipul Organic.\nJust Dial\nCosco \nJyoti… https://t.co/Mb4Mmd6JJ5', '@vetris_stocks TTK Healthcare\nAksharchem\nJublient Industries\nFairchem\nPrivi\nVipul Organic.\nJust Dial\nCosco \nJyoti Resin\nJindal Polyfilm', '#Aksharchem was suggested in my telegram on 12th July \nFrom 406 to 497.70 (day high)\n22.5% returns in just 2 days 🔥… https://t.co/SAytMhGs2W', 'RT @Rishikesh_ADX: 495+ \n\nToday again UP near 10% \n\n#AksharChem\n\n👇', 'RT @50crBloke: #Aksharchem \n#StocksLove ❣ https://t.co/Z3ypmjcFt9']
+[2021-07-20 09:28:19,996] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T092803, start_date=20210720T092817, end_date=20210720T092819
+[2021-07-20 09:28:20,177] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:28:20,271] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-16 17:08:14,238] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:08:05.720662+00:00 [queued]>
+[2021-07-16 17:08:14,331] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:08:05.720662+00:00 [queued]>
+[2021-07-16 17:08:14,336] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:08:14,339] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:08:14,341] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:08:14,371] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:08:05.720662+00:00
+[2021-07-16 17:08:14,404] {standard_task_runner.py:52} INFO - Started process 11143 to run task
+[2021-07-16 17:08:14,422] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:08:05.720662+00:00', '--job-id', '1458', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp9b3xiutr', '--error-file', '/tmp/tmpney2xamj']
+[2021-07-16 17:08:14,425] {standard_task_runner.py:77} INFO - Job 1458: Subtask extract_tweets
+[2021-07-16 17:08:14,561] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:08:05.720662+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:08:14,679] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:08:05.720662+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:08:02.369561+00:00
+[2021-07-16 17:08:16,247] {python.py:151} INFO - Done. Returned value was: ['RT @Igliiii: Morning with the skiller, @RafaeLeao7 https://t.co/LByxpYgiSu', 'RT @IssaBlaqRose: Am I the only one with a problem with the amount of noise the car AC makes? I can’t deal with it I’d rather be hot.', 'TARGET: Academia, M&amp;E practitioners from MDAs, National Evaluators, Young and Emerging Evaluators, etc.\nhttps://t.co/pVHKRznmEI', 'RT @FipliC: Covid bahanesiyle sokağa atılmış adapte olamamış aç bir kediye denk geldim son 10liramla ona mama aldım öylesine aç ki bu can m…', 'I cannot hear Dangerously In Love without thinking about White Chicks', 'Legend of the sport, man. Will have to take my eyes to AC Milan games next season. https://t.co/XQkpGAwG0K', 'RT @Sam_InkersoleTM: Understand that the fee for Olivier Giroud to join AC Milan is £2million plus significant add-ons. #CFC', 'RT @mywindyblow: 𝑹𝒕 𝒕𝒉𝒙 ♡̷̷̷ ∘°. ｡\xa0 \n\n저랑 투닥투닥거리면서 달콤한 사랑할 구미호뎐 이랑 찾고 있어요 .ᐟ \n\nෆ https://t.co/ypctC7aNF3 https://t.co/6hvUDue4rq', 'RT @JungWooKimBR: [#INFO] 210716- #JUNGWOO (junto com Lee Know do Stray Kids) foi escolhido como o novo MC do MBC Music Core!!\n\nA transmiss…', 'RT @Sam_InkersoleTM: Understand that the fee for Olivier Giroud to join AC Milan is £2million plus significant add-ons. #CFC', "RT @ESPNFC: Olivier Giroud is set to move to AC Milan 🇮🇹\n\nHis last goal for Chelsea was a beauty, as you'd expect 🚲 https://t.co/8TMyqC8ZgM", 'RT @MontecristoKo10: Ya bir yol bul ya bir yol aç ya da yoldan çekil @ziyaselcuk\n\n#ziyaselcukistifa', "RT @ghaib_damagh: But here I am. At a spa. With a busted AC. and a mother who doesn't need to know or worry. jab tak aap kay pass paisay ki…", 'RT @_BeFoot: Florentino Perez, en 2012 : "Ozil était amoureux d’une top model italienne, de Milan. Mourinho lui a dit "Ozil, laisse moi te…', "RT @ActuFoot_: Le maillot d'Olivier Giroud est déjà en vente sur la boutique de l'AC Milan. 🔴⚫️🇫🇷 https://t.co/GBKYMrHNLC"]
+[2021-07-16 17:08:16,332] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T170805, start_date=20210716T170814, end_date=20210716T170816
+[2021-07-16 17:08:16,406] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:08:16,446] {local_task_job.py:151} INFO - Task exited with return code 0

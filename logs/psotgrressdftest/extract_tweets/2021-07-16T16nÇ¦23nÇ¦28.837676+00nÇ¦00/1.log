@@ -1,0 +1,22 @@
+[2021-07-16 16:23:37,732] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:23:28.837676+00:00 [queued]>
+[2021-07-16 16:23:37,812] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:23:28.837676+00:00 [queued]>
+[2021-07-16 16:23:37,816] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:23:37,819] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:23:37,822] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:23:37,880] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:23:28.837676+00:00
+[2021-07-16 16:23:37,913] {standard_task_runner.py:52} INFO - Started process 7573 to run task
+[2021-07-16 16:23:37,930] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:23:28.837676+00:00', '--job-id', '1037', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpadae3due', '--error-file', '/tmp/tmpkmf7x0yn']
+[2021-07-16 16:23:37,932] {standard_task_runner.py:77} INFO - Job 1037: Subtask extract_tweets
+[2021-07-16 16:23:38,137] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:23:28.837676+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:23:38,351] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:23:28.837676+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:23:23.626913+00:00
+[2021-07-16 16:23:40,187] {python.py:151} INFO - Done. Returned value was: ['ADANITRANS - Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations, 2011. https://t.co/Yqc3Wi94SZ', '#Tradingview #MIZone #ICMCBO #Shadow #Shunting View #ADANITRANS #NimblrTA Details of indicator at… https://t.co/11rgweHjif', '#InsiderTrades #stockmarket\n#ADANITRANS https://t.co/R5J7vRJbNF', 'ADANITRANS - Disclosure of Voting results of AGM (Regulation 44(3) of SEBI (LODR) Regulations, 2015) https://t.co/0tNHTOq3BV', '4.64 is S/E ratio 4 today its down a bit ADANITRANS HAVELLS  ATGL  NATCOPHARM  BAJAJELEC  NEWGEN  TVS compression p… https://t.co/fAqrC1k4sb', 'RT @SpotalphaIndia: @Navi030325 #ADANITRANS is currently in a down trend.\n\nOver the last year Buy-and-Hold has been a better strategy (retu…', '@Navi030325 #ADANITRANS is currently in a down trend.\n\nOver the last year Buy-and-Hold has been a better strategy (… https://t.co/xAAYX18mYc', "@Navi030325 Did you mean :\n\n@SpotalphaIndia #ADANITRANS\n\nPlease check for valid 'NSE India' symbols at:\nhttps://t.co/Hm3nv63RK7", 'ADANITRANS - Regulation 44(3) Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations, 2015 - Det… https://t.co/9vwHh9TNnC', "ADANITRANS - Shareholder Meeting / Postal Ballot-Scrutinizer''s Report https://t.co/1JKWU0za7x", 'BLOCK DEALS TODAY-\n\n#ADANITRANS-180464 shares @ 974.5\n\n#RELIANCE-98778 shares @ 2087.25\n\n#FORTISHEALTH-1755778 shar… https://t.co/YjvS7osQJ5', 'Added more #ADANITRANS today https://t.co/2suB0P2cfz', 'Reversal Buy #ADANITRANS 983.8 7/13/2021 3:25:00 PM SL: 975.5 T1(fibo): 1079.28 T2(fibo): 1128.28 T3(fibo): 1177.28… https://t.co/JG0p7UNewE', 'ADANITRANS - Shareholder Meeting / Postal Ballot-Outcome of AGM https://t.co/L3XGsZDOXg']
+[2021-07-16 16:23:40,268] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T162328, start_date=20210716T162337, end_date=20210716T162340
+[2021-07-16 16:23:40,367] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:23:40,399] {local_task_job.py:151} INFO - Task exited with return code 0

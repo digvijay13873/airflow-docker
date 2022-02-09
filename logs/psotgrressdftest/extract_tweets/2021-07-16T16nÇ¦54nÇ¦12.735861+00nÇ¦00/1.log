@@ -1,0 +1,22 @@
+[2021-07-16 16:54:22,754] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:54:12.735861+00:00 [queued]>
+[2021-07-16 16:54:23,204] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:54:12.735861+00:00 [queued]>
+[2021-07-16 16:54:23,205] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:54:23,206] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:54:23,208] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:54:23,240] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:54:12.735861+00:00
+[2021-07-16 16:54:23,282] {standard_task_runner.py:52} INFO - Started process 10011 to run task
+[2021-07-16 16:54:23,296] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:54:12.735861+00:00', '--job-id', '1322', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpsumcth82', '--error-file', '/tmp/tmpa4vwxyn1']
+[2021-07-16 16:54:23,298] {standard_task_runner.py:77} INFO - Job 1322: Subtask extract_tweets
+[2021-07-16 16:54:23,515] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:54:12.735861+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:54:23,822] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:54:12.735861+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:54:10.316661+00:00
+[2021-07-16 16:54:25,097] {python.py:151} INFO - Done. Returned value was: ['Add 5paisa', 'Target done 5Paisa @ 580\U0001f929😁🤣😳🤓😘\U0001f973\U0001f97a😎\U0001f976\U0001f970🚀💓🙏😅 https://t.co/5r0N0k3C0X', '@ipo_mantra @Team_IPOMantra When will the alloted shares of clean science ipo reflect on my brokers  holding(5paisa… https://t.co/JVCa7c3mLF', 'Asian Paints was the leading company in 2020, with a market share of about 39%. Berger Paints India and Kansai Nero… https://t.co/q6TymSrkVy', '#5PAISA looks attractive at 552.20. Has announced Excellent results and an amazing quarter.\nCould be fruitful for s… https://t.co/1eDzFrdsgo', '#5paisa कैसे एक आदमी ने #Investment दम से 1500 करोड़ कमाए।\nhttps://t.co/rbNTuQgx2a', 'Welcome to #5paisaDaily. This is the #5paisaWrapUp report as of 16th July 2021.\n\nDownload the App and stay updated.… https://t.co/eXKnklOhKw', '@5paisa When cKYC (central KYC) of any of your prospective clients is already approved, there should not be any con… https://t.co/oPYPzoI8pq', 'https://t.co/RvcasXD0RU\nHi,\n I have been trading in stocks using 5paisa and I am really happy with the experience.… https://t.co/4RgmEj6DCe', '@PrakashVLakhani @zerodhaonline @Nithin0dha @upstox @5paisa Finvasia is also an alternative to consider, customer service is good.', '@PrakashVLakhani @zerodhaonline @Nithin0dha @upstox @5paisa Finvasia is also an alternative to consider, customer service is good.', '@5paisa Follow me\n100% Follow back\nThanks a lot\nGood Evening\n🙏Jai Mata Di 🙏', '@karan_vadodaria Thank you for sharing your details .Please allow us sometime to check and get back to you.', '@5paisa, Sorry correction, they have approved the bank statement and rejected the cancelled check of the same bank… https://t.co/16bTFfAU8Y', '@5paisa Client ID: 59991196']
+[2021-07-16 16:54:25,148] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T165412, start_date=20210716T165422, end_date=20210716T165425
+[2021-07-16 16:54:25,206] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:54:25,261] {local_task_job.py:151} INFO - Task exited with return code 0

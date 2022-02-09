@@ -1,0 +1,22 @@
+[2021-07-16 10:44:27,461] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:44:16.157204+00:00 [queued]>
+[2021-07-16 10:44:27,509] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:44:16.157204+00:00 [queued]>
+[2021-07-16 10:44:27,510] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:44:27,511] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:44:27,512] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:44:27,589] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:44:16.157204+00:00
+[2021-07-16 10:44:27,622] {standard_task_runner.py:52} INFO - Started process 2552 to run task
+[2021-07-16 10:44:27,637] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:44:16.157204+00:00', '--job-id', '661', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp96_c_fwz', '--error-file', '/tmp/tmppp_6s4kt']
+[2021-07-16 10:44:27,638] {standard_task_runner.py:77} INFO - Job 661: Subtask extract_tweets
+[2021-07-16 10:44:27,815] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:44:16.157204+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:44:27,981] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:44:16.157204+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:44:12.871265+00:00
+[2021-07-16 10:44:29,081] {python.py:151} INFO - Done. Returned value was: ['#AdaniPower What a performance of the stock 200% return and now again ready for new leg of rally. https://t.co/o3rFPPhG6v', 'Fantastic Day - \n\n#OrientalAromatics 12%\n#AnupEng 10%\n#Syngene 8%\n#Sirca 6%\n#JBChem 6%\n#Sequent 5%\n#NaharSpinning 5… https://t.co/bYpMgSDkix', 'Comparison between Adani Power and Tata Power. Which one would you choose ?\n~Source( Ticker)\n#StockMarketindia… https://t.co/NmfkvdeC3O', '#AdaniPower is back !!!', 'Buy #ADANIPOWER at 107', '@Moneypurseadv sir what is the future of adanipower', '@kuttrapali26 @kuttrapali26 any view on ADANIPOWER ?', 'NIFTY BNIFTY avg Here Now✅\n\n15910\n35720\n\nWe will Make All TIME HIGH CLOSE💚 Today\n#nifty50 #banknifty #sharemarket… https://t.co/swb7aYhCmL', '@Munu72161512 @aswathiguna Suggestion about #AdaniPower', "Mr. @gautam_adani i am holding your stocks Last 4 month but Cannot Increase Your Stock's Cost I Have 37 Shares… https://t.co/UDGwogVgCk", 'RT @ruddarm: People who says Adani group stocks goes only up.\n...\nKidher gye tum plz mil jao\U0001f97a\U0001f97a\n#AdaniGroup #stocks #AdaniPower #invest #inv…', 'People who says Adani group stocks goes only up.\n...\nKidher gye tum plz mil jao\U0001f97a\U0001f97a\n#AdaniGroup #stocks #AdaniPower… https://t.co/C1tZLCpO38', 'RT @indiacom: #AdaniShare #Price: Check #GautamAdani Group of Companies’ Share Prices at #BSE, #NSE\n#AdaniGroup #AdaniPower \nhttps://t.co/3…', '3 Reasons to buy Adani Shares💸 -\n1. Upar Jayega📈\n2. Upar Jayega📈\n3. Upar Jayega📈\n\n#du #dusociety #vangati… https://t.co/RjG8xNMYtT', '@RahulGandhi Modi looted psu companies in 2014 coal india was NAVRATNA stock price 400+ when nifty was 6500 now 160… https://t.co/kL4vohbJ9t']
+[2021-07-16 10:44:29,156] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T104416, start_date=20210716T104427, end_date=20210716T104429
+[2021-07-16 10:44:29,246] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:44:29,277] {local_task_job.py:151} INFO - Task exited with return code 0

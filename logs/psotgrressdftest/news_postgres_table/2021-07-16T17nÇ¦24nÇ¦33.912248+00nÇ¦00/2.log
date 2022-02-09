@@ -1,0 +1,2 @@
+[2021-07-20 09:21:29,782] {taskinstance.py:870} INFO - Dependencies not met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-16T17:24:33.912248+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2021-07-20 09:21:30,908] {local_task_job.py:98} INFO - Task is not able to be run

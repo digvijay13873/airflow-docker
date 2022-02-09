@@ -1,0 +1,23 @@
+[2021-07-16 16:32:55,032] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:32:35.156082+00:00 [queued]>
+[2021-07-16 16:32:55,071] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:32:35.156082+00:00 [queued]>
+[2021-07-16 16:32:55,072] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:32:55,073] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:32:55,074] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:32:55,097] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:32:35.156082+00:00
+[2021-07-16 16:32:55,143] {standard_task_runner.py:52} INFO - Started process 8243 to run task
+[2021-07-16 16:32:55,160] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:32:35.156082+00:00', '--job-id', '1109', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp2_jtbo0w', '--error-file', '/tmp/tmpclkqwxup']
+[2021-07-16 16:32:55,164] {standard_task_runner.py:77} INFO - Job 1109: Subtask tweets_postgres_table
+[2021-07-16 16:32:55,261] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:32:35.156082+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:32:55,371] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:32:35.156082+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:32:30.507610+00:00
+[2021-07-16 16:32:55,464] {logging_mixin.py:104} INFO - [('@Back__Nodap 그칭그칭', Decimal('0.0000')), ('손목보호대 차기 싫어서(더워!) 파스 붙였더니... 지금 팔에 온통 파스 뿐임..', Decimal('0.0000')), ('오랜만에 노트북 켜니까, 문득 호의를 당연하게 느끼는 인간들이 짜증나지기 시작함... 더워서 그런가...', Decimal('0.0000')), ('RT @MashraniVivek: And many more..\n\n- Infoedge\n- IGL\n- Gujarat Gas\n- Affle\n- MCX\n- Just Dial\n....\n\nWhat else?', Decimal('0.0000')), ('RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', Decimal('-0.3400')), ('RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', Decimal('-0.3400')), ('@ABHISARNAYAK2 @raw4200 @AnyBodyCanFly Mtar technology, Tanla, Happiest Mind, Dixon, Affle, Ramco System, Nazara, Route', Decimal('0.6369')), ('RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', Decimal('-0.3400')), ('역시 홍연은 원곡이 넘사다...', Decimal('0.0000')), ('RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', Decimal('-0.3400')), ('RT @PupSonar: ✨Telegram stickers r.affle ✨ \n\nTry to win 3 stickers of your OC \n\nTo enter: \n\U0001f9b4 Comment a DIGITAL reference sheet\n\U0001f9b4 Follow me…', Decimal('0.5859')), ('RT @PupSonar: ✨Telegram stickers r.affle ✨ \n\nTry to win 3 stickers of your OC \n\nTo enter: \n\U0001f9b4 Comment a DIGITAL reference sheet\n\U0001f9b4 Follow me…', Decimal('0.5859')), ('자고 일어나면 연잎 나올 기세라 심고 옴; 흙탕물 상태고 엄마한테 안 들키려고 재빨리 해놓고 왔다', Decimal('0.0000')), ('RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', Decimal('-0.3400')), ('@PeeyushTrader Indiamart and affle. He bought at higher rates. Even at that time nifty was on 14200. He hasn"t reco… https://t.co/7egiil7iFD', Decimal('0.4019'))]
+[2021-07-16 16:32:55,472] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:32:55,495] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T163235, start_date=20210716T163255, end_date=20210716T163255
+[2021-07-16 16:32:55,625] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:32:55,657] {local_task_job.py:151} INFO - Task exited with return code 0

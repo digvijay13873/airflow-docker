@@ -1,0 +1,22 @@
+[2021-07-16 16:28:50,851] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:28:37.330568+00:00 [queued]>
+[2021-07-16 16:28:50,942] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:28:37.330568+00:00 [queued]>
+[2021-07-16 16:28:50,947] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:28:50,949] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:28:50,957] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:28:51,024] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:28:37.330568+00:00
+[2021-07-16 16:28:51,083] {standard_task_runner.py:52} INFO - Started process 7938 to run task
+[2021-07-16 16:28:51,101] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:28:37.330568+00:00', '--job-id', '1075', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmphdk4gtkr', '--error-file', '/tmp/tmpvnirnc5j']
+[2021-07-16 16:28:51,124] {standard_task_runner.py:77} INFO - Job 1075: Subtask extract_tweets
+[2021-07-16 16:28:51,367] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:28:37.330568+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:28:51,891] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:28:37.330568+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:28:34.096604+00:00
+[2021-07-16 16:28:53,934] {python.py:151} INFO - Done. Returned value was: ['@mavimasa @mansuryavas06 Lütfen bu durumun çözülmesi için bize yardımcı olun. Telekom yapamıyorsa lütfen İnternet s… https://t.co/nDjgTPDLiz', '@zeninternet @darac "today\'s internet speeds are more than match for video " *looks at clients still limited to ADS… https://t.co/kVpwGXYXb2', "Anche oggi piove un po' e di conseguenza la mia ADSL non funziona, così telefono per l'ennesima volta alla ditta ch… https://t.co/59uOC9tawj", 'スプリッタ:ADSLで使用される機器で、データ用の高周波の信号と音声用の低周波の信号を分離したり，合成したりする装置。', "@MissLyzzie J'ai pas eu trop de problème en ADSL sur Guild Wars 2, mais comme j'étais pas en PvP c'est difficile de… https://t.co/AcNvuItPtX", 'RT @djhd66: @salaprensaCantv @VTVcanal8 @avnve @Mincyt_VE En naguanagua mi modem no marca la luz del ADSL.  Sin servicio de internet,  ni t…', '@salaprensaCantv @VTVcanal8 @avnve @Mincyt_VE En naguanagua mi modem no marca la luz del ADSL.  Sin servicio de int… https://t.co/Pe1cIdYPrM', "RT @kikoP9: En paral·lel a la candidatura dels primers Jocs d'Hivern sense neu, crec que @gencat hauria de presentar candidatura per a què…", "RT @Milgram_fr: 「 Ces péchés, maintenant j'y suis enchaîné. 」\n\nVoici la reprise de Throw Down par @EloiMantiev !\nMerci d'être toujours au r…", 'RT @KaitoKid14125: @jp_real @movistar_es Almenos parece que las averías de fibra si las solucionan, porque las de ADSL las cierran por la c…', 'RT @KaitoKid14125: @jp_real @movistar_es Almenos parece que las averías de fibra si las solucionan, porque las de ADSL las cierran por la c…', 'RT @Milgram_fr: Ça va commencer !! Rejoignez-nous sur le chat ! ❤️', "RT @ItsKeiSi: Je l'avais jamais partagé du coup il me semble, du coup voilaaa\nje l'ai jamais retouché et c'était à l'époque ou elle avait p…", 'どうせニコ動もようつべ(は大分後だけど)もほぼ見ない人だったからADSLで事足りてたしな。家が基地局からそんなに離れてなかったし。', 'でも数年前まで、栃木の某拠点でINS（DA128）使ってたのよねぇ…選択肢なくて🐧（ADSLですらない）']
+[2021-07-16 16:28:54,104] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T162837, start_date=20210716T162850, end_date=20210716T162854
+[2021-07-16 16:28:54,220] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:28:54,282] {local_task_job.py:151} INFO - Task exited with return code 0

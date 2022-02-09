@@ -1,0 +1,22 @@
+[2021-07-16 16:07:06,207] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:06:52.327814+00:00 [queued]>
+[2021-07-16 16:07:06,292] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:06:52.327814+00:00 [queued]>
+[2021-07-16 16:07:06,307] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:07:06,309] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:07:06,310] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:07:06,353] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:06:52.327814+00:00
+[2021-07-16 16:07:06,382] {standard_task_runner.py:52} INFO - Started process 6432 to run task
+[2021-07-16 16:07:06,397] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:06:52.327814+00:00', '--job-id', '929', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpxgbb9vgm', '--error-file', '/tmp/tmpvmgxm7ef']
+[2021-07-16 16:07:06,400] {standard_task_runner.py:77} INFO - Job 929: Subtask extract_tweets
+[2021-07-16 16:07:06,540] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:06:52.327814+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:07:06,741] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:06:52.327814+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:06:47.049115+00:00
+[2021-07-16 16:07:07,919] {python.py:151} INFO - Done. Returned value was: ['RT @aeribase: /ab/ liat sebagian pencapaian2 baru baekhyun \U0001f97a😭❤️ https://t.co/I9GjKjKzDl', '@musariven Bende yemedim hiç linç ab işte biz harikayız yine', '寝よ\nとりあえずフレバト用にID置いてくので気軽にバトってください〜\n\nJDQ4HJ0L6\n\n#ガンブレ\n#ガンダムブレイカーモバイル https://t.co/jRo66rRbHs', 'Bsdk China mc ab to bata de kitne virus release kiya hai tune bc….\n\nAbhi aur kitni wave ayegi bhadwe…😡😡😡😡😡', 'RT @Dream65736882: Puraane log samajhdar the , taaluq sambhalte the !!... fir log practical hogye , taaluq se faida nikalne lage ! Ab log p…', "RT @ahmethamdicamli: Avrupa'nın İslam fobisi Müslüman'ın ekmeğine kast ediyor..!\n\nAB'nin en yüksek mahkemesi, başörtüsü takan Müslüman kadı…", 'using the vandal in valorant is either hitting headshots and remarking at how insanely good you think it is or miss… https://t.co/6RXekQRD4E', 'Schaltet heute Abend ab 20 Uhr beim ENERGY Feierabend mit Julian ein, damit ihr das Interview mit David Guetta auf… https://t.co/e8q9wNRov1', "@Jbvern98 @brgridiron @NFLSTROUD Gronk and ab but besides Jamies Winston is color blind and doesn't know the differ… https://t.co/vcoprJUhTs", 'FNSの最後の照くんのコメントの後の笑顔でやられた人絶対いる。', '@yeossion ugh I’ll dm u ab it', 'RT @DeveshK97193481: #UPBEdTET_7_12_12_विज्ञापन_बहाल_करो \nAb to suno sarkar. ,\n10 saal ki pida ka ant kro\n@drdineshbjp @narendramodi @BJP4I…', '@SiiriTop @Cerasel71265444 @miyaros2 @DinuDunia @Ana40249352 @Tiflisus2 @LauraNogueira64 @silhouetted_me @13Anseume… https://t.co/4yh9Pi7o13', 'Jab sab ne fast university join karli hai to efights ab real mein dekhne ko milengi? wow', "RT @hereforbillkin: bk's dad just liked two posts of ab bkpp w captions, “happy couple” &amp; “he's mine” the la chapelle for fun shoot!!!!\n\nbi…"]
+[2021-07-16 16:07:08,063] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T160652, start_date=20210716T160706, end_date=20210716T160708
+[2021-07-16 16:07:08,221] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:07:08,265] {local_task_job.py:151} INFO - Task exited with return code 0

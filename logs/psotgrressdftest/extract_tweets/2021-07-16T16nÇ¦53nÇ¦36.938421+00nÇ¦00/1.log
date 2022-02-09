@@ -1,0 +1,22 @@
+[2021-07-16 16:53:43,926] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:53:36.938421+00:00 [queued]>
+[2021-07-16 16:53:43,972] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:53:36.938421+00:00 [queued]>
+[2021-07-16 16:53:43,973] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:53:43,974] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:53:43,976] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:53:44,000] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:53:36.938421+00:00
+[2021-07-16 16:53:44,024] {standard_task_runner.py:52} INFO - Started process 9954 to run task
+[2021-07-16 16:53:44,037] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:53:36.938421+00:00', '--job-id', '1316', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpupot3q3_', '--error-file', '/tmp/tmpm6yy0_ox']
+[2021-07-16 16:53:44,039] {standard_task_runner.py:77} INFO - Job 1316: Subtask extract_tweets
+[2021-07-16 16:53:44,168] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:53:36.938421+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:53:44,314] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:53:36.938421+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:53:33.625290+00:00
+[2021-07-16 16:53:44,955] {python.py:151} INFO - Done. Returned value was: ['https://t.co/eHiQCIV9E9 PREOPEN\n\nINTO BE FROM JUL 20TH : 3PLAND, BCG, BHARATWIRE, CEBBCO, CREATIVE, CYBERMEDIA, DCM… https://t.co/c9LjwDCeNn', 'https://t.co/eHiQCIV9E9 PREOPEN\n\nPRICE BAND : \n\n3PLAND 10 TO 5%\nKINGFA 10 TO 5%\nVISHAL 10 TO 5%\n\n*FO BAN : IBULHSGF… https://t.co/LI217te7O8', '3PLAND - #3PLAND chart https://t.co/JcSOlTiare', '3PLAND - Shareholding for the Period Ended June 30, 2021 https://t.co/Sb7gkmlyTL']
+[2021-07-16 16:53:45,003] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T165336, start_date=20210716T165343, end_date=20210716T165345
+[2021-07-16 16:53:45,064] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:53:45,101] {local_task_job.py:151} INFO - Task exited with return code 0

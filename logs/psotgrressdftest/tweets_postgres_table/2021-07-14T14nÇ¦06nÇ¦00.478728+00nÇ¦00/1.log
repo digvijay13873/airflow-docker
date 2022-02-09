@@ -1,0 +1,23 @@
+[2021-07-14 14:06:21,590] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-14T14:06:00.478728+00:00 [queued]>
+[2021-07-14 14:06:21,677] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-14T14:06:00.478728+00:00 [queued]>
+[2021-07-14 14:06:21,679] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:06:21,682] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:06:21,683] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:06:21,748] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-14T14:06:00.478728+00:00
+[2021-07-14 14:06:21,791] {standard_task_runner.py:52} INFO - Started process 3236 to run task
+[2021-07-14 14:06:21,853] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-14T14:06:00.478728+00:00', '--job-id', '236', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpkq_oep_j', '--error-file', '/tmp/tmpjgz3_y1s']
+[2021-07-14 14:06:21,860] {standard_task_runner.py:77} INFO - Job 236: Subtask tweets_postgres_table
+[2021-07-14 14:06:22,117] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-14T14:06:00.478728+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:06:22,370] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:06:00.478728+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:06:00.478728+00:00
+[2021-07-14 14:06:22,470] {logging_mixin.py:104} INFO - [('A2ZINFRA - Board Meeting Intimation for Audited Standalone &amp; Consolidated Financial Results For The Quarter (Q4) An… https://t.co/CezihFSf2V', Decimal('0.0000')), ('A2ZINFRA - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/eFsSkYQLFK', Decimal('-0.4019'))]
+[2021-07-14 14:06:22,487] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-14 14:06:22,534] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210714T140600, start_date=20210714T140621, end_date=20210714T140622
+[2021-07-14 14:06:22,674] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:06:22,721] {local_task_job.py:151} INFO - Task exited with return code 0

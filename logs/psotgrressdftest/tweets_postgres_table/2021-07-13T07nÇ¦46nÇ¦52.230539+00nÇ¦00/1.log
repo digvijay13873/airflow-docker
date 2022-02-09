@@ -1,0 +1,50 @@
+[2021-07-13 07:47:07,792] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-13T07:46:52.230539+00:00 [queued]>
+[2021-07-13 07:47:07,849] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-13T07:46:52.230539+00:00 [queued]>
+[2021-07-13 07:47:07,851] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 07:47:07,852] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-13 07:47:07,854] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 07:47:07,876] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-13T07:46:52.230539+00:00
+[2021-07-13 07:47:07,894] {standard_task_runner.py:52} INFO - Started process 4752 to run task
+[2021-07-13 07:47:07,901] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-13T07:46:52.230539+00:00', '--job-id', '113', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpsi9j2o7w', '--error-file', '/tmp/tmpzrt4q_8i']
+[2021-07-13 07:47:07,902] {standard_task_runner.py:77} INFO - Job 113: Subtask tweets_postgres_table
+[2021-07-13 07:47:07,984] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-13T07:46:52.230539+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-13 07:47:08,114] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-13T07:46:52.230539+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-13T07:46:52.230539+00:00
+[2021-07-13 07:47:08,183] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 2898, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/POSTGRESRSERS.py", line 174, in tweets_postgres_table
+    df1['compound'] = df1[0].apply(f)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/frame.py", line 2906, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 2900, in get_loc
+    raise KeyError(key) from err
+KeyError: 0
+[2021-07-13 07:47:08,210] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210713T074652, start_date=20210713T074707, end_date=20210713T074708
+[2021-07-13 07:47:08,272] {local_task_job.py:151} INFO - Task exited with return code 1

@@ -1,0 +1,23 @@
+[2021-07-16 10:48:30,170] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:48:14.528254+00:00 [queued]>
+[2021-07-16 10:48:30,216] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:48:14.528254+00:00 [queued]>
+[2021-07-16 10:48:30,218] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:48:30,219] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:48:30,220] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:48:30,255] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T10:48:14.528254+00:00
+[2021-07-16 10:48:30,273] {standard_task_runner.py:52} INFO - Started process 2850 to run task
+[2021-07-16 10:48:30,281] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T10:48:14.528254+00:00', '--job-id', '696', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp9casyzs3', '--error-file', '/tmp/tmprav2rk29']
+[2021-07-16 10:48:30,283] {standard_task_runner.py:77} INFO - Job 696: Subtask tweets_postgres_table
+[2021-07-16 10:48:30,382] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:48:14.528254+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:48:30,529] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:48:14.528254+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:48:11.622718+00:00
+[2021-07-16 10:48:30,607] {logging_mixin.py:104} INFO - [('#adorweld 880 :) https://t.co/kl3phhItXl', Decimal('0.4588')), ('Paul Torres-Cohen $ADORWELD.BO', Decimal('0.0000')), ('ADORWELD - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/HIYkU8XLAt', Decimal('0.0000')), ('#ADORWELD #StocksToWatch https://t.co/FferCTK9TC', Decimal('0.0000')), ('ADORWELD #ADORWELD     \n.\n.\n#stocktigers #StockToWatch  #TeamStockTigers 🐯🙏 https://t.co/BIAtyqSefP', Decimal('0.0000')), ('Resistance broken shares\n#Adorweld\n#Avtnpl\n#Bodalchem', Decimal('-0.2263')), ('Swing Buy:,\nADORWELD - 724,\n@ 11:25 am,\n* Learn #NimblrTA. Join our video course at https://t.co/dYgrFqlVsU\n* Get a… https://t.co/ioMQaTlcwi', Decimal('0.2960')), ('Paul Torres-Cohen $ADORWELD.BO', Decimal('0.0000')), ('ADORWELD - Shareholding for the Period Ended June 30, 2021 https://t.co/hrueWxVGM6', Decimal('0.0000')), ('#ConstructionMaterials: 4.79%\n#KCP: 4.79%\n\n#Pharmaceuticals: 4.72%\n#LAURUSLABS: 4.72%\n\n#RealEstateOperations: 4.69%… https://t.co/YJtydufrns', Decimal('0.0000')), ('#ADORWELD: cooling down for sometime. Near the retest zone of ATH breakout levels. https://t.co/KLKjDaojoR https://t.co/1eQ78LKhmO', Decimal('0.0000'))]
+[2021-07-16 10:48:30,613] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 10:48:30,631] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T104814, start_date=20210716T104830, end_date=20210716T104830
+[2021-07-16 10:48:30,691] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:48:30,733] {local_task_job.py:151} INFO - Task exited with return code 0

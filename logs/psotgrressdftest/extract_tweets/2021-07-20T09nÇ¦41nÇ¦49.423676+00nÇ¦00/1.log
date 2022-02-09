@@ -1,0 +1,22 @@
+[2021-07-20 09:42:05,771] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:41:49.423676+00:00 [queued]>
+[2021-07-20 09:42:05,989] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:41:49.423676+00:00 [queued]>
+[2021-07-20 09:42:06,005] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:42:06,007] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:42:06,011] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:42:06,159] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:41:49.423676+00:00
+[2021-07-20 09:42:06,270] {standard_task_runner.py:52} INFO - Started process 1398 to run task
+[2021-07-20 09:42:06,306] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:41:49.423676+00:00', '--job-id', '1831', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpogqk5ekd', '--error-file', '/tmp/tmp9cb1efbm']
+[2021-07-20 09:42:06,322] {standard_task_runner.py:77} INFO - Job 1831: Subtask extract_tweets
+[2021-07-20 09:42:06,657] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:41:49.423676+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:42:07,065] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:41:49.423676+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:41:44.524868+00:00
+[2021-07-20 09:42:08,420] {python.py:151} INFO - Done. Returned value was: ['#ALKYLAMINE Closed for a tiny gain after holding it for what seems like an eternity .yuck', 'ALKYLAMINE - Shareholding for the Period Ended June 30, 2021 https://t.co/g0vnmTgxqJ', 'i love how alkylamine kept winning in which one is more basic compared to it', '@Twinkleinvest ALKYLAMINE', 'RT @srvithal388: #Alkylamine \n3% - No CR since top in May 2021\n\n1% - Side Ways since May 21 top, no major correction &amp; price during side wa…', '#ALKYLAMINE\nYe kya Jadu he bhai in a year from 1st Jan - 440 to now 3700+ https://t.co/7qAGEzfVgl', '@SAnngeri Hello! There you go! Original tweet by @srvithal388: "#Alkylamine \n3% - No CR since top in May 2021\n\n1% -… https://t.co/HuSTKdwKD3', 'RT @srvithal388: #Alkylamine \n3% - No CR since top in May 2021\n\n1% - Side Ways since May 21 top, no major correction &amp; price during side wa…', '#Alkylamine \n3% - No CR since top in May 2021\n\n1% - Side Ways since May 21 top, no major correction &amp; price during… https://t.co/sxfgiw8vMA', 'RT @kuttrapali26: 👩🏻\u200d💼Invest In High Moat Businesses- Stocks in Vogue,A Must Study\n\n🌁CAMS\n🌁AMBER\n🌁ROUTE\n🌁INDIAMART\n🌁IEX\n🌁AFFLE\n🌁HAPPIEST\n🌁A…', 'RT @kuttrapali26: 👩🏻\u200d💼Invest In High Moat Businesses- Stocks in Vogue,A Must Study\n\n🌁CAMS\n🌁AMBER\n🌁ROUTE\n🌁INDIAMART\n🌁IEX\n🌁AFFLE\n🌁HAPPIEST\n🌁A…', '@bsksrivastava #dixon\n@DeepakGroupCo \n#alkylamine\n#astralpipe', 'ALKYLAMINE - Board Meeting Intimation for Approval Of Unaudited Financial Results https://t.co/Wep1KQ9qsD', '#ALKYLAMINE can breakout from 8 weeks flat consolidation next week. 🚀 https://t.co/iZpUKq57Fn', 'RT @kuttrapali26: 👩🏻\u200d💼Invest In High Moat Businesses- Stocks in Vogue,A Must Study\n\n🌁CAMS\n🌁AMBER\n🌁ROUTE\n🌁INDIAMART\n🌁IEX\n🌁AFFLE\n🌁HAPPIEST\n🌁A…']
+[2021-07-20 09:42:08,623] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T094149, start_date=20210720T094205, end_date=20210720T094208
+[2021-07-20 09:42:08,776] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:42:08,889] {local_task_job.py:151} INFO - Task exited with return code 0

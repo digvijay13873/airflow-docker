@@ -1,0 +1,23 @@
+[2021-07-16 16:42:25,615] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:42:07.654941+00:00 [queued]>
+[2021-07-16 16:42:25,665] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:42:07.654941+00:00 [queued]>
+[2021-07-16 16:42:25,666] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:42:25,667] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:42:25,668] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:42:25,698] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:42:07.654941+00:00
+[2021-07-16 16:42:25,724] {standard_task_runner.py:52} INFO - Started process 8995 to run task
+[2021-07-16 16:42:25,733] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:42:07.654941+00:00', '--job-id', '1197', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp84g53h_c', '--error-file', '/tmp/tmp5echj8nh']
+[2021-07-16 16:42:25,734] {standard_task_runner.py:77} INFO - Job 1197: Subtask tweets_postgres_table
+[2021-07-16 16:42:25,823] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:42:07.654941+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:42:25,937] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:42:07.654941+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:42:02.902551+00:00
+[2021-07-16 16:42:26,018] {logging_mixin.py:104} INFO - [('Alert Buy #AJANTPHARM CMP: 2159 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts and… https://t.co/3TWWfabSPf', Decimal('0.1779')), ('Alert Sell #AJANTPHARM CMP: 2154.85 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts… https://t.co/voaiXMAbeo', Decimal('0.1779')), ('#AJANTPHARM - ajanata pharma looks good  - TradingView - https://t.co/WSqILXzEWx', Decimal('0.4404')), ('#Tradingview #MIZone #ICMCBO #Shadow #Shunting View #AJANTPHARM #NimblrTA Details of indicator at… https://t.co/8MxzTzh9uq', Decimal('0.0000')), ('Alert Buy #AJANTPHARM CMP: 2173.2 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts a… https://t.co/mTBGXLwQ2h', Decimal('0.1779')), ('AJANTPHARM - Disclosure of Voting results of AGM (Regulation 44(3) of SEBI (LODR) Regulations, 2015) https://t.co/O6nRPbHUsw', Decimal('0.0000')), ('Alert Sell #AJANTPHARM CMP: 2135.05 #NimblrTA, These alerts are delayed and for demonstration only. For live alerts… https://t.co/33OU4SvmaI', Decimal('0.1779')), ('#hcltech #route #justdial #ajantpharm #kscl #avanti #emami #wipro #biocon #sequent https://t.co/zocUgLsTxP', Decimal('0.0000')), ('#AJANTPHARM - AJANTPHARM-BigBreakoutTrade - TradingView - https://t.co/7Wr6CXXo6z', Decimal('0.0000')), ('RT @in_tradingview: #AJANTPHARM - ajanta pharma breakout - TradingView - https://t.co/YQgIUCB7yZ', Decimal('0.0000')), ('AJANTPHARM with #oldlinelover https://t.co/b4uIuMqiWY https://t.co/mptgCvEe1d', Decimal('0.0000')), ('#AJANTPHARM - ajanta pharma breakout - TradingView - https://t.co/YQgIUCB7yZ', Decimal('0.0000'))]
+[2021-07-16 16:42:26,024] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:42:26,055] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T164207, start_date=20210716T164225, end_date=20210716T164226
+[2021-07-16 16:42:26,132] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:42:26,182] {local_task_job.py:151} INFO - Task exited with return code 0

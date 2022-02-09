@@ -1,0 +1,22 @@
+[2021-07-21 11:33:12,677] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:32:45.610678+00:00 [queued]>
+[2021-07-21 11:33:13,197] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:32:45.610678+00:00 [queued]>
+[2021-07-21 11:33:13,202] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:33:13,204] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-21 11:33:13,206] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:33:13,353] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-21T11:32:45.610678+00:00
+[2021-07-21 11:33:13,434] {standard_task_runner.py:52} INFO - Started process 1144 to run task
+[2021-07-21 11:33:13,480] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-21T11:32:45.610678+00:00', '--job-id', '1952', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp540r1w1k', '--error-file', '/tmp/tmp09c9ot4j']
+[2021-07-21 11:33:13,496] {standard_task_runner.py:77} INFO - Job 1952: Subtask extract_tweets
+[2021-07-21 11:33:13,750] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:32:45.610678+00:00 [running]> on host 5795a622f846
+[2021-07-21 11:33:23,806] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-21T11:32:45.610678+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-21T11:32:41.001426+00:00
+[2021-07-21 11:33:26,364] {python.py:151} INFO - Done. Returned value was: ['3IINFOTECH - Announcement under Regulation 30 (LODR)-Winding-up https://t.co/rfdbNw4ZUT', '3IINFOTECH - Shareholding for the Period Ended June 30, 2021 https://t.co/3iqvhuuUTO', '@Sumit609Tiwari #SUBEX OR\n#3IINFOTECH', '@3iInfotech @Icicidirectcare @ICICIBank The interests on GOI floating rate savings bond 2020, due on 01-07-2021 was… https://t.co/fHnPXsQGUd', '@3iInfotech No interest was received on 1-7-2021 for the following GOI savings bonds 2020 managed by you on behalf… https://t.co/HdUTvFePAe', '#3iinfotech I feel the stock can be rerated post the SOA.. company is hiring on all fronts and is poised for long term growth..', 'Stock portfolio of penny stock for new investors, like students. \n@3iInfotech @urjaglobal @FCSSOFT @trident @BSEIndia', '@3iInfotech hi can you please share the contact details of your offi e in Mumbai looking after ICICI Bank Ltd share demat...', 'About #3IINFOTECH\n\nIf its a penny stock then fundamentals are pathetic and ruined, else it wont worth 9rs\n\nI have s… https://t.co/8HYgxJZguf', 'RT @afzaid07: 1.Bilcare \n2. Suzlon engy\n3.Tata power\n4.Adani power \n5.Adani ports \n6.Facor Alloys \n7.3IInfotech\n8.Vikas prop\n9.Sbin \n10.\xa0IN…', 'RT @afzaid07: 1.Bilcare \n2. Suzlon engy\n3.Tata power\n4.Adani power \n5.Adani ports \n6.Facor Alloys \n7.3IInfotech\n8.Vikas prop\n9.Sbin \n10.\xa0IN…', 'RT @afzaid07: 1.Bilcare \n2. Suzlon engy\n3.Tata power\n4.Adani power \n5.Adani ports \n6.Facor Alloys \n7.3IInfotech\n8.Vikas prop\n9.Sbin \n10.\xa0IN…', 'RT @afzaid07: 1.Bilcare \n2. Suzlon engy\n3.Tata power\n4.Adani power \n5.Adani ports \n6.Facor Alloys \n7.3IInfotech\n8.Vikas prop\n9.Sbin \n10.\xa0IN…', '@jainchintan67 Sir can we buy 3iinfotech @current price?', 'Paul Torres-Cohen $3IINFOTECH-EQ.NS']
+[2021-07-21 11:33:26,650] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210721T113245, start_date=20210721T113312, end_date=20210721T113326
+[2021-07-21 11:33:26,744] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-21 11:33:26,772] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,23 @@
+[2021-07-15 14:10:01,975] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-15T14:07:42.457903+00:00 [queued]>
+[2021-07-15 14:10:02,032] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-15T14:07:42.457903+00:00 [queued]>
+[2021-07-15 14:10:02,034] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 14:10:02,039] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-15 14:10:02,041] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 14:10:02,122] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-15T14:07:42.457903+00:00
+[2021-07-15 14:10:02,171] {standard_task_runner.py:52} INFO - Started process 4512 to run task
+[2021-07-15 14:10:02,186] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-15T14:07:42.457903+00:00', '--job-id', '452', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpszou7bmx', '--error-file', '/tmp/tmp3zla2kw0']
+[2021-07-15 14:10:02,188] {standard_task_runner.py:77} INFO - Job 452: Subtask tweets_postgres_table
+[2021-07-15 14:10:02,427] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-15T14:07:42.457903+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 14:10:02,608] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T14:07:42.457903+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-15T14:07:33.282835+00:00
+[2021-07-15 14:10:02,737] {logging_mixin.py:104} INFO - [('@WeekendInvestng 63moons', Decimal('0.0000')), ('@Rishikesh_ADX ONGC\nNTPC\nRELIANCE\nDATAMATICS\nDCMNVL\n63MOONS\nTV18\nINDIACEMENT', Decimal('0.0000')), ('@theicai @FinMinIndia @nsitharaman @JambusariaNihar @drdebashismitra @atulguptagst @PrafullaCa @AniketTalati… https://t.co/yr1IhdyzKI', Decimal('0.0000')), ('63MOONS - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/YEmTjCtsAJ', Decimal('-0.4019')), ('RT @Veeam_APAC: “Veeam is like a magic wand in backup,” said Neehar Pathare, VP, ICT and CISO 63 Moons Technologies Ltd. See how #Veeam hel…', Decimal('0.3612')), ('RT @ETNOWlive: #JustIn | #NCLAT issues notice on #63Moons" appeal in @DHFL_India insolvency case; refuses stay on DHFL insolvency resolutio…', Decimal('0.0000')), ('“Veeam is like a magic wand in backup,” said Neehar Pathare, VP, ICT and CISO 63 Moons Technologies Ltd. See how… https://t.co/aJtMN1jZeh', Decimal('0.3612')), ('https://t.co/7PduLNaEKl\n\n#DHFL case: #NCLAT issues notice to #PiramalGroup, #DHFLadministrator, lenders on plea by… https://t.co/OhauVdg0O1', Decimal('0.0000')), ('#DHFL resolution: #NCLAT issues notices to lenders, #Piramal on 63 Moons Technologies" plea. @DHFL_India… https://t.co/qB8o9EBPWC', Decimal('0.0000')), ('#NCLAT issues notices to CoC, #DHFL and #Piramal on #63moons plea\nhttps://t.co/dZRSucpurK', Decimal('0.0000')), ('@WeekendInvestng 63moons', Decimal('0.0000')), ('@Rishikesh_ADX ONGC\nNTPC\nRELIANCE\nDATAMATICS\nDCMNVL\n63MOONS\nTV18\nINDIACEMENT', Decimal('0.0000')), ('@theicai @FinMinIndia @nsitharaman @JambusariaNihar @drdebashismitra @atulguptagst @PrafullaCa @AniketTalati… https://t.co/yr1IhdyzKI', Decimal('0.0000')), ('63MOONS - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/YEmTjCtsAJ', Decimal('-0.4019')), ('RT @Veeam_APAC: “Veeam is like a magic wand in backup,” said Neehar Pathare, VP, ICT and CISO 63 Moons Technologies Ltd. See how #Veeam hel…', Decimal('0.3612')), ('RT @ETNOWlive: #JustIn | #NCLAT issues notice on #63Moons" appeal in @DHFL_India insolvency case; refuses stay on DHFL insolvency resolutio…', Decimal('0.0000'))]
+[2021-07-15 14:10:02,750] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-15 14:10:02,793] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210715T140742, start_date=20210715T141001, end_date=20210715T141002
+[2021-07-15 14:10:02,894] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 14:10:02,939] {local_task_job.py:151} INFO - Task exited with return code 0

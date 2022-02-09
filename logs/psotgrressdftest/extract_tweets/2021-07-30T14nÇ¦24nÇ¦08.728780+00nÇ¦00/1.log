@@ -1,0 +1,22 @@
+[2021-07-30 14:24:21,397] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:24:08.728780+00:00 [queued]>
+[2021-07-30 14:24:21,505] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:24:08.728780+00:00 [queued]>
+[2021-07-30 14:24:21,507] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:24:21,520] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-30 14:24:21,533] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:24:21,658] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-30T14:24:08.728780+00:00
+[2021-07-30 14:24:21,732] {standard_task_runner.py:52} INFO - Started process 2115 to run task
+[2021-07-30 14:24:21,753] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-30T14:24:08.728780+00:00', '--job-id', '2161', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmppoo40us5', '--error-file', '/tmp/tmpcq22588s']
+[2021-07-30 14:24:21,831] {standard_task_runner.py:77} INFO - Job 2161: Subtask extract_tweets
+[2021-07-30 14:24:22,065] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:24:08.728780+00:00 [running]> on host 04be2259e97a
+[2021-07-30 14:24:22,342] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-30T14:24:08.728780+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-30T14:24:04.944472+00:00
+[2021-07-30 14:24:23,750] {python.py:151} INFO - Done. Returned value was: ['3i Infotech makes a slew of leadership hires to fuel its global expansion plans #ThompsonPGnanam #3iInfotech… https://t.co/UbMjgCf1r9', 'RT @viveksingh2010: #3iinfotech dark horse\nhttps://t.co/QCoiR390ED', '#cxotvdailynewscapsule : https://t.co/vkhnsZtWIq\n- @thalesgroup , @ThalesAsia Partners with @IIITDelhi on Open… https://t.co/1ZZLBaF3Lm', '@iamrakeshbansal Bansalsir,do u have a telgram channel.Saw some1 promoting u on telegram 3iinfotech group.', '#3iInfotech makes a slew of leadership hires to fuel global expansion\n#DalmiaBharat Q1FY22 revenue +36%/-18% YoY/Qo… https://t.co/AMHtdJM3Uu', '3IINFOTECH 9.60 https://t.co/CYBI4mJaRq', 'For Eg lets take a few stocks\n\nIntraday / Option - I dont Do it\n\nPositional - SPIC, TARMAT, TATACOFFEE, HINDCOPPER,… https://t.co/Bc96pwscsn', 'When #dowjones was down by 710 points on 19th ,I used that dip to add some positions and booked some profits &amp; also… https://t.co/CU0SUIBZHE', 'RT @viveksingh2010: #3iinfotech dark horse\nhttps://t.co/QCoiR390ED', 'RT @afzaid07: 1.Bilcare \n2. Suzlon engy\n3.Tata power\n4.Adani power \n5.Adani ports \n6.Facor Alloys \n7.3IInfotech\n8.Vikas prop\n9.Sbin \n10.\xa0IN…', 'RT @viveksingh2010: #3iinfotech dark horse\nhttps://t.co/QCoiR390ED', 'RT @viveksingh2010: #3iinfotech dark horse\nhttps://t.co/QCoiR390ED', '@viveksingh2010 are you confident on these new leaders of 3iinfotech?', '#3iinfotech dark horse\nhttps://t.co/QCoiR390ED', '@3iInfotech 3i Infotech makes a slew of leadership hires to fuel global expansion.\n3i Infotech Ltd on Tuesday annou… https://t.co/FAJdOxxXO9']
+[2021-07-30 14:24:23,867] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210730T142408, start_date=20210730T142421, end_date=20210730T142423
+[2021-07-30 14:24:23,982] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-30 14:24:24,024] {local_task_job.py:151} INFO - Task exited with return code 0

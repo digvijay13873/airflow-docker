@@ -1,0 +1,23 @@
+[2021-07-20 09:51:47,608] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:51:22.708685+00:00 [queued]>
+[2021-07-20 09:51:47,815] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:51:22.708685+00:00 [queued]>
+[2021-07-20 09:51:47,831] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:51:47,848] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:51:47,855] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:51:47,919] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-20T09:51:22.708685+00:00
+[2021-07-20 09:51:47,999] {standard_task_runner.py:52} INFO - Started process 2027 to run task
+[2021-07-20 09:51:48,015] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-20T09:51:22.708685+00:00', '--job-id', '1881', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpii2s7ku5', '--error-file', '/tmp/tmpgykl09bd']
+[2021-07-20 09:51:48,030] {standard_task_runner.py:77} INFO - Job 1881: Subtask tweets_postgres_table
+[2021-07-20 09:51:48,385] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:51:22.708685+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:51:48,782] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:51:22.708685+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:51:11.959149+00:00
+[2021-07-20 09:51:49,216] {logging_mixin.py:104} INFO - [('ALPHAGEO - Shareholding for the Period Ended June 30, 2021 https://t.co/H0KAPZBnOT', Decimal('0.0000')), ('@nakulvibhor Tide water ,Alphageo ,visaka , venkey ,S P appereal....U can see run after ASM 🙄🙄🙄 ALMOST DOUBLE...', Decimal('0.0000')), ('Stocks with possible Upside:\n\n#aartidrugs 730\n#alphageo 324\n#ausoment 106\n#bajajhldng 3981\n#bfinvest 414… https://t.co/3eOsKIPSLq', Decimal('0.0000')), ('@shrutiahuja110 Shruti btw your stock recommendation of GEE Ltd is already a 2 bagger. Liberty I already had hence… https://t.co/05tSsH2E1p', Decimal('0.5267')), ('Alphageo\n\n🛢️🛢️ https://t.co/AiGrICT0iD', Decimal('0.0000')), ('Oil exploration companies like Hindustan Oil Exploration, Alphageo, Jindal Drilling seems poised for more gains', Decimal('0.8399')), ('ALPHAGEO #ALPHAGEO     \n.\n.\n#stocktigers #StockToWatch  #TeamStockTigers 🐯🙏 https://t.co/jkVACYpvld', Decimal('0.0000')), ('My July Portfolio:\n1. Adani Power \n2. Aditya Birla Capital \n3. Alphageo (India)\n4. Avanti Feeds', Decimal('0.0000')), ('Buy ALPHAGEO @325..STOCK READY TO FLYY IN SHORTTERM.. 350 ONCE BREAK.. IT WILL BE🚀🚀🚀🚀🇮🇳🇮🇳🇮🇳🤣🤣🤣', Decimal('0.4995')), ('#ALPHAGEO Again Trying to Cross 325-330 Levels', Decimal('0.0000')), ('Alphageo will rock very soon , will blast like anything , it"s a 6 months story', Decimal('0.3612')), ('RT @Prakshaljain_: Alphageo India\nPrice rising after touching trendline bottom on monthly chart and by looking at RSI which is quite bullis…', Decimal('0.0000')), ('Alphageo India\nPrice rising after touching trendline bottom on monthly chart and by looking at RSI which is quite b… https://t.co/J9ZkkFukoi', Decimal('0.0000')), ('Alphageo Mcap is just 200 cr. Can anyone believe this? A pure Seismic data play and Alphageo is available for just… https://t.co/E6kIdyqZ6p', Decimal('0.3400')), ('INVESTMENT PICK\n\nALPHAGEO LTD @ 313\n\nTARGET - 500\n\nTIME - 6 MONTHS\n\nMARKET CAP - 199CR\n\nRESERVE - 230CR\n\nDIVIDEND -… https://t.co/7iBcRpvwcf', Decimal('0.0000'))]
+[2021-07-20 09:51:49,273] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:51:49,405] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210720T095122, start_date=20210720T095147, end_date=20210720T095149
+[2021-07-20 09:51:49,690] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:51:49,731] {local_task_job.py:151} INFO - Task exited with return code 0

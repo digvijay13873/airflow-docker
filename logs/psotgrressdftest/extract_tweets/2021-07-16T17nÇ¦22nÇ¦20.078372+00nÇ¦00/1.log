@@ -1,0 +1,22 @@
+[2021-07-16 17:22:27,041] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:22:20.078372+00:00 [queued]>
+[2021-07-16 17:22:27,095] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:22:20.078372+00:00 [queued]>
+[2021-07-16 17:22:27,096] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:22:27,097] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:22:27,098] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:22:27,130] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:22:20.078372+00:00
+[2021-07-16 17:22:27,154] {standard_task_runner.py:52} INFO - Started process 12485 to run task
+[2021-07-16 17:22:27,162] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:22:20.078372+00:00', '--job-id', '1635', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmppd064j79', '--error-file', '/tmp/tmpek4r46z5']
+[2021-07-16 17:22:27,164] {standard_task_runner.py:77} INFO - Job 1635: Subtask extract_tweets
+[2021-07-16 17:22:27,260] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:22:20.078372+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:22:27,405] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:22:20.078372+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:22:17.961720+00:00
+[2021-07-16 17:22:28,119] {python.py:151} INFO - Done. Returned value was: ['#AGM #investorMeet #boardMeeting #NSE #BSE #trading #stocks #stockmarket #AuditorChange #BoardMeeting… https://t.co/dPrOHMnklE', 'https://t.co/eHiQCIV9E9 PREOPEN\n\nPRICE BAND : \n\nAGROPHOS 10 TO 5%\nSANGINITA 10 TO 5%\nDEEPINDS 20 TO 10%\n\n*FO BAN :… https://t.co/nmNGOEKl3H', 'AGROPHOS HIT UC SM ACTIVE https://t.co/Ws7o1XT1lp']
+[2021-07-16 17:22:28,190] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T172220, start_date=20210716T172227, end_date=20210716T172228
+[2021-07-16 17:22:28,271] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:22:28,340] {local_task_job.py:151} INFO - Task exited with return code 0

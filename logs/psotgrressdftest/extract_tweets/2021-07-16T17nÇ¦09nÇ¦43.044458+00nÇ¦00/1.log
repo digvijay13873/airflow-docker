@@ -1,0 +1,22 @@
+[2021-07-16 17:09:52,803] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:09:43.044458+00:00 [queued]>
+[2021-07-16 17:09:52,857] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:09:43.044458+00:00 [queued]>
+[2021-07-16 17:09:52,861] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:09:52,866] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:09:52,870] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:09:52,923] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:09:43.044458+00:00
+[2021-07-16 17:09:52,945] {standard_task_runner.py:52} INFO - Started process 11283 to run task
+[2021-07-16 17:09:52,960] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:09:43.044458+00:00', '--job-id', '1474', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpwxpqb_3x', '--error-file', '/tmp/tmpke0h2k6j']
+[2021-07-16 17:09:52,961] {standard_task_runner.py:77} INFO - Job 1474: Subtask extract_tweets
+[2021-07-16 17:09:53,055] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:09:43.044458+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:09:53,203] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:09:43.044458+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:09:41.160179+00:00
+[2021-07-16 17:09:55,448] {python.py:151} INFO - Done. Returned value was: ['RT @Strawb_belief2: I love the accuracy of this video... The best clip to see today... 😂 😂\n\nIkeja #obicubana #WizkidAt31 davido buhari\nFula…', 'RT @eno_barony: The silent moment of a lion is not foolishness but calculation of accuracy #RapGoddess', 'RT @AliensFireteamE: Marines specialized in Recon can deploy Parameter Uplink Spectagraphs to reveal enemy positions and call in Support Dr…', 'Under the BlueZoo and Google Cloud partnership, small sensors can start collecting data on the number of visitors a… https://t.co/oZZedcu7k7', 'RT @eno_barony: The silent moment of a lion is not foolishness but calculation of accuracy #RapGoddess', '@FlyinDave Glad to see their accuracy remains a constant.', '@MasigaClaus The accuracy😂😂😂', 'RT @Inflammatix_Inc: A multi-center clinical study demonstrates InSep™️ acute infection &amp; sepsis test has high accuracy for predicting the…', "Sashay's set 6 team might actually be the scariest though. Legendaries focused on stall, with accuracy shenanigans… https://t.co/rDX0Zs9m5g", 'RT @UKDefJournal: A gamer identifying as Challenger 2 commander has posted a classified document online in order to improve the accuracy of…', '@9fantsss The accuracy of this tweet', 'Hahaaha the accuracy! https://t.co/eQpNmAkk9H', 'it may not read you but it’s accuracy is uncanny.', 'I ended up mounting them in a different configuration, but now I can claim a tactile feedback accuracy of ~0.03mm,… https://t.co/kModP35gew', 'RT @RP131: Updated (16-Jul) set of Warwick models used to justify the unlock delay (admissions now has extra line for delay).\n\nWill be inte…']
+[2021-07-16 17:09:55,502] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T170943, start_date=20210716T170952, end_date=20210716T170955
+[2021-07-16 17:09:55,722] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:09:55,780] {local_task_job.py:151} INFO - Task exited with return code 0

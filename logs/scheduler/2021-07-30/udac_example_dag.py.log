@@ -1,0 +1,51 @@
+[2021-07-30 11:04:25,500] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-07-30 11:04:25,504] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-07-30 11:04:25,516] {logging_mixin.py:104} INFO - [2021-07-30 11:04:25,516] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-07-30 11:04:25,713] {logging_mixin.py:104} INFO - [2021-07-30 11:04:25,700] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/udac_example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/udac_example_dag.py", line 41
+    'depends_on_past'=True,
+                     ^
+SyntaxError: invalid syntax
+[2021-07-30 11:04:25,733] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-07-30 11:04:25,913] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.431 seconds
+[2021-07-30 13:52:08,506] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-07-30 13:52:08,512] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-07-30 13:52:08,516] {logging_mixin.py:104} INFO - [2021-07-30 13:52:08,514] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-07-30 13:52:08,581] {logging_mixin.py:104} INFO - [2021-07-30 13:52:08,577] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/udac_example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/udac_example_dag.py", line 41
+    'depends_on_past'=True,
+                     ^
+SyntaxError: invalid syntax
+[2021-07-30 13:52:08,593] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-07-30 13:52:08,637] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.141 seconds
+[2021-07-30 13:52:39,367] {scheduler_job.py:182} INFO - Started process (PID=95) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-07-30 13:52:39,373] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-07-30 13:52:39,376] {logging_mixin.py:104} INFO - [2021-07-30 13:52:39,376] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-07-30 13:52:39,468] {logging_mixin.py:104} INFO - [2021-07-30 13:52:39,466] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/udac_example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/udac_example_dag.py", line 41
+    'depends_on_past'=True,
+                     ^
+SyntaxError: invalid syntax
+[2021-07-30 13:52:39,480] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-07-30 13:52:39,572] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.214 seconds

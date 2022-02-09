@@ -1,0 +1,22 @@
+[2021-07-20 09:46:06,799] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:45:39.131830+00:00 [queued]>
+[2021-07-20 09:46:07,012] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:45:39.131830+00:00 [queued]>
+[2021-07-20 09:46:07,016] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:46:07,022] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:46:07,032] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:46:07,140] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:45:39.131830+00:00
+[2021-07-20 09:46:07,241] {standard_task_runner.py:52} INFO - Started process 1663 to run task
+[2021-07-20 09:46:07,295] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:45:39.131830+00:00', '--job-id', '1856', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpbfi9wjso', '--error-file', '/tmp/tmp1w7yp8qu']
+[2021-07-20 09:46:07,325] {standard_task_runner.py:77} INFO - Job 1856: Subtask extract_tweets
+[2021-07-20 09:46:07,782] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:45:39.131830+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:46:08,509] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:45:39.131830+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:45:33.808500+00:00
+[2021-07-20 09:46:10,250] {python.py:151} INFO - Done. Returned value was: ['ALMONDZ - Shareholding for the Period Ended June 30, 2021 https://t.co/PsgjsdAfQR', '@Moisted_Almondz u have no idea how mad I am that they are only in Europe', 'RT @ObsydiannAnim: I do not have a Reddit but here is the image :)\n@roguesmorg @roguejame @suddenlyoranges @salty_rebel @FlanderstoNed (i m…', "@roguesmorg it looks like if they took Transformers 1 jazz and fused him with transformers 2 sideswipe and it's so… https://t.co/wOOsDbcu14", 'RT @chris_notcapn: TikTok would be a nonexistent app without white people stealing from black creators. He really tried it!!! https://t.co/…', 'That video of sparky the husky puppy saying "FUCK"?\n\nThats a mood rn', '@BlackeSkye I thought so', '@Moisted_Almondz Dream and Pewdiepie', '@hritikgoyal26 Almondz global', 'RT @nagunkgunk: warmind au friend https://t.co/xjK5vwhIoZ', '@BlackeSkye Im afraid to ask whomst', "@roguejame That's what bottoms say when they don't wanna be the bottom anymore", '@Halobeast98 https://t.co/5y4SrkF268', '@Moisted_Almondz https://t.co/FFCMbASQ8m', '@Halobeast98 I paid Jeff Zuckerberg or whoever runs twitter to prevent you from seeing posts']
+[2021-07-20 09:46:10,468] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T094539, start_date=20210720T094606, end_date=20210720T094610
+[2021-07-20 09:46:10,746] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:46:10,925] {local_task_job.py:151} INFO - Task exited with return code 0

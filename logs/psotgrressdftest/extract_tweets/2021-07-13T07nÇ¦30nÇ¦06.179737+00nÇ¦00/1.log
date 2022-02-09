@@ -1,0 +1,22 @@
+[2021-07-13 07:30:14,685] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-13T07:30:06.179737+00:00 [queued]>
+[2021-07-13 07:30:14,724] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-13T07:30:06.179737+00:00 [queued]>
+[2021-07-13 07:30:14,725] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 07:30:14,726] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-13 07:30:14,727] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 07:30:14,763] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-13T07:30:06.179737+00:00
+[2021-07-13 07:30:14,807] {standard_task_runner.py:52} INFO - Started process 3514 to run task
+[2021-07-13 07:30:14,821] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-13T07:30:06.179737+00:00', '--job-id', '102', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpor90_py9', '--error-file', '/tmp/tmpsyk7xof9']
+[2021-07-13 07:30:14,822] {standard_task_runner.py:77} INFO - Job 102: Subtask extract_tweets
+[2021-07-13 07:30:14,996] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-13T07:30:06.179737+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-13 07:30:15,163] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-13T07:30:06.179737+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-13T07:30:06.179737+00:00
+[2021-07-13 07:30:15,893] {python.py:151} INFO - Done. Returned value was: []
+[2021-07-13 07:30:16,037] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210713T073006, start_date=20210713T073014, end_date=20210713T073016
+[2021-07-13 07:30:16,117] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-13 07:30:16,140] {local_task_job.py:151} INFO - Task exited with return code 0

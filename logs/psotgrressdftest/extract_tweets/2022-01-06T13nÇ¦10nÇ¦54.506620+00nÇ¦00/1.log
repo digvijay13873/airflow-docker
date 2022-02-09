@@ -1,0 +1,22 @@
+[2022-01-06 13:11:02,265] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T13:10:54.506620+00:00 [queued]>
+[2022-01-06 13:11:02,292] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T13:10:54.506620+00:00 [queued]>
+[2022-01-06 13:11:02,293] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:11:02,294] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 13:11:02,295] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:11:02,321] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2022-01-06T13:10:54.506620+00:00
+[2022-01-06 13:11:02,343] {standard_task_runner.py:52} INFO - Started process 682 to run task
+[2022-01-06 13:11:02,349] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2022-01-06T13:10:54.506620+00:00', '--job-id', '2220', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp02bml3bg', '--error-file', '/tmp/tmplzjk6l7x']
+[2022-01-06 13:11:02,350] {standard_task_runner.py:77} INFO - Job 2220: Subtask extract_tweets
+[2022-01-06 13:11:02,422] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T13:10:54.506620+00:00 [running]> on host 04be2259e97a
+[2022-01-06 13:11:02,502] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T13:10:54.506620+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T13:10:52.454471+00:00
+[2022-01-06 13:11:04,218] {python.py:151} INFO - Done. Returned value was: ['RT @TrueColoursOnly: 24/25\nHon. @SCofInd had already given full authority to #CBI that CBI can probe all cases related to .@itsSSR mysterio…', 'RT @manhas_shallu: @Aakashofficialx Thnku Aakash Luv from Jammu and Kashmir #UmarRiaz', 'RT @soufianeak97: @OmParihar2004 @Aakashofficialx Who is this AAkash ? #UmarRiaz I STAND BY UMAR RIAZ', "RT @HTSportsNews: #TeamIndia #INDvSA \n\n'He's totally entertaining. Love him to bits': Aakash Chopra says India's Wanderers Test star is per…", 'Not a very good day for bank nifty but managed it well by selling Puts and also nifty has performed well. Traded wi… https://t.co/BNLjkcsghk', '@ocjain4 😂😂😂', 'Ffs he gets the toughest draws even in a 250 event. https://t.co/sUGdGB0QEJ', 'RT @Anubhav_Memerz: @akasshagupta @ColorsTV @realsehajpal @realumarriaz @itsmetejasswi @kkundrra @ShamitaShetty @BiggBoss @BeingSalmanKhan…', '@Aakash__INC @sonalgoelias All The Best For The Futures Endeavours👍', 'RT @Anubhav_Memerz: @akasshagupta @ColorsTV @realsehajpal @realumarriaz @itsmetejasswi @kkundrra @ShamitaShetty @BiggBoss @BeingSalmanKhan…', "RT @Udayvarma1882: My Birthday Party for all 🥁🕺\nIt's MB on the Love ♥️ \U0001fa84 \n\nPetla - Thaman - MB - Shekhar\n\nThank u all ,, DHFM forever ♾️…", 'RT @MassDHFMOffl: #SarkaruVaariPaata is Officially Trending in India with 57,500+ Tweets 💥', 'RT @TollyFilmNews: Shuru Shuru Shuru Babu gaari Vetaaaaaaaaaaa✨💥🥁🎶\n\n#SarkaruVaariPaata🔔', 'RT @TBO_Updates: #SarkaruVaariPaata First Single ⏳', 'RT @TollyFilmNews: SarkaruVaariPAATA💥✨🎶🥁\n\nJoin your hands🤘\n\n#SarkaruVaariPaata🔔']
+[2022-01-06 13:11:04,264] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20220106T131054, start_date=20220106T131102, end_date=20220106T131104
+[2022-01-06 13:11:04,321] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 13:11:04,344] {local_task_job.py:151} INFO - Task exited with return code 0

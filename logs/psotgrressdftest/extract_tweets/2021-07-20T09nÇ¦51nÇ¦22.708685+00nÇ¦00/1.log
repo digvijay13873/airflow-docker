@@ -1,0 +1,22 @@
+[2021-07-20 09:51:35,852] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:51:22.708685+00:00 [queued]>
+[2021-07-20 09:51:36,000] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:51:22.708685+00:00 [queued]>
+[2021-07-20 09:51:36,002] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:51:36,006] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:51:36,010] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:51:36,058] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:51:22.708685+00:00
+[2021-07-20 09:51:36,135] {standard_task_runner.py:52} INFO - Started process 2016 to run task
+[2021-07-20 09:51:36,162] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:51:22.708685+00:00', '--job-id', '1879', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp25iwdjkq', '--error-file', '/tmp/tmpdecsdkty']
+[2021-07-20 09:51:36,186] {standard_task_runner.py:77} INFO - Job 1879: Subtask extract_tweets
+[2021-07-20 09:51:36,442] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:51:22.708685+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:51:36,850] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:51:22.708685+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:51:11.959149+00:00
+[2021-07-20 09:51:37,990] {python.py:151} INFO - Done. Returned value was: ['ALPHAGEO - Shareholding for the Period Ended June 30, 2021 https://t.co/H0KAPZBnOT', '@nakulvibhor Tide water ,Alphageo ,visaka , venkey ,S P appereal....U can see run after ASM 🙄🙄🙄 ALMOST DOUBLE...', 'Stocks with possible Upside:\n\n#aartidrugs 730\n#alphageo 324\n#ausoment 106\n#bajajhldng 3981\n#bfinvest 414… https://t.co/3eOsKIPSLq', '@shrutiahuja110 Shruti btw your stock recommendation of GEE Ltd is already a 2 bagger. Liberty I already had hence… https://t.co/05tSsH2E1p', 'Alphageo\n\n🛢️🛢️ https://t.co/AiGrICT0iD', 'Oil exploration companies like Hindustan Oil Exploration, Alphageo, Jindal Drilling seems poised for more gains', 'ALPHAGEO #ALPHAGEO     \n.\n.\n#stocktigers #StockToWatch  #TeamStockTigers 🐯🙏 https://t.co/jkVACYpvld', 'My July Portfolio:\n1. Adani Power \n2. Aditya Birla Capital \n3. Alphageo (India)\n4. Avanti Feeds', 'Buy ALPHAGEO @325..STOCK READY TO FLYY IN SHORTTERM.. 350 ONCE BREAK.. IT WILL BE🚀🚀🚀🚀🇮🇳🇮🇳🇮🇳🤣🤣🤣', '#ALPHAGEO Again Trying to Cross 325-330 Levels', "Alphageo will rock very soon , will blast like anything , it's a 6 months story", 'RT @Prakshaljain_: Alphageo India\nPrice rising after touching trendline bottom on monthly chart and by looking at RSI which is quite bullis…', 'Alphageo India\nPrice rising after touching trendline bottom on monthly chart and by looking at RSI which is quite b… https://t.co/J9ZkkFukoi', 'Alphageo Mcap is just 200 cr. Can anyone believe this? A pure Seismic data play and Alphageo is available for just… https://t.co/E6kIdyqZ6p', 'INVESTMENT PICK\n\nALPHAGEO LTD @ 313\n\nTARGET - 500\n\nTIME - 6 MONTHS\n\nMARKET CAP - 199CR\n\nRESERVE - 230CR\n\nDIVIDEND -… https://t.co/7iBcRpvwcf']
+[2021-07-20 09:51:38,362] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T095122, start_date=20210720T095135, end_date=20210720T095138
+[2021-07-20 09:51:38,538] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:51:38,580] {local_task_job.py:151} INFO - Task exited with return code 0

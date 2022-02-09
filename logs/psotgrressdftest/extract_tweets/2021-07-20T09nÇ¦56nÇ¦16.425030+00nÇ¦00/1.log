@@ -1,0 +1,22 @@
+[2021-07-20 09:56:29,937] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:56:16.425030+00:00 [queued]>
+[2021-07-20 09:56:30,127] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:56:16.425030+00:00 [queued]>
+[2021-07-20 09:56:30,144] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:56:30,148] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:56:30,165] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:56:30,254] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:56:16.425030+00:00
+[2021-07-20 09:56:30,323] {standard_task_runner.py:52} INFO - Started process 2319 to run task
+[2021-07-20 09:56:30,355] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:56:16.425030+00:00', '--job-id', '1904', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpqz37up4q', '--error-file', '/tmp/tmp0mwu2q13']
+[2021-07-20 09:56:30,362] {standard_task_runner.py:77} INFO - Job 1904: Subtask extract_tweets
+[2021-07-20 09:56:30,668] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:56:16.425030+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:56:31,109] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:56:16.425030+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:56:12.733089+00:00
+[2021-07-20 09:56:34,327] {python.py:151} INFO - Done. Returned value was: ['@km_you なんかワクワクしますね。\nでも、まだ実感が湧きません（笑）', '@ochi_0033 お孫さんのお誕生、おめでとうございます㊗️', '@ochi_0033 On July 3rd, I also had fried chicken. Congratulations! \n7月3日にはフライドチキンも食べました。 おめでとう！', 'みんなからの匿名質問を募集中！\n\nこんな質問に答えてるよ\n● 好きなケーキの種類は？…\n● 12月の目標はありますか？…\n● 人生観を変えたエピソードはあり…\n● 呪術のくじ引きました？…\n#質問箱 #匿名質問募集中\n\nhttps://t.co/UK7wnAnCsr', 'ボドカさんまじか', '🆓\n\nA donner sur le Grand Genève:\n\nLivres de Poche.\n\nA venir choisir et chercher à Versoix (GE) ou Thoiry (Ain). Les… https://t.co/c0e7qvARlm', '@Fu_kaIchigo @yamadai_0110 @tataranakogasa @Raru_nano_ @Toki_0033 @FN_Mig @yu_24lo @warabimochi_eat @0_x_0xx2 @Kuro_s07 良かったです！', 'MULTI ADSBX ROUTINE SQUAWK ALERT : At Tue Jul 20 10:17:53 2021 #GBZAH    just squawked 0033 - Aircraft Paradropping… https://t.co/Q4K6uNURn6', 'RT @Irrsys: ルックバックがとんでもない才能であらゆる創作者をぶん殴ってくるんだけど、同時に作品が「自分が絶対に敵わないと思った相手でもそいつが自分のファンかもしれないんだから決して創作をやめるな、描け」というストロングスタイルなので筆を折ることを許してくれない。強す…', 'RT @mogwaiband: Excited to be heading out to France for a pair of actual live shows next week!⚡️\n\n@grandgaoufest - 28/7 🎟️: https://t.co/kZ…', "@Toki_0033 あり🍎( '-' 🍎 )ﾘﾝｺﾞﾁｬﾝ", '🆓\n\nVase décoratif peint avec Miss et Chat Gris, de forme haute\n\nA donner sur le Grand Genève. A venir chercher à Th… https://t.co/NvQNWWGgQl', '@Rae_Charle5 Hi Rae, please call us on 0121 437 0033 and a member of our team will be happy to assist you and your mother. Have a great day.', 'MULTI ADSBX ROUTINE SQUAWK ALERT : At Tue Jul 20 09:47:10 2021 #HAHIB    just squawked 0033 - Aircraft Paradropping… https://t.co/fhhQprwMGi', 'おしゃんなカフェ行ってたけど写真ボヤけてた、これだからいくるは【#ピグパ ID:PR-0033-3543】@PiggPARTY（▶︎https://t.co/XpZjrAXhyk）から投稿 https://t.co/iVLeJDOoJK']
+[2021-07-20 09:56:34,467] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T095616, start_date=20210720T095629, end_date=20210720T095634
+[2021-07-20 09:56:34,691] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:56:34,812] {local_task_job.py:151} INFO - Task exited with return code 0

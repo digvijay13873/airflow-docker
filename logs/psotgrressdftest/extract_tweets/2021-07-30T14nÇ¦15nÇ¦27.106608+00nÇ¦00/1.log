@@ -1,0 +1,22 @@
+[2021-07-30 14:19:57,728] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:15:27.106608+00:00 [queued]>
+[2021-07-30 14:19:57,798] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:15:27.106608+00:00 [queued]>
+[2021-07-30 14:19:57,799] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:19:57,801] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-30 14:19:57,802] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-30 14:19:57,856] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-30T14:15:27.106608+00:00
+[2021-07-30 14:19:57,903] {standard_task_runner.py:52} INFO - Started process 1787 to run task
+[2021-07-30 14:19:57,923] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-30T14:15:27.106608+00:00', '--job-id', '2142', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp4v_cly79', '--error-file', '/tmp/tmpujlxu6u_']
+[2021-07-30 14:19:57,925] {standard_task_runner.py:77} INFO - Job 2142: Subtask extract_tweets
+[2021-07-30 14:19:58,123] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-30T14:15:27.106608+00:00 [running]> on host 04be2259e97a
+[2021-07-30 14:19:58,328] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-30T14:15:27.106608+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-30T14:15:23.435314+00:00
+[2021-07-30 14:19:59,528] {python.py:151} INFO - Done. Returned value was: ['@jaga4you @TraderLogical Equity intraday brokerage in 5paisa is flat 20 rs.. any other solutions for this for small traders?', '@BALBEERBORAN Account closed on 12/12/2020, DND Done. Kindly ignore the statement received.', '@manishaherwar We consider your suggestion, your feedback is shared with the concern team.', '@5paisa Sir request you to please update your web charting to trading view or lose a large client base as your comp… https://t.co/XOgT1UxR89', '@anilbalaji11 @5paisa Today inspite of having credit in account, my payout not process.\n\nThey received redumtion on… https://t.co/pH3Wp2qAyd', '@bulleye17519139 Thank you for sharing your ticket number please allow us sometime to check and update you.', 'My ticket no. 6400079 is not solving from last 1 week,replying same thing again and again,got call from 5paisa also… https://t.co/5sZeULBezt', '@5paisa @rajit3021 I was able to recover my blocked account with the help of @the_acunetix he is legit and guarante… https://t.co/G2dqWSzJD8', '@5paisa @GauravS14536572 I was able to recover my blocked account with the help of @the_acunetix he is legit and gu… https://t.co/Q6W20w8VOM', '@GauravS14536572 We have responded to #6442394, once your amount is blocked in your bank account then your IPO has… https://t.co/QWNfqirRMa', '@rajit3021 1) Application no of Glenmark: 80525051. 2) Application no of Rolex Ring: 80226042.', '@rajit3021 Responded to ticket no#6429694. Your bid for the Glenmark Ltd and Rolex Rings are placed successfully an… https://t.co/95adzb4EVw', '@Gopaldn Please share the screenshot of the error and your client id to assist you better.', "@optiongambler1 We request you to please elaborate on your experience with us. We don't want to you have a bad expe… https://t.co/csZwREfJcH", '@JagannathamSai We request you to please elaborate on your experience with us. Please share your ticket number or w… https://t.co/pdWroB9YX6']
+[2021-07-30 14:19:59,642] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210730T141527, start_date=20210730T141957, end_date=20210730T141959
+[2021-07-30 14:19:59,857] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-30 14:19:59,921] {local_task_job.py:151} INFO - Task exited with return code 0

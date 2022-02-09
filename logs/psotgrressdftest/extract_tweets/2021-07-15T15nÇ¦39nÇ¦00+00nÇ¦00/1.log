@@ -1,0 +1,22 @@
+[2021-07-15 15:47:11,745] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T15:39:00+00:00 [queued]>
+[2021-07-15 15:47:11,792] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T15:39:00+00:00 [queued]>
+[2021-07-15 15:47:11,794] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 15:47:11,795] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-15 15:47:11,796] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 15:47:11,836] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-15T15:39:00+00:00
+[2021-07-15 15:47:11,865] {standard_task_runner.py:52} INFO - Started process 572 to run task
+[2021-07-15 15:47:11,883] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-15T15:39:00+00:00', '--job-id', '465', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpjsifq2ep', '--error-file', '/tmp/tmpkhk2k6wy']
+[2021-07-15 15:47:11,885] {standard_task_runner.py:77} INFO - Job 465: Subtask extract_tweets
+[2021-07-15 15:47:12,034] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-15T15:39:00+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 15:47:12,230] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T15:39:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-15T15:39:00+00:00
+[2021-07-15 15:47:13,325] {python.py:151} INFO - Done. Returned value was: ['Positional Trade: 20 Microns breaks above a descending trend line .\nBuy: #20Microns\nTarget: Open\nLast Close: 65.80… https://t.co/XJqOhJvwS0', '#20MICRONS - 20MICRONS - TradingView - https://t.co/r7BbhnPFSa', '20MICRONS - Shareholding for the Period Ended June 30, 2021 https://t.co/uQIU18vknP', '#20MICRONS \n#Idealchart https://t.co/wExADlfx4z', 'BUY #20MICRONS STOCK PRICE @ 64.25 RUPEES 47% RETURNS EXPECTED - #20MICRONS chart https://t.co/CEeLT332SA', 'RT Flag stocks to Watch out for\n#Gokulagro&amp;gt;43\n#kamathotel&amp;gt;52\n#Apcotexind&amp;gt;335\n#20Microns&amp;gt;65\n\nWanna know… https://t.co/N1MWbbGgA7', 'Flag stocks to Watch out for\n#Gokulagro&gt;43\n#kamathotel&gt;52\n#Apcotexind&gt;335\n#20Microns&gt;65\n\nWanna know how to select t… https://t.co/tqIGwJ3fjY', '@_Invest_Now 20microns\nHpcotton\nL&amp;TFH\nPNB\nShreerama multi', 'RT @Ansophie712: Learn how @20MicronsNano, manufacturer &amp; supplier of industrial minerals for paints, is delivering a modern, scalable tech…', '20MICRONS - Under Reg. 23[9] Of SEBI [LORD] Reg. 2015 Related Party Transactions Disclosure For The Half Year Ended… https://t.co/wEpv1JbYEJ', '20MICRONS - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/T8pIDQJ9Ib', '20MICRONS - Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018 https://t.co/7n1GD8fiM5', 'We introduce a new product 👉HYPERWAX 30, a modified #polymeric#amide #wax developed to disperse  #pigments or… https://t.co/MWssqXS41t', '#20MICRONS - Keep Eye for Swing/Positional - TradingView - https://t.co/W0EUAm5Cu2']
+[2021-07-15 15:47:13,421] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210715T153900, start_date=20210715T154711, end_date=20210715T154713
+[2021-07-15 15:47:13,524] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 15:47:13,582] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-14 14:02:39,519] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:02:26.570141+00:00 [queued]>
+[2021-07-14 14:02:39,683] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:02:26.570141+00:00 [queued]>
+[2021-07-14 14:02:39,689] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:02:39,691] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:02:39,698] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:02:39,771] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-14T14:02:26.570141+00:00
+[2021-07-14 14:02:39,830] {standard_task_runner.py:52} INFO - Started process 3003 to run task
+[2021-07-14 14:02:39,855] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-14T14:02:26.570141+00:00', '--job-id', '226', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpfyi79kd9', '--error-file', '/tmp/tmppc7h7c7k']
+[2021-07-14 14:02:39,866] {standard_task_runner.py:77} INFO - Job 226: Subtask extract_tweets
+[2021-07-14 14:02:40,110] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:02:26.570141+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:02:40,519] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:02:26.570141+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:02:26.570141+00:00
+[2021-07-14 14:02:41,573] {python.py:151} INFO - Done. Returned value was: ['@WeekendInvestng 63moons', '@Rishikesh_ADX ONGC\nNTPC\nRELIANCE\nDATAMATICS\nDCMNVL\n63MOONS\nTV18\nINDIACEMENT', '@theicai @FinMinIndia @nsitharaman @JambusariaNihar @drdebashismitra @atulguptagst @PrafullaCa @AniketTalati… https://t.co/yr1IhdyzKI', '63MOONS - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/YEmTjCtsAJ', 'RT @Veeam_APAC: “Veeam is like a magic wand in backup,” said Neehar Pathare, VP, ICT and CISO 63 Moons Technologies Ltd. See how #Veeam hel…', "RT @ETNOWlive: #JustIn | #NCLAT issues notice on #63Moons' appeal in @DHFL_India insolvency case; refuses stay on DHFL insolvency resolutio…", '“Veeam is like a magic wand in backup,” said Neehar Pathare, VP, ICT and CISO 63 Moons Technologies Ltd. See how… https://t.co/aJtMN1jZeh', 'https://t.co/7PduLNaEKl\n\n#DHFL case: #NCLAT issues notice to #PiramalGroup, #DHFLadministrator, lenders on plea by… https://t.co/OhauVdg0O1', "#DHFL resolution: #NCLAT issues notices to lenders, #Piramal on 63 Moons Technologies' plea. @DHFL_India… https://t.co/qB8o9EBPWC", '#NCLAT issues notices to CoC, #DHFL and #Piramal on #63moons plea\nhttps://t.co/dZRSucpurK']
+[2021-07-14 14:02:41,702] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210714T140226, start_date=20210714T140239, end_date=20210714T140241
+[2021-07-14 14:02:42,084] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:02:42,136] {local_task_job.py:151} INFO - Task exited with return code 0

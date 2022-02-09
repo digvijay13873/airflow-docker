@@ -1,0 +1,25 @@
+[2021-07-20 09:54:43,490] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.select_ticker 2021-07-20T09:54:35.770771+00:00 [queued]>
+[2021-07-20 09:54:43,614] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.select_ticker 2021-07-20T09:54:35.770771+00:00 [queued]>
+[2021-07-20 09:54:43,616] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:54:43,617] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:54:43,618] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:54:43,655] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): select_ticker> on 2021-07-20T09:54:35.770771+00:00
+[2021-07-20 09:54:43,678] {standard_task_runner.py:52} INFO - Started process 2204 to run task
+[2021-07-20 09:54:43,691] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'select_ticker', '2021-07-20T09:54:35.770771+00:00', '--job-id', '1893', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp50t4y9z0', '--error-file', '/tmp/tmpds29dv8l']
+[2021-07-20 09:54:43,692] {standard_task_runner.py:77} INFO - Job 1893: Subtask select_ticker
+[2021-07-20 09:54:43,888] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.select_ticker 2021-07-20T09:54:35.770771+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:54:44,272] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=select_ticker
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:54:35.770771+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:54:30.089365+00:00
+[2021-07-20 09:54:44,327] {logging_mixin.py:104} INFO - 136
+[2021-07-20 09:54:44,386] {logging_mixin.py:104} INFO - SELECTED TICKER FROM tickers1: ('AMARAJABAT.NS',)
+[2021-07-20 09:54:44,400] {logging_mixin.py:104} INFO - AMARAJABAT.NS
+[2021-07-20 09:54:44,422] {python.py:151} INFO - Done. Returned value was: AMARAJABAT.NS
+[2021-07-20 09:54:44,612] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=select_ticker, execution_date=20210720T095435, start_date=20210720T095443, end_date=20210720T095444
+[2021-07-20 09:54:44,948] {taskinstance.py:1245} INFO - 3 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:54:45,021] {local_task_job.py:151} INFO - Task exited with return code 0

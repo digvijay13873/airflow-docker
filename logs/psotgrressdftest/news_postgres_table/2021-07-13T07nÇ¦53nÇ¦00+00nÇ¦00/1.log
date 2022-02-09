@@ -1,0 +1,38 @@
+[2021-07-13 08:59:22,210] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-13T07:53:00+00:00 [queued]>
+[2021-07-13 08:59:22,444] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-13T07:53:00+00:00 [queued]>
+[2021-07-13 08:59:22,445] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 08:59:22,446] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-13 08:59:22,447] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 08:59:22,501] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_postgres_table> on 2021-07-13T07:53:00+00:00
+[2021-07-13 08:59:22,521] {standard_task_runner.py:52} INFO - Started process 172 to run task
+[2021-07-13 08:59:22,533] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_postgres_table', '2021-07-13T07:53:00+00:00', '--job-id', '139', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmps3bmi0av', '--error-file', '/tmp/tmpjd0f64wu']
+[2021-07-13 08:59:22,535] {standard_task_runner.py:77} INFO - Job 139: Subtask news_postgres_table
+[2021-07-13 08:59:22,663] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-13T07:53:00+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-13 08:59:22,803] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-13T07:53:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-13T07:53:00+00:00
+[2021-07-13 08:59:22,849] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/POSTGRESRSERS.py", line 88, in news_postgres_table
+    cur.execute(create_table)
+psycopg2.ProgrammingError: schema "newssentiments_20microns" does not exist
+LINE 1: CREATE TABLE newsSentiments_20MICRONS.BO (news TEXT NULL,sen...
+                     ^
+
+[2021-07-13 08:59:22,864] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=psotgrressdftest, task_id=news_postgres_table, execution_date=20210713T075300, start_date=20210713T085922, end_date=20210713T085922
+[2021-07-13 08:59:22,942] {local_task_job.py:151} INFO - Task exited with return code 1

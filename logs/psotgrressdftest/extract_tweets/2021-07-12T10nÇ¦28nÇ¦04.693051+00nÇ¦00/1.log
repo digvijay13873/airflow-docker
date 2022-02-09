@@ -1,0 +1,22 @@
+[2021-07-12 10:28:25,476] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-12T10:28:04.693051+00:00 [queued]>
+[2021-07-12 10:28:25,556] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-12T10:28:04.693051+00:00 [queued]>
+[2021-07-12 10:28:25,561] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 10:28:25,579] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-12 10:28:25,585] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 10:28:25,675] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-12T10:28:04.693051+00:00
+[2021-07-12 10:28:25,725] {standard_task_runner.py:52} INFO - Started process 1141 to run task
+[2021-07-12 10:28:25,760] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-12T10:28:04.693051+00:00', '--job-id', '9', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpj5snxrp0', '--error-file', '/tmp/tmpfuqjo9gy']
+[2021-07-12 10:28:25,769] {standard_task_runner.py:77} INFO - Job 9: Subtask extract_tweets
+[2021-07-12 10:28:25,930] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-12T10:28:04.693051+00:00 [running]> on host 9d6f8ea01bd8
+[2021-07-12 10:28:26,518] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-12T10:28:04.693051+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-12T10:28:04.693051+00:00
+[2021-07-12 10:28:29,394] {python.py:151} INFO - Done. Returned value was: ['These are the most popular stocks on Yahoo Finance right now...  🚀 🚀 🚀\n$SPCE\n$AMC\n$GME\n$NIO\n$CLOV\n$AAPL\nCheck out… https://t.co/k1GCZIqghv', '#GBPNZD All Target Hit! 185 PIPS PROFIT 🔥👍🏻⚡️\n\nCheck out my Bio to get Telegram link of Free Forex or Crypto Channe… https://t.co/2MTgctvc4T', "#AAPL #AMZN 'Black Widow' Grosses Nearly 40% Of Its Total Debut Weekend Revenue From Disney+ At $60M… https://t.co/VxTU02mNvI", '#USDJPY All TPs Hit! 90 PIPS Profit🔥✨🔱\n\nGo and checkout the link in the bio to get amazing signals.\n\n#EURUSD… https://t.co/muBNnS8tLq', 'Oh my goodness, people are now actually believing #AAPL are announcing #BTC FFS 🙈', 'These are the most popular stocks on Yahoo Finance right now...  🚀 🚀 🚀\n$SPCE\n$AMC\n$GME\n$NIO\n$BB\n$CLOV\nCheck out… https://t.co/XX10p37nKy', '#EURCAD All TPs Hit! 110 PIPS Profit🔥✅⭐️\n\nGo and checkout the link in the bio to get amazing signals.\n\n#xagusd #fx… https://t.co/gjzeNlmtpx', '#AAPL chart \nApple gave us multiple ways to get involved in the past month. See if it can continue higher. Holding… https://t.co/MPXjqGABn5', 'RT @murgand: #one #aesthetic $innd $dfyn #wallpapers $xdc $eos #aph #mtn $xhv $qqqj #kava #dreamog $pcx $mdt #okex $qyld #cake #blackwidow…', 'RT @SentInvestor: These are the most popular stocks on Yahoo Finance right now...  🚀 🚀 🚀\n$SPCE\n$NIO\n$GME\n$AMC\n$F\n$CLOV\nCheck out https://t.…', '#Free Trial available at https://t.co/3e5A2GmMk6 #SPY #GDX #XME #XLE #IYR #AAPL #FB #AMZN #NFLX #GOOGL #MSFT #NVDA… https://t.co/UDpI43PQKN', 'These are the most popular stocks on Yahoo Finance right now...  🚀 🚀 🚀\n$SPCE\n$NIO\n$GME\n$AMC\n$F\n$CLOV\nCheck out… https://t.co/hqxn8s6Sm0', 'AAPL - time for a technical correction  - #AAPL chart https://t.co/PjXJZhcGWq', '#one #aesthetic $innd $dfyn #wallpapers $xdc $eos #aph #mtn $xhv $qqqj #kava #dreamog $pcx $mdt #okex $qyld #cake… https://t.co/2FRltivbRP', '#AAPL #AMC Virgin Galactic Sees Sky-High WallStreetBets Interest Heading Into New Week; Krispy Kreme, AMC Other Top… https://t.co/1otdm9pW4t']
+[2021-07-12 10:28:31,720] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210712T102804, start_date=20210712T102825, end_date=20210712T102831
+[2021-07-12 10:28:33,979] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-12 10:28:34,034] {local_task_job.py:151} INFO - Task exited with return code 0

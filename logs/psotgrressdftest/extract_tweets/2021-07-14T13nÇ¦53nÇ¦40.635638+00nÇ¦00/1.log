@@ -1,0 +1,22 @@
+[2021-07-14 13:54:00,946] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T13:53:40.635638+00:00 [queued]>
+[2021-07-14 13:54:01,047] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T13:53:40.635638+00:00 [queued]>
+[2021-07-14 13:54:01,055] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 13:54:01,058] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 13:54:01,059] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 13:54:01,103] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-14T13:53:40.635638+00:00
+[2021-07-14 13:54:01,136] {standard_task_runner.py:52} INFO - Started process 2466 to run task
+[2021-07-14 13:54:01,148] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-14T13:53:40.635638+00:00', '--job-id', '206', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpo6w8_7w0', '--error-file', '/tmp/tmpcvswmj5f']
+[2021-07-14 13:54:01,152] {standard_task_runner.py:77} INFO - Job 206: Subtask extract_tweets
+[2021-07-14 13:54:01,579] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T13:53:40.635638+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 13:54:02,253] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T13:53:40.635638+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T13:53:40.635638+00:00
+[2021-07-14 13:54:03,678] {python.py:151} INFO - Done. Returned value was: ['RT @3MIndia: New Labour Codes coupled with #COVID19 have increased demand for industrial safety equipment. In an interview with @ipfonline,…', 'RT @3MIndia: We are proud to partner with @PandemicAction Network during #WorldMaskWeek in support of the continued importance of wearing a…', 'RT @3MIndia: New Labour Codes coupled with #COVID19 have increased demand for industrial safety equipment. In an interview with @ipfonline,…', "RT @3MIndia: Proud to announce that @3M's annual #StateOfScience Index has been recognized as an honoree for @FastCompany's World-Changing…", 'RT @3MIndia: https://t.co/sXHXP4jpUb', 'RT @3MIndia: At 3M we understand how important road safety is. In India, we are dedicated to improving traffic safety and mobility through…', 'RT @3MIndia: 3M has a long-standing commitment to sustainability and it is a core value of our company. Learn more in the 2021 #Sustainabil…', 'RT @3MIndia: We are proud to contribute to 3M’s global goals of energy reduction and conservation. At our Ranjangaon plant, the installatio…', 'RT @3MIndia: Seen in the pictures is @RameshRamadura1, Chairman CII, and MD 3M India, along with other members of the @FollowCII in the pre…', 'RT @3MIndia: 3M India is proud to have partnered with @VolvoGroup India &amp; @HitachiPG in setting up 56 additional beds equipped with patient…', "RT @3MIndia: In order to strengthen the medical infrastructure of Karnataka's health-care ecosystem amidst the ongoing #COVID19 pandemic, m…", 'RT @3MIndia: On our 119th anniversary, we look back at how our journey began with the simple discovery of rocks, which created opportunitie…', 'RT @3MIndia: Every year, we survey thousands of people in dozens of countries to see how the world views science and use their responses to…', 'RT @3MIndia: We asked 17,000 people from 17 countries for their thoughts on science. People trust science and believe it can help make the…', 'RT @3MIndia: 3M India has completed our vaccination drive for employees, their dependants and contractual workers, across all manufacturing…']
+[2021-07-14 13:54:03,870] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210714T135340, start_date=20210714T135400, end_date=20210714T135403
+[2021-07-14 13:54:04,178] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 13:54:04,279] {local_task_job.py:151} INFO - Task exited with return code 0

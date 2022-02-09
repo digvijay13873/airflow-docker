@@ -1,0 +1,23 @@
+[2021-07-13 09:00:31,944] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-13T09:00:23.813626+00:00 [queued]>
+[2021-07-13 09:00:31,980] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-13T09:00:23.813626+00:00 [queued]>
+[2021-07-13 09:00:31,980] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 09:00:31,981] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-13 09:00:31,982] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 09:00:32,003] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-13T09:00:23.813626+00:00
+[2021-07-13 09:00:32,017] {standard_task_runner.py:52} INFO - Started process 248 to run task
+[2021-07-13 09:00:32,027] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-13T09:00:23.813626+00:00', '--job-id', '142', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpx3jw0uxq', '--error-file', '/tmp/tmp42cmohpk']
+[2021-07-13 09:00:32,029] {standard_task_runner.py:77} INFO - Job 142: Subtask news_extract
+[2021-07-13 09:00:32,121] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-13T09:00:23.813626+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-13 09:00:32,270] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-13T09:00:23.813626+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-13T09:00:23.813626+00:00
+[2021-07-13 09:00:32,347] {logging_mixin.py:104} INFO - 20 Microns Limited (20MICRONS.BO)
+[2021-07-13 09:00:47,399] {python.py:151} INFO - Done. Returned value was: ['Next generation cobots for new sectors, first-time users', 'The Optimization Design Of Lactoferrin Loaded HupA Nanoemulsion For Ta | IJN', 'Functional Zr, α-Ta, and (α-β) Ta Thick Coatings Obtained by Original Arc-Evaporator', 'Modulation of AMPA receptor mediated current by nicotinic acetylcholine receptor in layer I neurons of rat prefrontal cortex', 'A novel pyrazole derivative protects from ovariectomy-induced osteoporosis through the inhibition of NADPH oxidase', 'Genes and chromosomes 1: basic principles of genetics', 'Imaging Cells with a Combination of Fluorescence Microscopy and AFM', 'Canonical Notch signaling plays an instructive role in auditory supporting cell development', 'Three-dimensional morphogenesis of MDCK cells induced by cellular contractile forces on a viscous substrate', 'Diabetic pdx1-mutant zebrafish show conserved responses to nutrient overload and anti-glycemic treatment', 'Visualization of Assembly Intermediates and Budding Vacuoles of Singapore Grouper Iridovirus in Grouper Embryonic Cells', 'SPS IPC Drives 2017 Exclusive Report', "Factcheck: Lord Lawson's inaccurate claims about climate change on BBC Radio 4", 'Form 6-K Timmins Gold Corp. For: Mar 31', '3D Printing Gold and Other Precious Metals with Cookson Gold: We Interview David Fletcher', 'Indium gallium arsenide laser diode on exact germanium-on-silicon substrate', 'Chrysler shows off new Lancia-based Delta and Ypsilon models']
+[2021-07-13 09:00:47,448] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210713T090023, start_date=20210713T090031, end_date=20210713T090047
+[2021-07-13 09:00:47,511] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-13 09:00:47,552] {local_task_job.py:151} INFO - Task exited with return code 0

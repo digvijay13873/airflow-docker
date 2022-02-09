@@ -1,0 +1,38 @@
+[2021-07-15 13:54:14,654] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: maintest.testtask 2021-07-15T13:54:13.655367+00:00 [queued]>
+[2021-07-15 13:54:14,688] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: maintest.testtask 2021-07-15T13:54:13.655367+00:00 [queued]>
+[2021-07-15 13:54:14,689] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:54:14,691] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-15 13:54:14,696] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:54:14,734] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): testtask> on 2021-07-15T13:54:13.655367+00:00
+[2021-07-15 13:54:14,751] {standard_task_runner.py:52} INFO - Started process 3523 to run task
+[2021-07-15 13:54:14,758] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'maintest', 'testtask', '2021-07-15T13:54:13.655367+00:00', '--job-id', '415', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/tablecreation.py', '--cfg-path', '/tmp/tmppdgvaahg', '--error-file', '/tmp/tmpas57c71r']
+[2021-07-15 13:54:14,760] {standard_task_runner.py:77} INFO - Job 415: Subtask testtask
+[2021-07-15 13:54:14,880] {logging_mixin.py:104} INFO - Running <TaskInstance: maintest.testtask 2021-07-15T13:54:13.655367+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 13:54:15,039] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=maintest
+AIRFLOW_CTX_TASK_ID=testtask
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T13:54:13.655367+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-15T13:54:13.655367+00:00
+[2021-07-15 13:54:15,054] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/tablecreation.py", line 26, in select_ticker
+    cur.execute("DROP tickers1")
+psycopg2.ProgrammingError: syntax error at or near "tickers1"
+LINE 1: DROP tickers1
+             ^
+
+[2021-07-15 13:54:15,064] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=maintest, task_id=testtask, execution_date=20210715T135413, start_date=20210715T135414, end_date=20210715T135415
+[2021-07-15 13:54:15,132] {local_task_job.py:151} INFO - Task exited with return code 1

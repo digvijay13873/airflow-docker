@@ -1,0 +1,39 @@
+[2021-07-16 09:45:35,151] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-15T13:56:06.006263+00:00 [up_for_retry]>
+[2021-07-16 09:45:35,211] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-15T13:56:06.006263+00:00 [up_for_retry]>
+[2021-07-16 09:45:35,213] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 09:45:35,214] {taskinstance.py:1068} INFO - Starting attempt 2 of 2
+[2021-07-16 09:45:35,215] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 09:45:35,272] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-15T13:56:06.006263+00:00
+[2021-07-16 09:45:35,296] {standard_task_runner.py:52} INFO - Started process 86 to run task
+[2021-07-16 09:45:35,302] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-15T13:56:06.006263+00:00', '--job-id', '481', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmp36ni2twt', '--error-file', '/tmp/tmp1q7po678']
+[2021-07-16 09:45:35,304] {standard_task_runner.py:77} INFO - Job 481: Subtask extract_task
+[2021-07-16 09:45:35,423] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-15T13:56:06.006263+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 09:45:35,615] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T13:56:06.006263+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-15T13:56:06.006263+00:00
+[2021-07-16 09:46:46,536] {logging_mixin.py:104} INFO - [<selenium.webdriver.remote.webelement.WebElement (session="ba5cc303-7c28-4732-af7a-bd1c33f54f2c", element="95e921da-dfe7-4d82-b172-82ea3ee7ab66")>]
+[2021-07-16 09:46:47,126] {logging_mixin.py:104} INFO - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB20 Microns Limited (20MICRONS.NS)
+[2021-07-16 09:46:47,140] {logging_mixin.py:104} INFO - 20MICRONS.NS
+[2021-07-16 09:47:23,903] {logging_mixin.py:104} INFO - []
+[2021-07-16 09:47:23,922] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/seleniumtest.py", line 62, in extract
+    companyname = str(companyname[0].text)
+IndexError: list index out of range
+[2021-07-16 09:47:24,485] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=ticker_yahoo, task_id=extract_task, execution_date=20210715T135606, start_date=20210716T094535, end_date=20210716T094724
+[2021-07-16 09:47:24,889] {local_task_job.py:151} INFO - Task exited with return code 1

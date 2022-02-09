@@ -1,0 +1,22 @@
+[2021-07-14 14:35:23,390] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:35:12.785194+00:00 [queued]>
+[2021-07-14 14:35:23,448] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:35:12.785194+00:00 [queued]>
+[2021-07-14 14:35:23,449] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:35:23,450] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:35:23,452] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:35:23,483] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-14T14:35:12.785194+00:00
+[2021-07-14 14:35:23,507] {standard_task_runner.py:52} INFO - Started process 5271 to run task
+[2021-07-14 14:35:23,523] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-14T14:35:12.785194+00:00', '--job-id', '288', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpyycvf7w1', '--error-file', '/tmp/tmplguucfhy']
+[2021-07-14 14:35:23,528] {standard_task_runner.py:77} INFO - Job 288: Subtask extract_tweets
+[2021-07-14 14:35:23,681] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:35:12.785194+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:35:23,847] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:35:12.785194+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:35:12.785194+00:00
+[2021-07-14 14:35:25,029] {python.py:151} INFO - Done. Returned value was: ['बीडीओ ने योग्य लाभुकों को आवास प्लस योजना से जोड़ने का दिया निर्देश…\n\nhttps://t.co/7NPTOel2hM', 'AAVAS - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/tYisVhLkGk', 'Ham bahut garib he bhai mero ko koy aavas nahi mila he han aapse binti karte he ki aapse koy madat kare https://t.co/VKXHywqVWf', 'Sir kuchh to kariye mai bahut hi pareshan hun Pradhan mantri aavas yojna ka labh Amiro ke liye hai sayad nhi to ab… https://t.co/uIlMhJCIPS', 'RT @ishaanmeet: 👉 Price Band Revised From 10% To 20%: \n\nAavas Financiers, \nArvind, \nAsian Granito, \nAstron Paper &amp; Board Mill, \nAtul Auto,…', 'Aavas Financiers board approves grant of 3 lakh equity stock options under ESOP\nhttps://t.co/bNqCOYzeN8\n#aavasfinanciers', 'Mahila shikshak  sangh Muzaffarnagar ne,  ...mantri Shree Kapil dev agarwal ji ko unke aavas pr mahila shikashikao… https://t.co/4mdfiw6Y5I', 'I was low yesterday listening to radio at night nd the RJ was like "Aaj Aissa Lag Raha Hain Ki Baarish Hogi So Chlo… https://t.co/XwQPJlogU9', 'RT @ashokku59209339: @amanktweets @Archana97042871 @Deepanjali_23 @Niharik70354285 @kanwal_deepa @Avantik07328774 @imayanktiwari @shalabhma…', '@BullMarkets1 Aavas Financier', 'AAVAS - Outcome Of The Board Meeting Held On Tuesday, July 13, 2021 https://t.co/O7WLWEqxNa', "AAVAS - Grant Of Option Under Equity Stock Option Plan For Employees 2020-'ESOP 2020' https://t.co/VevbpQvCTp", 'Sir.    Pradhanmantri Aavas yojna ki New list kab ayegi\n  @ashokgehlot51 \n   @RajCMO \n    @CollectorSirohi', 'गरीबों को नही मिल पा रहा आवास, पक्के मकान वाले को मिला प्रधानमंत्री आवास योजना का लाभ https://t.co/fbLQ25dcRD… https://t.co/kG4kWT3eoZ', '@myogiadityanath Bhaeeya mere rahne ko ghar nahi h or me Biklang Kahan rah Bhaeeya mujhe nyay do mujhe ek aavas de… https://t.co/aKxl00gAUr']
+[2021-07-14 14:35:25,122] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210714T143512, start_date=20210714T143523, end_date=20210714T143525
+[2021-07-14 14:35:25,257] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:35:25,281] {local_task_job.py:151} INFO - Task exited with return code 0

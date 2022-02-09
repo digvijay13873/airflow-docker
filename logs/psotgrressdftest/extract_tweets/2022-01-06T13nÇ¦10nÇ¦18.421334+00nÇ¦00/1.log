@@ -1,0 +1,22 @@
+[2022-01-06 13:10:25,286] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T13:10:18.421334+00:00 [queued]>
+[2022-01-06 13:10:25,326] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T13:10:18.421334+00:00 [queued]>
+[2022-01-06 13:10:25,328] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:10:25,330] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 13:10:25,333] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:10:25,374] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2022-01-06T13:10:18.421334+00:00
+[2022-01-06 13:10:25,395] {standard_task_runner.py:52} INFO - Started process 627 to run task
+[2022-01-06 13:10:25,405] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2022-01-06T13:10:18.421334+00:00', '--job-id', '2212', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp2ali_djl', '--error-file', '/tmp/tmpf3auzxjw']
+[2022-01-06 13:10:25,407] {standard_task_runner.py:77} INFO - Job 2212: Subtask extract_tweets
+[2022-01-06 13:10:25,508] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T13:10:18.421334+00:00 [running]> on host 04be2259e97a
+[2022-01-06 13:10:25,678] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T13:10:18.421334+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T13:10:15.865071+00:00
+[2022-01-06 13:10:27,699] {python.py:151} INFO - Done. Returned value was: ['RT @prajwal_wakhare: Following are some Low-priced stocks (Group A &amp; B) symbols that made a fresh 52 week high on Tuesday:\n\nSUZLON\nUMIYA\nA2…', 'RT @prajwal_wakhare: Following are some Low-priced stocks (Group A &amp; B) symbols that made a fresh 52 week high on Thursday:\n\nA2ZINFRA\nSURAN…', 'Following are some Low-priced stocks (Group A &amp; B) symbols that made a fresh 52 week high on Thursday:\n\nA2ZINFRA\nSU… https://t.co/xPyfvMqYGy', '✨A2Z Infra Engineering \n\nNow @ 11.50 ...\n\n#a2zinfra #sp https://t.co/jB986ewNp7', 'Paul Torres-Cohen $A2ZINFRA.NS', 'Following are some Low-priced stocks (Group A &amp; B) symbols that made a fresh 52 week high on Tuesday:\n\nSUZLON\nUMIYA… https://t.co/TlDXj0imoF', 'Buy A2zInfra - cmp 10.3 Tgt 14/18', 'BLBLIMITED\n\nINTO EQ FROM BE FROM JAN 4TH : A2ZINFRA; ABAN; AGRITECH; ANSALAPI; ARIHANT; ARVSMART; ASAL; ATLANTA; BP… https://t.co/A59Hx15fuf', 'A2ZINFRA - Re-Grant Of Stock Options. https://t.co/mYo2ozbscA', 'Newly Added From\nChapter 143 to Chapter 152\n\n#EMAMIREAL\n#KINGFA\n#MSPL\n#AXISCADES\n#MUKTAARTS\n#SHRIRAMEPC\n#DELTAMAGNT… https://t.co/NC2YvJfCpd', 'https://t.co/eHiQCIV9E9 PREOPEN\n\nINTO EQ FROM BE FROM JAN 4TH : A2ZINFRA; ABAN; AGRITECH; ANSALAPI; ARIHANT; ARVSMA… https://t.co/ZPgSFKkfKD', '@nakulvibhor A2zinfra, hubtown,sundaram multipap,pritika auto,menon bearing, maheshwari logistics,', 'RT @spselvablogg: A2Z Infra Engineering \n\nEngaged in supply, erection and maintenance of electrical transmission lines including laying and…', 'A2ZINFRA - Closure of Trading Window https://t.co/4LWzOd4TkM', '@PAlearner Pilita,A2Zinfra,MMWL']
+[2022-01-06 13:10:27,839] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20220106T131018, start_date=20220106T131025, end_date=20220106T131027
+[2022-01-06 13:10:27,946] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 13:10:28,032] {local_task_job.py:151} INFO - Task exited with return code 0

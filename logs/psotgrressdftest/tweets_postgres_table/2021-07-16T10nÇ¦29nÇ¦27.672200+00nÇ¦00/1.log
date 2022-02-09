@@ -1,0 +1,23 @@
+[2021-07-16 10:29:41,384] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:29:27.672200+00:00 [queued]>
+[2021-07-16 10:29:41,418] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:29:27.672200+00:00 [queued]>
+[2021-07-16 10:29:41,419] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:29:41,420] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:29:41,421] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:29:41,449] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T10:29:27.672200+00:00
+[2021-07-16 10:29:41,467] {standard_task_runner.py:52} INFO - Started process 1366 to run task
+[2021-07-16 10:29:41,473] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T10:29:27.672200+00:00', '--job-id', '528', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp00xrlm3s', '--error-file', '/tmp/tmp3i09phiz']
+[2021-07-16 10:29:41,475] {standard_task_runner.py:77} INFO - Job 528: Subtask tweets_postgres_table
+[2021-07-16 10:29:41,549] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T10:29:27.672200+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:29:41,641] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:29:27.672200+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:29:25.471698+00:00
+[2021-07-16 10:29:41,694] {logging_mixin.py:104} INFO - [('AARVEEDEN - Disclosures under Reg. 29(1) &amp; 29(2) of SEBI (SAST) Regulations, 2011 https://t.co/kgUWi6htHB', Decimal('0.0000')), ('AARVEEDEN - Disclosures under Reg. 29(1) &amp; 29(2) of SEBI (SAST) Regulations, 2011 https://t.co/3pOzgG3ff5', Decimal('0.0000')), ('AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/embK9sltck', Decimal('0.2960')), ('AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/O2Z2rcA319', Decimal('0.2960')), ('AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/dpZUfPG158', Decimal('0.2960')), ('AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/NrNFOkyYOB', Decimal('0.2960')), ('AARVEEDEN - Submission Of Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares An… https://t.co/qz7knSfL1j', Decimal('0.2960')), ('AARVEEDEN - Loss Of Share Certificate  https://t.co/fH4GHIBwdH', Decimal('-0.0258')), ('https://t.co/eHiQCIV9E9 PREOPEN\n\nBE TO EQ FROM JUL 20TH : 63MOONS, A2ZINFRA, AARON, AARVEEDEN, ABAN, AJOONI, ALPA,… https://t.co/cmDRl9YX4m', Decimal('0.0000')), ('AARVEEDEN - Disclosures under Reg. 29(1) &amp; 29(2) of SEBI (SAST) Regulations, 2011 https://t.co/kgUWi6htHB', Decimal('0.0000')), ('AARVEEDEN - Disclosures under Reg. 29(1) &amp; 29(2) of SEBI (SAST) Regulations, 2011 https://t.co/3pOzgG3ff5', Decimal('0.0000'))]
+[2021-07-16 10:29:41,698] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 10:29:41,719] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T102927, start_date=20210716T102941, end_date=20210716T102941
+[2021-07-16 10:29:41,804] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:29:41,846] {local_task_job.py:151} INFO - Task exited with return code 0

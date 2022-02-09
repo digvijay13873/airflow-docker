@@ -1,0 +1,22 @@
+[2021-07-16 17:16:44,680] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:16:38.187201+00:00 [queued]>
+[2021-07-16 17:16:44,735] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:16:38.187201+00:00 [queued]>
+[2021-07-16 17:16:44,736] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:16:44,737] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:16:44,738] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:16:44,767] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:16:38.187201+00:00
+[2021-07-16 17:16:44,788] {standard_task_runner.py:52} INFO - Started process 11935 to run task
+[2021-07-16 17:16:44,800] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:16:38.187201+00:00', '--job-id', '1562', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpnfdp444n', '--error-file', '/tmp/tmp3tijb0ls']
+[2021-07-16 17:16:44,801] {standard_task_runner.py:77} INFO - Job 1562: Subtask extract_tweets
+[2021-07-16 17:16:44,922] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:16:38.187201+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:16:45,044] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:16:38.187201+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:16:36.421557+00:00
+[2021-07-16 17:16:45,608] {python.py:151} INFO - Done. Returned value was: ['@jainchintan67 Sir you had not mentioned ADROITINFO in your sheet', '@StocksCall_ @caniravkaria ADROITINFO \nTime frame - 1 month', '@jainchintan67 ADROITINFO', '@Dare2Dr10109801 @caniravkaria @option_square Sir can you look at ADROITINFO chart\nPlease sir']
+[2021-07-16 17:16:45,668] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T171638, start_date=20210716T171644, end_date=20210716T171645
+[2021-07-16 17:16:45,745] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:16:45,772] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,23 @@
+[2021-07-21 11:38:50,270] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-21T11:38:35.891054+00:00 [queued]>
+[2021-07-21 11:38:52,755] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-21T11:38:35.891054+00:00 [queued]>
+[2021-07-21 11:38:52,760] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:38:52,766] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-21 11:38:52,777] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:38:53,796] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-21T11:38:35.891054+00:00
+[2021-07-21 11:38:53,849] {standard_task_runner.py:52} INFO - Started process 1466 to run task
+[2021-07-21 11:38:53,870] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-21T11:38:35.891054+00:00', '--job-id', '1982', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmplksdh2e3', '--error-file', '/tmp/tmp2tiktncp']
+[2021-07-21 11:38:53,871] {standard_task_runner.py:77} INFO - Job 1982: Subtask news_extract
+[2021-07-21 11:38:56,715] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-21T11:38:35.891054+00:00 [running]> on host 5795a622f846
+[2021-07-21 11:38:57,062] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-21T11:38:35.891054+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-21T11:38:26.942246+00:00
+[2021-07-21 11:38:57,122] {logging_mixin.py:104} INFO - 63 MOONS TECHNOLOG
+[2021-07-21 11:40:20,499] {python.py:151} INFO - Done. Returned value was: ['Meet the people paying $55 million each to fly to the space station', 'MIT-based team works on rapid deployment of open-source, low-cost ventilator', 'Digital Diploma debuts at MIT', 'Alienware Area-51m - Full Review and Benchmarks', 'Middle East Construction News', 'WikiLeaks demands answers after Google hands staff emails to US government', 'Spectacular photos from space', 'Bitcoin: Why I Just Increased My Position By Another 33%', 'First Drive: 2013 Ram 1500 - PickupTrucks.com News']
+[2021-07-21 11:40:20,542] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210721T113835, start_date=20210721T113850, end_date=20210721T114020
+[2021-07-21 11:40:20,597] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-21 11:40:20,638] {local_task_job.py:151} INFO - Task exited with return code 0

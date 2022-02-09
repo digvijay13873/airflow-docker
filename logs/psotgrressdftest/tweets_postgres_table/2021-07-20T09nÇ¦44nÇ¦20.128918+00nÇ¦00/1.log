@@ -1,0 +1,23 @@
+[2021-07-20 09:44:46,247] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:44:20.128918+00:00 [queued]>
+[2021-07-20 09:44:46,306] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:44:20.128918+00:00 [queued]>
+[2021-07-20 09:44:46,308] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:44:46,309] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:44:46,310] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:44:46,350] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-20T09:44:20.128918+00:00
+[2021-07-20 09:44:46,396] {standard_task_runner.py:52} INFO - Started process 1578 to run task
+[2021-07-20 09:44:46,431] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-20T09:44:20.128918+00:00', '--job-id', '1850', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpoufe27n4', '--error-file', '/tmp/tmp_2u8129a']
+[2021-07-20 09:44:46,445] {standard_task_runner.py:77} INFO - Job 1850: Subtask tweets_postgres_table
+[2021-07-20 09:44:46,721] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:44:20.128918+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:44:47,035] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:44:20.128918+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:44:11.893670+00:00
+[2021-07-20 09:44:47,366] {logging_mixin.py:104} INFO - [('Allsec Technologies stock nosedives over 12% after June quarterly earnings\nhttps://t.co/09KTvlmdRN\n#ALLSECtechnologies', Decimal('0.0000')), ('#Allsec @468\n\nFallen due to weak market with low volume\n\nPick it up with sl at 432', Decimal('-0.7579')), ('RT @equialpha: #AllSec - Down 10% today\n\n&gt;Got rejected from the long decade resistance \n&gt;If it comes back up and breaks it, I will be in\n&gt;T…', Decimal('-0.5106')), ('#AllSec - Down 10% today\n\n&gt;Got rejected from the long decade resistance \n&gt;If it comes back up and breaks it, I will… https://t.co/QTkxLuwYtr', Decimal('-0.5106')), ('Allsec Technologies | The company reported loss at Rs 7.97 crore in Q1FY22 against profit at Rs 6.03 crore in Q1FY2… https://t.co/UVkjmv06ML', Decimal('0.1531')), ('Allsec Technologies | The company reported loss at Rs 7.97 crore in Q1FY22 against profit at Rs 6.03 crore in Q1FY2… https://t.co/UaQGNFONO6', Decimal('0.1531')), ('Bought #ALLSEC technologies few months back when results were really good. It gave 40% returns in 2-3 months. But n… https://t.co/639q6RGrj4', Decimal('0.2724')), ('#hdfcbank #hcltech #HDFCLIFE #controlprint #ACC #pspproject #Nippon #ALLSEC #IndianBank #supreme #petro #gtpl… https://t.co/7z1BjeNYSm', Decimal('0.0000')), ('ALLSEC Tech Standalone June 2021 Net Sales at Rs 49.74 crore, up 18.51% Y-o-Y https://t.co/ol8i3tF6LW', Decimal('0.0000')), ('ALLSEC Tech Standalone June 2021 Net Sales at Rs 49.74 crore, up 18.51%\xa0Y-o-Y https://t.co/7RomKeBfCB', Decimal('0.0000')), ('Allsec Technologies Ltd Q1FY22 consolidated loss at Rs. 7.97 crore\n\n@allsec #Q1FY22 #ResultUpdate… https://t.co/MxXZtBY98E', Decimal('-0.3182')), ('#Q1FY22WithStockBook I \n\nResult Update l Allsec Technologies\n\n#EarningsReport #Q1FY22 #Investwise #StockBookApp… https://t.co/HDj8R5sCis', Decimal('0.0000')), ('Here is the 2021 Preseason USA TODAY Network All-SEC football team, with projected order of finish https://t.co/OxA3TGVSu3', Decimal('0.0000')), ('India Equity: Allsec_Tech. (#ALLSEC) declares Quarterly Results. EPS = Rs 51.82 for quarter ended Jun\xa02021 https://t.co/2idqOo8KBG', Decimal('0.0000')), ('Allsec Technologies Limited - Press Release https://t.co/61gAistD6U', Decimal('-0.2263'))]
+[2021-07-20 09:44:47,393] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:44:47,461] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210720T094420, start_date=20210720T094446, end_date=20210720T094447
+[2021-07-20 09:44:47,631] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:44:47,717] {local_task_job.py:151} INFO - Task exited with return code 0

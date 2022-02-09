@@ -1,0 +1,22 @@
+[2021-07-16 16:30:51,264] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:30:39.057675+00:00 [queued]>
+[2021-07-16 16:30:51,337] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:30:39.057675+00:00 [queued]>
+[2021-07-16 16:30:51,339] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:30:51,340] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:30:51,341] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:30:51,376] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:30:39.057675+00:00
+[2021-07-16 16:30:51,405] {standard_task_runner.py:52} INFO - Started process 8085 to run task
+[2021-07-16 16:30:51,421] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:30:39.057675+00:00', '--job-id', '1092', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpze3t4b0u', '--error-file', '/tmp/tmpz6t6q418']
+[2021-07-16 16:30:51,423] {standard_task_runner.py:77} INFO - Job 1092: Subtask extract_tweets
+[2021-07-16 16:30:51,617] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:30:39.057675+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:30:51,834] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:30:39.057675+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:30:36.186217+00:00
+[2021-07-16 16:30:53,162] {python.py:151} INFO - Done. Returned value was: ['ADVENZYMES - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/Lhkaul6tIM', 'ADVENZYMES - Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate https://t.co/QT7RMCl7QT', 'RT @USacchitanand: #SPLMidcapStocks with @AnilSinghvi_ &amp; @deepdbhandari on @ZeeBusiness\n\nTodays reco.\nS #ABCAPITAL 121 SL 115 TGT 146\n\nP #M…', '@shubham_chennai I think ADVENZYMES turn is coming too', 'Except for #ADVENZYMES, the other 3 were absolute monsters !\n\n#BALAMINES\n#CDSL\n#GLOBUSSPR', 'ADVENZYMES swing trade idea - #ADVENZYMES chart https://t.co/nJ2PkgKn0N', '#ADVENZYMES #SwingTrading  1 day chart\nNote: Waiting for final confirmation (21 Ema above 50 ema with Green Candle)… https://t.co/yVdiuGXyyR', '#ADVENZYMES looking great on chart and in consolidation, looks good on CMP 417 for 1 year investment\nNot a SEBI Reg… https://t.co/5t2rv2hjue', '\U0001f7e2  ADVENZYMES in 5min Timeframe https://t.co/oDQIuyTaCF', 'Seeing noticeable traction in #pharma and other #healthcare stocks today...look at #Advenzymes..set for an up move… https://t.co/gxOxsx4pY2', '#ADVENZYMES\n\nSHOWING REVERSAL\nNEED A GOOD CLOSING\n\n@Rishikesh_ADX  @nishkumar1977  @charts_breakout https://t.co/quVsh5wHxI', 'RT @USacchitanand: #SPLMidcapStocks with @AnilSinghvi_ &amp; @deepdbhandari on @ZeeBusiness\n\nTodays reco.\nS #ABCAPITAL 121 SL 115 TGT 146\n\nP #M…', '#SPLMidcapStocks with @AnilSinghvi_ &amp; @deepdbhandari on @ZeeBusiness\n\nTodays reco.\nS #ABCAPITAL 121 SL 115 TGT 146… https://t.co/dw5vOha9qX', '#ADVENZYMES Still holding the FIB level and 20WEMA. Daily closing below 390 may lead to minor correction.… https://t.co/lMT6y9EJGU', 'RT @in_tradingview: #ADVENZYMES - channel pattern - TradingView - https://t.co/BHonyWtxL0']
+[2021-07-16 16:30:53,257] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T163039, start_date=20210716T163051, end_date=20210716T163053
+[2021-07-16 16:30:53,357] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:30:53,416] {local_task_job.py:151} INFO - Task exited with return code 0

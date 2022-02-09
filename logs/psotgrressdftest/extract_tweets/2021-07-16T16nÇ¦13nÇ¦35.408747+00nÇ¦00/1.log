@@ -1,0 +1,99 @@
+[2021-07-16 16:14:03,696] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:13:35.408747+00:00 [queued]>
+[2021-07-16 16:14:03,803] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:13:35.408747+00:00 [queued]>
+[2021-07-16 16:14:03,805] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:14:03,807] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:14:03,808] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:14:03,868] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:13:35.408747+00:00
+[2021-07-16 16:14:03,949] {standard_task_runner.py:52} INFO - Started process 6914 to run task
+[2021-07-16 16:14:04,076] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:13:35.408747+00:00', '--job-id', '977', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpc_7w_dah', '--error-file', '/tmp/tmp3ffr0dq1']
+[2021-07-16 16:14:04,081] {standard_task_runner.py:77} INFO - Job 977: Subtask extract_tweets
+[2021-07-16 16:14:04,427] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:13:35.408747+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:14:04,621] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:13:35.408747+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:13:22.613501+00:00
+[2021-07-16 16:14:14,725] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f6a8d6553c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /1.1/search/tweets.json?q=ACCELYA (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6a8d6553c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/tweepy/binder.py", line 190, in execute
+    proxies=self.api.proxy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /1.1/search/tweets.json?q=ACCELYA (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6a8d6553c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/POSTGRESRSERS.py", line 199, in extract_tweets
+    public_tweets=api.search(ticker)
+  File "/home/airflow/.local/lib/python3.6/site-packages/tweepy/binder.py", line 253, in _call
+    return method.execute()
+  File "/home/airflow/.local/lib/python3.6/site-packages/tweepy/binder.py", line 192, in execute
+    six.reraise(TweepError, TweepError('Failed to send request: %s' % e), sys.exc_info()[2])
+  File "/home/airflow/.local/lib/python3.6/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/home/airflow/.local/lib/python3.6/site-packages/tweepy/binder.py", line 190, in execute
+    proxies=self.api.proxy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+tweepy.error.TweepError: Failed to send request: HTTPSConnectionPool(host='api.twitter.com', port=443): Max retries exceeded with url: /1.1/search/tweets.json?q=ACCELYA (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6a8d6553c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+[2021-07-16 16:14:14,795] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T161335, start_date=20210716T161403, end_date=20210716T161414
+[2021-07-16 16:14:14,944] {local_task_job.py:151} INFO - Task exited with return code 1

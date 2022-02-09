@@ -1,0 +1,88 @@
+[2021-07-16 16:30:51,373] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_trends 2021-07-16T16:30:39.057675+00:00 [queued]>
+[2021-07-16 16:30:51,441] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_trends 2021-07-16T16:30:39.057675+00:00 [queued]>
+[2021-07-16 16:30:51,444] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:30:51,445] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:30:51,447] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:30:51,498] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_trends> on 2021-07-16T16:30:39.057675+00:00
+[2021-07-16 16:30:51,542] {standard_task_runner.py:52} INFO - Started process 8086 to run task
+[2021-07-16 16:30:51,561] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_trends', '2021-07-16T16:30:39.057675+00:00', '--job-id', '1093', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmprqd1492v', '--error-file', '/tmp/tmpjg10ktid']
+[2021-07-16 16:30:51,563] {standard_task_runner.py:77} INFO - Job 1093: Subtask extract_trends
+[2021-07-16 16:30:51,722] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_trends 2021-07-16T16:30:39.057675+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:30:51,951] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_trends
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:30:39.057675+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:30:36.186217+00:00
+[2021-07-16 16:30:51,990] {logging_mixin.py:104} INFO - ['ADVENZYMES.NS']
+[2021-07-16 16:30:59,262] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 386, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/usr/local/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/usr/local/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/local/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:835: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 410, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 336, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='trends.google.com', port=443): Read timed out. (read timeout=2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/POSTGRESRSERS.py", line 146, in extract_trends
+    data = pytrends.interest_over_time()
+  File "/home/airflow/.local/lib/python3.6/site-packages/pytrends/request.py", line 216, in interest_over_time
+    params=over_time_payload,
+  File "/home/airflow/.local/lib/python3.6/site-packages/pytrends/request.py", line 127, in _get_data
+    **kwargs, **self.requests_args)   # DO NOT USE retries or backoff_factor here
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='trends.google.com', port=443): Read timed out. (read timeout=2)
+[2021-07-16 16:30:59,296] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=psotgrressdftest, task_id=extract_trends, execution_date=20210716T163039, start_date=20210716T163051, end_date=20210716T163059
+[2021-07-16 16:30:59,366] {local_task_job.py:151} INFO - Task exited with return code 1

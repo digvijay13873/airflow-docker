@@ -1,0 +1,22 @@
+[2021-07-16 17:21:48,710] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:21:40.692898+00:00 [queued]>
+[2021-07-16 17:21:49,023] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:21:40.692898+00:00 [queued]>
+[2021-07-16 17:21:49,024] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:21:49,026] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:21:49,027] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:21:49,055] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:21:40.692898+00:00
+[2021-07-16 17:21:49,081] {standard_task_runner.py:52} INFO - Started process 12426 to run task
+[2021-07-16 17:21:49,091] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:21:40.692898+00:00', '--job-id', '1627', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp1f19ljz9', '--error-file', '/tmp/tmp6edqr05s']
+[2021-07-16 17:21:49,093] {standard_task_runner.py:77} INFO - Job 1627: Subtask extract_tweets
+[2021-07-16 17:21:49,268] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:21:40.692898+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:21:49,379] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:21:40.692898+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:21:38.921493+00:00
+[2021-07-16 17:21:50,920] {python.py:151} INFO - Done. Returned value was: ['RT @shrikebisexual: ࿐\n BUTTER BRACELET GIVEAWAY\n ⠀⠀       🎁 ♡\n\n— 1 winner, worldwide\n— retweet to enter\n— see reply for details\n— ends when…', 'and this is what im going to see in my dreams GOODNIGHT https://t.co/3RkteSSnNC', 'RT @its_rango: I kinda want to pick some people up to @ErrorFaction today.  Who would you want to see join? 🤔', 'RT @LUMlTYKlSS: oh to be a kid and see this on tv, feeling comfort of understanding that their feelings are okay, and normal, even if confu…', 'RT @hyunjinurl: u hear the scoff at the end i can literally SEE his lidol smile fml', 'RT @joshsusser: Don’t say it’s “torture” with the quotation marks when it is literally torture by the UN’s definition. Glad to see some cov…', 'RT @MiaMia87217278: @politvidchannel What kind of failure in life do you have to be to pay to see these two sexual predators??? \U0001f92e\U0001f92e\U0001f92e', 'RT @BarstoolBigCat: “Love my driver”. Happy Brooks and the team are lock step. Love to see it https://t.co/An0zMX1udd', '@JimFairlie You said the majority of Scotland didn’t have a brain cell.  Look at yourself, Jim.  You might not like… https://t.co/Z3dY9Fif9L', 'RT @bloomintoleyla: #FearStreet #fearstreet1666 hannah made a crown with the red moss the night  she and sarah first kissed, then she put t…', 'RT @sillyme0707: What makes you happy these day?\n\n🐭When I do video call, I can see our fans kinda just staring and waiting for it to start.…', '@VisitCA Joe Morris David Morris\n15 May at 12:16 ·\nJoe Morris David Morris\n3 April ·\nhttps://t.co/ImHs1K0mnO.......… https://t.co/7WeQr5Mit7', 'RT @XlAOHE: nonlesbian oomfs please help raise awareness of how lesbians are being stripped of their label by "inclus". they\'re saying lesb…', 'RT @iam_HarryJustin: You see this ‘Cubana’ gist. It just outlined the importance of having money. My bro in whatever u do. Pls make money.', '@_benjvmins_ We always hugging. Wake up, before sleep. When i see him, when he leaves. Before and after secks. Always']
+[2021-07-16 17:21:50,989] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T172140, start_date=20210716T172148, end_date=20210716T172150
+[2021-07-16 17:21:51,064] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:21:51,115] {local_task_job.py:151} INFO - Task exited with return code 0

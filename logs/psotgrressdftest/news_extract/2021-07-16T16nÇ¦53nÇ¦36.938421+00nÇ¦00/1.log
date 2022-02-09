@@ -1,0 +1,23 @@
+[2021-07-16 16:53:43,697] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-16T16:53:36.938421+00:00 [queued]>
+[2021-07-16 16:53:43,745] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-16T16:53:36.938421+00:00 [queued]>
+[2021-07-16 16:53:43,746] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:53:43,747] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:53:43,748] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:53:43,777] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-16T16:53:36.938421+00:00
+[2021-07-16 16:53:43,802] {standard_task_runner.py:52} INFO - Started process 9952 to run task
+[2021-07-16 16:53:43,821] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-16T16:53:36.938421+00:00', '--job-id', '1315', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpc1tcci13', '--error-file', '/tmp/tmp6is01ek4']
+[2021-07-16 16:53:43,822] {standard_task_runner.py:77} INFO - Job 1315: Subtask news_extract
+[2021-07-16 16:53:43,953] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-16T16:53:36.938421+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:53:44,086] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:53:36.938421+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:53:33.625290+00:00
+[2021-07-16 16:53:44,120] {logging_mixin.py:104} INFO - 3P LAND HOLDINGS L
+[2021-07-16 16:54:01,320] {python.py:151} INFO - Done. Returned value was: ['Buzzing Stocks: Shree Cement, JSW Steel, United Spirits and others that will be in focus today', 'Companies and stocks to watch: October 29, 2020', 'Sensex tanks! But these stocks are up 10%', 'Trade setup for Monday: Top 15 things to know before Opening Bell', 'Markets to open marginally down amid mixed global cues', 'Top 10 things to know before the market opens', 'Ahead of Market: 12 things that will decide stock action on Tuesday', 'IWG pares gains as buyout talks falter', 'Important results today: Grasim Industries, India Cements, Mahanagar Gas, Barbeque-Nation Hospitality', 'M&C Saatchi outlives Covid ad crash', 'Markets trade higher; Sensex tops 50,850, Nifty 50 reclaims 15,250; Metal underperforms; SBI top gainer post Q4', 'Trade Setup for Thursday: Top 15 things to know before Opening Bell', "Investors Chronicle Exploiting 'margins of safety' - Investors' Chronicle 5 days ago", 'FTSE 100 moves ahead at a solid pace, Wall Street breaks into a run', 'New Orlando businesses for week of Dec. 27', 'Small Cap Wrap - Eddie Stobart Logistics, BlueRock Diamonds, Applegree and more...', 'NWA Property Transactions', "Bull market pointers - Investors' Chronicle", 'Lenoir County land transfers — Neuse News', 'Erie County Real Estate Transactions', 'Northwest Arkansas property transactions', "Watchlist small caps on the upgrade - Investors' Chronicle", 'Songs With Filthy Lyrics: 11 Hits That Are Nastier Than You Thought', 'Form 6-K Itau Unibanco Holding For: Nov 05', 'Report details deceit under Brian Hlongwa’s watch as Gauteng health MEC', 'Oil stuck below $50-a-barrel as Qatar rift with Arab states escalates; South Africa slips into recession as economy shrinks', 'Pay rise for thousands: Here are all 3,874 Living Wage employers', 'Quindell PLC: A Country Club Built On Quicksand', 'Caution E&P Investors - BOE Disclosures May Be Hazardous To Your Wealth', 'More deaths and injuries from US tear gas in Palestine, around the Middle East, and in Oakland']
+[2021-07-16 16:54:01,373] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210716T165336, start_date=20210716T165343, end_date=20210716T165401
+[2021-07-16 16:54:01,432] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:54:01,491] {local_task_job.py:151} INFO - Task exited with return code 0

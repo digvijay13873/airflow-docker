@@ -1,0 +1,20 @@
+[2021-07-16 15:12:38,148] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.restart_test 2021-07-16T15:12:02.689220+00:00 [queued]>
+[2021-07-16 15:12:38,203] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.restart_test 2021-07-16T15:12:02.689220+00:00 [queued]>
+[2021-07-16 15:12:38,204] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:12:38,205] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 15:12:38,207] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:12:38,238] {taskinstance.py:1087} INFO - Executing <Task(TriggerDagRunOperator): restart_test> on 2021-07-16T15:12:02.689220+00:00
+[2021-07-16 15:12:38,266] {standard_task_runner.py:52} INFO - Started process 2751 to run task
+[2021-07-16 15:12:38,283] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'restart_test', '2021-07-16T15:12:02.689220+00:00', '--job-id', '783', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp7rshrrnl', '--error-file', '/tmp/tmpwban9fk6']
+[2021-07-16 15:12:38,286] {standard_task_runner.py:77} INFO - Job 783: Subtask restart_test
+[2021-07-16 15:12:38,472] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.restart_test 2021-07-16T15:12:02.689220+00:00 [running]> on host 13346afafa5b
+[2021-07-16 15:12:38,780] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=restart_test
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T15:12:02.689220+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T15:11:56.150603+00:00
+[2021-07-16 15:12:48,803] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=restart_test, execution_date=20210716T151202, start_date=20210716T151238, end_date=20210716T151248
+[2021-07-16 15:12:49,026] {local_task_job.py:151} INFO - Task exited with return code 1

@@ -1,0 +1,22 @@
+[2021-07-13 09:20:04,309] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-13T09:19:48.555466+00:00 [queued]>
+[2021-07-13 09:20:04,442] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-13T09:19:48.555466+00:00 [queued]>
+[2021-07-13 09:20:04,446] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 09:20:04,455] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-13 09:20:04,457] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-13 09:20:04,526] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-13T09:19:48.555466+00:00
+[2021-07-13 09:20:04,622] {standard_task_runner.py:52} INFO - Started process 1521 to run task
+[2021-07-13 09:20:04,631] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-13T09:19:48.555466+00:00', '--job-id', '160', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpoiqajo_l', '--error-file', '/tmp/tmpec0m0hxc']
+[2021-07-13 09:20:04,639] {standard_task_runner.py:77} INFO - Job 160: Subtask extract_tweets
+[2021-07-13 09:20:04,987] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-13T09:19:48.555466+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-13 09:20:05,298] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-13T09:19:48.555466+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-13T09:19:48.555466+00:00
+[2021-07-13 09:20:12,465] {python.py:151} INFO - Done. Returned value was: ['@aakash_2017 @Saini_Parveen90 @_meenu1 चावल 😛😛', '@aakash_lakhia @akibaliii Congrats bro \U0001f973\U0001f973', 'RT @Prem19260032: कौन कहता है की भूड्डे इश्क नहीं करते... वो इश्क तो करते है पर उन पर कोई शक नहीं करते.......\n@VINEET_KAKA\n@Anoopmangal01\n😊…', 'RT @Being__Mili: #सूरत के साथ सीरत भी नज़र आती जिसमें\n\nकाश.. कोई ऐसा आईना होता...!!\n\n#काव्यांश', 'RT @Being__Mili: सर्दियों में नर्म सी धूप बन\nबिखरते हुए..\nफिर भी छू न पाओगे मुझे\nक्योंकि एहसास हूँ मैं\nऔर एहसास छुए नहीं जाते.\n\n#बज़्म', 'RT @OfficeOfBazm: #बज़्म_दैनिक_प्रतियोगिता के आज के #नूर_ए_बज्म \n\n@Being__Mili \n\n#बज़्म \n💐👏💐👏', 'This is good opportunity for mbbs students\nSTUDYMBBS with EOCL https://t.co/RcuOF9VhCV', '@cm_vats @Saini_Parveen90 @_meenu1 कढी 😝😝', 'RT @cm_vats: @aakash_2017 @Saini_Parveen90 @_meenu1 ऐसी नाइंसाफी सैनी सहाब के राज में \nकढी निंदा 🙊😂😂', 'Is it really a good way?You can get it very easily. Click on the link to get the correct information\nSTUDYMBBS with… https://t.co/2Gyfgrn1jj', 'RT @cm_vats: @aakash_2017 😜😁 धनबाद 🙏', '@aakash_lakhia Congrats seth \U0001f973🎊🙌', 'RT @Tripathydheeraj: धीरे धीरे आस्था बढ़ रही है😋']
+[2021-07-13 09:20:12,551] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210713T091948, start_date=20210713T092004, end_date=20210713T092012
+[2021-07-13 09:20:12,636] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-13 09:20:12,692] {local_task_job.py:151} INFO - Task exited with return code 0

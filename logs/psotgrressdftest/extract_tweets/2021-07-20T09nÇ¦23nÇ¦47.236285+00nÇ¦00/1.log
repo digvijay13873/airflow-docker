@@ -1,0 +1,22 @@
+[2021-07-20 09:23:58,358] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:23:47.236285+00:00 [queued]>
+[2021-07-20 09:23:58,420] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:23:47.236285+00:00 [queued]>
+[2021-07-20 09:23:58,421] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:23:58,422] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:23:58,423] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:23:58,455] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:23:47.236285+00:00
+[2021-07-20 09:23:58,480] {standard_task_runner.py:52} INFO - Started process 232 to run task
+[2021-07-20 09:23:58,490] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:23:47.236285+00:00', '--job-id', '1733', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmphsuadooz', '--error-file', '/tmp/tmph5jhww09']
+[2021-07-20 09:23:58,494] {standard_task_runner.py:77} INFO - Job 1733: Subtask extract_tweets
+[2021-07-20 09:23:58,655] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:23:47.236285+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:23:58,818] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:23:47.236285+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:23:34.180747+00:00
+[2021-07-20 09:24:00,042] {python.py:151} INFO - Done. Returned value was: ['RT @Saadaapbitches: Ek Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akaal Moorat Ajooni Saibhan ❤️❤️❤️\n\nWaheguru 🙏🙏 https://t.co/KpMCghWhmD', 'RT @Saadaapbitches: Ek Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akaal Moorat Ajooni Saibhan ❤️❤️❤️\n\nWaheguru 🙏🙏 https://t.co/KpMCghWhmD', 'RT @Saadaapbitches: Ek Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akaal Moorat Ajooni Saibhan ❤️❤️❤️\n\nWaheguru 🙏🙏 https://t.co/KpMCghWhmD', 'RT @Saadaapbitches: Ek Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akaal Moorat Ajooni Saibhan ❤️❤️❤️\n\nWaheguru 🙏🙏 https://t.co/KpMCghWhmD', 'RT @Saadaapbitches: Ek Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akaal Moorat Ajooni Saibhan ❤️❤️❤️\n\nWaheguru 🙏🙏 https://t.co/KpMCghWhmD', 'RT @Saadaapbitches: Ek Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akaal Moorat Ajooni Saibhan ❤️❤️❤️\n\nWaheguru 🙏🙏 https://t.co/KpMCghWhmD', 'RT @Saadaapbitches: Ek Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akaal Moorat Ajooni Saibhan ❤️❤️❤️\n\nWaheguru 🙏🙏 https://t.co/KpMCghWhmD', 'RT @Saadaapbitches: Ek Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akaal Moorat Ajooni Saibhan ❤️❤️❤️\n\nWaheguru 🙏🙏 https://t.co/KpMCghWhmD', 'Ek Onkar Sat Naam Karta Purakh Nirbhau Nirvair Akaal Moorat Ajooni Saibhan ❤️❤️❤️\n\nWaheguru 🙏🙏 https://t.co/KpMCghWhmD', '@momrryl0vebot @lwtspadfoot @sourbkl like ajooni.... maybe???', 'is ajooni moanable… https://t.co/miA8ckNCqP', 'BE TO EQ FROM TODAY : 63MOONS, A2ZINFRA, AARON, AARVEEDEN, ABAN, AJOONI, ALPA, ANSALAPI, ARIHANT, ARIHANTSUP, ARROW… https://t.co/aSEm6AWxCs', 'RT @baldev_bahl: OM \n\nIK     ONKAR \nSATI  NAMU \nKARTAPURKHU \nNIRBHAU \nNIRVAIRU \nAKAAL  MOORTI \nAJOONI \nSAIBHAM \nGUR     PARSAADI \n\nOM', 'Ik Oankar \nSatnam \nKarta Purakh\nNirbhao\nNirvair\nAkal Moorat\nAjooni Saibhang\nGurparsaad jap\nAad Sach\nJugaad Sach\nHai… https://t.co/Zu5JUsKth3', '@gays4hasan So we are basically showing our beautiful selfs to Ajooni?']
+[2021-07-20 09:24:00,167] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T092347, start_date=20210720T092358, end_date=20210720T092400
+[2021-07-20 09:24:00,249] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:24:00,306] {local_task_job.py:151} INFO - Task exited with return code 0

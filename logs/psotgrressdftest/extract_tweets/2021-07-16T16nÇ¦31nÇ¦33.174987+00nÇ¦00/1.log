@@ -1,0 +1,22 @@
+[2021-07-16 16:31:45,105] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:31:33.174987+00:00 [queued]>
+[2021-07-16 16:31:45,149] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:31:33.174987+00:00 [queued]>
+[2021-07-16 16:31:45,150] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:31:45,152] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:31:45,153] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:31:45,179] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:31:33.174987+00:00
+[2021-07-16 16:31:45,205] {standard_task_runner.py:52} INFO - Started process 8152 to run task
+[2021-07-16 16:31:45,217] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:31:33.174987+00:00', '--job-id', '1099', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpc8kn5i_2', '--error-file', '/tmp/tmpgv5jtlnn']
+[2021-07-16 16:31:45,218] {standard_task_runner.py:77} INFO - Job 1099: Subtask extract_tweets
+[2021-07-16 16:31:45,397] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:31:33.174987+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:31:45,582] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:31:33.174987+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:31:29.536528+00:00
+[2021-07-16 16:31:46,857] {python.py:151} INFO - Done. Returned value was: ['#aegischem  \n\nDoes it make sense ? 290-300 levels https://t.co/PJHINg6Fi3', 'STOCK NAME-  #AEGISCHEM\n\nENTRY CMP - 321\n\nTARGET-  330-350-370\n\n#MID_TERM  💰💰\n( STOCK BY @POOJADWIVEDI26 )\n\n⛔️ NOTE… https://t.co/AxdbPfizjX', '🔴  AEGISCHEM in 5min Timeframe https://t.co/HcwEAAt3AV', '#AEGISCHEM stock is suffering from tremendous buying force...add into watchlist and just wait for reversal, 400 lev… https://t.co/M9liFpNRIC', 'Buy (MIS_SLM)\n(Qty/10K Rs),\n\n#IEX\nAbove- 422.8\nQty- 2\n\n#OFSS\nAbove- 4140.6\nQty- 1\n\n#MPHASIS\nAbove- 2335.5\nQty- 1… https://t.co/aCSgMbn2aW', '#Intimation #Concall\n\n14Jul21\n#INFY: https://t.co/BsvNYBQXFD\n#AEGISCHEM: https://t.co/aB9LVwnS7P\n#LTTS:… https://t.co/9u94SfQ0Xa', '@Pankaj_priyam @zerodhaonline Both are same only, In NSE it registered as AEGISCHEM', '🔴  AEGISCHEM in 5min Timeframe\n(This is the last signal for today for more signals join our telegram channel… https://t.co/rXd5uksiFq', '@zerodhaonline I ordered Aegislog but order executed aegischem.', '@kuttrapali26 💯 right see aegischem today', '#stockstowatch for July 13, 2021\n\n#BSE #NSE #Sensex #Nifty #OpeningBell #stockmarketnews #MarketOpen #marketopening… https://t.co/wFiAdyGxrv', '#pressRelease #NSE #BSE #trading #stocks #stockmarket #PressRelease #AEGISCHEM - Press Release Aegis Logistics Limi… https://t.co/9aYOC5aQFa', '#pressRelease #NSE #BSE #trading #stocks #stockmarket #PressRelease #AEGISCHEM - Announcement under Regulation 30 (… https://t.co/dgU4ejohRH', '#Aegischem(374) :: \n\U0001f7e6 SwingShortTrade\n\U0001f7e8 Stop Loss 370\n\U0001f7e9 Target 400\n\U0001f7eb Good R:R https://t.co/JgiYzN9AfO', '#AEGISCHEM #StocksToWatch SL : WCB 290 https://t.co/vkbb4q0MKP https://t.co/4bHoP8bnlf']
+[2021-07-16 16:31:46,924] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T163133, start_date=20210716T163145, end_date=20210716T163146
+[2021-07-16 16:31:46,984] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:31:47,037] {local_task_job.py:151} INFO - Task exited with return code 0

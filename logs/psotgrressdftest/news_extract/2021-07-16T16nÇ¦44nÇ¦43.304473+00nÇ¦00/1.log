@@ -1,0 +1,23 @@
+[2021-07-16 16:44:52,218] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-16T16:44:43.304473+00:00 [queued]>
+[2021-07-16 16:44:52,266] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-16T16:44:43.304473+00:00 [queued]>
+[2021-07-16 16:44:52,267] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:44:52,268] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:44:52,269] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:44:52,293] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-16T16:44:43.304473+00:00
+[2021-07-16 16:44:52,317] {standard_task_runner.py:52} INFO - Started process 9195 to run task
+[2021-07-16 16:44:52,326] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-16T16:44:43.304473+00:00', '--job-id', '1218', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpqt2s_umr', '--error-file', '/tmp/tmptp52zymk']
+[2021-07-16 16:44:52,328] {standard_task_runner.py:77} INFO - Job 1218: Subtask news_extract
+[2021-07-16 16:44:52,431] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-16T16:44:43.304473+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:44:52,585] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:44:43.304473+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:44:40.197407+00:00
+[2021-07-16 16:44:52,620] {logging_mixin.py:104} INFO - PT Akasha Wira International Tbk
+[2021-07-16 16:45:07,377] {python.py:151} INFO - Done. Returned value was: ['Indonesia Skin Care Products Market Expected to Reach $14716 Million by 2027—Allied Market Research – The Manomet Current']
+[2021-07-16 16:45:07,428] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210716T164443, start_date=20210716T164452, end_date=20210716T164507
+[2021-07-16 16:45:07,491] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:45:07,532] {local_task_job.py:151} INFO - Task exited with return code 0

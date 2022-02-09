@@ -1,0 +1,22 @@
+[2021-07-16 10:35:34,562] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:35:25.116726+00:00 [queued]>
+[2021-07-16 10:35:34,604] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:35:25.116726+00:00 [queued]>
+[2021-07-16 10:35:34,605] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:35:34,606] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 10:35:34,608] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 10:35:34,639] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T10:35:25.116726+00:00
+[2021-07-16 10:35:34,660] {standard_task_runner.py:52} INFO - Started process 1855 to run task
+[2021-07-16 10:35:34,670] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T10:35:25.116726+00:00', '--job-id', '583', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpdz2551ju', '--error-file', '/tmp/tmpujcrgrt7']
+[2021-07-16 10:35:34,671] {standard_task_runner.py:77} INFO - Job 583: Subtask extract_tweets
+[2021-07-16 10:35:34,763] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T10:35:25.116726+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-16 10:35:34,874] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T10:35:25.116726+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T10:35:21.149744+00:00
+[2021-07-16 10:35:35,924] {python.py:151} INFO - Done. Returned value was: ['RT @charts_breakout: Stocks to Watch Out\n\n1. LTI\n2. Wipro\n3. ABFRL ( Bo and Re test ) \n4. Solar Ind ( Soon ) https://t.co/QbKCyhxEHS', '@Rishabh93049615 bhai\nVery gud.. keep going..\nAwesom calls #ABFRL #DLF https://t.co/l3swafIeOo', 'RT @VijayThk: #ABFRL \n\nBreakout Retest done CMP 226.\n\nPlan Your Trade\n#MasterInOne https://t.co/NspDZDdXyF', 'ABFRL is a Chutiya share 😃😃', 'ABFRL - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/JgYWpuqDct', '#DLF\nTarget ke dhago ne mat bandhiyega isko. Isko bas behne dena..\nFree join telegram\nhttps://t.co/91hkkHxRFW… https://t.co/CYHE1YzRgv', 'RT @VijayThk: #ABFRL \n\nBreakout Retest done CMP 226.\n\nPlan Your Trade\n#MasterInOne https://t.co/NspDZDdXyF', '#Abfrl\nOn day closing basis\nSupport in the range(222.5 -224.75)\nFor a target of 231.8 +\nFor educational purpose only https://t.co/hbAssOvAIa', 'RT @ashishkelo: @pantaloonsindia What quality check do you perform before shipping? 2 products are damaged and top of that there is no exch…', '@pantaloonsindia What quality check do you perform before shipping? 2 products are damaged and top of that there is… https://t.co/UCcVoFKwc5', 'RT @VijayThk: #ABFRL \n\nBreakout Retest done CMP 226.\n\nPlan Your Trade\n#MasterInOne https://t.co/NspDZDdXyF', '#MarketWatch 16th July 10 AM \n\nIntraday tracker #NAM-INDIA  #ALKEM #IRCTC #HDFCAMC #DIVISLAB #BERGERPAINT… https://t.co/dnGpxo2nqo', 'RT @VijayThk: #ABFRL \n\nBreakout Retest done CMP 226.\n\nPlan Your Trade\n#MasterInOne https://t.co/NspDZDdXyF', '@Sharekhan WHY ARE MARGINS APPLIED TO ALL SELL ORDERS , WHEN SHARES ARE IN OUR DEMAT ACCOUNT HELD WITH YOU ?? SEE I… https://t.co/q5HeEFMh2G', '#ABFRL \n\nBreakout Retest done CMP 226.\n\nPlan Your Trade\n#MasterInOne https://t.co/0HXmoRs4TL https://t.co/NspDZDdXyF']
+[2021-07-16 10:35:35,974] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T103525, start_date=20210716T103534, end_date=20210716T103535
+[2021-07-16 10:35:36,036] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 10:35:36,086] {local_task_job.py:151} INFO - Task exited with return code 0

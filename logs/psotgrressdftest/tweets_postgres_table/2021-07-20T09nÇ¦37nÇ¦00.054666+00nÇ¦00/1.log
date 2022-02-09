@@ -1,0 +1,23 @@
+[2021-07-20 09:37:37,076] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:37:00.054666+00:00 [queued]>
+[2021-07-20 09:37:37,151] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:37:00.054666+00:00 [queued]>
+[2021-07-20 09:37:37,155] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:37:37,157] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:37:37,158] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:37:37,235] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-20T09:37:00.054666+00:00
+[2021-07-20 09:37:37,293] {standard_task_runner.py:52} INFO - Started process 1101 to run task
+[2021-07-20 09:37:37,308] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-20T09:37:00.054666+00:00', '--job-id', '1810', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpd49a5x3y', '--error-file', '/tmp/tmp8kvy6hmn']
+[2021-07-20 09:37:37,314] {standard_task_runner.py:77} INFO - Job 1810: Subtask tweets_postgres_table
+[2021-07-20 09:37:37,884] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:37:00.054666+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:37:38,435] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:37:00.054666+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:36:50.285519+00:00
+[2021-07-20 09:37:38,856] {logging_mixin.py:104} INFO - [('Let"s talk about what a recent gen My Little Pony, Alicon Twilight Sparkle is doing in 1995. #BlackWidow', Decimal('0.4215')), ('#alicon 8% up \U0001f973\U0001f973\U0001f973\U0001f973', Decimal('0.0000')), ('ALICON - Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018 https://t.co/V2ZBnQUXYI', Decimal('0.0000')), ('Hae @DCI_Kenya huyu jama hapa chini alicon an mpesa agent 90k jana akijifanya @AIRTEL_KE agent in Embu town..number… https://t.co/5UFMHnz8vS', Decimal('0.0000')), ('@gpdkaluma Baba alicon watu pesa through paybill ama hiyoo sii corruption......tebu uliza weta na watermelon watakuambiaa😅', Decimal('0.0000')), ('@academy_share Sir alicon double h\nProfit book krna h abhi?', Decimal('0.4404')), ('#askawaaz alicon cast alloy 11 quantity @ 550 and Triveni engineering, 100 quantity at 95 rupees... medium to long term', Decimal('0.0000')), ('RT @Ashwini67732426: @CNBC long term view on alicon cast alloy... I have 12 quantities at 554', Decimal('0.0000')), ('@CNBC long term view on alicon cast alloy... I have 12 quantities at 554', Decimal('0.0000')), ('Check out \nALICON Men"s Air Series Mesh Casual,Walking,Running/Gymwear Shoes by ALICON \n\nhttps://t.co/RaGvsjCCYz \n\nvia @amazon', Decimal('0.0000')), ('@ppzuniga @SimpsonitoMX @charlyayala Hahahahahahaha Bob Alicón!! Pap Anatas!!!', Decimal('0.0000')), ('Alicon’s don’t reciprocate', Decimal('0.0000')), ('#transformersg1 pit of judgment from #Transformersthemovie #quintessons #sharkticons #alicon #kranix https://t.co/WTzhoIE8GE', Decimal('0.0000')), ('Alicon Castalloy Price Analysis https://t.co/ZWNTbUz27i via @YouTube', Decimal('0.0000')), ('[17/7 09:56] Zilai Maria ❤️: Tá sozinho?\n[17/7 09:56] Áliçon: Tô eu e Ògún\n\nÒgún deve não tá me suportando mais', Decimal('0.0000'))]
+[2021-07-20 09:37:38,897] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:37:38,964] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210720T093700, start_date=20210720T093737, end_date=20210720T093738
+[2021-07-20 09:37:39,260] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:37:39,361] {local_task_job.py:151} INFO - Task exited with return code 0

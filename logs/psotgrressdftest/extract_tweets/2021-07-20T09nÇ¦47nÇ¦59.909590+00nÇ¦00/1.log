@@ -1,0 +1,22 @@
+[2021-07-20 09:48:21,842] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:47:59.909590+00:00 [queued]>
+[2021-07-20 09:48:21,998] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:47:59.909590+00:00 [queued]>
+[2021-07-20 09:48:22,006] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:48:22,007] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:48:22,009] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:48:22,164] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:47:59.909590+00:00
+[2021-07-20 09:48:22,266] {standard_task_runner.py:52} INFO - Started process 1805 to run task
+[2021-07-20 09:48:22,290] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:47:59.909590+00:00', '--job-id', '1863', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpc0h9cguz', '--error-file', '/tmp/tmpydkxob6w']
+[2021-07-20 09:48:22,293] {standard_task_runner.py:77} INFO - Job 1863: Subtask extract_tweets
+[2021-07-20 09:48:22,661] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:47:59.909590+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:48:23,274] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:47:59.909590+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:47:52.510011+00:00
+[2021-07-20 09:48:24,355] {python.py:151} INFO - Done. Returned value was: ['#QuarterlyResults #ResultUpdate #Q1FY22\nCompany - Alok Industries Ltd. #ALOKINDS Quarter ending 30-Jun-21, Consolid… https://t.co/LF14nHuOBW', 'India Equity: Alok_Industries (#ALOKINDS) declares Quarterly Results. EPS = Rs -0.2 for quarter ended Jun\xa02021 https://t.co/Z2KbsQI1GC', '#NseBoardMeetingToday #NAM-INDIA #HDFCLIFE #SWARAJENG #PONNIERODE #HCLTECH #ACC #MASTEK #SUPPETRO #ALOKINDS #ASTRON… https://t.co/i1dp1dnijD', 'Results Today \n19July 21\n\nACC\nALOKINDS\nHCLTECH\nHDFCLIFE\nNAM-INDIA\nINDIANB\nASTRON\nSWARAJENG\nMASTEK', '@JungleeMami @Vivisash68 GIF represent what Cong did2 economy/ PSU banks: 2004-14.\n#CongressMukTBharat\nPSU Banks pa… https://t.co/j3BDXR9lAz', '@50crBloke #alokinds stuck at 58 levels']
+[2021-07-20 09:48:24,483] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T094759, start_date=20210720T094821, end_date=20210720T094824
+[2021-07-20 09:48:24,646] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:48:24,729] {local_task_job.py:151} INFO - Task exited with return code 0

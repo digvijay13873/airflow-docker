@@ -1,0 +1,23 @@
+[2021-07-20 09:42:17,063] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:41:49.423676+00:00 [queued]>
+[2021-07-20 09:42:17,175] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:41:49.423676+00:00 [queued]>
+[2021-07-20 09:42:17,183] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:42:17,186] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:42:17,193] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:42:17,268] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-20T09:41:49.423676+00:00
+[2021-07-20 09:42:17,306] {standard_task_runner.py:52} INFO - Started process 1409 to run task
+[2021-07-20 09:42:17,339] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-20T09:41:49.423676+00:00', '--job-id', '1834', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpattbdjte', '--error-file', '/tmp/tmpix3o_ecq']
+[2021-07-20 09:42:17,352] {standard_task_runner.py:77} INFO - Job 1834: Subtask tweets_postgres_table
+[2021-07-20 09:42:17,585] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-20T09:41:49.423676+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:42:17,827] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:41:49.423676+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:41:44.524868+00:00
+[2021-07-20 09:42:17,935] {logging_mixin.py:104} INFO - [('#ALKYLAMINE Closed for a tiny gain after holding it for what seems like an eternity .yuck', Decimal('0.7096')), ('ALKYLAMINE - Shareholding for the Period Ended June 30, 2021 https://t.co/g0vnmTgxqJ', Decimal('0.0000')), ('i love how alkylamine kept winning in which one is more basic compared to it', Decimal('0.8225')), ('@Twinkleinvest ALKYLAMINE', Decimal('0.0000')), ('RT @srvithal388: #Alkylamine \n3% - No CR since top in May 2021\n\n1% - Side Ways since May 21 top, no major correction &amp; price during side wa…', Decimal('-0.2023')), ('#ALKYLAMINE\nYe kya Jadu he bhai in a year from 1st Jan - 440 to now 3700+ https://t.co/7qAGEzfVgl', Decimal('0.0000')), ('@SAnngeri Hello! There you go! Original tweet by @srvithal388: "#Alkylamine \n3% - No CR since top in May 2021\n\n1% -… https://t.co/HuSTKdwKD3', Decimal('0.3578')), ('RT @srvithal388: #Alkylamine \n3% - No CR since top in May 2021\n\n1% - Side Ways since May 21 top, no major correction &amp; price during side wa…', Decimal('-0.2023')), ('#Alkylamine \n3% - No CR since top in May 2021\n\n1% - Side Ways since May 21 top, no major correction &amp; price during… https://t.co/sxfgiw8vMA', Decimal('-0.2023')), ('RT @kuttrapali26: 👩🏻\u200d💼Invest In High Moat Businesses- Stocks in Vogue,A Must Study\n\n🌁CAMS\n🌁AMBER\n🌁ROUTE\n🌁INDIAMART\n🌁IEX\n🌁AFFLE\n🌁HAPPIEST\n🌁A…', Decimal('0.0000')), ('RT @kuttrapali26: 👩🏻\u200d💼Invest In High Moat Businesses- Stocks in Vogue,A Must Study\n\n🌁CAMS\n🌁AMBER\n🌁ROUTE\n🌁INDIAMART\n🌁IEX\n🌁AFFLE\n🌁HAPPIEST\n🌁A…', Decimal('0.0000')), ('@bsksrivastava #dixon\n@DeepakGroupCo \n#alkylamine\n#astralpipe', Decimal('0.0000')), ('ALKYLAMINE - Board Meeting Intimation for Approval Of Unaudited Financial Results https://t.co/Wep1KQ9qsD', Decimal('0.4767')), ('#ALKYLAMINE can breakout from 8 weeks flat consolidation next week. 🚀 https://t.co/iZpUKq57Fn', Decimal('0.0000')), ('RT @kuttrapali26: 👩🏻\u200d💼Invest In High Moat Businesses- Stocks in Vogue,A Must Study\n\n🌁CAMS\n🌁AMBER\n🌁ROUTE\n🌁INDIAMART\n🌁IEX\n🌁AFFLE\n🌁HAPPIEST\n🌁A…', Decimal('0.0000'))]
+[2021-07-20 09:42:17,943] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:42:17,980] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210720T094149, start_date=20210720T094217, end_date=20210720T094217
+[2021-07-20 09:42:18,070] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:42:18,104] {local_task_job.py:151} INFO - Task exited with return code 0

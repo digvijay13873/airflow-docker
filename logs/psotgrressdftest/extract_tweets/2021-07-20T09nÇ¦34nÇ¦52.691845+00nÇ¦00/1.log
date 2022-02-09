@@ -1,0 +1,22 @@
+[2021-07-20 09:35:12,275] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:34:52.691845+00:00 [queued]>
+[2021-07-20 09:35:12,450] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:34:52.691845+00:00 [queued]>
+[2021-07-20 09:35:12,453] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:35:12,462] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:35:12,474] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:35:12,585] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:34:52.691845+00:00
+[2021-07-20 09:35:12,691] {standard_task_runner.py:52} INFO - Started process 953 to run task
+[2021-07-20 09:35:12,717] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:34:52.691845+00:00', '--job-id', '1799', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp79vd8ma5', '--error-file', '/tmp/tmpc46bfpo2']
+[2021-07-20 09:35:12,719] {standard_task_runner.py:77} INFO - Job 1799: Subtask extract_tweets
+[2021-07-20 09:35:13,002] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:34:52.691845+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:35:13,543] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:34:52.691845+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:34:46.176810+00:00
+[2021-07-20 09:35:15,365] {python.py:151} INFO - Done. Returned value was: ['#ALEMBICLTD \n- Volume Spikes\n-Pharma Sector Boom\n-Strong Buyers\n-Price action is very strong\n \n@shivaji_1983… https://t.co/gloaO0UkU2', '#ALEMBICLTD - Alembic Pharma_ - TradingView - https://t.co/JXvePFUAB7', '#ALEMBICLTD #BullsEye\nAbove 140 good for 180-200 with sl 115 https://t.co/N4RS3ieNLL', 'ALEMBICLTD - Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate https://t.co/yy11keZeQf', '#Alembicltd ending its 2-month long consolidation phase\nSupport zone 125-130\nUpside potential 155+\n#StocksToWatch… https://t.co/kfFhAyRrjE', '#ALEMBICLTD https://t.co/pmTEkEwM6X', 'BTST Performance\n\nANGELBRKG 10%up\nSTEELCITY  15% up\nSUNCLAYLTD 2% uo\nGEOJITFSL 4.2% up\nNITINSPIN 4.5% up\nSUNDARMHLD… https://t.co/t66nPrdJuN', 'RT @saditya10p: Wizard Diwali Pick 8 Month returns 🌟\n(UPDATE 17/07/21)\n\n1.MOREPENLAB  220% 💚\n2.DEEPAKFERT 200% 💚\n3.CDSl 200% 💚\n4.TATA STEEL…', '#ALEMBICLTD - Triangle breakout in ALEMBIC LTD - TradingView - https://t.co/Cd3DvebZjo', '#SwingTrading #ChannelTrading #ALEMBICLTD\nAlembic Ltd trading in channel for last 50 days... https://t.co/z4e7x684f4', 'Wizard Diwali Pick 8 Month returns 🌟\n(UPDATE 17/07/21)\n\n1.MOREPENLAB  220% 💚\n2.DEEPAKFERT 200% 💚\n3.CDSl 200% 💚\n4.TA… https://t.co/p2B63Nkvt9', 'Trading Ideas: ALEMBIC LTD TO MOON https://t.co/eSKxZKyLIg 📈 FREE trade-of-week via ⟶ https://t.co/BCEHq7Ce2N https://t.co/1trjm3lXv4', 'RT @vijay_P69: #Alembicltd\n\nLow risk setup\n\nAll set to catch fire.\n\nBuy at cmp\nSl 125 on daily clbs.\n\nVolumes Popping up in the end of cons…', '**BTST (16/07/2021)**\n\nANGELBRKG\nSTEELCITY\nSUNCLAYLTD\nGEOJITFSL\nNITINSPIN\nSUNDARMHLD\nGPTINFRA\nLUMAXTECH\nGIPCL\nHAVEL… https://t.co/xxLkfO5LRF', 'Alembic Ltd - Chart to keep an eye on \n#ALEMBICLTD\n #frontpage_app https://t.co/oDVpkuazrj']
+[2021-07-20 09:35:16,059] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T093452, start_date=20210720T093512, end_date=20210720T093516
+[2021-07-20 09:35:16,598] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:35:16,663] {local_task_job.py:151} INFO - Task exited with return code 0

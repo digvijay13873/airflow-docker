@@ -1,0 +1,22 @@
+[2021-07-16 16:16:12,594] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:15:56.496687+00:00 [queued]>
+[2021-07-16 16:16:12,685] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:15:56.496687+00:00 [queued]>
+[2021-07-16 16:16:12,686] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:16:12,689] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:16:12,694] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:16:12,765] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:15:56.496687+00:00
+[2021-07-16 16:16:12,827] {standard_task_runner.py:52} INFO - Started process 7066 to run task
+[2021-07-16 16:16:12,853] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:15:56.496687+00:00', '--job-id', '990', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpjyxad8t_', '--error-file', '/tmp/tmpqt1qmcqg']
+[2021-07-16 16:16:12,856] {standard_task_runner.py:77} INFO - Job 990: Subtask extract_tweets
+[2021-07-16 16:16:13,117] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:15:56.496687+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:16:13,351] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:15:56.496687+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:15:50.151748+00:00
+[2021-07-16 16:16:14,483] {python.py:151} INFO - Done. Returned value was: ['@23heartily @campdenoren23 Bener banget ini seruu tapi belum up lg ya?', '@ACR_POKER @ACR_POKER can you guys please give an ETA.. I don’t think that’s to much to ask..', 'RT @YukselisGruplar: Başlarına Yıkacağız \n#YükselişGrupları \n@prusyas_plus\n@_Ertugrul_Gazi1\n@metekalin\n@papatyakatili\n@guloglu_mustafa\n@kur…', '@Leebiruu @campdenoren23 desary07 kak', 'Vejam bem @camaradeputados e @SenadoFederal, o povo brasileiro exige o voto impresso auditavel.… https://t.co/gH3D04zhfs', 'Wolseley Climate is dedicated to helping #installers deal with the latest developments in F-Gas regulation &amp; if use… https://t.co/BF15Z30AT9', "RT @pasdesvotres: Y'a quoi de pire que de chercher la partie 2 d'une vidéo sur tiktok", 'RT @TheEternalTrip: Mood, Greece https://t.co/LUvAmMODKt', 'RT @fori_kbg: Juillembre', 'RT @gladiolusupport: 📥 ساعة آيرين اليومية – الرد بعبارة :\n\n레드벨벳 아이린\n #아이린 #IRENE\n\nادخلوا البحث لمدة دقيقة او اكثر:\n\n https://t.co/tECXBqYEr…', '📥 ساعة آيرين اليومية – الرد بعبارة :\n\n레드벨벳 아이린\n #아이린 #IRENE\n\nادخلوا البحث لمدة دقيقة او اكثر:… https://t.co/gopN1chR65', 'RT @papatyakatili: Bugün Reis  @tcbestepe @RTErdogan \n"Başlarına Geçireceğiz" dedi.\nİşte O Ekip Burada.\n@kurtbalam \n@MuddetDevleti \n@SSNULL…', '@hiropapa_acr nice残業😁👍', 'RT @VanessaKade: 🍀🍀 $2650 Ticket GIVEAWAY! 🍀🍀\n\nBiggest ever $10 MILLION GUARANTEED Venom starts July 23rd with $1M gtd to 1st!\n\nGiving away…', 'RT @LeHamsss: «\xa0Maitresse vénérée, quelqu’un approche par la route des flamboyants\xa0»']
+[2021-07-16 16:16:14,586] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T161556, start_date=20210716T161612, end_date=20210716T161614
+[2021-07-16 16:16:14,750] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:16:14,805] {local_task_job.py:151} INFO - Task exited with return code 0

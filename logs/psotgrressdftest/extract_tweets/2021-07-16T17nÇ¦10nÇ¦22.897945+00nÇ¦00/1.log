@@ -1,0 +1,22 @@
+[2021-07-16 17:10:29,548] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:10:22.897945+00:00 [queued]>
+[2021-07-16 17:10:29,591] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:10:22.897945+00:00 [queued]>
+[2021-07-16 17:10:29,593] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:10:29,594] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:10:29,595] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:10:29,621] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:10:22.897945+00:00
+[2021-07-16 17:10:29,643] {standard_task_runner.py:52} INFO - Started process 11335 to run task
+[2021-07-16 17:10:29,652] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:10:22.897945+00:00', '--job-id', '1483', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpkmunlj9u', '--error-file', '/tmp/tmplrq2tosl']
+[2021-07-16 17:10:29,653] {standard_task_runner.py:77} INFO - Job 1483: Subtask extract_tweets
+[2021-07-16 17:10:29,755] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:10:22.897945+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:10:29,944] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:10:22.897945+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:10:20.784615+00:00
+[2021-07-16 17:10:31,277] {python.py:151} INFO - Done. Returned value was: ['RT @lm_stats: 🇬🇧 UK Official Singles chart \n\n#57. (-36) Confetti — @LittleMix\n*ACR effect*\n\n(Peak: #9 | Week: 14) https://t.co/v9k2xUXYdp', 'RT @littIemixdata: Official UK Singles Chart:\n\n#57. Confetti – @LittleMix (-36)\n(Peak #9 | Week 14)\n\n*ACR effect https://t.co/sfHik5dm6S', 'Ummm @ACR_POKER Any answers?', '@onestpaslagros @matzoooooo @Mldgzi La dodge viper acr fais 1t5 pour 650cv et fais un temps super sur le nurb \nComm… https://t.co/sNojZzJZK7', 'RT @lm_stats: 🇬🇧 UK Official Singles chart \n\n#57. (-36) Confetti — @LittleMix\n*ACR effect*\n\n(Peak: #9 | Week: 14) https://t.co/v9k2xUXYdp', 'RT @lm_stats: 🇬🇧 UK Official Singles chart \n\n#57. (-36) Confetti — @LittleMix\n*ACR effect*\n\n(Peak: #9 | Week: 14) https://t.co/v9k2xUXYdp', '@Littlemixnewss1 @lm_stats @LittleMix ACR (Accelerated Chart Ratio): If the streams for a song have been decreasing… https://t.co/suwqgu9J6m', 'RT @littIemixdata: Official UK Singles Chart:\n\n#57. Confetti – @LittleMix (-36)\n(Peak #9 | Week 14)\n\n*ACR effect https://t.co/sfHik5dm6S', "cos'è l'acr? https://t.co/FDWFWA8x1Y", 'RT @littIemixdata: Official UK Singles Chart:\n\n#57. Confetti – @LittleMix (-36)\n(Peak #9 | Week 14)\n\n*ACR effect https://t.co/sfHik5dm6S', 'Official UK Singles Chart:\n\n#57. Confetti – @LittleMix (-36)\n(Peak #9 | Week 14)\n\n*ACR effect https://t.co/sfHik5dm6S', '@ACR_POKER @romanostonks The have held their CLIENTS money hostage for 36+ hours and we are only deserving of a cop… https://t.co/eu2XbSHCHr', 'RT @lm_stats: 🇬🇧 UK Official Singles chart \n\n#57. (-36) Confetti — @LittleMix\n*ACR effect*\n\n(Peak: #9 | Week: 14) https://t.co/v9k2xUXYdp', 'RT @littIemixdata: Official UK Singles Chart:\n\n#57. Confetti – @LittleMix (-36)\n(Peak #9 | Week 14)\n\n*ACR effect https://t.co/9p14o0ctHx', '@lm_stats @LittleMix What’s ACR']
+[2021-07-16 17:10:31,330] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T171022, start_date=20210716T171029, end_date=20210716T171031
+[2021-07-16 17:10:31,387] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:10:31,431] {local_task_job.py:151} INFO - Task exited with return code 0

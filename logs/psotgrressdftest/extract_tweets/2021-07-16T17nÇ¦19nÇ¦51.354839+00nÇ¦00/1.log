@@ -1,0 +1,22 @@
+[2021-07-16 17:19:58,131] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:19:51.354839+00:00 [queued]>
+[2021-07-16 17:19:58,175] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:19:51.354839+00:00 [queued]>
+[2021-07-16 17:19:58,175] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:19:58,176] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:19:58,177] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:19:58,196] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:19:51.354839+00:00
+[2021-07-16 17:19:58,214] {standard_task_runner.py:52} INFO - Started process 12239 to run task
+[2021-07-16 17:19:58,221] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:19:51.354839+00:00', '--job-id', '1602', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpygucbyvg', '--error-file', '/tmp/tmpogcduh03']
+[2021-07-16 17:19:58,222] {standard_task_runner.py:77} INFO - Job 1602: Subtask extract_tweets
+[2021-07-16 17:19:58,309] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:19:51.354839+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:19:58,409] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:19:51.354839+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:19:48.969890+00:00
+[2021-07-16 17:19:59,696] {python.py:151} INFO - Done. Returned value was: ['RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', 'RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', '파스붙였는데도 아픈데', '내일 일 끝나고 오면 쓸 수 있을까 힘들어서 안 쓸듯', 'RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', '죄 다 잘리네', 'RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', 'RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', 'RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', '@ichbinvkr @anantladha25 Affle India will more aggressively...', 'RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', 'RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', 'RT @PeeyushTrader: Few IPO stocks which have given crazy return in past 4-5 years :-\n\n1. Dixon Tech - 13X\n2. DMart - 11X\n3. CDSL - 10X\n4. H…', '@anantladha25 Bhai, TATA ELXSI is placed under Stage-1 ASM list but Affle India is under Stage-4 ASM even though th… https://t.co/LyK8HwmMtC', '파스의 원리가']
+[2021-07-16 17:19:59,745] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T171951, start_date=20210716T171958, end_date=20210716T171959
+[2021-07-16 17:19:59,804] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:19:59,839] {local_task_job.py:151} INFO - Task exited with return code 0

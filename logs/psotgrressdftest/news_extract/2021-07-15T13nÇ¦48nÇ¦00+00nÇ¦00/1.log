@@ -1,0 +1,23 @@
+[2021-07-15 13:49:06,893] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-15T13:48:00+00:00 [queued]>
+[2021-07-15 13:49:06,912] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-15T13:48:00+00:00 [queued]>
+[2021-07-15 13:49:06,913] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:49:06,914] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-15 13:49:06,915] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 13:49:06,936] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-15T13:48:00+00:00
+[2021-07-15 13:49:06,950] {standard_task_runner.py:52} INFO - Started process 3135 to run task
+[2021-07-15 13:49:06,955] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-15T13:48:00+00:00', '--job-id', '386', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp_tkp9nj2', '--error-file', '/tmp/tmp4_3wthwk']
+[2021-07-15 13:49:06,956] {standard_task_runner.py:77} INFO - Job 386: Subtask news_extract
+[2021-07-15 13:49:07,029] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-15T13:48:00+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-15 13:49:07,259] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T13:48:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-15T13:48:00+00:00
+[2021-07-15 13:49:07,279] {logging_mixin.py:104} INFO - Aarvi Encon Limited
+[2021-07-15 13:49:23,618] {python.py:151} INFO - Done. Returned value was: ["Aarvi Encon's UAE-based subsidiary incorporates Aarvi Encon LLC in Oman", 'Strategic alliance of Aarvi Encon in Middle East countries', 'Aarvi Encon wins work order of Rs23.58cr from Numaligarh Refinery; stock trades higher', 'Aarvi Encon wins orders worth Rs8.21cr from Shell Energy for technical manpower and insulation services', 'Aarvi Encon jumps over 3 per cent on bagging new order from Indian Oil Corporation', 'Aarvi Encon wins work orders of ~Rs30.69cr from Nayara Energy', "MD of Aarvi Encon awarded as one of India's greatest entrepreneurs", 'CRISIL ratings for Indian debt instruments-Jun 22', 'CRISIL ratings for Indian debt instruments-May 29', 'ET Industry Leaders– MSME West 2020 - Honouring Excellence', 'Welspun Enterprises bags EPC order for water segment worth Rs 2500 crore', 'Ahead of Market: 12 things that will decide stock action on Tuesday', 'Ahead of Market: 12 things that will decide stock action today', 'Closing Bell: Fourth day rally pushes Nifty to above 7-month high, Sensex gains 600 pts', 'Altina Entrepreneurs Excellence awards presented for promoting entrepreneurship', 'Reskilling and upskilling: Optimising the workforce', 'Budget 2021-22: Union Budget 2021 News and Updates, Income Tax Slab, India Budget 2021 Highlights', 'Budget 2019: What is Indian industry expecting from Narendra Modi’s Government', 'Sportskeeda set to capture 45Mn online cricket users in India!', 'Want to create the perfect resume? Here are 5 tips you should follow', 'UNO MINDA Group enters into JV with TTE, Taiwan', 'Sunil Kothari, Joint Managing Director, Om Metals Infraprojects Ltd', 'Why Industry-driven Training is Critical for Employability Amongst Indian Engineers']
+[2021-07-15 13:49:23,656] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210715T134800, start_date=20210715T134906, end_date=20210715T134923
+[2021-07-15 13:49:23,708] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 13:49:23,748] {local_task_job.py:151} INFO - Task exited with return code 0

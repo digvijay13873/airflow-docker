@@ -1,0 +1,22 @@
+[2021-07-20 09:39:51,209] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:39:35.378450+00:00 [queued]>
+[2021-07-20 09:39:51,313] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:39:35.378450+00:00 [queued]>
+[2021-07-20 09:39:51,317] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:39:51,320] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:39:51,333] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:39:51,376] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:39:35.378450+00:00
+[2021-07-20 09:39:51,421] {standard_task_runner.py:52} INFO - Started process 1244 to run task
+[2021-07-20 09:39:51,472] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:39:35.378450+00:00', '--job-id', '1816', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp3ll73rg9', '--error-file', '/tmp/tmpjoc6vnda']
+[2021-07-20 09:39:51,504] {standard_task_runner.py:77} INFO - Job 1816: Subtask extract_tweets
+[2021-07-20 09:39:51,861] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:39:35.378450+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:39:52,153] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:39:35.378450+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:39:31.424510+00:00
+[2021-07-20 09:39:53,444] {python.py:151} INFO - Done. Returned value was: ['RT @youdebutplz: 누군가 무심을 논한다면\n신청려가 솔로로 탑티어 찍고 가요계 휩쓰는동안 지 알바 아니라고 언급도 안하다가 활동 다 끝나고 나서야 대충 사실적시 겸 그 모든 성과를 한줄로 퉁쳐버리는 박문대를 보게 하라', 'JITF Infra Logistics \n\nEngaged in municipal solid waste (MSW) management &amp; waste to energy (WTE) business.\n\nCMP: 20… https://t.co/7fCzbAAYte', 'RT @WhatToExpect: Every mother deserves a safe pregnancy, but there are vast disparities in care depending on where you live, your ability…', '@wte_nisino こんちは！', '@wte_nisino まりなちゃんこんにちは😊', '@Av_an_ Dam w leke sag la dame aw jahelana xawentra\n\nXozga replayt nakrdba qsay nashrene pe wte lasar mn daway leburdn dakam', 'RT @mana_rosace: 金魚、招き猫ヘアバンド、今回はこの4種です。\n\n#WTE\n#リアルファブリック https://t.co/mNhC3fpsaj', '@wte_nisino すごくぷりちゅだね‼️✨💕', "@jeonkooqis you didn't join into mob mentality and didn't befriend me just because I had good grades or wte that's… https://t.co/oO20pbgcOd", 'RT @mana_rosace: 金魚、招き猫ヘアバンド、今回はこの4種です。\n\n#WTE\n#リアルファブリック https://t.co/mNhC3fpsaj', 'あ / リクエスト気軽に！ https://t.co/7TIbtL0UvJ', 'RT @WhatToExpect: Every mother deserves a safe pregnancy, but there are vast disparities in care depending on where you live, your ability…', 'RT @NoBurn_Ph: As medical waste piles up, we demand that the government should instead invest in the health of communities instead of pushi…', '当店でお迎えしたものやご来店レポ、ご来店の際のコーデ写真など\n「#WTE」タグをつけてのツイートしていただけると\n店主の魔女が喜びますので是非お願いいたします♡\n冒険の記録は是非「＃WTE」タグを！', 'Wte hamna kitu https://t.co/rJsxOENfN9']
+[2021-07-20 09:39:53,617] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T093935, start_date=20210720T093951, end_date=20210720T093953
+[2021-07-20 09:39:53,767] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:39:53,828] {local_task_job.py:151} INFO - Task exited with return code 0

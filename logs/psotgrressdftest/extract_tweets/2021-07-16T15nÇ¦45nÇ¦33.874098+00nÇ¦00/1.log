@@ -1,0 +1,22 @@
+[2021-07-16 15:45:47,344] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T15:45:33.874098+00:00 [queued]>
+[2021-07-16 15:45:47,794] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T15:45:33.874098+00:00 [queued]>
+[2021-07-16 15:45:47,796] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:45:47,798] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 15:45:47,814] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:45:47,872] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T15:45:33.874098+00:00
+[2021-07-16 15:45:47,919] {standard_task_runner.py:52} INFO - Started process 4919 to run task
+[2021-07-16 15:45:47,968] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T15:45:33.874098+00:00', '--job-id', '873', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp6j8wx99f', '--error-file', '/tmp/tmp_xg7euhx']
+[2021-07-16 15:45:47,971] {standard_task_runner.py:77} INFO - Job 873: Subtask extract_tweets
+[2021-07-16 15:45:48,220] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T15:45:33.874098+00:00 [running]> on host 13346afafa5b
+[2021-07-16 15:45:48,441] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T15:45:33.874098+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T15:45:28.525442+00:00
+[2021-07-16 15:45:49,737] {python.py:151} INFO - Done. Returned value was: ['AARTIDRUGS - Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate https://t.co/QEfUcv9FtB', '@Rishikesh_ADX  Patience ki Patience ki Patience bhi test ho gayi #AARTIDRUGS me. R u still in it or exited or wait… https://t.co/fMpfi79i3i', '#AartiDrugs keep an eye 👁', '#INTRADAY VIEW\n#AARTIDRUGS Spot (CMP - 732.80) Buy  till 730 with STOP LOSS - 719 TAREGT - OPEN.', 'Aarti Drugs \n\n3 times in the past, the stock reached the zone &amp; bounced \n\nSimple Trend continues ...… https://t.co/WRtiL3Vm4A', 'Stocks showing weakness : 07/14\n\nAartiDrugs\nADF foods\nAffle\nAmaraja batteries\nRosari\nSymphony\n3MIndia\nCholaFin\nVali… https://t.co/w4ZcpUgc7n', '#Update \n\n#BombayDyeing\n#AartiDrugs\n\n#Bombaydyeing: 86.7&lt;102  ( 17.64%)📈\n#AartiDrugs : 724&lt;750 (3%)\n\n#stocks… https://t.co/iJUv2bC9Tm', 'RT @mtm_method: The jolt on economy due to #lockdown was reflected initially but #indices started surging later. Here are 7 stocks from #BS…', 'RT @ayu_meel: Stocks to watch for next week-\n\n#jindalpoly\n#ratanamalik\n#wipro\n#diamond\n#sunteck \n#dlink\n#sonatasoftware\n#aartidrugs\n#vetosw…', '@IntradayGeeks Aartidrugs drugs at 725.\nLic housing at 465. Will hold till Dec.What can be target', '#AARTIDRUGS Making triangle Pattern. Potential target of 40%. Can enter now or wait for retest on the trend line.\nP… https://t.co/yoxArPdsqA', 'Stocks to watch for next week-\n\n#jindalpoly\n#ratanamalik\n#wipro\n#diamond\n#sunteck \n#dlink\n#sonatasoftware… https://t.co/Q0GDZWRxGN', 'Good time to enter?\n\nAARTIDRUGS\nWHIRLPOOL\nBANDHANBNK\nBRITANNIA\nHEROMOTOCO\nJCHAC', 'Paul Torres-Cohen $AARTIDRUGS.NS', '#AARTIDRUGS #frontpage_app https://t.co/UPy9SJ9gsn']
+[2021-07-16 15:45:49,841] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T154533, start_date=20210716T154547, end_date=20210716T154549
+[2021-07-16 15:45:49,951] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 15:45:50,024] {local_task_job.py:151} INFO - Task exited with return code 0

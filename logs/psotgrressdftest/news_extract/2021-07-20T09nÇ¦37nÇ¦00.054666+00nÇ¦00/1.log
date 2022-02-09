@@ -1,0 +1,23 @@
+[2021-07-20 09:37:22,195] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-20T09:37:00.054666+00:00 [queued]>
+[2021-07-20 09:37:22,361] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2021-07-20T09:37:00.054666+00:00 [queued]>
+[2021-07-20 09:37:22,363] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:37:22,365] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:37:22,367] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:37:22,471] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2021-07-20T09:37:00.054666+00:00
+[2021-07-20 09:37:22,537] {standard_task_runner.py:52} INFO - Started process 1082 to run task
+[2021-07-20 09:37:22,567] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2021-07-20T09:37:00.054666+00:00', '--job-id', '1807', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmplk3yp418', '--error-file', '/tmp/tmpby7eeib0']
+[2021-07-20 09:37:22,575] {standard_task_runner.py:77} INFO - Job 1807: Subtask news_extract
+[2021-07-20 09:37:22,857] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2021-07-20T09:37:00.054666+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:37:23,255] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:37:00.054666+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:36:50.285519+00:00
+[2021-07-20 09:37:23,352] {logging_mixin.py:104} INFO - Alicon Castalloy Limited
+[2021-07-20 09:39:22,526] {python.py:151} INFO - Done. Returned value was: ['Alicon Castalloy zooms 30% in 2 days as MFs pick stake via QIP issue', 'Alicon Castalloy board approves issue of 5,32,860 equity shares on preferential basis', 'Alicon Castalloy reports 18.3% growth in total income at Rs270cr in Q3FY21', '5 Mid And Small-Cap Stocks On Which Mutual Funds/FIIs Are Bullish And Have Raised Their Stake In June Quarter', 'Alicon Castalloy wins multi year contracts of Rs. 810 crore from global OEMs', 'Alicon Castalloy aims to cross Rs 2,000 crore in revenue by 2020', 'Alicon Castalloy signs multi-year contracts worth Rs 810 crore with leading global OEMs', 'Alicon buys castings business of Atlas Castalloy', 'Craftsman Automation IPO opens March 15; check issue size, price band, other details', 'Alicon Castallo Standalone September 2020 Net Sales at Rs 179.48 crore, down 25.61% Y-o-Y', 'Buzzing Stocks | RIL, Tata Coffee, Titan and others that will be in focus today', 'Top four fundamental picks by HDFC Securities for medium-term', 'Q1 review: less-known auto ancillary firms surprise, some others disappoint', 'Important results today: Kotak Mahindra Bank, SBI Life Insurance, M&M Financial Services', 'CRISIL ratings for Indian debt instruments-Feb 1', "Blue Star incorporates new subsidiary 'Blue Star Climatech'", 'Trade setup for Friday: Top 15 things to know before Opening Bell', 'Ahead of Market: 12 things that will decide stock action on Tuesday', 'Ahead of Market: 12 things that will decide stock action on Monday', 'Tube Investments increases stake in CG Power; stock up 1.5%', 'Markets halt gaining spree as banking and financial stocks weigh; Sensex near 49,500, Nifty 50 below 14,850; HDFC twins drag; RIL in focus', 'Closing Bell: Sensex, Nifty end flat amid volatility; PSU banks outshine', 'ETMarkets After Hours: HPCL slips on merger plan, metals melt', "Karur Vysya Bank's tie up with Home Credit India", 'Sensex ends 291 points higher as auto stocks lead gain', 'Stock market update: These stocks surge over 7% on NSE']
+[2021-07-20 09:39:22,582] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20210720T093700, start_date=20210720T093722, end_date=20210720T093922
+[2021-07-20 09:39:22,632] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:39:22,669] {local_task_job.py:151} INFO - Task exited with return code 0

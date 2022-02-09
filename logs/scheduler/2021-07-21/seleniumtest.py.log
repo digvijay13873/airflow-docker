@@ -1,0 +1,485 @@
+[2021-07-21 11:02:10,088] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:02:10,112] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:02:10,130] {logging_mixin.py:104} INFO - [2021-07-21 11:02:10,128] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:02:15,186] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:02:15,329] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:02:16,683] {logging_mixin.py:104} INFO - [2021-07-21 11:02:16,682] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:02:16,762] {logging_mixin.py:104} INFO - [2021-07-21 11:02:16,762] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:02:17,354] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 7.313 seconds
+[2021-07-21 11:02:52,661] {scheduler_job.py:182} INFO - Started process (PID=136) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:02:52,686] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:02:52,701] {logging_mixin.py:104} INFO - [2021-07-21 11:02:52,701] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:02:56,561] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:02:56,691] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:02:59,152] {logging_mixin.py:104} INFO - [2021-07-21 11:02:59,150] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:02:59,470] {logging_mixin.py:104} INFO - [2021-07-21 11:02:59,469] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:02:59,618] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 6.968 seconds
+[2021-07-21 11:03:51,663] {scheduler_job.py:182} INFO - Started process (PID=185) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:03:51,681] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:03:51,696] {logging_mixin.py:104} INFO - [2021-07-21 11:03:51,695] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:04:00,461] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:04:00,690] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:04:03,876] {logging_mixin.py:104} INFO - [2021-07-21 11:04:03,876] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:04:04,080] {logging_mixin.py:104} INFO - [2021-07-21 11:04:04,076] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:04:04,212] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 12.585 seconds
+[2021-07-21 11:04:56,231] {scheduler_job.py:182} INFO - Started process (PID=246) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:04:56,237] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:04:56,255] {logging_mixin.py:104} INFO - [2021-07-21 11:04:56,254] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:05:18,002] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:05:18,358] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:05:22,306] {logging_mixin.py:104} INFO - [2021-07-21 11:05:22,305] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:05:22,835] {logging_mixin.py:104} INFO - [2021-07-21 11:05:22,834] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:05:23,002] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 26.899 seconds
+[2021-07-21 11:05:54,283] {scheduler_job.py:182} INFO - Started process (PID=311) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:05:54,298] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:05:54,303] {logging_mixin.py:104} INFO - [2021-07-21 11:05:54,302] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:05:58,077] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:05:58,204] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:06:00,456] {logging_mixin.py:104} INFO - [2021-07-21 11:06:00,456] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:06:00,604] {logging_mixin.py:104} INFO - [2021-07-21 11:06:00,604] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:06:00,704] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 6.543 seconds
+[2021-07-21 11:14:40,454] {scheduler_job.py:182} INFO - Started process (PID=73) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:14:40,457] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:14:40,459] {logging_mixin.py:104} INFO - [2021-07-21 11:14:40,459] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:14:41,402] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:14:41,414] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:14:41,840] {logging_mixin.py:104} INFO - [2021-07-21 11:14:41,840] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:14:41,879] {logging_mixin.py:104} INFO - [2021-07-21 11:14:41,879] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:14:41,902] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.452 seconds
+[2021-07-21 11:15:24,485] {scheduler_job.py:182} INFO - Started process (PID=113) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:15:24,495] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:15:24,501] {logging_mixin.py:104} INFO - [2021-07-21 11:15:24,501] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:15:26,040] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:15:26,072] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:15:27,215] {logging_mixin.py:104} INFO - [2021-07-21 11:15:27,215] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:15:27,314] {logging_mixin.py:104} INFO - [2021-07-21 11:15:27,313] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:15:27,357] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.879 seconds
+[2021-07-21 11:15:59,123] {scheduler_job.py:182} INFO - Started process (PID=154) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:15:59,126] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:15:59,127] {logging_mixin.py:104} INFO - [2021-07-21 11:15:59,127] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:16:00,104] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:16:00,120] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:16:00,627] {logging_mixin.py:104} INFO - [2021-07-21 11:16:00,627] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:16:00,663] {logging_mixin.py:104} INFO - [2021-07-21 11:16:00,663] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:16:00,708] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.591 seconds
+[2021-07-21 11:16:32,425] {scheduler_job.py:182} INFO - Started process (PID=204) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:16:32,429] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:16:32,431] {logging_mixin.py:104} INFO - [2021-07-21 11:16:32,431] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:16:33,465] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:16:33,481] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:16:33,933] {logging_mixin.py:104} INFO - [2021-07-21 11:16:33,933] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:16:33,977] {logging_mixin.py:104} INFO - [2021-07-21 11:16:33,977] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:16:34,004] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.587 seconds
+[2021-07-21 11:17:05,901] {scheduler_job.py:182} INFO - Started process (PID=251) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:17:05,920] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:17:05,927] {logging_mixin.py:104} INFO - [2021-07-21 11:17:05,926] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:17:07,153] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:17:07,165] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:17:07,850] {logging_mixin.py:104} INFO - [2021-07-21 11:17:07,850] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:17:07,894] {logging_mixin.py:104} INFO - [2021-07-21 11:17:07,894] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:17:07,926] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.039 seconds
+[2021-07-21 11:17:47,976] {scheduler_job.py:182} INFO - Started process (PID=291) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:17:48,066] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:17:48,069] {logging_mixin.py:104} INFO - [2021-07-21 11:17:48,069] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:17:49,394] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:17:49,410] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:17:49,905] {logging_mixin.py:104} INFO - [2021-07-21 11:17:49,904] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:17:49,956] {logging_mixin.py:104} INFO - [2021-07-21 11:17:49,955] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:17:50,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.649 seconds
+[2021-07-21 11:18:35,033] {scheduler_job.py:182} INFO - Started process (PID=329) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:18:35,037] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:18:35,051] {logging_mixin.py:104} INFO - [2021-07-21 11:18:35,050] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:18:37,006] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:18:37,041] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:18:37,747] {logging_mixin.py:104} INFO - [2021-07-21 11:18:37,746] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:18:37,809] {logging_mixin.py:104} INFO - [2021-07-21 11:18:37,809] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:18:37,839] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.826 seconds
+[2021-07-21 11:19:08,102] {scheduler_job.py:182} INFO - Started process (PID=367) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:19:08,120] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:19:08,127] {logging_mixin.py:104} INFO - [2021-07-21 11:19:08,126] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:19:09,841] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:19:09,869] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:19:10,394] {logging_mixin.py:104} INFO - [2021-07-21 11:19:10,394] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:19:10,443] {logging_mixin.py:104} INFO - [2021-07-21 11:19:10,442] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:19:10,478] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.388 seconds
+[2021-07-21 11:19:40,649] {scheduler_job.py:182} INFO - Started process (PID=406) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:19:40,730] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:19:40,733] {logging_mixin.py:104} INFO - [2021-07-21 11:19:40,733] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:19:41,634] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:19:41,651] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:19:42,132] {logging_mixin.py:104} INFO - [2021-07-21 11:19:42,132] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:19:42,162] {logging_mixin.py:104} INFO - [2021-07-21 11:19:42,162] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:19:42,453] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.810 seconds
+[2021-07-21 11:20:12,681] {scheduler_job.py:182} INFO - Started process (PID=445) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:20:12,684] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:20:12,687] {logging_mixin.py:104} INFO - [2021-07-21 11:20:12,687] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:20:13,622] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:20:13,636] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:20:14,122] {logging_mixin.py:104} INFO - [2021-07-21 11:20:14,122] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:20:14,167] {logging_mixin.py:104} INFO - [2021-07-21 11:20:14,167] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:20:14,203] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.527 seconds
+[2021-07-21 11:20:44,409] {scheduler_job.py:182} INFO - Started process (PID=485) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:20:44,410] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:20:44,411] {logging_mixin.py:104} INFO - [2021-07-21 11:20:44,411] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:20:45,039] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:20:45,055] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:20:45,463] {logging_mixin.py:104} INFO - [2021-07-21 11:20:45,462] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:20:45,495] {logging_mixin.py:104} INFO - [2021-07-21 11:20:45,495] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:20:45,519] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.113 seconds
+[2021-07-21 11:21:15,720] {scheduler_job.py:182} INFO - Started process (PID=525) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:21:15,724] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:21:15,726] {logging_mixin.py:104} INFO - [2021-07-21 11:21:15,726] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:21:16,542] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:21:16,571] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:21:16,929] {logging_mixin.py:104} INFO - [2021-07-21 11:21:16,928] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:21:16,956] {logging_mixin.py:104} INFO - [2021-07-21 11:21:16,956] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:21:16,980] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.268 seconds
+[2021-07-21 11:21:47,439] {scheduler_job.py:182} INFO - Started process (PID=564) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:21:47,440] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:21:47,442] {logging_mixin.py:104} INFO - [2021-07-21 11:21:47,441] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:21:48,077] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:21:48,096] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:21:48,465] {logging_mixin.py:104} INFO - [2021-07-21 11:21:48,464] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:21:48,495] {logging_mixin.py:104} INFO - [2021-07-21 11:21:48,495] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:21:48,515] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.080 seconds
+[2021-07-21 11:22:18,756] {scheduler_job.py:182} INFO - Started process (PID=602) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:22:18,759] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:22:18,760] {logging_mixin.py:104} INFO - [2021-07-21 11:22:18,760] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:22:19,514] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:22:19,541] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:22:20,052] {logging_mixin.py:104} INFO - [2021-07-21 11:22:20,052] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:22:20,110] {logging_mixin.py:104} INFO - [2021-07-21 11:22:20,109] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:22:20,141] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.390 seconds
+[2021-07-21 11:22:51,091] {scheduler_job.py:182} INFO - Started process (PID=641) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:22:51,094] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:22:51,096] {logging_mixin.py:104} INFO - [2021-07-21 11:22:51,096] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:22:52,472] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:22:52,490] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:22:52,941] {logging_mixin.py:104} INFO - [2021-07-21 11:22:52,940] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:22:52,969] {logging_mixin.py:104} INFO - [2021-07-21 11:22:52,969] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:22:54,841] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 3.754 seconds
+[2021-07-21 11:23:25,257] {scheduler_job.py:182} INFO - Started process (PID=672) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:23:25,472] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:23:25,476] {logging_mixin.py:104} INFO - [2021-07-21 11:23:25,476] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:23:26,733] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:23:26,767] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:23:27,557] {logging_mixin.py:104} INFO - [2021-07-21 11:23:27,557] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:23:27,583] {logging_mixin.py:104} INFO - [2021-07-21 11:23:27,582] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:23:28,290] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 3.041 seconds
+[2021-07-21 11:23:58,626] {scheduler_job.py:182} INFO - Started process (PID=715) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:23:58,629] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:23:58,630] {logging_mixin.py:104} INFO - [2021-07-21 11:23:58,630] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:23:59,760] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:23:59,782] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:24:00,450] {logging_mixin.py:104} INFO - [2021-07-21 11:24:00,450] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:24:00,500] {logging_mixin.py:104} INFO - [2021-07-21 11:24:00,500] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:24:00,531] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.909 seconds
+[2021-07-21 11:24:30,872] {scheduler_job.py:182} INFO - Started process (PID=745) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:24:30,874] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:24:30,877] {logging_mixin.py:104} INFO - [2021-07-21 11:24:30,877] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:24:31,954] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:24:31,994] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:24:32,658] {logging_mixin.py:104} INFO - [2021-07-21 11:24:32,657] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:24:32,694] {logging_mixin.py:104} INFO - [2021-07-21 11:24:32,693] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:24:32,726] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.857 seconds
+[2021-07-21 11:25:21,397] {scheduler_job.py:182} INFO - Started process (PID=774) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:25:21,406] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:25:21,413] {logging_mixin.py:104} INFO - [2021-07-21 11:25:21,412] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:25:22,991] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:25:23,029] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:25:23,664] {logging_mixin.py:104} INFO - [2021-07-21 11:25:23,664] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:25:23,701] {logging_mixin.py:104} INFO - [2021-07-21 11:25:23,701] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:25:23,725] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.345 seconds
+[2021-07-21 11:26:07,672] {scheduler_job.py:182} INFO - Started process (PID=806) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:26:07,677] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:26:07,680] {logging_mixin.py:104} INFO - [2021-07-21 11:26:07,679] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:26:12,865] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:26:12,906] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:26:14,207] {logging_mixin.py:104} INFO - [2021-07-21 11:26:14,207] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:26:14,271] {logging_mixin.py:104} INFO - [2021-07-21 11:26:14,270] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:26:14,833] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 9.318 seconds
+[2021-07-21 11:26:45,108] {scheduler_job.py:182} INFO - Started process (PID=852) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:26:45,111] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:26:45,112] {logging_mixin.py:104} INFO - [2021-07-21 11:26:45,112] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:26:45,808] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:26:45,822] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:26:46,105] {logging_mixin.py:104} INFO - [2021-07-21 11:26:46,105] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:26:46,133] {logging_mixin.py:104} INFO - [2021-07-21 11:26:46,132] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:26:46,162] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.059 seconds
+[2021-07-21 11:27:16,474] {scheduler_job.py:182} INFO - Started process (PID=892) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:27:16,475] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:27:16,477] {logging_mixin.py:104} INFO - [2021-07-21 11:27:16,477] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:27:17,124] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:27:17,144] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:27:17,612] {logging_mixin.py:104} INFO - [2021-07-21 11:27:17,612] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:27:17,648] {logging_mixin.py:104} INFO - [2021-07-21 11:27:17,647] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:27:17,681] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.210 seconds
+[2021-07-21 11:27:47,919] {scheduler_job.py:182} INFO - Started process (PID=931) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:27:47,921] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:27:47,922] {logging_mixin.py:104} INFO - [2021-07-21 11:27:47,922] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:27:48,545] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:27:48,568] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:27:48,934] {logging_mixin.py:104} INFO - [2021-07-21 11:27:48,934] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:27:48,975] {logging_mixin.py:104} INFO - [2021-07-21 11:27:48,975] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:27:49,002] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.087 seconds
+[2021-07-21 11:28:19,381] {scheduler_job.py:182} INFO - Started process (PID=972) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:28:19,383] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:28:19,390] {logging_mixin.py:104} INFO - [2021-07-21 11:28:19,385] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:28:20,488] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:28:20,510] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:28:20,981] {logging_mixin.py:104} INFO - [2021-07-21 11:28:20,981] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:28:21,024] {logging_mixin.py:104} INFO - [2021-07-21 11:28:21,024] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:28:21,046] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.669 seconds
+[2021-07-21 11:28:51,923] {scheduler_job.py:182} INFO - Started process (PID=1029) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:28:51,927] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:28:51,929] {logging_mixin.py:104} INFO - [2021-07-21 11:28:51,928] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:29:39,358] {logging_mixin.py:104} INFO - [2021-07-21 11:29:39,358] {timeout.py:36} ERROR - Process timed out, PID: 1029
+[2021-07-21 11:29:39,398] {logging_mixin.py:104} INFO - [2021-07-21 11:29:39,362] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/seleniumtest.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 317, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/seleniumtest.py", line 11, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 52, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/api.py", line 15, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/arrays/__init__.py", line 7, in <module>
+    from pandas.core.arrays.categorical import Categorical
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 779, in get_code
+  File "<frozen importlib._bootstrap_external>", line 487, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/seleniumtest.py after 30.0s, PID: 1029
+[2021-07-21 11:29:39,425] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:29:39,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 48.141 seconds
+[2021-07-21 11:30:10,358] {scheduler_job.py:182} INFO - Started process (PID=1078) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:30:10,361] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:30:10,363] {logging_mixin.py:104} INFO - [2021-07-21 11:30:10,363] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:30:13,700] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:30:13,755] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:30:14,479] {logging_mixin.py:104} INFO - [2021-07-21 11:30:14,479] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:30:14,569] {logging_mixin.py:104} INFO - [2021-07-21 11:30:14,569] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:30:15,542] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 5.197 seconds
+[2021-07-21 11:30:45,982] {scheduler_job.py:182} INFO - Started process (PID=1116) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:30:45,986] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:30:45,989] {logging_mixin.py:104} INFO - [2021-07-21 11:30:45,989] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:30:47,080] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:30:47,096] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:30:47,760] {logging_mixin.py:104} INFO - [2021-07-21 11:30:47,760] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:30:47,836] {logging_mixin.py:104} INFO - [2021-07-21 11:30:47,835] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:30:47,944] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.969 seconds
+[2021-07-21 11:31:18,667] {scheduler_job.py:182} INFO - Started process (PID=1163) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:31:18,672] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:31:18,683] {logging_mixin.py:104} INFO - [2021-07-21 11:31:18,683] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:31:20,187] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:31:20,284] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:31:21,140] {logging_mixin.py:104} INFO - [2021-07-21 11:31:21,140] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:31:21,194] {logging_mixin.py:104} INFO - [2021-07-21 11:31:21,194] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:31:22,771] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 4.109 seconds
+[2021-07-21 11:31:53,344] {scheduler_job.py:182} INFO - Started process (PID=1208) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:31:53,347] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:31:53,348] {logging_mixin.py:104} INFO - [2021-07-21 11:31:53,348] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:32:18,331] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:32:18,359] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:32:19,072] {logging_mixin.py:104} INFO - [2021-07-21 11:32:19,071] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:32:19,135] {logging_mixin.py:104} INFO - [2021-07-21 11:32:19,134] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:32:19,686] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 26.347 seconds
+[2021-07-21 11:32:49,949] {scheduler_job.py:182} INFO - Started process (PID=1245) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:32:50,008] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:32:50,011] {logging_mixin.py:104} INFO - [2021-07-21 11:32:50,010] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:32:51,514] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:32:51,532] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:32:52,275] {logging_mixin.py:104} INFO - [2021-07-21 11:32:52,275] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:32:52,374] {logging_mixin.py:104} INFO - [2021-07-21 11:32:52,374] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:32:52,634] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.692 seconds
+[2021-07-21 11:33:22,951] {scheduler_job.py:182} INFO - Started process (PID=1290) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:33:22,955] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:33:22,959] {logging_mixin.py:104} INFO - [2021-07-21 11:33:22,958] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:33:25,644] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:33:25,671] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:33:26,262] {logging_mixin.py:104} INFO - [2021-07-21 11:33:26,262] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:33:26,299] {logging_mixin.py:104} INFO - [2021-07-21 11:33:26,298] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:33:26,335] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 3.391 seconds
+[2021-07-21 11:33:56,696] {scheduler_job.py:182} INFO - Started process (PID=1311) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:33:56,701] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:33:56,703] {logging_mixin.py:104} INFO - [2021-07-21 11:33:56,702] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:33:57,672] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:33:57,694] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:33:58,360] {logging_mixin.py:104} INFO - [2021-07-21 11:33:58,359] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:33:58,424] {logging_mixin.py:104} INFO - [2021-07-21 11:33:58,423] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:33:58,488] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 1.798 seconds
+[2021-07-21 11:34:29,115] {scheduler_job.py:182} INFO - Started process (PID=1358) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:34:29,119] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:34:29,122] {logging_mixin.py:104} INFO - [2021-07-21 11:34:29,122] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:34:30,512] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:34:30,571] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:34:31,344] {logging_mixin.py:104} INFO - [2021-07-21 11:34:31,343] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:34:31,439] {logging_mixin.py:104} INFO - [2021-07-21 11:34:31,439] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:34:33,404] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 4.296 seconds
+[2021-07-21 11:35:04,198] {scheduler_job.py:182} INFO - Started process (PID=1397) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:35:04,202] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:35:04,209] {logging_mixin.py:104} INFO - [2021-07-21 11:35:04,208] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:35:05,809] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:35:05,826] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:35:06,545] {logging_mixin.py:104} INFO - [2021-07-21 11:35:06,545] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:35:06,591] {logging_mixin.py:104} INFO - [2021-07-21 11:35:06,591] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:35:06,967] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.785 seconds
+[2021-07-21 11:35:37,375] {scheduler_job.py:182} INFO - Started process (PID=1420) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:35:37,384] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:35:37,386] {logging_mixin.py:104} INFO - [2021-07-21 11:35:37,386] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:35:38,901] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:35:38,936] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:35:40,324] {logging_mixin.py:104} INFO - [2021-07-21 11:35:40,324] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:35:40,405] {logging_mixin.py:104} INFO - [2021-07-21 11:35:40,404] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:35:41,618] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 4.260 seconds
+[2021-07-21 11:36:12,079] {scheduler_job.py:182} INFO - Started process (PID=1465) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:36:12,081] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:36:12,083] {logging_mixin.py:104} INFO - [2021-07-21 11:36:12,083] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:36:13,524] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:36:13,598] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:36:14,573] {logging_mixin.py:104} INFO - [2021-07-21 11:36:14,573] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:36:14,806] {logging_mixin.py:104} INFO - [2021-07-21 11:36:14,806] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:36:14,924] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.850 seconds
+[2021-07-21 11:36:45,695] {scheduler_job.py:182} INFO - Started process (PID=1503) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:36:45,702] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:36:45,705] {logging_mixin.py:104} INFO - [2021-07-21 11:36:45,705] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:36:47,223] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:36:47,290] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:36:48,502] {logging_mixin.py:104} INFO - [2021-07-21 11:36:48,502] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:36:48,551] {logging_mixin.py:104} INFO - [2021-07-21 11:36:48,551] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:36:50,525] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 4.836 seconds
+[2021-07-21 11:37:20,778] {scheduler_job.py:182} INFO - Started process (PID=1549) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:37:20,783] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:37:20,784] {logging_mixin.py:104} INFO - [2021-07-21 11:37:20,784] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:37:22,282] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:37:22,303] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:37:23,396] {logging_mixin.py:104} INFO - [2021-07-21 11:37:23,395] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:37:23,483] {logging_mixin.py:104} INFO - [2021-07-21 11:37:23,483] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:37:23,630] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.860 seconds
+[2021-07-21 11:37:54,206] {scheduler_job.py:182} INFO - Started process (PID=1579) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:37:54,223] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:37:54,232] {logging_mixin.py:104} INFO - [2021-07-21 11:37:54,231] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:37:57,496] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:37:57,564] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:37:59,097] {logging_mixin.py:104} INFO - [2021-07-21 11:37:59,097] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:37:59,197] {logging_mixin.py:104} INFO - [2021-07-21 11:37:59,196] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:38:00,728] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 6.558 seconds
+[2021-07-21 11:38:31,752] {scheduler_job.py:182} INFO - Started process (PID=1609) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:38:31,757] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:38:31,769] {logging_mixin.py:104} INFO - [2021-07-21 11:38:31,766] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:38:33,693] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:38:33,730] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:38:34,541] {logging_mixin.py:104} INFO - [2021-07-21 11:38:34,541] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:38:34,593] {logging_mixin.py:104} INFO - [2021-07-21 11:38:34,593] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:38:35,221] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 3.489 seconds
+[2021-07-21 11:39:09,505] {scheduler_job.py:182} INFO - Started process (PID=1655) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:39:09,508] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:39:09,511] {logging_mixin.py:104} INFO - [2021-07-21 11:39:09,511] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:39:11,614] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:39:11,654] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:39:12,491] {logging_mixin.py:104} INFO - [2021-07-21 11:39:12,490] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:39:12,574] {logging_mixin.py:104} INFO - [2021-07-21 11:39:12,574] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:39:13,201] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 3.703 seconds
+[2021-07-21 11:39:43,346] {scheduler_job.py:182} INFO - Started process (PID=1681) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:39:43,354] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:39:43,356] {logging_mixin.py:104} INFO - [2021-07-21 11:39:43,356] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:39:44,667] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:39:44,687] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:39:45,253] {logging_mixin.py:104} INFO - [2021-07-21 11:39:45,249] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:39:45,317] {logging_mixin.py:104} INFO - [2021-07-21 11:39:45,317] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:39:45,722] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.393 seconds
+[2021-07-21 11:40:16,619] {scheduler_job.py:182} INFO - Started process (PID=1719) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:40:16,621] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:40:16,623] {logging_mixin.py:104} INFO - [2021-07-21 11:40:16,623] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:40:18,024] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:40:18,044] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:40:18,690] {logging_mixin.py:104} INFO - [2021-07-21 11:40:18,689] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:40:18,737] {logging_mixin.py:104} INFO - [2021-07-21 11:40:18,737] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:40:18,778] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.164 seconds
+[2021-07-21 11:40:49,201] {scheduler_job.py:182} INFO - Started process (PID=1757) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:40:49,204] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:40:49,210] {logging_mixin.py:104} INFO - [2021-07-21 11:40:49,210] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:40:52,391] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:40:52,472] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:40:53,727] {logging_mixin.py:104} INFO - [2021-07-21 11:40:53,726] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:40:53,808] {logging_mixin.py:104} INFO - [2021-07-21 11:40:53,808] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:40:55,550] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 6.363 seconds
+[2021-07-21 11:41:25,933] {scheduler_job.py:182} INFO - Started process (PID=1795) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:41:25,946] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:41:25,959] {logging_mixin.py:104} INFO - [2021-07-21 11:41:25,959] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:41:27,761] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:41:27,830] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:41:28,795] {logging_mixin.py:104} INFO - [2021-07-21 11:41:28,795] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:41:28,912] {logging_mixin.py:104} INFO - [2021-07-21 11:41:28,912] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:41:40,686] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 14.761 seconds
+[2021-07-21 11:42:11,160] {scheduler_job.py:182} INFO - Started process (PID=1827) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:42:11,162] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:42:11,166] {logging_mixin.py:104} INFO - [2021-07-21 11:42:11,166] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:42:12,828] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:42:12,863] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:42:13,475] {logging_mixin.py:104} INFO - [2021-07-21 11:42:13,474] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:42:13,535] {logging_mixin.py:104} INFO - [2021-07-21 11:42:13,535] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:42:13,597] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.445 seconds
+[2021-07-21 11:42:43,738] {scheduler_job.py:182} INFO - Started process (PID=1859) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:42:43,747] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:42:43,750] {logging_mixin.py:104} INFO - [2021-07-21 11:42:43,750] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:42:45,052] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:42:45,084] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:42:45,946] {logging_mixin.py:104} INFO - [2021-07-21 11:42:45,946] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:42:46,031] {logging_mixin.py:104} INFO - [2021-07-21 11:42:46,030] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:42:46,169] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 2.439 seconds
+[2021-07-21 11:43:17,287] {scheduler_job.py:182} INFO - Started process (PID=1895) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:43:17,306] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:43:17,309] {logging_mixin.py:104} INFO - [2021-07-21 11:43:17,309] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:43:19,074] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:43:19,090] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:43:19,760] {logging_mixin.py:104} INFO - [2021-07-21 11:43:19,760] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:43:19,837] {logging_mixin.py:104} INFO - [2021-07-21 11:43:19,836] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:43:20,729] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 3.447 seconds
+[2021-07-21 11:43:51,294] {scheduler_job.py:182} INFO - Started process (PID=1915) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:43:51,296] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:43:51,297] {logging_mixin.py:104} INFO - [2021-07-21 11:43:51,297] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:43:53,408] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:43:53,452] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:43:54,474] {logging_mixin.py:104} INFO - [2021-07-21 11:43:54,473] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:43:54,560] {logging_mixin.py:104} INFO - [2021-07-21 11:43:54,560] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:43:59,170] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 7.880 seconds
+[2021-07-21 11:44:29,319] {scheduler_job.py:182} INFO - Started process (PID=1962) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:44:29,324] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:44:29,327] {logging_mixin.py:104} INFO - [2021-07-21 11:44:29,326] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:44:31,269] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:44:31,309] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:44:32,088] {logging_mixin.py:104} INFO - [2021-07-21 11:44:32,088] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:44:32,130] {logging_mixin.py:104} INFO - [2021-07-21 11:44:32,130] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:44:32,591] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 3.283 seconds
+[2021-07-21 11:45:02,860] {scheduler_job.py:182} INFO - Started process (PID=1992) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:45:02,868] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:45:02,872] {logging_mixin.py:104} INFO - [2021-07-21 11:45:02,872] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:45:09,434] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:45:09,471] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:45:10,436] {logging_mixin.py:104} INFO - [2021-07-21 11:45:10,436] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:45:10,574] {logging_mixin.py:104} INFO - [2021-07-21 11:45:10,574] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:45:10,631] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 7.780 seconds
+[2021-07-21 11:45:41,514] {scheduler_job.py:182} INFO - Started process (PID=2031) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:45:41,532] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:45:41,567] {logging_mixin.py:104} INFO - [2021-07-21 11:45:41,567] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:45:44,472] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:45:44,500] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:45:46,202] {logging_mixin.py:104} INFO - [2021-07-21 11:45:46,201] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:45:46,376] {logging_mixin.py:104} INFO - [2021-07-21 11:45:46,376] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:45:46,738] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 5.231 seconds
+[2021-07-21 11:46:17,061] {scheduler_job.py:182} INFO - Started process (PID=2061) to work on /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:46:17,072] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/seleniumtest.py for tasks to queue
+[2021-07-21 11:46:17,075] {logging_mixin.py:104} INFO - [2021-07-21 11:46:17,074] {dagbag.py:487} INFO - Filling up the DagBag from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:46:18,197] {logging_mixin.py:104} INFO - /opt/airflow/dags
+[2021-07-21 11:46:18,224] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['ticker_yahoo']) retrieved from /opt/airflow/dags/seleniumtest.py
+[2021-07-21 11:46:18,766] {logging_mixin.py:104} INFO - [2021-07-21 11:46:18,765] {dag.py:1832} INFO - Sync 1 DAGs
+[2021-07-21 11:46:18,831] {logging_mixin.py:104} INFO - [2021-07-21 11:46:18,830] {dag.py:2305} INFO - Setting next_dagrun for ticker_yahoo to 2021-07-22T07:00:00+00:00
+[2021-07-21 11:46:21,078] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/seleniumtest.py took 4.024 seconds

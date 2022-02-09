@@ -1,0 +1,23 @@
+[2021-07-20 09:45:25,762] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-20T09:44:20.128918+00:00 [queued]>
+[2021-07-20 09:45:25,851] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-20T09:44:20.128918+00:00 [queued]>
+[2021-07-20 09:45:25,853] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:45:25,856] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:45:25,860] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:45:25,899] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_postgres_table> on 2021-07-20T09:44:20.128918+00:00
+[2021-07-20 09:45:25,927] {standard_task_runner.py:52} INFO - Started process 1624 to run task
+[2021-07-20 09:45:25,943] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_postgres_table', '2021-07-20T09:44:20.128918+00:00', '--job-id', '1852', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpiw_febx5', '--error-file', '/tmp/tmpvopl1n9q']
+[2021-07-20 09:45:25,949] {standard_task_runner.py:77} INFO - Job 1852: Subtask news_postgres_table
+[2021-07-20 09:45:26,210] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-20T09:44:20.128918+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:45:26,500] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:44:20.128918+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:44:11.893670+00:00
+[2021-07-20 09:45:26,643] {logging_mixin.py:104} INFO - [('Buzzing Stocks: HCL Tech, Clean Science, GR Infraprojects and other stocks in news today', Decimal('0.4019')), ('Important results today: HCL Tech, HDFC Life Insurance, ACC, Mastek', Decimal('0.2023')), ('Sensex falls! These stocks are down 5% or more on BSE', Decimal('0.0000')), ('Quess Corp to buy 61% stake in Allsec Technologies', Decimal('0.0000')), ('Top stocks in focus: HDFC Bank, Reliance Industries, Just Dial, L&T Finance Holdings, HCL Tech', Decimal('0.2023')), ('ALLSEC Tech Consolidated March 2021 Net Sales at Rs 73.48 crore, up 3.29% Y-o-Y', Decimal('0.0000')), ('Maruti Suzuki sales at 1473,369 units in June 2021', Decimal('0.0000'))]
+[2021-07-20 09:45:26,665] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:45:26,697] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_postgres_table, execution_date=20210720T094420, start_date=20210720T094525, end_date=20210720T094526
+[2021-07-20 09:45:26,827] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:45:26,900] {local_task_job.py:151} INFO - Task exited with return code 0

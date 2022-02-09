@@ -1,0 +1,22 @@
+[2021-07-16 17:05:35,942] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:05:25.862857+00:00 [queued]>
+[2021-07-16 17:05:35,985] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:05:25.862857+00:00 [queued]>
+[2021-07-16 17:05:35,986] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:05:35,987] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:05:35,988] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:05:36,011] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T17:05:25.862857+00:00
+[2021-07-16 17:05:36,034] {standard_task_runner.py:52} INFO - Started process 10936 to run task
+[2021-07-16 17:05:36,043] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T17:05:25.862857+00:00', '--job-id', '1435', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmplr6vaos5', '--error-file', '/tmp/tmpapfuzdmj']
+[2021-07-16 17:05:36,045] {standard_task_runner.py:77} INFO - Job 1435: Subtask extract_tweets
+[2021-07-16 17:05:36,148] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T17:05:25.862857+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:05:36,306] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:05:25.862857+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:05:22.613741+00:00
+[2021-07-16 17:05:37,484] {python.py:151} INFO - Done. Returned value was: ['@MyMoneyView @abcapital @RBI Harrasment for payment is going on everyday through multiple times calling from recove… https://t.co/EyHmbXQ17E', 'RT @equialpha: Aditya Birla Capital - #ABCAPITAL\n\nGetting ready to join the party. Ready for a swing to 140 https://t.co/xGNAcxtclN', 'RT @moju98: #ABCAPITAL Weekly Chart\n#Nifty #StockMarket #stocks #equity #nifty50 https://t.co/TZ6MNmToAq', 'RT @BenepikPerks: We are delighted to introduce Mr. Niren Srivastava, Head Human Resource @abcapital as an eminent Jury Member for DMA - Be…', 'RT @equialpha: Aditya Birla Capital - #ABCAPITAL\n\nGetting ready to join the party. Ready for a swing to 140 https://t.co/xGNAcxtclN', '#Chartreading ith #Raghumantra Classes\n#stockmarkets \n#Technical #Trader \nSimple Set-up\nSmart trade ideas\n#abcapital https://t.co/kwk8TMKf60', 'RT @TreasureHunt_TH: Do not miss one of the biggest growth opportunity of the decade available now..\n\n~ Asset Management\n\nOur top convictio…', '@abcapital @AdityaBirlaGrp @ola_supports @Olacabs  Such pathetic service no one give proper response, without infor… https://t.co/wACAyap71v', 'RT @TreasureHunt_TH: Do not miss one of the biggest growth opportunity of the decade available now..\n\n~ Asset Management\n\nOur top convictio…', '@abcapital hi  i have tarde some stock on your platform today but full amount not deducted  why? it show some margi… https://t.co/L9xuQtXBLw', 'RT @TreasureHunt_TH: Do not miss one of the biggest growth opportunity of the decade available now..\n\n~ Asset Management\n\nOur top convictio…', '@AdityaBirlaGrp @abcapital Waiting for your concerned Team', '@Dr_DilipPal Hello, please get in touch with Aditya Birla Capital (@abcapital) and our team will address your concern at the earliest.', 'RT @NkuGUPTA: ABCAPITAL\nin Supply/demand zone.\nAs @RTSTOCKVIEW sir says low risk setup. https://t.co/RY0UCzrinm', '#ABCAPITAL Weekly Chart\n#Nifty #StockMarket #stocks #equity #nifty50 https://t.co/TZ6MNmToAq']
+[2021-07-16 17:05:37,581] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T170525, start_date=20210716T170535, end_date=20210716T170537
+[2021-07-16 17:05:37,688] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:05:37,758] {local_task_job.py:151} INFO - Task exited with return code 0

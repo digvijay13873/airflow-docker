@@ -1,0 +1,22 @@
+[2022-01-06 14:24:16,552] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:24:05.556527+00:00 [queued]>
+[2022-01-06 14:24:16,590] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:24:05.556527+00:00 [queued]>
+[2022-01-06 14:24:16,591] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:24:16,592] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 14:24:16,593] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:24:16,643] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2022-01-06T14:24:05.556527+00:00
+[2022-01-06 14:24:16,700] {standard_task_runner.py:52} INFO - Started process 854 to run task
+[2022-01-06 14:24:16,728] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2022-01-06T14:24:05.556527+00:00', '--job-id', '2237', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmphg19q8to', '--error-file', '/tmp/tmptxgjsmbw']
+[2022-01-06 14:24:16,740] {standard_task_runner.py:77} INFO - Job 2237: Subtask extract_tweets
+[2022-01-06 14:24:16,932] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:24:05.556527+00:00 [running]> on host 04be2259e97a
+[2022-01-06 14:24:17,079] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T14:24:05.556527+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T14:24:01.360965+00:00
+[2022-01-06 14:24:19,046] {python.py:151} INFO - Done. Returned value was: ['#AARTIDRUGS - Aarti Drugs - LONG - TradingView - https://t.co/jR5yLDERCR', 'Aarti Drugs - LONG - #AARTIDRUGS chart on @TradingView https://t.co/M97im4QXhb', 'RT @iam_gauravjain: #AARTIDRUGS looks good for short term. https://t.co/ubDcmy5UMU', '#AARTIDRUGS looks good for short term. https://t.co/ubDcmy5UMU', 'Portfolio investment  capital 20 lakh \nStart with 5 lakh\n1. TCI 2.PERSISTANT 3. ZENSAR 4. DLF 5 MAXHEALTH 6 IEX 7 B… https://t.co/YYnc5jl7N7', 'RT @iamrj_trader: #aartidrugs #SwingTrading \n#stockstowatch https://t.co/j9R68MNQxa', '#aartidrugs #SwingTrading \n#stockstowatch https://t.co/j9R68MNQxa', 'RT @rajminpanchal: #StockstoWatch #Stockstobuy #Swingtrading #Swingtrade #NSE #BSE #Nifty50 #Banknifty #StockMarket #stockmarketindia #stoc…', '#NIFTYSMALLCAP50: 5330.75 | 1.34%\n\n🌲🌲🌲\n#IDFC: 13.46%\n#INDIGOPNTS: 8.42%\n#BALAMINES: 8.40%\n#JUBLINGREA: 7.08%… https://t.co/I3LG47Iu5I', '#Aartidrugs high 549 second tgt achieved 🙏🙏🙏 https://t.co/zvnD0JUkMo', 'RT @rajminpanchal: #StockstoWatch #Stockstobuy #Swingtrading #Swingtrade #NSE #BSE #Nifty50 #Banknifty #StockMarket #stockmarketindia #stoc…', '#StockstoWatch #Stockstobuy #Swingtrading #Swingtrade #NSE #BSE #Nifty50 #Banknifty #StockMarket #stockmarketindia… https://t.co/2BrcyRUXzk', '#Aartidrugs high 534.25..... https://t.co/zvnD0JUkMo', '#InsiderTrades #stockmarket\n#AARTIDRUGS #MASTEK https://t.co/8CJ9UBTHUg', 'RT @rajminpanchal: #StockstoWatch #Stockstobuy #Swingtrading #Swingtrade #NSE #BSE #Nifty50 #Banknifty #StockMarket #stockmarketindia #stoc…']
+[2022-01-06 14:24:19,161] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20220106T142405, start_date=20220106T142416, end_date=20220106T142419
+[2022-01-06 14:24:19,328] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 14:24:19,397] {local_task_job.py:151} INFO - Task exited with return code 0

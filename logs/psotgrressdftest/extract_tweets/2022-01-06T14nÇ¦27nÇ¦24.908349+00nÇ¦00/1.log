@@ -1,0 +1,22 @@
+[2022-01-06 14:27:35,994] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:27:24.908349+00:00 [queued]>
+[2022-01-06 14:27:36,027] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:27:24.908349+00:00 [queued]>
+[2022-01-06 14:27:36,028] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:27:36,029] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 14:27:36,030] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:27:36,069] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2022-01-06T14:27:24.908349+00:00
+[2022-01-06 14:27:36,094] {standard_task_runner.py:52} INFO - Started process 1115 to run task
+[2022-01-06 14:27:36,104] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2022-01-06T14:27:24.908349+00:00', '--job-id', '2270', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmped3om2gh', '--error-file', '/tmp/tmpa78lmz6g']
+[2022-01-06 14:27:36,107] {standard_task_runner.py:77} INFO - Job 2270: Subtask extract_tweets
+[2022-01-06 14:27:36,234] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2022-01-06T14:27:24.908349+00:00 [running]> on host 04be2259e97a
+[2022-01-06 14:27:36,384] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T14:27:24.908349+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T14:27:21.430228+00:00
+[2022-01-06 14:27:38,457] {python.py:151} INFO - Done. Returned value was: ['Korean band BTS has been bringing a lot of glory to Asian musicians and people all across the world with their succ… https://t.co/bqp3rm7Yod', 'RT @Chaplin_Here: Ram Charan :- "When I Was Kid Rajini sir gives Some Chocolates For Me"\n\n#Rajinikanth #Thalaivar169 @rajinikanth https://t…', '@AmazonHelp @amazonIN @amazon @JeffBezos @Flipkart @snapdeal @JioMart @FinancialXpress @BBCWorld Thank you @amazon… https://t.co/H0TB1VtBB5', '@AmazonHelp @amazonIN @amazon @JeffBezos @Flipkart  @snapdeal @JioMart @FinancialXpress @BBCWorld  Just now i conta… https://t.co/kiIX2pBILR', 'RT @casansaar: Getting Many Messages for Tax Audit Date (TAR) Extension,\nDo you think Date should be extended?\nif Yes then Retweet it, \nif…', 'RT @sankari2017: வனஜா கிரிஜா பட ஷுட்டிங்கை துவக்கி வைத்த தலைவர் #ரஜினி..\n\n#Rajinikanth\n#Thalaivar169\n@rajinikanth https://t.co/7GKQ1LJcu9', 'RT @jrkrajesh15: What if this movie actually got shooted and got released ...\n#Rajinikanth \n#RajinikanthFoundation \n#Rana\n#Thalaivar169 \n#T…', 'RT @prsekar05: Case closed. 💥 Anils 🤣🤣🤣 https://t.co/l4y3YWMnUF', 'RT @DarbarThalaivar: கார்த்திக் சுப்புராஜ், தேசிங்கு பெரியசாமி, பாபி சிம்ஹா... நாடி\u200c நரம்பில் Rajinism ஊறிய ஒரு ரஜினி ரசிகன்\u200c எப்படி இருப்…', 'RT @Jananis37153276: 😘En chellakutti en pattukutti en vairakutti thangakutti Rachummaaa singakutti ellam azhaghum intha raaja chellam than.…', 'RT @Samuelclicks: அழகு ரஜினிகாந்த் ❤\n\nhttps://t.co/vtQrvPaLki', 'RT @rajinifans: Fanboy director \U0001f973\n@karthiksubbaraj  😘❣️ https://t.co/JQvPEdtj6a', 'RT @RajiniGuruRG: நெருப்பு 🔥\n\n#SuperstarRajinikanth #Thalaivar @rajinikanth #Kabali https://t.co/d6XjWpLCl4', 'RT @RaviSANKHI: जय श्री राम \n#VivaLa_LvuJindgi🎭 \n#rV\n#aaRVi https://t.co/Gv7SW7aR1C', '@TheRashamiDesai @realumarriaz ✅']
+[2022-01-06 14:27:38,500] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20220106T142724, start_date=20220106T142736, end_date=20220106T142738
+[2022-01-06 14:27:38,574] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 14:27:38,594] {local_task_job.py:151} INFO - Task exited with return code 0

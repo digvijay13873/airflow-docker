@@ -1,0 +1,23 @@
+[2021-07-16 16:30:03,630] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:29:43.896801+00:00 [queued]>
+[2021-07-16 16:30:03,744] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:29:43.896801+00:00 [queued]>
+[2021-07-16 16:30:03,749] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:30:03,750] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:30:03,751] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:30:03,824] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:29:43.896801+00:00
+[2021-07-16 16:30:03,897] {standard_task_runner.py:52} INFO - Started process 8030 to run task
+[2021-07-16 16:30:03,933] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:29:43.896801+00:00', '--job-id', '1086', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmplcycyo8x', '--error-file', '/tmp/tmpl2uf6r8t']
+[2021-07-16 16:30:03,940] {standard_task_runner.py:77} INFO - Job 1086: Subtask tweets_postgres_table
+[2021-07-16 16:30:04,139] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:29:43.896801+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:30:04,366] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:29:43.896801+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:29:38.461729+00:00
+[2021-07-16 16:30:04,551] {logging_mixin.py:104} INFO - [('RT @casahilagarwal: Here is a list of stocks with nice tight pivots for trading in INDIAN markets on 7/14/2021:\n\nBluedart, kamdhenu, Kabrae…', Decimal('0.4215')), ('@iManasArora Here is a list of stocks with nice tight pivots for trading in INDIAN markets on 7/14/2021:\n\nBluedart,… https://t.co/ubZnreoXue', Decimal('0.4215')), ('@StocksNerd Here is a list of stocks with nice tight pivots for trading in INDIAN markets on 7/14/2021:\n\nBluedart,… https://t.co/4sDTgLRMG7', Decimal('0.4215')), ('@WeekendInvestng Here is a list of stocks with nice tight pivots for trading in INDIAN markets on 7/14/2021:\n\nBlued… https://t.co/SHUa9383Yw', Decimal('0.4215')), ('Here is a list of stocks with nice tight pivots for trading in INDIAN markets on 7/14/2021:\n\nBluedart, kamdhenu, Ka… https://t.co/fkKyQHROSq', Decimal('0.4215')), ('ADVANIHOTR - Shareholding for the Period Ended June 30, 2021 https://t.co/Fl2nLtNFcn', Decimal('0.0000')), ('Paul Torres-Cohen $ADVANIHOTR.BO', Decimal('0.0000'))]
+[2021-07-16 16:30:04,562] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:30:04,588] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T162943, start_date=20210716T163003, end_date=20210716T163004
+[2021-07-16 16:30:04,703] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:30:04,747] {local_task_job.py:151} INFO - Task exited with return code 0

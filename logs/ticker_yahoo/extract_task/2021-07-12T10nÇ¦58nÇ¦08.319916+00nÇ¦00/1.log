@@ -1,0 +1,100 @@
+[2021-07-12 10:58:10,140] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T10:58:08.319916+00:00 [queued]>
+[2021-07-12 10:58:10,163] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-12T10:58:08.319916+00:00 [queued]>
+[2021-07-12 10:58:10,164] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 10:58:10,165] {taskinstance.py:1068} INFO - Starting attempt 1 of 2
+[2021-07-12 10:58:10,166] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-12 10:58:10,190] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-12T10:58:08.319916+00:00
+[2021-07-12 10:58:10,203] {standard_task_runner.py:52} INFO - Started process 268 to run task
+[2021-07-12 10:58:10,207] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-12T10:58:08.319916+00:00', '--job-id', '16', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmpu1d1u8vi', '--error-file', '/tmp/tmp2i879cow']
+[2021-07-12 10:58:10,208] {standard_task_runner.py:77} INFO - Job 16: Subtask extract_task
+[2021-07-12 10:58:10,267] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-12T10:58:08.319916+00:00 [running]> on host a9e10fa97156
+[2021-07-12 10:58:10,353] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-12T10:58:08.319916+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-12T10:58:08.319916+00:00
+[2021-07-12 10:58:20,365] {remote_connection.py:117} INFO - Could not connect to port 4444 on host selenium
+[2021-07-12 10:58:20,366] {remote_connection.py:136} INFO - Could not get IP address for host: selenium
+[2021-07-12 10:58:30,388] {connectionpool.py:752} WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fab178e4780>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /wd/hub/session
+[2021-07-12 10:58:40,411] {connectionpool.py:752} WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fab178e4f60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /wd/hub/session
+[2021-07-12 10:58:50,419] {connectionpool.py:752} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fab178e4f98>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /wd/hub/session
+[2021-07-12 10:59:00,462] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.6/http/client.py", line 1287, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.6/http/client.py", line 1333, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.6/http/client.py", line 1282, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.6/http/client.py", line 1042, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.6/http/client.py", line 980, in send
+    self.connect()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fab17909198>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/seleniumtest.py", line 41, in extract
+    driver = webdriver.Remote("http://selenium:4444/wd/hub", options=opt)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/airflow/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 402, in _request
+    resp = http.request(method, url, body=body, headers=headers)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/request.py", line 80, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 767, in urlopen
+    **response_kw
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 767, in urlopen
+    **response_kw
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 767, in urlopen
+    **response_kw
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/airflow/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 446, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='selenium', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fab17909198>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+[2021-07-12 10:59:00,680] {taskinstance.py:1531} INFO - Marking task as UP_FOR_RETRY. dag_id=ticker_yahoo, task_id=extract_task, execution_date=20210712T105808, start_date=20210712T105810, end_date=20210712T105900
+[2021-07-12 10:59:00,756] {local_task_job.py:151} INFO - Task exited with return code 1

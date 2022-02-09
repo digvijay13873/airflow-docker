@@ -1,0 +1,23 @@
+[2021-07-16 16:49:11,652] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:48:55.488518+00:00 [queued]>
+[2021-07-16 16:49:11,701] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:48:55.488518+00:00 [queued]>
+[2021-07-16 16:49:11,702] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:49:11,703] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:49:11,705] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:49:11,732] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:48:55.488518+00:00
+[2021-07-16 16:49:11,760] {standard_task_runner.py:52} INFO - Started process 9564 to run task
+[2021-07-16 16:49:11,771] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:48:55.488518+00:00', '--job-id', '1269', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpkf6w93zz', '--error-file', '/tmp/tmp99ormetr']
+[2021-07-16 16:49:11,773] {standard_task_runner.py:77} INFO - Job 1269: Subtask tweets_postgres_table
+[2021-07-16 16:49:11,916] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:48:55.488518+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:49:12,091] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:48:55.488518+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:48:52.463888+00:00
+[2021-07-16 16:49:12,180] {logging_mixin.py:104} INFO - [('#albertdavd still in redar if it crosses 550 and sustain there for 30 mins than we will see good upside move tomorrow', Decimal('0.4404')), ('#ALBERTDAVD chart  3 year long breakout with good rsi above 70 @anand_luhar https://t.co/vqWKaoRWip', Decimal('0.4404')), ('ALBERTDAVID - Price and Trend Setup - #ALBERTDAVD chart https://t.co/T2PtqhU6xv', Decimal('0.0000')), ('RT @TrendTrader85: #ALBERTDAVD" 558\n\ntaken at 528 today https://t.co/fehWXZ97Z6', Decimal('0.0000')), ('RT @TrendTrader85: #ALBERTDAVD" 558\n\ntaken at 528 today https://t.co/fehWXZ97Z6', Decimal('0.0000')), ('RT @TrendTrader85: #ALBERTDAVD" 558\n\ntaken at 528 today https://t.co/fehWXZ97Z6', Decimal('0.0000')), ('RT @TrendTrader85: #ALBERTDAVD" 558\n\ntaken at 528 today https://t.co/fehWXZ97Z6', Decimal('0.0000')), ('RT @TrendTrader85: #ALBERTDAVD" 558\n\ntaken at 528 today https://t.co/fehWXZ97Z6', Decimal('0.0000')), ('RT @TrendTrader85: #ALBERTDAVD" 558\n\ntaken at 528 today https://t.co/fehWXZ97Z6', Decimal('0.0000')), ('#ALBERTDAVID \n#ALBERTDAVD \n\nOn fire....Above 550 now...What a move today...', Decimal('0.0000')), ('#ALBERTDAVD" 558\n\ntaken at 528 today https://t.co/fehWXZ97Z6', Decimal('0.0000')), ('#albertdavd track #hporb', Decimal('0.0000')), ('RT @in_tradingview: #ALBERTDAVD - ALBERT DEVID - TradingView - https://t.co/WbfkViRxJd', Decimal('0.0000')), ('#ALBERTDAVD - ALBERT DEVID - TradingView - https://t.co/WbfkViRxJd', Decimal('0.0000'))]
+[2021-07-16 16:49:12,185] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:49:12,209] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T164855, start_date=20210716T164911, end_date=20210716T164912
+[2021-07-16 16:49:12,283] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:49:12,308] {local_task_job.py:151} INFO - Task exited with return code 0

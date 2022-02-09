@@ -1,0 +1,23 @@
+[2021-07-20 09:28:49,487] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-20T09:28:03.310296+00:00 [queued]>
+[2021-07-20 09:28:49,534] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-20T09:28:03.310296+00:00 [queued]>
+[2021-07-20 09:28:49,535] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:28:49,536] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:28:49,536] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:28:49,566] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_postgres_table> on 2021-07-20T09:28:03.310296+00:00
+[2021-07-20 09:28:49,589] {standard_task_runner.py:52} INFO - Started process 546 to run task
+[2021-07-20 09:28:49,604] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_postgres_table', '2021-07-20T09:28:03.310296+00:00', '--job-id', '1763', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmptpw780xi', '--error-file', '/tmp/tmppxrnrpi_']
+[2021-07-20 09:28:49,607] {standard_task_runner.py:77} INFO - Job 1763: Subtask news_postgres_table
+[2021-07-20 09:28:49,718] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_postgres_table 2021-07-20T09:28:03.310296+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:28:49,896] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:28:03.310296+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:27:58.372112+00:00
+[2021-07-20 09:28:50,031] {logging_mixin.py:104} INFO - [('Stocks in Focus on August 14: Hero MotoCorp, ICICI Bank, Hindalco, Aviation Stocks to Tata Power in Focus;...', Decimal('0.5574')), ('The impact of the coronavirus epidemic in China on India’s chemical industry (Part -1)', Decimal('0.0000')), ('CARE ratings for Indian debt instruments-Apr 2', Decimal('0.3470')), ('Stocks in Focus on August 14: Hero MotoCorp, ICICI Bank, Hindalco, Aviation Stocks to Tata Power in Focus;...', Decimal('0.5574')), ('The impact of the coronavirus epidemic in China on India’s chemical industry (Part -1)', Decimal('0.0000')), ('CARE ratings for Indian debt instruments-Apr 2', Decimal('0.3470'))]
+[2021-07-20 09:28:50,058] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-20 09:28:50,104] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_postgres_table, execution_date=20210720T092803, start_date=20210720T092849, end_date=20210720T092850
+[2021-07-20 09:28:50,256] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:28:50,297] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-16 16:47:39,281] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:47:29.024288+00:00 [queued]>
+[2021-07-16 16:47:39,349] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:47:29.024288+00:00 [queued]>
+[2021-07-16 16:47:39,351] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:47:39,353] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:47:39,354] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:47:39,394] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T16:47:29.024288+00:00
+[2021-07-16 16:47:39,421] {standard_task_runner.py:52} INFO - Started process 9441 to run task
+[2021-07-16 16:47:39,434] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T16:47:29.024288+00:00', '--job-id', '1252', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpph30uz1y', '--error-file', '/tmp/tmpcvicfkpp']
+[2021-07-16 16:47:39,437] {standard_task_runner.py:77} INFO - Job 1252: Subtask extract_tweets
+[2021-07-16 16:47:39,555] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T16:47:29.024288+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:47:39,716] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:47:29.024288+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:47:26.415430+00:00
+[2021-07-16 16:47:40,505] {python.py:151} INFO - Done. Returned value was: ['#debt #NSE #BSE #trading #stocks #stockmarket #Agm/egm #AKZOINDIA - Reg. 34 (1) Annual Report Please find attached… https://t.co/H2qFQnxpZZ', 'AKZOINDIA - Reg. 34 (1) Annual Report https://t.co/PIYZQZB3Dd', 'Find the odd one out.\n\n#INDIGOPNTS Indigo Paints\n#ASIANPAINT Asian Paints\n#AKZOINDIA Akzo Nobel\n\n@stockifi_Invest… https://t.co/wSy3PA3Jvv', 'Akzo Nobel India Limited - Copy of Newspaper Publication https://t.co/gCQVQhHrQd', 'AKZOINDIA - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/Mwl8jpViob', 'Akzo Nobel India Limited - Loss of Share Certificates https://t.co/v6xfIq909T', 'Akzo Nobel India Limited - Certificate under SEBI (Depositories and Participants) Regulations, 2018 https://t.co/WiX3V56Wq9', 'AKZOINDIA - Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate https://t.co/Rt8VBkuCAI', 'AKZOINDIA - Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018 https://t.co/HpLIpmQdlX']
+[2021-07-16 16:47:40,560] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T164729, start_date=20210716T164739, end_date=20210716T164740
+[2021-07-16 16:47:40,624] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:47:40,647] {local_task_job.py:151} INFO - Task exited with return code 0

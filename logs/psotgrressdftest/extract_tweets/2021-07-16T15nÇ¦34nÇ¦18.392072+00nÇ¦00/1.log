@@ -1,0 +1,22 @@
+[2021-07-16 15:34:38,589] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T15:34:18.392072+00:00 [queued]>
+[2021-07-16 15:34:38,674] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T15:34:18.392072+00:00 [queued]>
+[2021-07-16 15:34:38,675] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:34:38,676] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 15:34:38,678] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:34:38,706] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-16T15:34:18.392072+00:00
+[2021-07-16 15:34:38,730] {standard_task_runner.py:52} INFO - Started process 4159 to run task
+[2021-07-16 15:34:38,744] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-16T15:34:18.392072+00:00', '--job-id', '818', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpx2enkdoa', '--error-file', '/tmp/tmpgkh023ve']
+[2021-07-16 15:34:38,745] {standard_task_runner.py:77} INFO - Job 818: Subtask extract_tweets
+[2021-07-16 15:34:38,867] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-16T15:34:18.392072+00:00 [running]> on host 13346afafa5b
+[2021-07-16 15:34:39,040] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T15:34:18.392072+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T15:34:14.142438+00:00
+[2021-07-16 15:34:40,145] {python.py:151} INFO - Done. Returned value was: ['Thank you for the warm welcome. We are happy with the convenience and flexibility for our employees in this contemp… https://t.co/AdrG3vqU22', '3MINDIA - Announcement under Regulation 30 (LODR)-Newspaper Publication https://t.co/FJtxWs0IZm', '3MINDIA - Board Meeting Intimation for Meeting Of The Board Of Directors Will Be Held On August 12, 2021(Thursday),… https://t.co/7QUAX2X3V4', '@flameoftruth @SiyaramsIndia @FabindiaNews @DonearSuiting @SeasonsWorld\n@ITCCorpCom @HUL_News @nestle… https://t.co/S09dWeBZjT', '@flameoftruth @SiyaramsIndia @FabindiaNews @DonearSuiting @SeasonsWorld @ITCCorpCom @HUL_News @nestle… https://t.co/qq1J5N4ooK', '@3M Does even @3MIndia even care', "Calling all young innovators! This year's #WorldYouthSkillsDay theme is 'Reimagining Youth Skills Post-Pandemic' an… https://t.co/K1KORRAotf", 'RT @sj_learner4life: @Rishikesh_ADX #3MIndia\n#PGHL\n#BajajTwins\n#Pidilite', '@3M @3MIndia are you guys gona take this seriously or should i take any action from my side by going to the consumer court', 'WeWork Leases 17,000 sq ft Bengaluru Office Space to 3M India\nRead more at, https://t.co/gu6LbrKSdI\n\n#RealtyPlusMag… https://t.co/VEa0MNuWk6', 'WeWork lease out 17,000 sq ft space to 3M India in Bengaluru #WeWorkIndia #Bengaluru #3MIndia #SantoshMartin… https://t.co/ivErTJzRxJ', "@3MIndia Welcome to the future of work! We're excited to enable your flexible work strategy with the new HQ at WeWo… https://t.co/kcKg2M8fjT", 'RT @3MIndia: New Labour Codes coupled with #COVID19 have increased demand for industrial safety equipment. In an interview with @ipfonline,…', 'RT @3MIndia: We are proud to partner with @PandemicAction Network during #WorldMaskWeek in support of the continued importance of wearing a…', 'RT @3MIndia: New Labour Codes coupled with #COVID19 have increased demand for industrial safety equipment. In an interview with @ipfonline,…']
+[2021-07-16 15:34:40,223] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210716T153418, start_date=20210716T153438, end_date=20210716T153440
+[2021-07-16 15:34:40,308] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 15:34:40,329] {local_task_job.py:151} INFO - Task exited with return code 0

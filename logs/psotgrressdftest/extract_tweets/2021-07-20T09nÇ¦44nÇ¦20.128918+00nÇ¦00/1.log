@@ -1,0 +1,22 @@
+[2021-07-20 09:44:36,713] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:44:20.128918+00:00 [queued]>
+[2021-07-20 09:44:36,822] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:44:20.128918+00:00 [queued]>
+[2021-07-20 09:44:36,823] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:44:36,824] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-20 09:44:36,826] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 09:44:36,893] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-20T09:44:20.128918+00:00
+[2021-07-20 09:44:36,982] {standard_task_runner.py:52} INFO - Started process 1571 to run task
+[2021-07-20 09:44:37,003] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-20T09:44:20.128918+00:00', '--job-id', '1847', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp_lfb5bj3', '--error-file', '/tmp/tmpn89r9ky6']
+[2021-07-20 09:44:37,015] {standard_task_runner.py:77} INFO - Job 1847: Subtask extract_tweets
+[2021-07-20 09:44:37,376] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-20T09:44:20.128918+00:00 [running]> on host 13346afafa5b
+[2021-07-20 09:44:37,838] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-20T09:44:20.128918+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-20T09:44:11.893670+00:00
+[2021-07-20 09:44:39,001] {python.py:151} INFO - Done. Returned value was: ['Allsec Technologies stock nosedives over 12% after June quarterly earnings\nhttps://t.co/09KTvlmdRN\n#ALLSECtechnologies', '#Allsec @468\n\nFallen due to weak market with low volume\n\nPick it up with sl at 432', 'RT @equialpha: #AllSec - Down 10% today\n\n&gt;Got rejected from the long decade resistance \n&gt;If it comes back up and breaks it, I will be in\n&gt;T…', '#AllSec - Down 10% today\n\n&gt;Got rejected from the long decade resistance \n&gt;If it comes back up and breaks it, I will… https://t.co/QTkxLuwYtr', 'Allsec Technologies | The company reported loss at Rs 7.97 crore in Q1FY22 against profit at Rs 6.03 crore in Q1FY2… https://t.co/UVkjmv06ML', 'Allsec Technologies | The company reported loss at Rs 7.97 crore in Q1FY22 against profit at Rs 6.03 crore in Q1FY2… https://t.co/UaQGNFONO6', 'Bought #ALLSEC technologies few months back when results were really good. It gave 40% returns in 2-3 months. But n… https://t.co/639q6RGrj4', '#hdfcbank #hcltech #HDFCLIFE #controlprint #ACC #pspproject #Nippon #ALLSEC #IndianBank #supreme #petro #gtpl… https://t.co/7z1BjeNYSm', 'ALLSEC Tech Standalone June 2021 Net Sales at Rs 49.74 crore, up 18.51% Y-o-Y https://t.co/ol8i3tF6LW', 'ALLSEC Tech Standalone June 2021 Net Sales at Rs 49.74 crore, up 18.51%\xa0Y-o-Y https://t.co/7RomKeBfCB', 'Allsec Technologies Ltd Q1FY22 consolidated loss at Rs. 7.97 crore\n\n@allsec #Q1FY22 #ResultUpdate… https://t.co/MxXZtBY98E', '#Q1FY22WithStockBook I \n\nResult Update l Allsec Technologies\n\n#EarningsReport #Q1FY22 #Investwise #StockBookApp… https://t.co/HDj8R5sCis', 'Here is the 2021 Preseason USA TODAY Network All-SEC football team, with projected order of finish https://t.co/OxA3TGVSu3', 'India Equity: Allsec_Tech. (#ALLSEC) declares Quarterly Results. EPS = Rs 51.82 for quarter ended Jun\xa02021 https://t.co/2idqOo8KBG', 'Allsec Technologies Limited - Press Release https://t.co/61gAistD6U']
+[2021-07-20 09:44:39,070] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210720T094420, start_date=20210720T094436, end_date=20210720T094439
+[2021-07-20 09:44:39,269] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 09:44:39,359] {local_task_job.py:151} INFO - Task exited with return code 0

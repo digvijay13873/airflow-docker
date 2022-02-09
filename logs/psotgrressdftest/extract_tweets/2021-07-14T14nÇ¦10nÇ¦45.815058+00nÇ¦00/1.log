@@ -1,0 +1,22 @@
+[2021-07-14 14:10:57,241] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:10:45.815058+00:00 [queued]>
+[2021-07-14 14:10:57,304] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:10:45.815058+00:00 [queued]>
+[2021-07-14 14:10:57,305] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:10:57,306] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:10:57,307] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:10:57,334] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-14T14:10:45.815058+00:00
+[2021-07-14 14:10:57,370] {standard_task_runner.py:52} INFO - Started process 3543 to run task
+[2021-07-14 14:10:57,384] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-14T14:10:45.815058+00:00', '--job-id', '247', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpkx_g3oie', '--error-file', '/tmp/tmp2ouztza2']
+[2021-07-14 14:10:57,386] {standard_task_runner.py:77} INFO - Job 247: Subtask extract_tweets
+[2021-07-14 14:10:57,525] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:10:45.815058+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:10:57,696] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:10:45.815058+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:10:45.815058+00:00
+[2021-07-14 14:10:58,792] {python.py:151} INFO - Done. Returned value was: ['RT @_tcelind: @ToveKnutsen For meg som ser det utenfra ja, så virket det mest som om Arbeiderpartiets ledelse lette etter grunner til å nek…', '@gerunikax @MACGYVER_22771 @aa_uhx @towanoyumebito なんか\u3000知らん間にえらい伸びてるな(T_T)とりあえず\u3000カエルが高級食材やということがわかった\u3000おやすみなさいませ', '@aa_overthinking 어쩐지 암메 생각이 나더라니~~~~~! https://t.co/WhnUAE2ive', 'レコーディングなのに なんやかや 身体が動いちゃうタイプの 佐久間くんとは また違った 魅力があるんだよなぁ ふっかさんのこの姿 わちゃわちゃしていない 等身大29歳成人男性 お仕事出来るオーラ ばしばし出ていて（私には見える！）… https://t.co/WbL0S7yFkp', 'RT @Drsunfish: iPS細胞から作った血小板を輸血に使うという臨床試験はすでに始まっています。\n何年かしたら実用化されてるかもしれません。\n#輸血\nhttps://t.co/RyKTbyotmp', 'RT @JotaPlay_: ✨\n\n. No se que colocar aa- Espero que les guste ii &lt;3\n\nAhora me voy a llorar olee🏃\u200d♂️\n\n#gustabo #horacio #digitalart https:/…', '@BunnyNikhil214 Pk fans dhi Sep 2nd', "RT @11thAugust2022: #PrabhasBdayFestin100Days\nApati varaku 2 IHs unnai various Movies eh roju eh fanbase aina cllns vachaka hero's film her…", 'RT @Janasainik_girl: Here is my small edit \U0001f970 of  #PawanothsawamDay\nFrm my side. Hope u ppl like it 🙂😬🙌...\n\n#pawankalyan for life.. ❤✊! \n\n@s…', "RT @LaluDhfm: Oka mata cheppadu Aa mata meda nilchunnadu❤️ @MaheshFanTrends\n\nBest trend handle in tfi\U0001f929 @urstrulyMahesh \n\nB'day celebrations…", 'Rasismedebatten har preget fotballen i kjølvannet av fotball-EM. Nå lover Boris Johnson et strengere regelverk for… https://t.co/SjcYe2KRJw', 'RT @RebelismNetwork: Baga baga mande aa suryudu nelaku neruga😎🔥\n\n#PrabhasBdayFestin100Days https://t.co/nFLGTjUaFR', '@moon_loover @TJreije Ehtiramn la. Ruh charbel. Rah emhe l comment cuz kn mn aaz ref2a aa  Albe', '@fcksdalgo aa\njulia pq wu falei q te amo e cc naobrespondey 😞😞', "RT @uygur_haber: Cumhurbaşkanı Erdoğan Çin devlet başkanı Şi ile telefonda görüştü.\n\n● AA: Erdoğan, Uygur Türklerinin Çin'in eşit vatandaşl…"]
+[2021-07-14 14:10:58,926] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210714T141045, start_date=20210714T141057, end_date=20210714T141058
+[2021-07-14 14:10:59,088] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:10:59,141] {local_task_job.py:151} INFO - Task exited with return code 0

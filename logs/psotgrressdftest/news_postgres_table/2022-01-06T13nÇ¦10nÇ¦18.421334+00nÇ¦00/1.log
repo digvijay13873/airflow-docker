@@ -1,0 +1,38 @@
+[2022-01-06 13:10:49,292] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2022-01-06T13:10:18.421334+00:00 [queued]>
+[2022-01-06 13:10:49,330] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_postgres_table 2022-01-06T13:10:18.421334+00:00 [queued]>
+[2022-01-06 13:10:49,331] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:10:49,332] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 13:10:49,333] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 13:10:49,371] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_postgres_table> on 2022-01-06T13:10:18.421334+00:00
+[2022-01-06 13:10:49,390] {standard_task_runner.py:52} INFO - Started process 662 to run task
+[2022-01-06 13:10:49,397] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_postgres_table', '2022-01-06T13:10:18.421334+00:00', '--job-id', '2217', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpoq6e5zax', '--error-file', '/tmp/tmpjhvhym9w']
+[2022-01-06 13:10:49,398] {standard_task_runner.py:77} INFO - Job 2217: Subtask news_postgres_table
+[2022-01-06 13:10:49,520] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_postgres_table 2022-01-06T13:10:18.421334+00:00 [running]> on host 04be2259e97a
+[2022-01-06 13:10:49,595] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T13:10:18.421334+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T13:10:15.865071+00:00
+[2022-01-06 13:10:49,646] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/POSTGRESRSERS.py", line 126, in news_postgres_table
+    cur.execute(d)
+psycopg2.ProgrammingError: relation "newssentiments_a2zinfra_bo" does not exist
+LINE 1: SELECT * FROM newsSentiments_A2ZINFRA_BO
+                      ^
+
+[2022-01-06 13:10:49,654] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=psotgrressdftest, task_id=news_postgres_table, execution_date=20220106T131018, start_date=20220106T131049, end_date=20220106T131049
+[2022-01-06 13:10:49,684] {local_task_job.py:151} INFO - Task exited with return code 1

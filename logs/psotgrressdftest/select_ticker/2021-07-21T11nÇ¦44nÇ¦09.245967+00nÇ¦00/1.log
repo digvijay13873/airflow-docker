@@ -1,0 +1,25 @@
+[2021-07-21 11:44:13,536] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.select_ticker 2021-07-21T11:44:09.245967+00:00 [queued]>
+[2021-07-21 11:44:13,555] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.select_ticker 2021-07-21T11:44:09.245967+00:00 [queued]>
+[2021-07-21 11:44:13,556] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:44:13,557] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-21 11:44:13,558] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:44:13,578] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): select_ticker> on 2021-07-21T11:44:09.245967+00:00
+[2021-07-21 11:44:13,591] {standard_task_runner.py:52} INFO - Started process 1764 to run task
+[2021-07-21 11:44:13,597] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'select_ticker', '2021-07-21T11:44:09.245967+00:00', '--job-id', '2005', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpp635xn59', '--error-file', '/tmp/tmpfkzbq7a3']
+[2021-07-21 11:44:13,598] {standard_task_runner.py:77} INFO - Job 2005: Subtask select_ticker
+[2021-07-21 11:44:13,666] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.select_ticker 2021-07-21T11:44:09.245967+00:00 [running]> on host 5795a622f846
+[2021-07-21 11:44:13,750] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=select_ticker
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-21T11:44:09.245967+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-21T11:44:05.854621+00:00
+[2021-07-21 11:44:13,758] {logging_mixin.py:104} INFO - 10
+[2021-07-21 11:44:13,760] {logging_mixin.py:104} INFO - SELECTED TICKER FROM tickers1: ('AAN',)
+[2021-07-21 11:44:13,761] {logging_mixin.py:104} INFO - AAN
+[2021-07-21 11:44:13,765] {python.py:151} INFO - Done. Returned value was: AAN
+[2021-07-21 11:44:13,811] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=select_ticker, execution_date=20210721T114409, start_date=20210721T114413, end_date=20210721T114413
+[2021-07-21 11:44:13,915] {taskinstance.py:1245} INFO - 3 downstream tasks scheduled from follow-on schedule check
+[2021-07-21 11:44:13,969] {local_task_job.py:151} INFO - Task exited with return code 0

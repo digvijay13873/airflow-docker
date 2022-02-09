@@ -1,0 +1,101 @@
+[2021-07-21 11:24:10,901] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-21T11:24:09.397296+00:00 [queued]>
+[2021-07-21 11:24:10,919] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: ticker_yahoo.extract_task 2021-07-21T11:24:09.397296+00:00 [queued]>
+[2021-07-21 11:24:10,920] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:24:10,921] {taskinstance.py:1068} INFO - Starting attempt 1 of 2
+[2021-07-21 11:24:10,921] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:24:10,947] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_task> on 2021-07-21T11:24:09.397296+00:00
+[2021-07-21 11:24:10,958] {standard_task_runner.py:52} INFO - Started process 661 to run task
+[2021-07-21 11:24:10,963] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'ticker_yahoo', 'extract_task', '2021-07-21T11:24:09.397296+00:00', '--job-id', '1933', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/seleniumtest.py', '--cfg-path', '/tmp/tmp52obb9ti', '--error-file', '/tmp/tmp5ejwp1ng']
+[2021-07-21 11:24:10,964] {standard_task_runner.py:77} INFO - Job 1933: Subtask extract_task
+[2021-07-21 11:24:11,034] {logging_mixin.py:104} INFO - Running <TaskInstance: ticker_yahoo.extract_task 2021-07-21T11:24:09.397296+00:00 [running]> on host 5795a622f846
+[2021-07-21 11:24:11,118] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=ticker_yahoo
+AIRFLOW_CTX_TASK_ID=extract_task
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-21T11:24:09.397296+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-21T11:24:09.397296+00:00
+[2021-07-21 11:26:03,979] {logging_mixin.py:104} INFO - comapny name: 20 Microns Limited (20MICRONS.NS)
+[2021-07-21 11:26:05,743] {logging_mixin.py:104} INFO - extracted ticker: 20MICRONS.NS
+[2021-07-21 11:26:39,954] {logging_mixin.py:104} INFO - comapny name: 21ST CENTURY MANAG (21STCENMGM.NS)
+[2021-07-21 11:26:39,955] {logging_mixin.py:104} INFO - extracted ticker: 21STCENMGM.NS
+[2021-07-21 11:27:11,540] {logging_mixin.py:104} INFO - comapny name: 3i Infotech Limited (3IINFOTECH.NS)
+[2021-07-21 11:27:11,546] {logging_mixin.py:104} INFO - extracted ticker: 3IINFOTECH.NS
+[2021-07-21 11:27:43,026] {logging_mixin.py:104} INFO - comapny name: 3M India Limited (3MINDIA.NS)
+[2021-07-21 11:27:43,027] {logging_mixin.py:104} INFO - extracted ticker: 3MINDIA.NS
+[2021-07-21 11:28:14,506] {logging_mixin.py:104} INFO - comapny name: 3P LAND HOLDINGS LTD. (3PLAND.BO)
+[2021-07-21 11:28:14,507] {logging_mixin.py:104} INFO - extracted ticker: 3PLAND.BO
+[2021-07-21 11:28:46,035] {logging_mixin.py:104} INFO - comapny name: 5paisa Capital Limited (5PAISA.NS)
+[2021-07-21 11:28:46,036] {logging_mixin.py:104} INFO - extracted ticker: 5PAISA.NS
+[2021-07-21 11:29:19,642] {logging_mixin.py:104} INFO - comapny name: 63 MOONS TECHNOLOG (63MOONS.NS)
+[2021-07-21 11:29:20,139] {logging_mixin.py:104} INFO - extracted ticker: 63MOONS.NS
+[2021-07-21 11:30:01,363] {logging_mixin.py:104} INFO - comapny name: A2Z Infra Engineering Limited (A2ZINFRA.BO)
+[2021-07-21 11:30:01,372] {logging_mixin.py:104} INFO - extracted ticker: A2ZINFRA.BO
+[2021-07-21 11:30:34,677] {logging_mixin.py:104} INFO - comapny name: Aakash Exploration Services Limited (AAKASH.NS)
+[2021-07-21 11:30:34,679] {logging_mixin.py:104} INFO - extracted ticker: AAKASH.NS
+[2021-07-21 11:31:07,211] {logging_mixin.py:104} INFO - comapny name: The Aaron's Company, Inc. (AAN)
+[2021-07-21 11:31:07,212] {logging_mixin.py:104} INFO - extracted ticker: AAN
+[2021-07-21 11:31:38,964] {logging_mixin.py:104} INFO - comapny name: Aarti Drugs Limited (AARTIDRUGS.NS)
+[2021-07-21 11:31:38,966] {logging_mixin.py:104} INFO - extracted ticker: AARTIDRUGS.NS
+[2021-07-21 11:32:11,874] {logging_mixin.py:104} INFO - comapny name: Aarti Industries Limited (AARTIIND.NS)
+[2021-07-21 11:32:11,875] {logging_mixin.py:104} INFO - extracted ticker: AARTIIND.NS
+[2021-07-21 11:32:43,385] {logging_mixin.py:104} INFO - comapny name: Aarti Surfactants Limited (AARTISURF.NS)
+[2021-07-21 11:32:43,386] {logging_mixin.py:104} INFO - extracted ticker: AARTISURF.NS
+[2021-07-21 11:33:15,158] {logging_mixin.py:104} INFO - comapny name: Aarvee Denims and Exports Limited (AARVEEDEN.BO)
+[2021-07-21 11:33:15,160] {logging_mixin.py:104} INFO - extracted ticker: AARVEEDEN.BO
+[2021-07-21 11:33:55,331] {logging_mixin.py:104} INFO - comapny name: Aarvi Encon Limited (AARVI.NS)
+[2021-07-21 11:33:55,335] {logging_mixin.py:104} INFO - extracted ticker: AARVI.NS
+[2021-07-21 11:34:27,542] {logging_mixin.py:104} INFO - comapny name: Aavas Financiers Limited (AAVAS.NS)
+[2021-07-21 11:34:27,543] {logging_mixin.py:104} INFO - extracted ticker: AAVAS.NS
+[2021-07-21 11:34:59,769] {logging_mixin.py:104} INFO - comapny name: Automatic Bank Services Limited (ABANF)
+[2021-07-21 11:34:59,772] {logging_mixin.py:104} INFO - extracted ticker: ABANF
+[2021-07-21 11:35:36,299] {logging_mixin.py:104} INFO - comapny name: ABB Ltd (ABB)
+[2021-07-21 11:35:36,359] {logging_mixin.py:104} INFO - extracted ticker: ABB
+[2021-07-21 11:36:21,006] {logging_mixin.py:104} INFO - comapny name: Abbott India Limited (ABBOTINDIA.NS)
+[2021-07-21 11:36:21,007] {logging_mixin.py:104} INFO - extracted ticker: ABBOTINDIA.NS
+[2021-07-21 11:36:53,172] {logging_mixin.py:104} INFO - comapny name: Aditya Birla Capital Limited (ABCAPITAL.NS)
+[2021-07-21 11:36:53,175] {logging_mixin.py:104} INFO - extracted ticker: ABCAPITAL.NS
+[2021-07-21 11:37:26,068] {logging_mixin.py:104} INFO - comapny name: Aditya Birla Fashion and Retail Limited (ABFRL.NS)
+[2021-07-21 11:37:26,070] {logging_mixin.py:104} INFO - extracted ticker: ABFRL.NS
+[2021-07-21 11:37:58,380] {logging_mixin.py:104} INFO - comapny name: ABM International Limited (ABMINTLTD.NS)
+[2021-07-21 11:37:58,383] {logging_mixin.py:104} INFO - extracted ticker: ABMINTLTD.NS
+[2021-07-21 11:38:32,474] {logging_mixin.py:104} INFO - comapny name: American Campus Communities, Inc. (ACC)
+[2021-07-21 11:38:32,476] {logging_mixin.py:104} INFO - extracted ticker: ACC
+[2021-07-21 11:39:05,969] {logging_mixin.py:104} INFO - comapny name: Accelya Solutions India Limited (ACCELYA.NS)
+[2021-07-21 11:39:05,973] {logging_mixin.py:104} INFO - extracted ticker: ACCELYA.NS
+[2021-07-21 11:39:44,502] {logging_mixin.py:104} INFO - comapny name: Accuracy Shipping Limited (ACCURACY.NS)
+[2021-07-21 11:39:44,504] {logging_mixin.py:104} INFO - extracted ticker: ACCURACY.NS
+[2021-07-21 11:40:17,254] {logging_mixin.py:104} INFO - comapny name: AcelRx Pharmaceuticals, Inc. (ACRX)
+[2021-07-21 11:40:17,255] {logging_mixin.py:104} INFO - extracted ticker: ACRX
+[2021-07-21 11:40:50,381] {logging_mixin.py:104} INFO - comapny name: Acrysil Limited (ACRYSIL.NS)
+[2021-07-21 11:40:50,385] {logging_mixin.py:104} INFO - extracted ticker: ACRYSIL.NS
+[2021-07-21 11:41:27,303] {logging_mixin.py:104} INFO - comapny name: Adani Enterprises Limited (ADANIENT.NS)
+[2021-07-21 11:41:27,309] {logging_mixin.py:104} INFO - extracted ticker: ADANIENT.NS
+[2021-07-21 11:41:59,097] {logging_mixin.py:104} INFO - comapny name: Adani Green Energy Limited (ADANIGREEN.NS)
+[2021-07-21 11:41:59,100] {logging_mixin.py:104} INFO - extracted ticker: ADANIGREEN.NS
+[2021-07-21 11:42:34,629] {logging_mixin.py:104} INFO - comapny name: Adani Ports and Special Economic Zone Limited (ADANIPORTS.NS)
+[2021-07-21 11:42:34,632] {logging_mixin.py:104} INFO - extracted ticker: ADANIPORTS.NS
+[2021-07-21 11:43:08,702] {logging_mixin.py:104} INFO - comapny name: Adani Power Limited (ADANIPOWER.NS)
+[2021-07-21 11:43:08,704] {logging_mixin.py:104} INFO - extracted ticker: ADANIPOWER.NS
+[2021-07-21 11:43:41,045] {logging_mixin.py:104} INFO - comapny name: Adani Transmission Limited (ADANITRANS.NS)
+[2021-07-21 11:43:41,046] {logging_mixin.py:104} INFO - extracted ticker: ADANITRANS.NS
+[2021-07-21 11:44:13,444] {logging_mixin.py:104} INFO - comapny name: ADF Foods Limited (ADFFOODS.NS)
+[2021-07-21 11:44:13,445] {logging_mixin.py:104} INFO - extracted ticker: ADFFOODS.NS
+[2021-07-21 11:44:47,773] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/seleniumtest.py", line 61, in extract
+    ticker = companyname = str(companyname[0].text)
+IndexError: list index out of range
+[2021-07-21 11:44:47,940] {taskinstance.py:1531} INFO - Marking task as UP_FOR_RETRY. dag_id=ticker_yahoo, task_id=extract_task, execution_date=20210721T112409, start_date=20210721T112410, end_date=20210721T114447
+[2021-07-21 11:44:51,089] {local_task_job.py:151} INFO - Task exited with return code 1

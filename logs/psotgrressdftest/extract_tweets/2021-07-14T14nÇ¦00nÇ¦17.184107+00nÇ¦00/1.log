@@ -1,0 +1,22 @@
+[2021-07-14 14:00:40,821] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:00:17.184107+00:00 [queued]>
+[2021-07-14 14:00:40,898] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:00:17.184107+00:00 [queued]>
+[2021-07-14 14:00:40,900] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:00:40,903] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 14:00:40,907] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 14:00:40,945] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-14T14:00:17.184107+00:00
+[2021-07-14 14:00:40,976] {standard_task_runner.py:52} INFO - Started process 2883 to run task
+[2021-07-14 14:00:40,987] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-14T14:00:17.184107+00:00', '--job-id', '220', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp45013f07', '--error-file', '/tmp/tmpxifmosa2']
+[2021-07-14 14:00:40,989] {standard_task_runner.py:77} INFO - Job 220: Subtask extract_tweets
+[2021-07-14 14:00:41,118] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T14:00:17.184107+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 14:00:41,255] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T14:00:17.184107+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T14:00:17.184107+00:00
+[2021-07-14 14:00:44,848] {python.py:151} INFO - Done. Returned value was: ['RT @mystockbookapp: #Q1FY22WithStockBook I Result Update l 5 Paisa Capital\n\n#EarningsReport #Q1FY22 #Investwise #StockBookApp #earningswatc…', '#Q1FY22WithStockBook I Result Update l 5 Paisa Capital\n\n#EarningsReport #Q1FY22 #Investwise #StockBookApp… https://t.co/BlUKbasx98', '#5PAISA #FinancialResultUpdates\nCompany:: 5Paisa Capital Limited\n,  Financial Results For  Period Ended June 30, 20… https://t.co/QAi6yPqmVl', '@Netaji89 Please share your client ID to assist you better.', '@rawats12345 We request you to please allow us sometime we will update you when the parcel is delivered.', '@bpushkaronline You are trying to create a fresh position which is not allowed, in last week of expiry. Hence, the order is rejected.', '@bpushkaronline As checked order is rejected due to insufficient margin. The margin requirement is decided by excha… https://t.co/ezd6DlOK3G', '@5paisa Do you have any answer for this or not? Please reply to close this ticket soon.', '@5paisa - probably the worst support, My wife opened account 2 weeks back and getting repeated IVR Calls saying the… https://t.co/2Z3TvpTIbE', '@5paisa Thanks yes its fixed now.', '@VidzTrendy We charge brokerage and other charges as per SEBI guidelines. Charges related information is available… https://t.co/voQMIiHVD8', '@jaydipp69324444 Orders are placed from the exchanges end. We are just a platform for your orders. The margin requi… https://t.co/D9nVs3TKFH', '@learner_1990 The M to  M for the stock has been updated properly now. We request you to check the same.', '@ravikant_in Responded to ticket no#6237497. We have highlighted the concern to team and the same has been fixed no… https://t.co/dEcdqvdaCV', '@Deepakkumawat2 We require proof of correspondence if you have that add on it or  other proof like driving license that will also do']
+[2021-07-14 14:00:45,052] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210714T140017, start_date=20210714T140040, end_date=20210714T140045
+[2021-07-14 14:00:45,355] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 14:00:45,448] {local_task_job.py:151} INFO - Task exited with return code 0

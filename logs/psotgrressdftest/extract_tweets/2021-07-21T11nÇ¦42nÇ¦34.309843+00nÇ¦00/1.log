@@ -1,0 +1,22 @@
+[2021-07-21 11:42:55,972] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:42:34.309843+00:00 [queued]>
+[2021-07-21 11:42:56,055] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:42:34.309843+00:00 [queued]>
+[2021-07-21 11:42:56,061] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:42:56,063] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-21 11:42:56,064] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-21 11:42:57,298] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-21T11:42:34.309843+00:00
+[2021-07-21 11:42:57,337] {standard_task_runner.py:52} INFO - Started process 1699 to run task
+[2021-07-21 11:42:57,351] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-21T11:42:34.309843+00:00', '--job-id', '1998', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmptlm45d9_', '--error-file', '/tmp/tmprajpuko7']
+[2021-07-21 11:42:57,359] {standard_task_runner.py:77} INFO - Job 1998: Subtask extract_tweets
+[2021-07-21 11:42:58,031] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-21T11:42:34.309843+00:00 [running]> on host 5795a622f846
+[2021-07-21 11:42:59,255] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-21T11:42:34.309843+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-21T11:42:26.495383+00:00
+[2021-07-21 11:43:00,420] {python.py:151} INFO - Done. Returned value was: ["Leading online learning platform Byju's on Wednesday said it has acquired Epic, the world's leading digital reading… https://t.co/NVcSKParGq", '@aakash_lakhia 1 time use tha sir ji', '@Aakash_jdp Day 1? No? https://t.co/lWmhadRQWT', '@Aakash_jdp', '@bellarosa000 😋\U0001f9d0', 'The biggest discussion thus far in India on #Tokyo2020 has been whether cricket should be an Olympic sport or not.… https://t.co/Q8DT6jPuWx', 'RT @PJasan_7: 🌟™यदि ट्विटर पे एक्टिव है तो 2OO फॉलोवर्स तुरंत पाए \n\n@PJasan_7 👑 @Iam_Arpita_\n\n@Panditt_jii 👑 @Aarya_101 10k\n\n@Adity_143 👑 @…', '@Er_Shankarr Saavn achha h kya', '@aakash_765 🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳\n\n💞💞💞 @Kriti_hind 💞💞💞\n    💗💗  @Rjain2001 💗💗\n       💘    @kriti_hind1    💘… https://t.co/tSYpcLwEqO', 'RT @aakash_765: एक बार फिर से 💪\n200फॉलोवर्स बढ़ाएं \nसिर्फ नीचे दिए इंस्ट्रक्शन्स ईमानदारी से फॉलो करें\n\n1- रीट्वीट करें\n2- रीट्वीट लिस्ट खो…', '@aakash_765 @real_alok007 @aakash_765 \n@real_alok007 \n@VishnuSMishra2', 'RT @aakash_765: अगर ट्विटर पे एक्टिव हो तो 2OO फॉलोवर्स तुरंत पाए , \n\n𝑭𝒐𝒍𝒍𝒐𝒘 💠 @aakash_765\n\nFollow 💠 @Krisu50_\n\nसिर्फ रिट्वीट करें , व रि…', '@ankit_acerbic 1rupees😳😳😳\nHume bhi pass krdo vo code', '@shalusterr @aakash_lakhia Congratulations bhai ♥️🤗', 'RT @aakash_765: एक बार फिर से 💪\n200फॉलोवर्स बढ़ाएं \nसिर्फ नीचे दिए इंस्ट्रक्शन्स ईमानदारी से फॉलो करें\n\n1- रीट्वीट करें\n2- रीट्वीट लिस्ट खो…']
+[2021-07-21 11:43:00,497] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210721T114234, start_date=20210721T114255, end_date=20210721T114300
+[2021-07-21 11:43:00,599] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-21 11:43:00,653] {local_task_job.py:151} INFO - Task exited with return code 0

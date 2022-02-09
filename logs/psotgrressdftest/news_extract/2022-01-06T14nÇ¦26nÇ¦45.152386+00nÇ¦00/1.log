@@ -1,0 +1,23 @@
+[2022-01-06 14:26:56,769] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2022-01-06T14:26:45.152386+00:00 [queued]>
+[2022-01-06 14:26:56,833] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.news_extract 2022-01-06T14:26:45.152386+00:00 [queued]>
+[2022-01-06 14:26:56,835] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:26:56,836] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2022-01-06 14:26:56,837] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-06 14:26:56,891] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): news_extract> on 2022-01-06T14:26:45.152386+00:00
+[2022-01-06 14:26:56,927] {standard_task_runner.py:52} INFO - Started process 1064 to run task
+[2022-01-06 14:26:56,941] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'news_extract', '2022-01-06T14:26:45.152386+00:00', '--job-id', '2263', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpf3uj37cw', '--error-file', '/tmp/tmpi7iq5spd']
+[2022-01-06 14:26:56,945] {standard_task_runner.py:77} INFO - Job 2263: Subtask news_extract
+[2022-01-06 14:26:57,111] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.news_extract 2022-01-06T14:26:45.152386+00:00 [running]> on host 04be2259e97a
+[2022-01-06 14:26:57,471] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=news_extract
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-06T14:26:45.152386+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-06T14:26:42.130119+00:00
+[2022-01-06 14:26:57,566] {logging_mixin.py:104} INFO - Aarvee Denims and Exports Limited
+[2022-01-06 14:27:13,691] {python.py:151} INFO - Done. Returned value was: ['Global Industry Analysts Predicts the World Denim Jeans Market to Reach $76.1 Billion by 2026', 'Brickwork reaffirms credit rating for bank loan facilities for Aarvee Denims & Exports; Stock slumps 4.5%', 'Aarvee Denims and Exports two promoters increase stake in the company; Stock trades flat', 'Global Denim Jeans Market to Reach $83.2 Billion by 2026', 'Denim majors look at automation to improve product quality, export', 'CG-VAK Software and Exports Ltd to acquire land at Coimbatore', 'R&B Denims consolidated net profit rises 54300.00% in the September 2021 quarter', 'Gyscoal Alloys Ltd leads losers in B group', 'Nagreeka Exports Ltd Q2FY22 PAT up at Rs. 2.55 crore', 'R & B Denims Ltd fixes Oct 29, 2021 as record date for stock split', 'Investing in Ahmedabad District, Gujarat: India Regional Spotlight']
+[2022-01-06 14:27:13,729] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=news_extract, execution_date=20220106T142645, start_date=20220106T142656, end_date=20220106T142713
+[2022-01-06 14:27:13,793] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-01-06 14:27:13,870] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,22 @@
+[2021-07-14 13:40:09,152] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T13:39:55.395569+00:00 [queued]>
+[2021-07-14 13:40:09,342] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T13:39:55.395569+00:00 [queued]>
+[2021-07-14 13:40:09,348] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 13:40:09,350] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-14 13:40:09,353] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-14 13:40:09,472] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_tweets> on 2021-07-14T13:39:55.395569+00:00
+[2021-07-14 13:40:09,573] {standard_task_runner.py:52} INFO - Started process 1692 to run task
+[2021-07-14 13:40:09,645] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_tweets', '2021-07-14T13:39:55.395569+00:00', '--job-id', '199', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmp2a1kyvzt', '--error-file', '/tmp/tmpdea5ewyi']
+[2021-07-14 13:40:09,659] {standard_task_runner.py:77} INFO - Job 199: Subtask extract_tweets
+[2021-07-14 13:40:10,108] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_tweets 2021-07-14T13:39:55.395569+00:00 [running]> on host a2cbcfd4d6f4
+[2021-07-14 13:40:10,969] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_tweets
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-14T13:39:55.395569+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-14T13:39:55.395569+00:00
+[2021-07-14 13:40:12,574] {python.py:151} INFO - Done. Returned value was: ['@IntradayGeeks 3iinfotech', 'RT @SpotalphaIndia: @Abhi29613066 #3IINFOTECH showed a strong bullish trend over the last year.\n\nDuring this period #3IINFOTECH delivered +…', '@Abhi29613066 #3IINFOTECH showed a strong bullish trend over the last year.\n\nDuring this period #3IINFOTECH deliver… https://t.co/wUz5Xl3wXq', '@SpotalphaIndia #3iinfotech', '@irini97373837 I MISS Pudumjee paper but you can hold, 2nd my choice is 3Iinfotech is hold &amp; my first choice is only SUBEX LTD.', 'Wannago has played an important role in shaping the digital presence of its clients. With its various services, it… https://t.co/oAWbxGd0XO', 'Buy-and-Hold investors in #3IINFOTECH experienced a maximum drawdown of -31.67% over the last year.\n\nIt delivered +… https://t.co/t9VfB6k8jk', 'Trend \U0001f9f5 of IT Services stocks.\n\nPart 3/3:\n\n@SpotalphaIndia #SHRIRAMEPC, #POLARIS, #HCL-INSYS, #AXISCADES, #TCS,… https://t.co/jeiVOonGYb', '@amit_manerkar @SantoshBiyani @3iInfotech Maybe company is allowing pref shareholders to exit around… https://t.co/8gRfvH1ltm', '@bhupen786 @amit_manerkar @SantoshBiyani @3iInfotech Company is implementing a lot of new technology products that… https://t.co/mVl6dFhwOE', '@amit_manerkar @SantoshBiyani @3iInfotech There is zero promoter stake in 3i infotech.. Icici sold their stake long back.', "@SantoshBiyani @3iInfotech Promoters can't sell silently. They are in need of money and are periodically selling by… https://t.co/TaBqANYIeQ", '3IINFOTECH - Statement Of Investor Complaints For The Quarter Ended June 2021 https://t.co/TSbPMYj0k6', 'Promoters are silently selling stake in @3iInfotech before Book closure #sensex50 #Nifty50 #StockMarket… https://t.co/1VgRTOAqNy', 'Pick of the week \nJindalsaw \nAksharchem \n3iinfotech\nAirtel \nDynpro']
+[2021-07-14 13:40:12,818] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_tweets, execution_date=20210714T133955, start_date=20210714T134009, end_date=20210714T134012
+[2021-07-14 13:40:13,105] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-14 13:40:13,255] {local_task_job.py:151} INFO - Task exited with return code 0

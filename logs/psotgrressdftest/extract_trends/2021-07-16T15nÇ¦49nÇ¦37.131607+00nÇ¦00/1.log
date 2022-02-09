@@ -1,0 +1,24 @@
+[2021-07-16 15:49:46,918] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_trends 2021-07-16T15:49:37.131607+00:00 [queued]>
+[2021-07-16 15:49:46,984] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.extract_trends 2021-07-16T15:49:37.131607+00:00 [queued]>
+[2021-07-16 15:49:46,985] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:49:46,987] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 15:49:46,990] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 15:49:47,033] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): extract_trends> on 2021-07-16T15:49:37.131607+00:00
+[2021-07-16 15:49:47,065] {standard_task_runner.py:52} INFO - Started process 5244 to run task
+[2021-07-16 15:49:47,086] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'extract_trends', '2021-07-16T15:49:37.131607+00:00', '--job-id', '914', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpr4k47jg9', '--error-file', '/tmp/tmp8dtepa1r']
+[2021-07-16 15:49:47,089] {standard_task_runner.py:77} INFO - Job 914: Subtask extract_trends
+[2021-07-16 15:49:47,267] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.extract_trends 2021-07-16T15:49:37.131607+00:00 [running]> on host 13346afafa5b
+[2021-07-16 15:49:47,495] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=extract_trends
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T15:49:37.131607+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T15:49:35.004221+00:00
+[2021-07-16 15:49:47,530] {logging_mixin.py:104} INFO - ['AAVAS.NS']
+[2021-07-16 15:50:00,377] {logging_mixin.py:104} INFO - number of searches: [0.0, 0.0, 0.0, 0.0, 0.0]
+[2021-07-16 15:50:00,387] {python.py:151} INFO - Done. Returned value was: [0.0, 0.0, 0.0, 0.0, 0.0]
+[2021-07-16 15:50:00,450] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=extract_trends, execution_date=20210716T154937, start_date=20210716T154946, end_date=20210716T155000
+[2021-07-16 15:50:00,529] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 15:50:00,570] {local_task_job.py:151} INFO - Task exited with return code 0

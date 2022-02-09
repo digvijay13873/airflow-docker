@@ -1,0 +1,23 @@
+[2021-07-16 16:31:53,362] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:31:33.174987+00:00 [queued]>
+[2021-07-16 16:31:53,413] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:31:33.174987+00:00 [queued]>
+[2021-07-16 16:31:53,414] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:31:53,415] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 16:31:53,416] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 16:31:53,440] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T16:31:33.174987+00:00
+[2021-07-16 16:31:53,474] {standard_task_runner.py:52} INFO - Started process 8166 to run task
+[2021-07-16 16:31:53,487] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T16:31:33.174987+00:00', '--job-id', '1101', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpzbbvtix5', '--error-file', '/tmp/tmpi_01y0it']
+[2021-07-16 16:31:53,489] {standard_task_runner.py:77} INFO - Job 1101: Subtask tweets_postgres_table
+[2021-07-16 16:31:53,613] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T16:31:33.174987+00:00 [running]> on host 13346afafa5b
+[2021-07-16 16:31:53,870] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T16:31:33.174987+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T16:31:29.536528+00:00
+[2021-07-16 16:31:54,043] {logging_mixin.py:104} INFO - [('#aegischem  \n\nDoes it make sense ? 290-300 levels https://t.co/PJHINg6Fi3', Decimal('0.0000')), ('STOCK NAME-  #AEGISCHEM\n\nENTRY CMP - 321\n\nTARGET-  330-350-370\n\n#MID_TERM  💰💰\n( STOCK BY @POOJADWIVEDI26 )\n\n⛔️ NOTE… https://t.co/AxdbPfizjX', Decimal('0.0000')), ('🔴  AEGISCHEM in 5min Timeframe https://t.co/HcwEAAt3AV', Decimal('0.0000')), ('#AEGISCHEM stock is suffering from tremendous buying force...add into watchlist and just wait for reversal, 400 lev… https://t.co/M9liFpNRIC', Decimal('-0.4767')), ('Buy (MIS_SLM)\n(Qty/10K Rs),\n\n#IEX\nAbove- 422.8\nQty- 2\n\n#OFSS\nAbove- 4140.6\nQty- 1\n\n#MPHASIS\nAbove- 2335.5\nQty- 1… https://t.co/aCSgMbn2aW', Decimal('0.0000')), ('#Intimation #Concall\n\n14Jul21\n#INFY: https://t.co/BsvNYBQXFD\n#AEGISCHEM: https://t.co/aB9LVwnS7P\n#LTTS:… https://t.co/9u94SfQ0Xa', Decimal('0.0000')), ('@Pankaj_priyam @zerodhaonline Both are same only, In NSE it registered as AEGISCHEM', Decimal('0.0000')), ('🔴  AEGISCHEM in 5min Timeframe\n(This is the last signal for today for more signals join our telegram channel… https://t.co/rXd5uksiFq', Decimal('0.3566')), ('@zerodhaonline I ordered Aegislog but order executed aegischem.', Decimal('0.0000')), ('@kuttrapali26 💯 right see aegischem today', Decimal('0.0000')), ('#stockstowatch for July 13, 2021\n\n#BSE #NSE #Sensex #Nifty #OpeningBell #stockmarketnews #MarketOpen #marketopening… https://t.co/wFiAdyGxrv', Decimal('0.0000')), ('#pressRelease #NSE #BSE #trading #stocks #stockmarket #PressRelease #AEGISCHEM - Press Release Aegis Logistics Limi… https://t.co/9aYOC5aQFa', Decimal('0.0000')), ('#pressRelease #NSE #BSE #trading #stocks #stockmarket #PressRelease #AEGISCHEM - Announcement under Regulation 30 (… https://t.co/dgU4ejohRH', Decimal('0.0000')), ('#Aegischem(374) :: \n\U0001f7e6 SwingShortTrade\n\U0001f7e8 Stop Loss 370\n\U0001f7e9 Target 400\n\U0001f7eb Good R:R https://t.co/JgiYzN9AfO', Decimal('-0.1531')), ('#AEGISCHEM #StocksToWatch SL : WCB 290 https://t.co/vkbb4q0MKP https://t.co/4bHoP8bnlf', Decimal('0.0000'))]
+[2021-07-16 16:31:54,053] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 16:31:54,082] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T163133, start_date=20210716T163153, end_date=20210716T163154
+[2021-07-16 16:31:54,198] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 16:31:54,230] {local_task_job.py:151} INFO - Task exited with return code 0

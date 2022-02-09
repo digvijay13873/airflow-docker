@@ -1,0 +1,23 @@
+[2021-07-16 17:23:34,079] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:23:21.587852+00:00 [queued]>
+[2021-07-16 17:23:34,117] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:23:21.587852+00:00 [queued]>
+[2021-07-16 17:23:34,118] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:23:34,119] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-16 17:23:34,120] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-16 17:23:34,138] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): tweets_postgres_table> on 2021-07-16T17:23:21.587852+00:00
+[2021-07-16 17:23:34,155] {standard_task_runner.py:52} INFO - Started process 12603 to run task
+[2021-07-16 17:23:34,163] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'psotgrressdftest', 'tweets_postgres_table', '2021-07-16T17:23:21.587852+00:00', '--job-id', '1653', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/POSTGRESRSERS.py', '--cfg-path', '/tmp/tmpya8b2rg5', '--error-file', '/tmp/tmpm1og9ini']
+[2021-07-16 17:23:34,165] {standard_task_runner.py:77} INFO - Job 1653: Subtask tweets_postgres_table
+[2021-07-16 17:23:34,248] {logging_mixin.py:104} INFO - Running <TaskInstance: psotgrressdftest.tweets_postgres_table 2021-07-16T17:23:21.587852+00:00 [running]> on host 13346afafa5b
+[2021-07-16 17:23:34,354] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=psotgrressdftest
+AIRFLOW_CTX_TASK_ID=tweets_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-16T17:23:21.587852+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-16T17:23:19.596791+00:00
+[2021-07-16 17:23:34,405] {logging_mixin.py:104} INFO - [('Asian hotel east(AHLEAST) closed at https://t.co/VBWbH0NNvT is bullish above https://t.co/OWhB32KoqG may rise to 19… https://t.co/2ghXcyuax8', Decimal('0.0000')), ('AHLEAST - Shareholding for the Period Ended June 30, 2021 https://t.co/RPCVoGryYT', Decimal('0.0000')), ('Asian hotel east(AHLEAST) closed at https://t.co/VBWbH0NNvT is bullish above https://t.co/OWhB32KoqG may rise to 19… https://t.co/2ghXcyuax8', Decimal('0.0000')), ('AHLEAST - Shareholding for the Period Ended June 30, 2021 https://t.co/RPCVoGryYT', Decimal('0.0000'))]
+[2021-07-16 17:23:34,410] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-16 17:23:34,432] {taskinstance.py:1191} INFO - Marking task as SUCCESS. dag_id=psotgrressdftest, task_id=tweets_postgres_table, execution_date=20210716T172321, start_date=20210716T172334, end_date=20210716T172334
+[2021-07-16 17:23:34,497] {taskinstance.py:1245} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-16 17:23:34,534] {local_task_job.py:151} INFO - Task exited with return code 0

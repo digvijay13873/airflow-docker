@@ -1,0 +1,35 @@
+[2021-07-26 08:23:40,583] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: api.api_test 2021-07-26T08:23:39.218376+00:00 [queued]>
+[2021-07-26 08:23:40,610] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: api.api_test 2021-07-26T08:23:39.218376+00:00 [queued]>
+[2021-07-26 08:23:40,611] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-26 08:23:40,612] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-07-26 08:23:40,619] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-26 08:23:40,649] {taskinstance.py:1087} INFO - Executing <Task(PythonOperator): api_test> on 2021-07-26T08:23:39.218376+00:00
+[2021-07-26 08:23:40,661] {standard_task_runner.py:52} INFO - Started process 508 to run task
+[2021-07-26 08:23:40,665] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'api', 'api_test', '2021-07-26T08:23:39.218376+00:00', '--job-id', '2076', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmp4apg6gf_', '--error-file', '/tmp/tmp6jp6wd7n']
+[2021-07-26 08:23:40,666] {standard_task_runner.py:77} INFO - Job 2076: Subtask api_test
+[2021-07-26 08:23:40,730] {logging_mixin.py:104} INFO - Running <TaskInstance: api.api_test 2021-07-26T08:23:39.218376+00:00 [running]> on host 5795a622f846
+[2021-07-26 08:23:40,800] {taskinstance.py:1282} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api
+AIRFLOW_CTX_TASK_ID=api_test
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-26T08:23:39.218376+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-26T08:23:39.218376+00:00
+[2021-07-26 08:23:40,809] {taskinstance.py:1481} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1137, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/api.py", line 29, in json
+    json.dumps(a)
+AttributeError: 'function' object has no attribute 'dumps'
+[2021-07-26 08:23:40,819] {taskinstance.py:1531} INFO - Marking task as FAILED. dag_id=api, task_id=api_test, execution_date=20210726T082339, start_date=20210726T082340, end_date=20210726T082340
+[2021-07-26 08:23:40,881] {local_task_job.py:151} INFO - Task exited with return code 1
