@@ -1,6 +1,0 @@
-task_instance.xcom_pull(task_ids='select_ticker')
-
-
-
-list of tasks:
-1. 
