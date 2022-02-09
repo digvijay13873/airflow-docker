@@ -39,7 +39,7 @@ def extract():
   cur = conn.cursor()
   with open(r'./fromlocal/EQUITY_L.csv') as read_obj:
     csv_dict_reader = DictReader(read_obj)
-    url = "https://in.finance.yahoo.com"
+    url = "https://finance.yahoo.com"
     driver = webdriver.Remote("http://selenium:4444/wd/hub", options=opt)
     driver.get(url)
     for row in csv_dict_reader:
@@ -54,7 +54,7 @@ def extract():
       time.sleep(4)
 
       # clicking on search
-      driver.find_element_by_xpath('//*[@id="search-button"]').click()
+      driver.find_element_by_xpath('//*[@id="header-desktop-search-button"]').click()
       time.sleep(15)
 
       companyname = driver.find_elements_by_xpath('//*[@id="quote-header-info"]/div[2]/div[1]/div[1]/h1')
