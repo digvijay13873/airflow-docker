@@ -40,7 +40,7 @@ dag = DAG(  dag_id ='psotgrressdftest',
 consumerKey = "XR0J2M2JIprT5PwfyjTls3Tp1"
 consumerSecret = "VrzwD86EdGdLqnrMWiOAyKaQ035NVmNXlGf3loX3zrxTEVOm6T"
 accessToken = "1272240020200534017-zKrYbnySEvf18JTNByI4b0wzHUMrEg"
-accessTokenSecret = "ZwqVhnAvYwBtC7E5PNDgevTNPzpQU6cIZVUtZj3pn5Ab6"    
+accessTokenSecret = "ZwqVhnAvYwBtC7E5PNDgevTNPzpQU6cIZVUtZj3pn5Ab6"   
 
 auth = tweepy.OAuthHandler(consumerKey,consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
@@ -122,10 +122,7 @@ def news_postgres_table(**kwargs):
       query = f"INSERT INTO news (keyword, news, sentiment) VALUES ('{ticker}','{a}', {b})"
       cur.execute(query) 
 
-    d = 'SELECT * FROM newsSentiments_'+ticker
-    cur.execute(d)
-    g = cur.fetchall()
-    print(g)
+   
     
     cur.execute("UPDATE stages SET newsStage = newsStage + 1 WHERE keyword = '" + ticker1 + "'")
 
@@ -198,7 +195,7 @@ def extract_tweets(**kwargs):
   ticker1 = task_instance.xcom_pull(task_ids='select_ticker')
   ticker = ticker1[:ticker1.find(".")]
   arr1=[]
-  public_tweets=api.search(ticker)
+  public_tweets=api.search_tweets(ticker)
 
   for j in public_tweets:
     data=j
@@ -236,10 +233,7 @@ def tweets_postgres_table(**kwargs):
       query = f"INSERT INTO twitter (keyword, tweet, sentiment) VALUES ('{ticker}','{a}', {b})"
       cur.execute(query) 
 
-    d = "select * from tweetsSentiments_"+ticker
-    cur.execute(d)
-    g = cur.fetchall()
-    print(g)
+    
 
     cur.execute("UPDATE stages SET twitterStage = twitterStage + 1 WHERE keyword = '" + ticker1 + "'")
 
