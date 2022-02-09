@@ -2,7 +2,7 @@
 version: '3'
 x-airflow-common:
   &airflow-common
-  image: test/test:1.1.0
+  image: maincontainerold
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
@@ -18,6 +18,7 @@ x-airflow-common:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
+    - ./fromlocal:/opt/airflow/fromlocal
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
     redis:
