@@ -30,7 +30,7 @@ from airflow.providers.postgres.hooks.postgres import PostgresHook
 
 args = {"owner": "airflow", 'depends_on_past': False, 'wait_for_downstream': False}
 
-dag = DAG(  dag_id ='Data_Extraction_Final_2.0',
+dag = DAG(  dag_id ='Data_Extraction_Final',
             default_args=args,
             description='Extracting Data',
             catchup=False, 
