@@ -72,7 +72,7 @@ Here defined mainly three DAGS in airflow :
 
 3. Data_Extraction_Final : To extract data from trends,google news and twitter
 
-How to run DAGS ?
+### How to run DAGS ?
 
 DAGs will run in one of two ways:
 
@@ -87,6 +87,8 @@ Click on run dag button(for manually starting dags).If instances of dags are pen
 
 Goto Docker container ----> Login To the adminer web UI .
 
+![adminer details](https://user-images.githubusercontent.com/71278693/155890063-dcdbc6cf-732e-43fa-911b-143808ac3360.png)
+
 Use given credentials.You can see here the tables that we created and Data getting filled in those tables.
 
 ![image](https://user-images.githubusercontent.com/71278693/155888376-2879e4b4-bb30-441b-92e8-ef52d0d97f18.png)
@@ -96,7 +98,8 @@ Use given credentials.You can see here the tables that we created and Data getti
 ![image](https://user-images.githubusercontent.com/71278693/155888408-75027c2e-eaa0-4152-b880-379aef1476e2.png)
 
 
-Conclusion
+Conclusion :
+
 Airflow along with docker saves a lot of time and effort by automating the tasks.
 
 ## Happy Learning !!!
