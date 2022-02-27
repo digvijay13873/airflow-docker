@@ -1,65 +1,54 @@
+import airflow
+from datetime import timedelta
 from airflow import DAG
-from airflow.models import dag
+from airflow.operators.postgres_operator import PostgresOperator
 from airflow.utils.dates import days_ago
-from airflow.operators.python_operator import PythonOperator
-from airflow.providers.postgres.operators.postgres import PostgresOperator
-import psycopg2
-import datetime as datetime
 
-default_args = {"owner": "airflow"}
+args={'owner': 'airflow'}
 
-dag = DAG( dag_id= 'maintest',
-            default_args=default_args,
-            description='hmmmmmmmmmm',
-            catchup=False, 
-            start_date= datetime.datetime.now(), 
-            schedule_interval= '* 7 * * *'  
-          )
+default_args = {
+    'owner': 'airflow',    
+    #'start_date': airflow.utils.dates.days_ago(2),
+    # 'end_date': datetime(),
+    # 'depends_on_past': False,
+    #'email': ['airflow@example.com'],
+    #'email_on_failure': False,
+    # 'email_on_retry': False,
+    # If a task fails, retry it once after waiting
+    # at least 5 minutes
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+}
 
+dag_psql = DAG(
+    dag_id = "Table_Creation_2.0",
+    default_args=args,
+    # schedule_interval='0 0 * * *',
+    schedule_interval='@once',	
+    dagrun_timeout=timedelta(minutes=60),
+    description='Create Tables in Postgres',
+    start_date = airflow.utils.dates.days_ago(1)
+)
 
-def select_ticker(**kwargs):
-  conn = psycopg2.connect(dbname='postgres', user='airflow', password='airflow', host='postgres')
-  cur = conn.cursor()
-  # create_table = "Create table tickers1 (ID SERIAL, keyword VARCHAR(255) NOT NULL, companyName VARCHAR(255))"
-  # cur.execute(create_table)
- 
-  cur.execute("CREATE TABLE IF NOT EXISTS tickers1 (ID SERIAL, keyword VARCHAR(255) NOT NULL, companyName VARCHAR(255))")
-  cur.execute("CREATE TABLE IF NOT EXISTS stages (ID SERIAL, keyword VARCHAR(255) NOT NULL, twitterStage INTEGER DEFAULT 0, newsStage INTEGER DEFAULT 0, trendsStage INTEGER DEFAULT 0)")
+#Specify Queries For Postgres
+create_table_sql_query = """ 
+  CREATE TABLE IF NOT EXISTS tickers1 (ID SERIAL, keyword VARCHAR(255) NOT NULL, companyName VARCHAR(255));
+  CREATE TABLE IF NOT EXISTS stages (ID SERIAL, keyword VARCHAR(255) NOT NULL, twitterStage INTEGER DEFAULT 0, newsStage INTEGER DEFAULT 0, trendsStage INTEGER DEFAULT 0);
+  CREATE TABLE IF NOT EXISTS twitter (ID SERIAL, keyword VARCHAR(20), tweet TEXT, sentiment numeric(5,4));
+  CREATE TABLE IF NOT EXISTS trends (ID SERIAL, keyword VARCHAR(20), date DATE DEFAULT CURRENT_DATE, region VARCHAR(5), numberOfSearches NUMERIC(23,20));
+  CREATE TABLE IF NOT EXISTS news (ID SERIAL, keyword VARCHAR(20), news TEXT, sentiment numeric(5,4));
+  """
 
-  cur.execute("CREATE TABLE IF NOT EXISTS twitter (ID SERIAL, keyword VARCHAR(20), tweet TEXT, sentiment numeric(5,4))")
-  cur.execute("CREATE TABLE IF NOT EXISTS trends (ID SERIAL, keyword VARCHAR(20), date DATE DEFAULT CURRENT_DATE, region VARCHAR(5), numberOfSearches NUMERIC(23,20))")
-  cur.execute("CREATE TABLE IF NOT EXISTS news (ID SERIAL, keyword VARCHAR(20), news TEXT, sentiment numeric(5,4))")
-  # create_table = "INSERT INTO tickers1 (keyword) VALUES ('AMZN')"
-  # cur.execute(create_table)
+#Specify Operator For Dag
+#postgres operator only works with sql commands
+create_table = PostgresOperator(
+      sql = create_table_sql_query,
+      task_id = "create_table_task",
+      postgres_conn_id = "postgres_config",
+      dag = dag_psql
+      )
 
-  # create_table = "SELECT COUNT(*) FROM tickers1"
-  # cur.execute(create_table)
-  # index = cur.fetchone()
-  # index = str(index[0])
-  # selectticker = "SELECT keyword FROM tickers1 WHERE ID = " + index
-  # cur.execute(selectticker)
-  # current_ticker = cur.fetchone()
-  # current_ticker = current_ticker[0]
-  # print(type(current_ticker))
-  conn.commit()
-  cur.close() 
-  conn.close()
-  # return current_ticker  
+create_table
 
-# def select_ticker2(**kwargs):
-#   task_instance = kwargs['task_instance']
-#   current_ticker = task_instance.xcom_pull(task_ids='testtask')
-#   print(current_ticker)
-
-testtask = PythonOperator(task_id = 'testtask', 
-                              python_callable = select_ticker, 
-                              provide_context = True,
-                              dag= dag )
-
-# testtask2 = PythonOperator(task_id = 'testtask2', 
-#                               python_callable = select_ticker2, 
-#                               provide_context = True,
-#                               dag= dag )
-
-
-testtask
+if __name__ == "__main__":
+          dag_psql.cli()
