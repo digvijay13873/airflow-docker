@@ -34,9 +34,10 @@ This command creates all services needed for airflow under a single container
 ![image](https://user-images.githubusercontent.com/71278693/155887830-1c3a6757-1468-47f9-81e4-bdc325d15e3c.png)
 
 Step : 4
-Login to the airflow web UI from your browser.(localhost:8080)
+Login to the airflow web UI from your browser.(http://localhost:8080/)
 
 Default Id : airflow
+
 Default pass : airflow
 
 ![image](https://user-images.githubusercontent.com/71278693/155887888-0fc50eee-988d-426b-8e03-a7a873c7f8cc.png)
@@ -85,7 +86,9 @@ Click on run dag button(for manually starting dags).If instances of dags are pen
 
 ### Exploring Extracted Data
 
-Goto Docker container ----> Login To the adminer web UI .
+Goto Docker container ----> Login To the adminer web UI (http://localhost:8081/).
+
+![image](https://user-images.githubusercontent.com/71278693/155890220-5b38cd23-daf2-4a92-a706-12d97d7ba814.png)
 
 ![adminer details](https://user-images.githubusercontent.com/71278693/155890063-dcdbc6cf-732e-43fa-911b-143808ac3360.png)
 
