@@ -20,7 +20,7 @@ Docker Desktop Installed on local machine
 
 Step : 1
 Create Docker Image
-docker build -t airflowdocker .
+```docker build -t airflowdocker .```
 
 Step : 2
 Give reference of created image in docker compose file.
@@ -28,13 +28,14 @@ Give reference of created image in docker compose file.
 ![image](https://user-images.githubusercontent.com/71278693/155887807-ef7ea582-b87c-4b14-8e04-1a54f22c1089.png)
 
 Step : 3
-docker-compose up
+``` docker-compose up ```
 This command creates all services needed for airflow under a single container
 
 ![image](https://user-images.githubusercontent.com/71278693/155887830-1c3a6757-1468-47f9-81e4-bdc325d15e3c.png)
 
 Step : 4
 Login to the airflow web UI from your browser.(localhost:8080)
+
 Default Id : airflow
 Default pass : airflow
 
@@ -43,11 +44,15 @@ Default pass : airflow
 ### Setting Up PostgresHook
 
 Goto Admin tab in airflow UI ----> Select Connections
+
 ![image](https://user-images.githubusercontent.com/71278693/155888632-e06e0750-ccbe-4c2b-8010-4d575d9040d4.png)
 add new connection
+
 ![image](https://user-images.githubusercontent.com/71278693/155888688-1451dd11-b2bf-4b74-bb5a-d31fa7827153.png)
 Connection Parameters
+
 ![image](https://user-images.githubusercontent.com/71278693/155888705-fe8ee113-2682-4b4f-a998-099d45b1aa17.png)
+
 Click on save.
 
 Iniatial Setup For Airflow Environment on Local machine is Completed.
@@ -94,7 +99,7 @@ Use given credentials.You can see here the tables that we created and Data getti
 Conclusion
 Airflow along with docker saves a lot of time and effort by automating the tasks.
 
-Happy Learning !!!
+## Happy Learning !!!
 
 
 
