@@ -21,7 +21,7 @@ default_args = {
 }
 
 dag_psql = DAG(
-    dag_id = "Table_Creation_2.0",
+    dag_id = "Table_Creation",
     default_args=args,
     # schedule_interval='0 0 * * *',
     schedule_interval='@once',	
