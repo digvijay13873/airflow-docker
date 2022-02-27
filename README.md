@@ -1,21 +1,21 @@
-Airflow For Data Extraction
+# Airflow For Data Extraction
 
 ![image](https://user-images.githubusercontent.com/71278693/155889010-af56c5dc-1fb2-4682-b020-e64ac15520a5.png)
 
-Objective : Extract Data from Yahoo finance , Trends,Twitter,Google News and store it in database.
+## Objective : Extract Data from Yahoo finance , Trends,Twitter,Google News and store it in database.
 
-Steps for Extracting Data :
+### Steps for Extracting Data :
 
 1. Create tables in postgresql
 2. Extract data from yahoo finance and load into database
 3. Extract data from trends,twitter,google news.
 
-Explore Sample Repository Here :
+### Explore Sample Repository Here :
 https://github.com/digvijay13873/airflow-docker.git
 
-Steps To set up above sample repository on your local machine :
+### Steps To set up above sample repository on your local machine :
 
-Prerequisites :
+### Prerequisites :
 Docker Desktop Installed on local machine
 
 Step : 1
@@ -24,20 +24,23 @@ docker build -t airflowdocker .
 
 Step : 2
 Give reference of created image in docker compose file.
+
 ![image](https://user-images.githubusercontent.com/71278693/155887807-ef7ea582-b87c-4b14-8e04-1a54f22c1089.png)
 
 Step : 3
 docker-compose up
 This command creates all services needed for airflow under a single container
+
 ![image](https://user-images.githubusercontent.com/71278693/155887830-1c3a6757-1468-47f9-81e4-bdc325d15e3c.png)
 
 Step : 4
 Login to the airflow web UI from your browser.(localhost:8080)
 Default Id : airflow
 Default pass : airflow
+
 ![image](https://user-images.githubusercontent.com/71278693/155887888-0fc50eee-988d-426b-8e03-a7a873c7f8cc.png)
 
-Setting Up PostgresHook
+### Setting Up PostgresHook
 
 Goto Admin tab in airflow UI ----> Select Connections
 ![image](https://user-images.githubusercontent.com/71278693/155888632-e06e0750-ccbe-4c2b-8010-4d575d9040d4.png)
@@ -50,7 +53,7 @@ Click on save.
 Iniatial Setup For Airflow Environment on Local machine is Completed.
 
 
-Working With Dags
+## Working With Dags
 A DAG (Directed Acyclic Graph) is the core concept of Airflow, collecting Tasks together, organized with dependencies and relationships to say how they should run.
 https://airflow.apache.org/docs/apache-airflow/stable/concepts/dags.html
 
