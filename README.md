@@ -25,7 +25,7 @@ Create Docker Image
 Step : 2
 Give reference of created image in docker compose file.
 
-![image](https://user-images.githubusercontent.com/71278693/155887807-ef7ea582-b87c-4b14-8e04-1a54f22c1089.png)
+![image](https://user-images.githubusercontent.com/71278693/155889965-8064db26-183e-48f0-b1cf-e962c7b104d3.png)
 
 Step : 3
 ``` docker-compose up ```
