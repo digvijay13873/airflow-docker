@@ -79,6 +79,8 @@ DAGs will run in one of two ways:
 
 1. When they are triggered either manually or via the API
 
+![image](https://user-images.githubusercontent.com/71278693/155890883-d0e563cc-a53a-477b-9993-b6397ff035ed.png)
+
 2. On a defined schedule, which is defined as part of the DAG
 Click on run dag button(for manually starting dags).If instances of dags are pending you can goto Graph tab and then click on instance to clear it or to get the logs.You can see success and failed dags in airflow UI home screen.
 
