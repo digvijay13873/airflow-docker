@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS tickers1 (ID SERIAL, keyword VARCHAR(255) NOT NULL, companyName VARCHAR(255));
+  CREATE TABLE IF NOT EXISTS stages (ID SERIAL, keyword VARCHAR(255) NOT NULL, twitterStage INTEGER DEFAULT 0, newsStage INTEGER DEFAULT 0, trendsStage INTEGER DEFAULT 0);
+  CREATE TABLE IF NOT EXISTS twitter (ID SERIAL, keyword VARCHAR(20), tweet TEXT, sentiment numeric(5,4));
+  CREATE TABLE IF NOT EXISTS trends (ID SERIAL, keyword VARCHAR(20), date DATE DEFAULT CURRENT_DATE, region VARCHAR(5), numberOfSearches NUMERIC(23,20));
+  CREATE TABLE IF NOT EXISTS news (ID SERIAL, keyword VARCHAR(20), news TEXT, sentiment numeric(5,4));
